@@ -1,0 +1,402 @@
+@font-face {
+	src: url(../fonts/Brown-Bold.otf);
+	font-family: Brown;
+	font-weight: bold;
+}
+
+@font-face {
+	src: url(../fonts/Brown-Regular.otf);
+	font-family: Brown;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Karla-Regular.ttf);
+	font-family: Karla;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Karla-Bold.ttf);
+	font-family: Karla;
+	font-weight: bold;
+}
+/*KARLA*/
+html{
+	height:100%;
+}
+body {
+	position: absolute;
+	font-family: Karla, Helvetica, Arial, sans-serif;
+	letter-spacing: 0px;
+	line-height: 24px;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+	min-height: 100%;
+	cursor:default;
+}
+
+h4{
+	font-size: 10pt;
+	letter-spacing: normal;
+	line-height: 14pt;
+	font-weight: normal;
+/*	left: 0;
+	right: 0;*/
+	max-width: 600px;
+}
+
+h4 a {
+		font-style: italic;
+	}
+.special {
+	font-family: 'Karla', Helvetica, Arial, sans-serif;
+	letter-spacing: -1px;
+}
+
+#logo{
+	width: 20pt;
+	height: 20pt;
+	padding: 10px 0 0 10px;
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10000;
+	font-size: 14pt;
+	overflow:hidden;
+	height: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: gray;
+}
+
+a span.hover-highlight{
+	border:3px solid transparent;
+	color: black;
+}
+a:hover span.hover-highlight{
+	background-color: #FFDFC6;
+	border:3px solid #FFDFC6;
+	color: black;
+}
+
+nav .links {
+	float: right;
+	padding: 10px;
+}
+nav .links:hover{
+	opacity: .6;
+}
+
+nav .links:active{
+	background-color: transparent;
+}
+
+#hewhewhew{
+	display:none;
+	border:0px solid #FFDFC6;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	position:fixed;
+	z-index: -500;
+}
+#transparent{
+	z-index:1000;
+	background-color: rgba(255,255,255,0.9);
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 45px;
+	position: fixed;
+}
+
+#splash {
+	width: 100%;
+	height: 100%;
+	background-image:url("../images/chocolee-splash.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index:5000;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+#splash section{
+	height:100%;
+}
+section{
+	position: relative;
+	overflow: hidden;
+
+}
+.center-container{
+	display:table;
+}
+.center{
+	display:table-cell;
+	vertical-align: middle;
+}
+
+#name{
+	font-size: 64pt;
+	line-height: 70pt;
+	color: white;
+	font-family: Brown, 'Karla', Futura, Arial, sans-serif;
+	text-shadow: 6px 6px 12px rgba(0,0,0, .25);
+	opacity:0.95;
+}
+
+.highlight{
+	background-color: #FFDFC6;
+	border: 3px solid #FFDFC6;
+}
+
+.responsive{
+	margin: 0 auto;
+	width:90%;
+	max-width: 800px;
+}
+.squiggle{
+	width:100%;
+	max-width:400px;
+	height:20px;
+	background-image:url("../images/squiggle.png");
+	background-repeat: repeat-x;
+	background-size: 20px;
+}
+.center-align{
+	text-align: center;	
+}
+#content{
+	padding: 60px 0 60px 0;
+	/*border-bottom: 1px solid #FFDFC6;*/
+}
+#content img{
+	height:auto;
+	width: 100%;
+	display: block;
+	margin: 20px 0 20px 0;
+}
+#content div{
+	/* max-width: 600px; */
+	margin: 0 auto 20px auto;
+}
+#content h3{
+	text-align: center;
+	font-size:inherit;
+	text-decoration: none;
+	font-weight: 700;
+	margin:0;
+	text-transform: capitalize;
+}
+#work {
+	/*border-bottom: 1px solid #FFDFC6;*/
+	padding: 80px 0 50px 0;
+}
+#work a{
+	position: relative;
+	width: 100%;
+	padding: 15px 0;
+	display: block;
+}
+
+#work a:hover{
+	color:inherit;
+}
+
+#work a .image-tile{
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	opacity: .8;
+	transition:opacity 300ms;
+}
+#work a:hover .image-tile{
+	opacity: 1;
+}
+
+#work a figcaption{
+	text-align: center;
+	/*text-transform: lowercase;*/
+	margin-top: 10px;
+}
+
+#about{
+	height: 100%;
+	/*border-bottom: 1px solid #FFDFC6;*/
+	position: relative;
+}
+
+#about h2{
+	font-size: 18pt;
+	color: black;
+	line-height: 36pt;
+}
+
+
+#about img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+}
+#about .sub{
+    padding-left: 60px;
+	
+    margin-bottom: 15px;
+}
+/*#about .center-container{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top:0;
+	height:80%;
+}*/
+
+#connect {
+	height: 100%;
+}
+
+#connect h2{
+	font-size: 18pt;
+	line-height: 32pt;
+}
+
+#connect h4{
+	
+}
+
+#quote{
+	display: block;
+	height: 60px;
+}
+#connect a.social{
+	padding:8px 16px 8px 0px;
+}
+#connect a.social div{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/icons.png);
+	background-size: 120px 80px;
+}
+#tumblr div{
+	background-position: 0 40px;
+}
+#behance div{
+	background-position: 40px 40px;
+}
+#pinterest div{
+	background-position: 80px 40px;
+}
+#tumblr:hover div{
+	background-position: 0 0;
+}
+#behance:hover div{
+	background-position: 40px 0;
+}
+#pinterest:hover div{
+	background-position: 80px 0;
+}
+
+@media screen and (min-width: 600px){
+	nav{
+		right: 20px;
+		left: auto;
+		overflow:inherit;
+		height:auto;
+	}
+	h2{
+		font-size: 22pt;
+		line-height: 35pt;
+	}
+
+	h4{
+		font-size: 11pt;
+		line-height: 20pt;
+		letter-spacing: 0px;
+	}
+	#transparent{
+		display:none;
+	}
+	#hewhewhew{
+		display:block;
+	}
+	#logo,nav .links{
+		padding:20px;
+		font-size: 14pt;
+	}
+	#logo{
+		position:fixed;
+		left: 0;
+		top: 0;
+	}
+	#name{
+		font-size: 130pt;
+		line-height: 150pt;
+	}
+	#content{
+		padding-top:100px;
+	}
+	#work {
+		padding-bottom: 175px;
+	}
+	#work a{
+		float: left;
+		padding: 35px 0;
+		width: 50%;
+	}
+	#work a:nth-child(odd){
+		top:150px;
+	}
+	#work a *{
+		margin-left: 5%;
+	}
+	#work a:nth-child(odd) *{
+		margin-right:5%;
+		margin-left: 0;
+	}
+	#work a .image-tile{
+		height: 250px;
+	}
+
+
+	#about h2{
+		font-size: 20pt;
+		line-height: 40pt;
+	}
+
+}
+@media screen and (min-width: 900px){
+	h4{
+		font-size: 13pt;
+		line-height: 18pt;
+		letter-spacing: 0px;
+		font-weight: normal;
+		text-transform: inherit;
+	}
+	#work a .image-tile{
+		height: 280px;
+	}
+
+	#about h2{
+		font-size: 30pt;
+		line-height: 50pt;
+	}
+
+}

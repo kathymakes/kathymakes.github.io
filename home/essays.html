@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+<!--
+/****************************************************
+     Author: Eric King
+     Url: http://redrival.com/eak/index.shtml
+     This script is free to use as long as this info is left in
+     Featured on Dynamic Drive script library (http://www.dynamicdrive.com)
+****************************************************/
+var win=null;
+function NewWindow(mypage,myname,w,h,scroll,pos){
+if(pos=="random"){LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+if(pos=="center"){LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+else if((pos!="center" && pos!="random") || pos==null){LeftPosition=0;TopPosition=20}
+settings='width='+w+',height='+h+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
+win=window.open(mypage,myname,settings);}
+// -->
+</script>
+<title>Home</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+
+body {
+text-align: left;
+/*background-image:url("smooch.jpg");
+background-size:600px 500px;
+background-position: right;
+background-repeat: no-repeat;*/
+background-color: 
+}
+
+div {
+	margin-left: 50px;
+	width:150px;
+	height:150px;
+	background-image: url("Kathy.jpg");
+	background-size: 100%;
+	
+	border:1px solid #eee;
+	z-index:10;
+}
+
+.nav {
+margin:50px;
+padding:0px;
+width:690px;
+list-style:none;
+font-family:'Simhei', Arial, Helvetica, sans-serif;
+font-weight: normal;
+font-size:1.25em;
+line-height: 150%;
+-webkit-transition: 5s all;   
+-webkit-transition-delay: 5s;
+height:240px;
+
+}
+
+.nav li a {
+color:black;
+text-decoration:none;
+background: white;
+
+}
+.nav li a:hover {
+color:#F00;
+padding-bottom: 100px;
+
+}
+.nav li a span.show {
+display:none;
+
+}
+.nav li a:hover span.show {
+display:inline;
+}
+.nav li a:hover span.noshow {
+display:none;
+
+}
+</style>
+</head>
+<body>
+
+<br></br><div></div>
+
+<ul class="nav">
+
+<li><a href="#"><span class="noshow">自己</span>
+	<span class="show">🏠🏠</span></a></li><li style="color:white;">-</li>
+
+<li><a href="#"><span class="noshow">I was born in the hyphen space: a Chinese hyphen American kid. Growing up, I befriended those like me. Japanese hyphen Americans, Indian hyphen Americans. Kids who had to explain to their parents what certain words in newspapers meant. We lived dual lives, switching tongues when we walked through doors, and going to Chinese, Hindi, Korean, and Russian school on the weekends.
+</span>
+
+<span class="show">我出生在连字符空间: 一个中国人连字符的美国小子。长大后，我结识那些像我一样。日本连字符美国人，印度人连字符美国人。孩子谁只好解释说自己的父母是什么在报纸某些词的意思。我们过着双重生活，开关的舌头，当我们通过门走了，和去中国，印地文, 韩语和俄语学校在周末。</span></a></li>
+
+</ul>
+
+<ul class="nav">
+<li><a href="#"><span class="noshow">I want to think of home broadly and abstractly. What is home? Home is familiar territory, it is habitual rhythms, the people who raised you. For second-generation kids, home sometimes is language. There’s something lovely about the way you step through the door and into a private space created by a shared speech. This language, like your home, is nothing that any random stranger could access.</span>
+
+<span class="show">我想思故乡广泛和抽象。什么是家？家是熟悉的领域，这是习惯性的节奏，谁提出你的人。对于第二代的孩子，家里有时是语言。还有一些可爱的你穿过大门，进入一个共享的讲话创造了一个私密的空间一步的方式。这种语言，就像你的家，是什么，任何随机的陌生人可以访问。</span></a></li>
+
+</ul>
+
+<embed type="application/x-shockwave-flash" src="http://static.sfdict.com/dictstatic/d/g/speaker.swf" width="17" height="15" id="speaker" align="texttop" quality="high" loop="false" menu="false" salign="t" allowscriptaccess="sameDomain" wmode="transparent" flashvars="soundUrl=http://static.sfdict.com/dictstatic/dictionary/audio/luna/H03/H0340200.mp3">
+	
+<a href="http://www.google.com" onclick="NewWindow(this.href,'mywin','500','800','no','center');return false" onfocus="this.blur()">This is a test</a>
+
+</body>
+</html>
+
+<!--MISC
+<img src="Translated.jpg" style="width:100%; position:fixed;top:0px;"></img>
+-->

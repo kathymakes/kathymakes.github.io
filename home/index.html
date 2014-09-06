@@ -1,0 +1,1127 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Hyphen Space</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="icon" type="image/ico" href="../home/home.ico"/>
+
+
+<style type="text/css">
+		
+/*PHONTS*/
+
+		@font-face {
+		src: url(../fonts/MuseoSans-300.otf);
+		font-family: Museo;
+		font-weight: normal;
+
+		}
+
+		@font-face {
+		src: url(../fonts/MuseoSans-300Italic.otf);
+		font-family: Museo;
+		font-style: italic;
+
+		}
+
+		@font-face {
+		src: url(../fonts/Hiragino-W3.otf);
+		font-family: Hiragino;
+		font-weight: normal;
+
+		}
+
+		@font-face {
+		src: url(../fonts/Hiragino-W6.otf);
+		font-family: Hiragino;
+		font-weight: bold;
+
+		}
+
+/*BASICS*/
+
+		
+		body {
+		background-image: url("../home/bg2.png");
+		background-position: fixed;
+		background-size:100%,2000%;
+		position: absolute;
+		font-family: Museo, "Raleway", sans-serif;
+		color:#6D5D4B;
+		line-height: 175%;
+		font-size: 20px;
+		height:100%;
+		right:0;
+		left:0;
+
+		}
+
+		div {
+
+		opacity: .8;
+		background-color:white;
+		height:150%;
+		width:55%;
+		margin:auto auto;
+		z-index: 0;
+
+		}
+
+		p {
+			padding:0px 80px 20px 80px;
+
+		}
+
+		h1 {
+		
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 30px
+		}
+
+
+		#logo{
+			width: 20pt;
+			height: 20pt;
+			padding: 10px 0 0 10px;
+		}
+
+		img{
+			width:100%;
+			
+		}
+
+		.wide{
+			letter-spacing: 0.25px;
+		}
+
+
+/*NAV, LINK ATTRIBUTES*/
+
+		nav {
+			position: fixed;
+			width:100%;
+			top: 0;
+			padding-top:5px;
+			z-index: 4000;
+			height: 45px;
+			background-color:#F1EEEC;
+			opacity: .98;
+			text-align: center;
+			margin:auto auto;
+			box-shadow: 0px 5px 12px rgba(189, 181, 172, 0.4);
+
+		}
+
+		a, a:hover{
+			text-decoration: none;
+			color: inherit;
+			
+		}
+
+		.essay {
+			height:50px;
+			font-size: 17px;
+			padding:0px 50px 0px 50px;
+			opacity:1;
+		}
+
+		.essay:hover{
+			opacity:.4;
+/*			padding:0px 60px 0px 60px;
+*/
+		}
+
+/*SECTION ATTRIBUTES*/
+
+		#splash {
+			width: 100%;
+			height: 125%;
+			background-image:url("../home/hello1.svg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			z-index:5000;
+			position: relative;
+			overflow: hidden;
+			text-align: center;
+			
+		}
+
+		section{
+			position: relative;
+			overflow: hidden;
+
+		}
+
+		.squiggle{
+			margin-top:100px;
+			width:80%;
+			height:20px;
+			background-image:url("../home/squiggy.png");
+			background-repeat: repeat-x;
+			background-size: 15px;
+		}
+
+		#intro{
+			/*border-bottom: 1px solid #FFDFC6;*/
+		}
+		#intro img{
+			height:auto;
+			width: 100%;
+			display: block;
+		}
+
+		#happy, #health, #friends, #success {
+			height:100%;
+		}
+
+		.scroll{
+			height: inherit;
+			width: inherit;
+		}
+
+	
+
+/*TOGGLE TEST*/
+
+		a span.show {
+		display:none;
+		font-family: Museo;
+
+		}
+
+		span .chinese{
+			font-family: Hiragino，"Simhei";
+		}
+
+
+/*BUBBLES!!! MY BUBBLES.*/
+
+		.c {
+			width:220px;
+			height:139px;
+			z-index:3000;
+			background-color: transparent;
+			opacity: 0;
+			-webkit-transition: ease 2s; /* For Safari 3.1 to 6.0 */
+			transition: ease 2s;
+
+		}
+
+		.c:hover{
+
+			margin-top: -6px;
+		}
+/*COLOPHON&#8202;?*/
+		
+		#colophon {
+			width:100%;
+			height:1400px;
+			opacity: 1;
+			background-image: url("../home/end.svg");
+			background-size:100%;
+			background-position: center;
+			background-repeat: no-repeat;
+   			box-shadow:         inset 0px 5px 15px rgba(109, 93, 75, 0.1);
+		}
+
+		h2 {
+
+		text-align: center;
+		color:#FFFAE6;
+		font-size: 17px;
+		text-transform: capitalize;
+		font-weight: 700;
+		margin-top: 0px;
+		padding-top: 350px;
+		padding-bottom: 10px;
+		letter-spacing: 0.25px;
+		}
+
+		h3 {
+
+			color:#FFFAE6;
+			font-size: 16px;
+			line-height: 150%;
+			padding:0px 120px 20px 120px;
+		}
+
+</style>
+<script type="text/javascript" src="../js/sound-mouseover/sound-mouseover.js"></script>
+
+</head>
+<body>
+
+<a href="#intro" class="scroll"><section id="splash" style="height:100%"></section></a>
+
+	
+<!--NAV!-->
+
+<nav>
+
+<a href="#splash" class="essay scroll"><!-- <span class="noshow"> -->Home<!-- </span><span class="show">回上面</span> --></a>
+<a href="#intro" class="essay scroll"><!-- <span class="noshow"> -->Intro<!-- </span><span class="show">介绍</span> --></a>
+<a href="#happy" class="essay scroll"><!-- <span class="noshow"> -->Happy Living<!-- </span><span class="show">快乐生活</span> --></a>
+<a href="#health" class="essay scroll"><!-- <span class="noshow"> -->Health<!-- </span><span class="show">健康</span> --></a>
+<a href="#friends" class="essay scroll"><!-- <span class="noshow"> -->Friendship<!-- </span><span class="show">友谊</span> --></a>
+
+
+
+<a href="#success" class="essay scroll"><!-- <span class="noshow"> -->Success<!-- </span><span class="show">成功</span> --></a>
+<a href="#colophon" class="essay scroll"><!-- <span class="noshow"> -->The End<!-- </span><span class="show">结束</span> --></a>
+
+</nav>
+
+
+
+
+
+
+<!--INTRO!-->
+
+
+
+<section id="intro" style="height:150%; border-top:25px;">
+
+
+<div>
+
+<!--LOGO!-->
+<img src="hyphen.png" style="width:90px; height:70px;margin:auto;padding-top:160px;">
+
+
+<h1 style="padding-top:30px">
+<a><span class="noshow">The Hyphen Space</span>
+<span class="show" style="padding:100px;">双重文化的世界</span>
+</h1>
+
+
+<p>
+
+<a><span class="noshow">I was born in the hyphen space: a Chinese hyphen American kid.</span>
+
+<span class="show">我是个在双重文化世界里长大的中国美国人。</span></a>
+
+<a><span class="noshow">Growing up, I befriended those like me. </span><span class="show" style="padding:0 50px 300px 0;">长大的朋友们，多多也与我类似。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.25px;">Korean hyphen Americans, Indian hyphen Americans.</span>
+
+<span class="show">韩国美国人，印度美国人。</span></a>
+
+<a><span class="noshow">Kids who had to explain to their parents what certain words in newspapers meant.</span>
+
+<span class="show">这些孩子们常需帮助他们父母解释报纸上一些生涩词汇之意。</span></a>
+
+<a><span class="noshow">We lived dual lives, switching tongues when we walked through doors, and going to Chinese, Hindi, Korean, and Russian school on weekends.
+
+</span><span class="show">我们过着双重的文化生活，进出家门常常需要切换两种语言，周末则去中文，印地文, 韩语或俄语学校。
+</span></a>
+</p>
+
+
+<p>
+
+<a><span class="noshow">I want to think of home broadly and abstractly.</span>
+
+<span class="show">我想从更广泛及抽象的意义上审视家的意义。</span></a>
+
+<a><span class="noshow wide">What is home&#8202;?</span>
+
+<span class="show">什么是家？</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">Home is familiar territory, it is habitual rhythms, the people who raised you.</span>
+
+<span class="show">家是熟悉的领地，是习惯的节奏，是养育你的人们。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.35px;">For kids of immigrant families, home is often that private space created by a shared speech.</span>
+
+<span class="show">对于移民家庭的孩子们而言，家更代表一种共享的语言带来亲蜜感。</span></a>
+
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">This language, like your home, is nothing that any random stranger could access.</span>
+
+<span class="show">这种特定的语言，就像你的家，不是随便什么陌生人都能步入的。</span></a>
+
+</p>
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">In the same way, all the life lessons from my family exist in either English or Mandarin, sometimes both at once. </span>
+
+<span class="show">对我而言，中文普通话是英语之外的主要用语。我的所有生活体验或中或英，有时两者兼之。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">The second language creates another layer through which only other Mandarin and English speakers can enter. </span>
+
+<span class="show">我渐渐体会道，一个会二语的人，有一个只有其他懂同样二语的人才能共享的空间。</span></a>
+
+
+</p>
+
+
+
+</div>
+</section>
+
+
+<!--HAPPY!-->
+
+
+<section id="happy" style="height:190%">
+
+
+<!--CHINESE!-->
+
+<div class="c" style="position:absolute;right:150px;top:600px;" onclick="playclip2();"><img src="../home/happy/c1.svg"></div></a>
+<div class="c" style="position:absolute;right:150px;top:800px;" onclick="playclip();"><img src="../home/happy/c3.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:1200px;"><img src="../home/happy/c2.svg"></div>
+
+<!--ENGLISH!-->
+
+<div class="c" style="position:absolute;left:150px;top:620px;" onclick="playclip1();"><img src="../home/happy/workplay.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:1000px;" onclick="playclip3();"><img src="../home/happy/hakuna.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:1200px;"><img src="../home/happy/whatalife.svg"></div>
+
+<!--TEXT!-->
+
+
+
+<div>
+
+<img src="../home/happy.png">
+
+<h1>
+<a><span class="noshow">On Happy Living</span>
+<span class="show" style="padding:100px;">快乐生活</span>
+</h1>
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">Growing up, my parents drilled a hardcore work ethic into me.</span>
+
+<span class="show">我父母对我从小就树立了很强的劳动观念。</span></a>
+
+<a><span class="noshow"> Their philosophy was, Work hard, play hard, and </span>
+
+<span class="show">他们的理念是，先勤奋工作，后娱乐放松，及</span></a>
+
+<a><span class="noshow chinese">孩子长大吃点苦有好处，从小应该学着干活。</span>
+
+<span class="show">Kids should go through some hardship growing up.</span></a>
+
+<a><span class="noshow">Like all immigrant parents, they dreamed big, hoping to see us in the crimson Harvard robes, winning Nobel Prizes, becoming the president of the United States.</span>
+
+<span class="show">像所有移民的父母一样，他们梦想期待着有一天我们会身着哈佛深红长袍，或赢得诺贝尔，要不成为美国的总统。
+</span></a>
+ 
+
+</p>
+
+
+
+
+<p>
+
+
+<a><span class="noshow" style="letter-spacing:0.30px;">In the beginning, they were constantly hard-pressed for money, even though both were lucky to snag jobs as electrical engineers. </span>
+
+<span class="show">早年他们是穷学生，生活捉襟见肘。我父母都很幸运几年后都谋到电气工程师之职，但他们仍很节俭。</span></a>
+
+<a><span class="noshow">That was the 1990s.</span>
+
+<span class="show">那是上世纪九十年代。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.5px;">When I was a kid, they'd always tell me how sparsely furnished their early home was&mdash;a table, a couple chairs, a mattress.</span>
+
+<span class="show">我小的时候，他们常说最早的家中只有一张桌子，两把椅子及一张床垫。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">In the first decade of our lives, my brother and I were taught that work was life.</span>
+
+<span class="show">在我们的童年记忆中，我和弟弟只知道工作就是生活。</span></a>
+
+  
+</p>
+
+
+
+<p>
+
+<a><span class="noshow">Later, in the security of their mid-life careers, my parents adjusted their ideas. </span>
+
+<span class="show">渐渐他们人到中年，事业有成，我父母的想法也开始变化。</span></a>
+
+<a><span class="noshow">These days, they often tell us to be less frugal, and to spend each day contently. </span>
+
+<span class="show">近年来，他们经常说不要太俭朴，可以怡然消费些。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">Money isn't everything. </span>
+
+<span class="show" style="letter-spacing:0.5px; word-spacing:120%">钱不是万能的。</span></a>
+
+<a><span class="noshow chinese">该省就省，该花就花</span>
+
+<span class="show">Spend and save as needed</span></a>
+
+<a><span class="noshow">is what my Dad says.</span>
+
+<span class="show">爸爸说。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.15px;">My mom, she loves to laugh, and point out what a good life that I have. </span>
+
+<span class="show">我妈妈常笑说，我有多好的生活。</span></a>
+
+<a><span class="noshow">She's a fun, spontaneous person, and always tries to take everything positively. </span>
+
+<span class="show">妈妈是个即兴随意的人，看世事积极乐观。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.35px;">She's a big fan of the phrase, Do what you love, love what you do. </span>
+
+<span class="show">她酷爱的对联是，做你所爱之事，爱你所做之事。</span></a>
+
+<a><span class="noshow">They raised my brother and me well, I think: happy, grateful, and down-to-earth.</span>
+
+<span class="show">我觉得父母对我和弟弟威利教育很到位：快乐，感恩和踏实。</span></a>
+
+</p>
+
+
+
+
+</div>
+</section>
+
+
+
+
+<!--HEALTH!-->
+
+
+<section id="health" style="height:190%">
+
+<!--CHINESE!-->
+
+<div class="c" style="position:absolute;right:150px;top:600px;"><img src="../home/health/c3.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:800px;" onclick="playclip5();"><img src="../home/health/c1.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:1100px;"><img src="../home/health/c2.svg"></div>
+
+<!--ENGLISH!-->
+
+<div class="c" style="position:absolute;left:150px;top:950px;"><img src="../home/health/buyhealth.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:750px;" onclick="playclip6();"><img src="../home/health/dontwork.svg"></div>
+
+<!--TEXT!-->
+
+
+
+
+<div>
+
+<img src="health.png">
+
+<h1>
+<a><span class="noshow">On Health</span>
+<span class="show" style="padding:100px;">健康</span>
+
+</h1>
+
+<p>
+
+
+<a><span class="noshow">Food in Chinese culture is the glue of social interaction, and the center of family life. </span>
+
+<span class="show">在中国文化里饮食是社会交往的粘合剂，也是家庭生活的中心。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.25px">Whenever I come home, my grandma always asks me, </span>
+
+<span class="show">每当我回家的时候，奶奶问我，</span></a>
+
+<a><span class="noshow chinese">孩子，你想吃儿点儿什么&#8202;?</span>
+
+<span class="show">Child, what are you craving&#8202;?</span></a>
+
+<a><span class="noshow" style="-letter-spacing:-0.15px;">These days, I reluctantly skip breakfast every morning; back at home, that'd be considered a veritable crime, almost as scold-worthy as poor academic performance.</span>
+
+<span class="show">这些天，我常常顾不上早餐。要是在家里这一定是不可饶恕的犯罪， 像会学习成绩不好一样被痛骂。
+</span></a>
+
+
+</p>
+
+ 
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">I'm not sure what the turning point was, but sometime during my high school years, my family became more concerned about the side effects of stress. </span>
+
+<span class="show">不知道何事的关系，大约在我的高中时代，他们开始注思想压力的副作用。</span></a>
+
+<a><span class="noshow chinese">身体是第一, </span>
+
+<span class="show">Your health is number one.</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">Dad always emphasizes.</span>
+
+<span class="show">爸爸总是强调。</span></a>
+
+<a><span class="noshow">Now he brags about exercising all the time.</span>
+
+<span class="show">现在，他常以经常锻炼而自豪。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">A decade before, our family members lived transfixed in front of screens, and the treadmill remained untouched for years.</span>
+
+<span class="show">十年前，周末里你会常常看到我们全家个坐在电脑屏幕前。</span></a>
+
+
+
+</p>
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:-0.25px;">This year, after my grandma got seriously ill, we treated the topic of health with a kind of hyper-awareness. </span>
+
+<span class="show">今年自从我奶奶得了场重病，我们对待健康有了一种超常的意识。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">The ordeal really shook up the whole family. </span>
+
+<span class="show">这事件震撼了整个家庭。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.5px;">Grandma tells me all the time now, </span>
+
+<span class="show">她现在总是说</span></a>
+
+<a><span class="noshow chinese">当心千万别生病。</span>
+
+<span class="show">Be careful to never get this sick.</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.15px;">When sickness does befall someone, Chinese remedies like herbal medicines and massage are often prescribed before Western drugs. </span>
+
+<span class="show">得病时，除用西药外，我们也采用一些中医的疗法包括用草药和按摩。</span></a>
+
+<a><span class="noshow">Ginger pear soup, mmm, that's my favorite cold remedy.</span>
+
+<span class="show">姜梨汤，嗯，这是我最喜欢的感冒药。</span></a>
+
+</p>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!--FRIENDS!-->
+
+
+
+<section id="friends" style="height:200%">
+
+<!--CHINESE!-->
+
+<div class="c" style="position:absolute;right:150px;top:550px;"><img src="../home/friends/c3.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:750px;" onclick="playclip7();"><img src="../home/friends/c1.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:850px;" onclick="playclip8();"><img src="../home/friends/c2.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:1050px;" onclick="playclip9();"><img src="../home/friends/emptyhanded.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:1200px;"><img src="../home/friends/c4.svg"></div>
+
+<!--ENGLISH!-->
+
+<div class="c" style="position:absolute;left:150px;top:650px;" onclick="playclip11();"><img src="../home/friends/thickerskin.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:900px;" onclick="playclip10();"><img src="../home/friends/teachsocial.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:1150px;"><img src="../home/friends/onlyafew.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:1350px;"><img src="../home/friends/screentime.svg"></div>
+
+<!--TEXT!-->
+
+
+
+
+
+<div>
+
+<img src="friendship.png">
+
+<h1>
+<a><span class="noshow">On Friendship</span>
+<span class="show" style="padding:100px;">友谊</span>
+
+</h1>
+
+<p>
+
+<a><span class="noshow">I grew up shy, and often looked up to my mom on how to deal with people. </span>
+
+<span class="show">我从小害羞，遇见生人我常常抬头向妈妈寻救。</span></a>
+
+<a><span class="noshow">She was the opposite of me—loud in public, and never afraid to ask questions. </span>
+
+<span class="show">她与我相反，在公共场合大声说话，也从不害怕问问题。</span></a>
+
+<a><span class="noshow">Whenever I was being overly-sensitive, she'd say, Have thicker skin!</span>
+
+<span class="show">每当我不好意思，她会告诉我，脸皮厚点！</span></a>
+
+
+
+</p>
+
+
+<p>
+<a><span class="noshow" style="letter-spacing:0.15px;">When I was dealing with trouble in friendships or within the family, she'd get real with me about it, and tell me, </span>
+
+<span class="show">当我与朋友和及家人有矛盾的时候，她都会好好和我谈心，开导我：</span></a>
+
+<a><span class="noshow chinese" style="letter-spacing:0.25px;">世界了什么样人都有。</span>
+
+<span class="show">There are all sorts of people in the world.</span></a>
+
+<a><span class="noshow">Both Mom and Dad preached generosity among friends. At home, be frugal, but with friends, never skimp. </span>
+
+<span class="show">妈妈和爸爸都告诉我要对朋友慷慨：在家里要节省，但对朋友不吝啬。</span></a>
+
+<a><span class="noshow">Before events, she'd remind us,</span>
+
+<span class="show">每次出外做客，她都提醒我们，</span></a>
+
+<a><span class="noshow chinese">千万别到别空手去人家。</span>
+
+<span class="show">Never go to anyone's place emptyhanded.</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.15px;">She'd often send us kids on delivery jobs to friends' homes with edible gifts: home-grown produce like bokchoy and treats like clementines and Chinese bread. </span>
+
+<span class="show">她常让我们孩子跑腿送给朋友们一些可食用的礼物 比如自制农产像大白菜,  一盒柑橘,家做的 中国面点等等。</span></a>
+
+</p>
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:0.1px;">Growing up, my brother and I maintained a small circle.</span>
+
+<span class="show">长大过程中，我弟弟哥和我都只保持着一个小的社交圈。</span></a>
+
+<a><span class="noshow">We were content with just a couple close friends. </span>
+
+<span class="show">我们满足只有几个亲密的朋友。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.35px;">We've always been very family-oriented, too, which I think stems from Chinese culture.</span>
+
+<span class="show">我们一直以家庭为中心，这可能是源于中国文化的本。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.25px;">(Many Chinese-American families I know have three generations living under one roof.)</span>
+
+<span class="show">(我认识的许多中国-美国家庭，都是三代同堂。)</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;"> While my parents do nag us about networking, in the end they've taught us to value genuine relationships.</span>
+
+<span class="show">虽然父母常让我们要多对外交往，他们教我们最要懂得珍惜这些真诚的关系。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.15px;">Quality over quantity: You only need a couple good friends to be truly content.</span>
+
+<span class="show">要质量不是数量：只要有几个要好的朋友，你就满足幸福。。</span></a>
+
+<a><span class="noshow">Oh and also, never let screentime replace facetime. </span>
+
+<span class="show">另外，屏幕的时间永远不能取代面对面的时间。</span></a>
+
+    
+</p>
+
+
+
+
+
+
+
+
+
+</div>
+</section>
+
+
+
+
+<!--SUCCESS!-->
+
+
+<section id="success" style="height:215%">
+
+<!--CHINESE!-->
+
+<div class="c" style="position:absolute;right:150px;top:575px;"><img src="../home/success/c5.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:700px;" onclick="playclip14();"><img src="../home/success/c4.svg"></div>
+<!-- <div class="c" style="position:absolute;right:150px;top:1000px;"><img src="../home/success/c3.svg"></div>
+ --><div class="c" style="position:absolute;right:130px;top:900px;"><img src="../home/success/c1.svg"></div>
+<div class="c" style="position:absolute;right:150px;top:1000px;" onclick="playclip12();"><img src="../home/success/c2.svg"></div>
+
+<!--ENGLISH!-->
+
+<div class="c" style="position:absolute;left:150px;top:850px;" onclick="playclip13();"><img src="../home/success/dolove.svg"></div>
+<!-- <div class="c" style="position:absolute;left:150px;top:800px;"><img src="../home/success/protect.svg"></div>
+ --><div class="c" style="position:absolute;left:125px;top:1000px;" onclick="playclip15();"><img src="../home/success/squeaky.svg"></div>
+<div class="c" style="position:absolute;left:150px;top:1225px;"><img src="../home/success/takerisks.svg"></div>
+<div class="c" style="position:absolute;left:120px;top:1350px;"><img src="../home/success/worksmart.svg"></div>
+
+
+<!--TEXT!-->
+
+
+
+
+<div>
+
+<img src="success.png">
+
+<h1>
+<a><span class="noshow">On Success</span>
+<span class="show" style="padding:100px;">成功</span></a>
+
+</h1>
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">My dad and paternal grandparents were more traditionally Chinese with their career and academic advice. </span>
+
+<span class="show">我爸爸和爷爷奶奶在职业和学业考虑上有较传统的中国观念。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.15px;">Grandpa seldom spoke to us, but when he did, he'd say things like</span>
+
+<span class="show">我的爷爷话不多，但一旦开口，他便说</span></a>
+
+<a><span class="noshow chinese">好好学习&#8202;!</span>
+
+<span class="show">Study hard&#8202;!</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;"> Grandma often said, </span>
+
+<span class="show">奶奶对我们说，</span></a>
+
+<a><span class="noshow chinese">好好听老师的话.</span>
+
+<span class="show">Listen to everything your teachers say.</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">In Asian culture, there's much more reverence for higher-ups, for better or for worse.</span>
+
+<span class="show">一般在亚洲文化里，不管上级是对不对，都要尊重他。
+</span></a>
+
+
+</p>
+
+<p>
+
+<a><span class="noshow">My mom's advice was a bit more Western. </span>
+
+<span class="show">我妈妈的观点更西化些。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.25px;">She was the most comfortable with sending me to art school, and always stood behind my decision to pursue my passion. </span>
+
+<span class="show">她比较赞同我去艺术学院就读，并始终支持我追求我之所爱。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.25px;">In her childhood stories, she was the attentive, excited student who asked tons of questions: </span>
+
+<span class="show">小时候，她是个用心好学又很还爱问问题的好学生。</span></a>
+
+<a><span class="noshow chinese" style="letter-spacing:-0.15px;">别怕问问题，不好意思什么吗！</span>
+
+<span class="show">Just ask, what's there to be embarrassed about&#8202;?</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">She also taught me to assert myself in the workplace. </span>
+
+<span class="show">她还教我在工作中要自信大胆。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">She always bragged that she was never afraid to make mistakes speaking English, and that's why she's so comfortable talking today. </span>
+
+<span class="show">她骄傲的说，她不怕说英语犯错误，所以她今天英语能说得这么流利顺畅。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">She has adapted so well to the Western workplace. Her fun spirit and extraversion really shine.</span>
+
+<span class="show">她十分适应西方工作方式，这与她外向的个性和乐观的态度一定有关。</span></a>
+
+
+
+ 
+</p>
+
+<p>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">Both of my parents were token success kids in China growing up, meaning they were bright students who played by the rules and aced tests. </span>
+
+<span class="show">在中国长大我父母是他们同龄的楷模，他们当时一定是尊守规则考试优秀的好学生。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">In America, they learned that risk-taking matters more, and your ability to talk made a big difference. </span>
+
+<span class="show">今天在美国，他们懂得大胆勇为也更重要，而且要能说会道才行。</span></a>
+
+<a><span class="noshow" style="letter-spacing:-0.15px;">They used to teach us to play safe, but these days they urge us to be a little more cunning and courageous.</span>
+
+<span class="show">他们曾教我们做事稳妥，但现在则敦促我们要学精明和勇敢。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">My dad, who found a stable job in a big corporation, tells us not to fear failure when we're still so young. </span>
+
+<span class="show">一直在大公司有份稳定工作的爸爸告诉我们：年轻人不要害怕失败。</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.25px;">Stability is not that interesting. </span>
+
+<span class="show">稳定不是那么有意思。</span></a>
+
+<a><span class="noshow">They also remind us to protect our own interests, and work smarter instead of harder.</span>
+
+<span class="show">他们也提醒我们要学会保护自己的利益，要聪明地干，而不只是苦干。</span></a>
+
+<a><span class="noshow"></span>
+
+<span class="show"></span></a>
+
+
+</p>
+
+
+
+
+
+
+
+</div>
+</section>
+
+
+<section id="colophon">
+
+<div style="background-color:transparent; z-index:5000;">
+<div style="background-color:transparent;opacity:1;margin:auto;width:55%;position:absolute;top:200px;z-index:-1;"><img src="../home/endbubble.svg"></div>
+
+<p style="padding-top:235px;">
+<a><span class="noshow">
+When I talk on the phone with my parents, I realized that I rarely ever notice the language shift.</span>
+
+<span class="show">
+但我和父母电话聊天，我很少意识到两种语言的切换。</span></a>
+
+<a><span class="noshow">
+We switch between the two without thinking, like amphibians moving between land and water.</span>
+
+<span class="show">
+这种语言的混用是下意识的，就像两栖动物在陆地和水里一样。</span></a>
+
+<a><span class="noshow">
+It’s a kind of hybrid language; you could call it Chinglish.</span>
+
+<span class="show">
+这种混合语言就叫中英文了。 </span></a>
+
+</p>
+
+<p>
+<a><span class="noshow">
+While I consider English my primary tongue, I’ve become so atuned to both worlds, and feel a certain fluidity when translating mentally between the two. </span>
+
+<span class="show">虽然我自认英文为母语，但感觉我对这两个世界都很同语。似在两个精神世界里出入自由。
+</span></a>
+
+<a><span class="noshow">
+Growing up bilingual has helped me understand the world with more complexity and richness. </span>
+
+<span class="show">在双语的环境里长大，让我对这个世界复杂及丰富性有更好的了解。
+</span></a>
+
+<a><span class="noshow" style="letter-spacing:0.15px;">
+Those nuances that get lost in translation all add an extra dimensionality.</span>
+
+<span class="show">
+有幸能理解那些很难翻译的细节及微妙之处，增加我对世界更多一维的认识。
+</span></a>
+
+
+</p>
+
+
+
+
+
+
+<h2>
+<a><span class="noshow">THANKS FOR VIEWING&#8201;!</span>
+<span class="show" style="padding:100px;">谢谢观看&#8201;!</span></a>
+
+
+
+
+</h2>
+
+<h3><a><span class="noshow">All illustrations and text by Kathy Wu.</span>
+
+<span class="show">所有的图片和文章是吴凯西的创造作品。</span></a>
+
+<a><span class="noshow">Designed under Jan Fairbairn for Type III.</span>
+
+<span class="show">这网站是在<span class="english">Jan Fairbairn</span>的三级活版课上设计的。</span></a>
+
+
+<a><span class="noshow">Rhode Island School of Design Spring 2014.</span>
+
+<span class="show">罗德岛设计学院，春季学期2014。</span></a>
+
+
+
+</h3>
+
+<h3>
+<a><span class="noshow">The Hyphen Space is typeset in Museo Sans 300 and Hiragino W3, and uses code from stellar.js and jquery waypoints.</span>
+<span class="show">The Hyphen Space是用Museo Sans 300跟Hiragino W3, 用的程序包括stellar.js和jquery waypoints.</span></a>
+</h3>
+
+<h3>
+<a><span class="noshow">Many thanks to my family for raising me to happy, creative adulthood.</span>
+<span class="show">感谢我的家人，把我养成一个高兴，爱创意的人。</span></a>
+
+<a><span class="noshow">Thanks to Mom for Chinese translations, and to Willy the Whiz Kid, Brianne Yep, and Alena Khalina for tech support.</span>
+<span class="show">感谢我妈妈帮我改写中文，还感谢我有才能弟弟, Brianne Yep, 和Alena Khalina帮我改程序。</span></a>
+
+
+<a><span class="noshow"  style="letter-spacing:-0.1px;">(Don’t worry guys, I did sleep during the weeks I worked on this&#8201;!)</span>
+<span class="show">(别担心大家们，我做这网站的时候我没有过夜用功&#8201;!)</span></a>
+
+</h3>
+
+</div>
+</section>
+
+
+<!-- AUDIO
+ -->
+
+
+
+
+<audio id="dothings">
+<source src="../js/sound-mouseover/happy/dothings.mp3"></source>
+</audio>
+
+<audio id="workhard">
+<source src="../js/sound-mouseover/happy/workhard.mp3"></source>
+</audio>
+
+<audio id="hardship">
+<source src="../js/sound-mouseover/happy/hardship.mp3"></source>
+</audio>
+
+<audio id="noworries">
+<source src="../js/sound-mouseover/happy/noworries.mp3"></source>
+</audio>
+
+
+
+<audio id="breakfast">
+<source src="../js/sound-mouseover/health/breakfast.mp3"></source>
+</audio>
+
+<audio id="meatmonk">
+<source src="../js/sound-mouseover/health/meatmonk.mp3"></source>
+</audio>
+
+<audio id="workhard2">
+<source src="../js/sound-mouseover/health/workhard2.mp3"></source>
+</audio>
+
+
+
+<audio id="allsort">
+<source src="../js/sound-mouseover/friends/allsort.mp3"></source>
+</audio>
+
+<audio id="frugalskimp">
+<source src="../js/sound-mouseover/friends/frugalskimp.mp3"></source>
+</audio>
+
+<audio id="noemptyhand">
+<source src="../js/sound-mouseover/friends/noemptyhand.mp3"></source>
+</audio>
+
+<audio id="social">
+<source src="../js/sound-mouseover/friends/social.mp3"></source>
+</audio>
+
+<audio id="social">
+<source src="../js/sound-mouseover/friends/social.mp3"></source>
+</audio>
+
+<audio id="social">
+<source src="../js/sound-mouseover/friends/social.mp3"></source>
+</audio>
+
+
+
+
+<audio id="askquestion">
+<source src="../js/sound-mouseover/success/askquestion.mp3"></source>
+</audio>
+
+<audio id="dolove">
+<source src="../js/sound-mouseover/success/dolove.mp3"></source>
+</audio>
+
+<audio id="listen">
+<source src="../js/sound-mouseover/success/listen.mp3"></source>
+</audio>
+
+<audio id="squeakywheel">
+<source src="../js/sound-mouseover/success/squeakywheel.mp3"></source>
+</audio>
+
+
+
+
+
+
+
+<script type="text/javascript" src="../js/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="../js/jquery.scrollTo-1.4.3.1.js"></script>
+<script type="text/javascript" src="../js/waypoints.js"></script>
+<script type="text/javascript" src="../js/jquery.stellar.js"></script>
+
+<script type="text/javascript">
+	
+	$('.c').waypoint(function() {
+		$(this).fadeTo(700, 1);
+		console.log("hey it works!");
+	},
+	{
+		offset: '50%',
+		triggerOnce: true
+	});
+
+	$('.scroll').click(function(event) {
+		event.preventDefault();
+		$.scrollTo($(this).attr('href'),1500);
+	});
+
+	$('.c').attr('data-stellar-ratio','1.1');
+	$.stellar();
+
+$("a").mouseover(function(){var that=$(this);that.find(".noshow").stop().fadeOut(400,function(){that.find(".show").stop().fadeIn(400)});}).mouseout(function(){var that=$(this);that.find(".show").stop().fadeOut(400,function(){that.find(".noshow").stop().fadeIn(400)});})
+
+// $('p').hover(
+//     	function(){
+//     		$('.noshow').fadeOut(1000, function(){
+//     			$('.show').fadeIn(1000);						 
+//     		});
+//     	},
+//     	function(){
+//     		$('.show').fadeOut(1000, function(){
+//     			$('.noshow').fadeIn(1000);						 
+//     		});
+// });
+
+</script>
+
+</body>
+</html>
