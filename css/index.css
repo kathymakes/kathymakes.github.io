@@ -71,9 +71,19 @@ nav {
 	z-index: 10000;
 	font-size: 14pt;
 	overflow:hidden;
-	height: 45px;
+	height: 64px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
-
+.navbar{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 64px;
+    background-color:rgba(255, 255, 255, 0.6);
+    box-shadow:0 0px 20px rgba(0, 0, 0, 0.50);
+    z-index: 100;
+}
 a{
 	text-decoration: none;
 	color: inherit;
@@ -105,16 +115,6 @@ nav .links:active{
 	background-color: transparent;
 }
 
-#hewhewhew{
-	display:none;
-	border:0px solid #FFDFC6;
-	left:0;
-	top:0;
-	right:0;
-	bottom:0;
-	position:fixed;
-	z-index: -500;
-}
 #transparent{
 	z-index:1000;
 	background-color: rgba(255,255,255,0.9);
@@ -128,7 +128,7 @@ nav .links:active{
 #splash {
 	width: 100%;
 	height: 100%;
-	background-image:url("../images/chocolee-splash.jpg");
+	background-color:#FFDE95;
 	background-size: cover;
 	background-position: center;
 	z-index:5000;
@@ -153,12 +153,19 @@ section{
 }
 
 #name{
-	font-size: 64pt;
-	line-height: 70pt;
-	color: white;
-	font-family: Brown, 'Karla', Futura, Arial, sans-serif;
-	text-shadow: 6px 6px 12px rgba(0,0,0, .25);
+	font-size: 24pt;
+	line-height: 30pt;e
+	color: #3c3533;
+	font-family: 'Karla', Futura, Arial, sans-serif;
+	text-shadow: 6px 6px 12px rgba(0,0,0, .05);
 	opacity:0.95;
+position:absolute;
+    top:50%;
+    margin-top:-200px;
+    left:0;
+    right:0;
+    text-align: center;
+    
 }
 
 .highlight{
@@ -208,29 +215,29 @@ section{
 	/*border-bottom: 1px solid #FFDFC6;*/
 	padding: 80px 0 50px 0;
 }
-#work a{
+#work-stuff a{
 	position: relative;
 	width: 100%;
 	padding: 15px 0;
 	display: block;
 }
 
-#work a:hover{
+#work-stuff a:hover{
 	color:inherit;
 }
 
-#work a .image-tile{
+#work-stuff a .image-tile{
 	height: 200px;
 	background-size: cover;
 	background-position: center;
 	opacity: .8;
 	transition:opacity 300ms;
 }
-#work a:hover .image-tile{
+#work-stuff a:hover .image-tile{
 	opacity: 1;
 }
 
-#work a figcaption{
+#work-stuff a figcaption{
 	text-align: center;
 	/*text-transform: lowercase;*/
 	margin-top: 10px;
@@ -316,10 +323,8 @@ section{
 
 @media screen and (min-width: 600px){
 	nav{
-		right: 20px;
-		left: auto;
 		overflow:inherit;
-		height:auto;
+		padding-right:15px;
 	}
 	h2{
 		font-size: 22pt;
@@ -337,42 +342,50 @@ section{
 	#hewhewhew{
 		display:block;
 	}
-	#logo,nav .links{
-		padding:20px;
+	#logo,nav .links, #kathy{
+		padding:20px!important;
 		font-size: 14pt;
 	}
-	#logo{
+    #logo{
 		position:fixed;
 		left: 0;
 		top: 0;
 	}
 	#name{
-		font-size: 130pt;
-		line-height: 150pt;
+		font-size: 44pt;
+		line-height: 55pt;
+        
+    
 	}
 	#content{
 		padding-top:100px;
 	}
 	#work {
-		padding-bottom: 175px;
+		padding-bottom: 120px;
 	}
-	#work a{
+	#work-stuff a{
 		float: left;
 		padding: 35px 0;
-		width: 50%;
+		width: 33.333%;
 	}
-	#work a:nth-child(odd){
+/*
+	#work-stuff a:nth-child(odd){
 		top:150px;
 	}
-	#work a *{
-		margin-left: 5%;
+*/
+	#work-stuff a *{
+		margin-right: 5%;
 	}
-	#work a:nth-child(odd) *{
-		margin-right:5%;
-		margin-left: 0;
+	#work-stuff a:nth-child(3n+2) *{
+		margin-right:2.5%;
+		margin-left: 2.5%;
 	}
-	#work a .image-tile{
-		height: 250px;
+	#work-stuff a:nth-child(3n) *{
+		margin-left:5%;
+		margin-right: 0;
+	}
+	#work-stuff a .image-tile{
+		height: 200px;
 	}
 
 
@@ -380,6 +393,11 @@ section{
 		font-size: 20pt;
 		line-height: 40pt;
 	}
+    
+    #icons {
+        margin-top:-70px!important;
+        background-image:radial-gradient(closest-side, #fcf4e2,transparent);
+    }
 
 }
 @media screen and (min-width: 900px){
@@ -390,13 +408,55 @@ section{
 		font-weight: normal;
 		text-transform: inherit;
 	}
-	#work a .image-tile{
-		height: 280px;
-	}
+	#work-stuff a .image-tile{
+		height: 200px;
 
+	}
+    
 	#about h2{
 		font-size: 30pt;
 		line-height: 50pt;
 	}
 
+}
+
+#kathy{
+    float:left;
+    padding: 10px;
+}
+
+#icons {
+    width:320px;
+    height:320px;
+    padding:10px;
+    background-color: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-160px;
+    margin-top:-80px;
+/*    background-image: url(../images/home-icons.png);*/
+}
+
+.icons {
+    background-image: url("../images/home-icons.png");
+    width:300px;
+    height:300px;
+}
+
+.go {
+    position: absolute;
+    bottom:25px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+}
+
+#bg {
+    background-color:#fcf4e2;
+    height:100%;
+    
+    
 }

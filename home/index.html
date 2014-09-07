@@ -55,7 +55,7 @@
 		height:100%;
 		right:0;
 		left:0;
-
+            margin: 0;
 		}
 
 		div {
@@ -207,15 +207,16 @@
 			height:139px;
 			z-index:3000;
 			background-color: transparent;
-			opacity: 0;
-			-webkit-transition: ease 2s; /* For Safari 3.1 to 6.0 */
-			transition: ease 2s;
+			-webkit-transition: transform ease 200ms; /* For Safari 3.1 to 6.0 */
+			transition: transform ease 200ms;
 
 		}
 
 		.c:hover{
-
-			margin-top: -6px;
+            transform:scale(1.1);
+		}
+        .c:active{
+            transform:scale(0.9);
 		}
 /*COLOPHON&#8202;?*/
 		
@@ -250,8 +251,17 @@
 			line-height: 150%;
 			padding:0px 120px 20px 120px;
 		}
+        a{
+            cursor:pointer;
+        }
+        a:hover{
+            color: #b7b7b7;
+        }
+        a:active{
+            color: #6d6d6d;
+        }
 
-</style>
+    </style>
 <script type="text/javascript" src="../js/sound-mouseover/sound-mouseover.js"></script>
 
 </head>
@@ -307,7 +317,7 @@
 
 <span class="show">我是个在双重文化世界里长大的中国美国人。</span></a>
 
-<a><span class="noshow">Growing up, I befriended those like me. </span><span class="show" style="padding:0 50px 300px 0;">长大的朋友们，多多也与我类似。</span></a>
+<a><span class="noshow">Growing up, I befriended those like me. </span><span class="show">长大的朋友们，多多也与我类似。</span></a>
 
 <a><span class="noshow" style="letter-spacing:-0.25px;">Korean hyphen Americans, Indian hyphen Americans.</span>
 
@@ -1090,14 +1100,14 @@ Those nuances that get lost in translation all add an extra dimensionality.</spa
 
 <script type="text/javascript">
 	
-	$('.c').waypoint(function() {
-		$(this).fadeTo(700, 1);
-		console.log("hey it works!");
-	},
-	{
-		offset: '50%',
-		triggerOnce: true
-	});
+//    .waypoint(function() {
+//		$(this).fadeTo(700, 1);
+//		console.log("hey it works!");
+//	},
+//	{
+//		offset: '50%',
+//		triggerOnce: true
+//	});
 
 	$('.scroll').click(function(event) {
 		event.preventDefault();
@@ -1107,7 +1117,18 @@ Those nuances that get lost in translation all add an extra dimensionality.</spa
 	$('.c').attr('data-stellar-ratio','1.1');
 	$.stellar();
 
-$("a").mouseover(function(){var that=$(this);that.find(".noshow").stop().fadeOut(400,function(){that.find(".show").stop().fadeIn(400)});}).mouseout(function(){var that=$(this);that.find(".show").stop().fadeOut(400,function(){that.find(".noshow").stop().fadeIn(400)});})
+$(".noshow").click(function(){
+    var that=$(this);
+    that.stop().fadeOut(400,function(){
+        that.parent().find(".show").stop().fadeIn(400);
+    });
+});
+$(".show").click(function(){
+    var that=$(this);
+    that.stop().fadeOut(400,function(){
+        that.parent().find(".noshow").stop().fadeIn(400);
+    });
+});
 
 // $('p').hover(
 //     	function(){

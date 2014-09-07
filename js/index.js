@@ -1,7 +1,7 @@
 
 for (var i = 0; i < work.length; i++) {
 	var piece=work[i];
-	$("#work").append(
+	$("#work-stuff").append(
 		$("<a href=\"#"+piece.folder+"\"></a>").append(
 			"<div class=\"image-tile\" style=\"background-image:url(work/"+piece.folder+"/"+piece.thumb+");\"></div>"
 		).append(
@@ -89,7 +89,7 @@ $(document).ready(function(){
 	if(getByFolder(window.location.hash.replace(/#/g,""))){
 		activate(true);
 	}
-	$("#logo,nav .links").click(function(event){
+	$("nav .links, .go, #kathy").click(function(event){
 		var hash=$(event.target).is("a")?$(event.target).attr("href"):$(event.target).parent().attr("href");
 		activate(false,hash);
 		event.preventDefault();
@@ -106,36 +106,43 @@ $(window).scroll(function(){
 	tempAmount=$(window).scrollTop();
 })
 
-var raf=window.webkitRequestAnimationFrame||window.requestAnimationFrame;
-var update = function(){
-	var amount = tempAmount/$(window).innerHeight();
-	if(prevAmount!=tempAmount){
-		$("#name").css("opacity", 0.95*clamp(1-2*amount, 0, 1));
-		$("#splash").css("background-position", "center "+clamp(50-amount*40, 0, 100)+"%");		
-	}
-	prevAmount=tempAmount;
-	if(raf){
-		raf(arguments.callee);
-	}
-	else{
-		setTimeout(arguments.callee,1000/60);
-	}
-}
-update();
+//var raf=window.webkitRequestAnimationFrame||window.requestAnimationFrame;
+//var update = function(){
+//	var amount = tempAmount/$(window).innerHeight();
+//	if(prevAmount!=tempAmount){
+//		$("#name").css("opacity", 0.95*clamp(1-2*amount, 0, 1));
+//		$("#splash").css("background-position", "center "+clamp(50-amount*40, 0, 100)+"%");		
+//	}
+//	prevAmount=tempAmount;
+//	if(raf){
+//		raf(arguments.callee);
+//	}
+//	else{
+//		setTimeout(arguments.callee,1000/60);
+//	}
+//}
+//update();
+//
+//function clamp(number, min, max){
+//	if(number < min){
+//		return min;
+//	}
+//
+//	if(number > max){
+//		return max;
+//	}
+//
+//	else{
+//		return number;
+//	}
+//
+//};
 
-function clamp(number, min, max){
-	if(number < min){
-		return min;
-	}
+var slippy = $("core-animated-pages")[0];
 
-	if(number > max){
-		return max;
-	}
-
-	else{
-		return number;
-	}
-
-};
-
-
+setInterval(function(){
+    slippy.selected+=1;
+    if (slippy.selected>5){
+    slippy.selected=0;
+    }
+},2000);
