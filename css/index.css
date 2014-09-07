@@ -29,7 +29,7 @@ body {
 	position: absolute;
 	font-family: Karla, Helvetica, Arial, sans-serif;
 	letter-spacing: 0px;
-	line-height: 24px;
+	line-height: 26px;
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
@@ -40,13 +40,14 @@ body {
 }
 
 h4{
-	font-size: 10pt;
+	font-size: 16px;
 	letter-spacing: normal;
-	line-height: 14pt;
+	line-height: 26px;
 	font-weight: normal;
 /*	left: 0;
 	right: 0;*/
 	max-width: 600px;
+    margin-bottom:20px;
 }
 
 h4 a {
@@ -69,9 +70,9 @@ nav {
 	right: 0;
 	top: 0;
 	z-index: 10000;
-	font-size: 14pt;
+	font-size: 16px;
 	overflow:hidden;
-	height: 64px;
+	height: 45px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 .navbar{
@@ -79,7 +80,7 @@ nav {
 	left: 0;
 	right: 0;
 	top: 0;
-	height: 64px;
+	height: 45px;
     background-color:rgba(255, 255, 255, 0.6);
     box-shadow:0 0px 20px rgba(0, 0, 0, 0.50);
     z-index: 100;
@@ -90,17 +91,17 @@ a{
 }
 
 a:hover {
-	color: gray;
+	color:rgba(60, 53, 51, 0.6);
 }
 
 a span.hover-highlight{
 	border:3px solid transparent;
-	color: black;
+	color: #3c3533;
 }
 a:hover span.hover-highlight{
 	background-color: #FFDFC6;
 	border:3px solid #FFDFC6;
-	color: black;
+	color: #3c3533;
 }
 
 nav .links {
@@ -115,15 +116,7 @@ nav .links:active{
 	background-color: transparent;
 }
 
-#transparent{
-	z-index:1000;
-	background-color: rgba(255,255,255,0.9);
-	left: 0;
-	right: 0;
-	top: 0;
-	height: 45px;
-	position: fixed;
-}
+
 
 #splash {
 	width: 100%;
@@ -154,18 +147,22 @@ section{
 
 #name{
 	font-size: 24pt;
-	line-height: 30pt;e
+	line-height: 30pt;
 	color: #3c3533;
 	font-family: 'Karla', Futura, Arial, sans-serif;
 	text-shadow: 6px 6px 12px rgba(0,0,0, .05);
 	opacity:0.95;
 position:absolute;
     top:50%;
-    margin-top:-200px;
+    margin-top:-175px;
     left:0;
     right:0;
     text-align: center;
     
+}
+
+.go {
+    display:none;
 }
 
 .highlight{
@@ -178,6 +175,7 @@ position:absolute;
 	width:90%;
 	max-width: 800px;
 }
+/*
 .squiggle{
 	width:100%;
 	max-width:400px;
@@ -186,6 +184,7 @@ position:absolute;
 	background-repeat: repeat-x;
 	background-size: 20px;
 }
+*/
 .center-align{
 	text-align: center;	
 }
@@ -208,7 +207,10 @@ position:absolute;
 	font-size:inherit;
 	text-decoration: none;
 	font-weight: 700;
+    font-size:20pt;
 	margin:0;
+    padding-bottom:25px;
+    
 	text-transform: capitalize;
 }
 #work {
@@ -223,11 +225,11 @@ position:absolute;
 }
 
 #work-stuff a:hover{
-	color:inherit;
+	color:rgba(60, 53, 51, 0.6);
 }
 
 #work-stuff a .image-tile{
-	height: 200px;
+	height: 280px;
 	background-size: cover;
 	background-position: center;
 	opacity: .8;
@@ -241,6 +243,7 @@ position:absolute;
 	text-align: center;
 	/*text-transform: lowercase;*/
 	margin-top: 10px;
+
 }
 
 #about{
@@ -250,9 +253,9 @@ position:absolute;
 }
 
 #about h2{
-	font-size: 18pt;
-	color: black;
-	line-height: 36pt;
+	font-size: 20pt;
+	color: #3c3533;
+	line-height: 32pt;
 }
 
 
@@ -264,7 +267,6 @@ position:absolute;
 }
 #about .sub{
     padding-left: 60px;
-	
     margin-bottom: 15px;
 }
 /*#about .center-container{
@@ -280,7 +282,7 @@ position:absolute;
 }
 
 #connect h2{
-	font-size: 18pt;
+	font-size: 20pt;
 	line-height: 32pt;
 }
 
@@ -321,30 +323,39 @@ position:absolute;
 	background-position: 80px 0;
 }
 
+
+
 @media screen and (min-width: 600px){
+    nav {
+        height: 64px;
+    }
+
+    .navbar{
+        height: 64px;
+    }
+
 	nav{
 		overflow:inherit;
 		padding-right:15px;
 	}
 	h2{
-		font-size: 22pt;
+		font-size: 24pt;
 		line-height: 35pt;
 	}
 
+/*
 	h4{
 		font-size: 11pt;
 		line-height: 20pt;
 		letter-spacing: 0px;
 	}
-	#transparent{
-		display:none;
-	}
+*/
 	#hewhewhew{
 		display:block;
 	}
 	#logo,nav .links, #kathy{
 		padding:20px!important;
-		font-size: 14pt;
+		font-size: 18px;
 	}
     #logo{
 		position:fixed;
@@ -354,11 +365,12 @@ position:absolute;
 	#name{
 		font-size: 44pt;
 		line-height: 55pt;
+        color:#3c3533;
         
     
 	}
 	#content{
-		padding-top:100px;
+		padding-top:140px;
 	}
 	#work {
 		padding-bottom: 120px;
@@ -394,16 +406,34 @@ position:absolute;
 		line-height: 40pt;
 	}
     
+    #about .sub{
+        display:inherit;
+    }
+    
+    .go {
+        display:initial;
+        font-weight: bold;
+        font-color:#3c3533;
+    }
+    
     #icons {
         margin-top:-70px!important;
         background-image:radial-gradient(closest-side, #fcf4e2,transparent);
     }
-
+    
+    #content h3{
+        font-size:24pt;
+    }
+    
+    #quote {
+        width:540px;
+}
+    
 }
 @media screen and (min-width: 900px){
 	h4{
-		font-size: 13pt;
-		line-height: 18pt;
+		font-size: 18px;
+		line-height: 28px;
 		letter-spacing: 0px;
 		font-weight: normal;
 		text-transform: inherit;
@@ -423,9 +453,11 @@ position:absolute;
 #kathy{
     float:left;
     padding: 10px;
+
 }
 
 #icons {
+    cursor:pointer;
     width:320px;
     height:320px;
     padding:10px;
@@ -434,7 +466,7 @@ position:absolute;
     top:50%;
     left:50%;
     margin-left:-160px;
-    margin-top:-80px;
+    margin-top:-140px;
 /*    background-image: url(../images/home-icons.png);*/
 }
 
@@ -452,6 +484,7 @@ position:absolute;
     text-align:center;
     font-size: 18px;
     letter-spacing: 0.25px;
+    color:#3c3533;
 }
 
 #bg {

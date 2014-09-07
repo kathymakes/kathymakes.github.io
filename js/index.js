@@ -63,8 +63,8 @@ var getByFolder = function(folderName){
 var currentQuote=0;
 var nextQuote = function(){
 	var quote=quotes[currentQuote];
-	$("#quote").html(quote.quote);
-	$("#quote-source").html("&ndash; "+quote.from+"<br>"+quote.title+(quote.company?", "+quote.company:""))
+	$("#quote").html("<b>"+quote.quote+"</b>");
+	$("#quote-source").html("<br>"+quote.from+"<br>"+quote.title+(quote.company?", "+quote.company:""))
 	currentQuote++;
 	if(currentQuote>=quotes.length){
 		currentQuote=0;
@@ -89,7 +89,7 @@ $(document).ready(function(){
 	if(getByFolder(window.location.hash.replace(/#/g,""))){
 		activate(true);
 	}
-	$("nav .links, .go, #kathy").click(function(event){
+	$("nav .links, .go, #kathy, #icons").click(function(event){
 		var hash=$(event.target).is("a")?$(event.target).attr("href"):$(event.target).parent().attr("href");
 		activate(false,hash);
 		event.preventDefault();
