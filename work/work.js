@@ -21,15 +21,24 @@ work=[
 		"content":"Inspired by origami and Japanese wrapping cloths called furoshiki, &ldquo;Chocolee,&rdquo; chocolates feature patterns designed with both collaged and digitally drawn food elements. Each square wrapper can be easily repurposed for paper-folding and crafting.\nThis imaginary chocolate brand emphasizes not only beautiful wrapping but the fun in its re-use, with paper you might give a second life as gift wrap or even a paper crane. By paying attention to the art of wrapping, we bring moments of aesthetic pleasure and play into everyday life.\nFeatured on Packaging Design Served, Behance Student Show, and The Design Blog, Dec 2013.\n[chocolee.png]\n[chocolee-flavors.gif]\n[chocolee-set-2.jpg]\n[chocolee-business.jpg]\n[chocolee-business-set.jpg]\n[chocolee-pepper-3.jpg]"
 	},
 	
-	{
-    	"folder":"mia",
-		"name":"Miami International Airport",
-		"thumb":"mia8.png",
-		"content":"Redesigned directory for the Miami Internation Airport. It was really important that the interface was legible, streamlined, and friendly. My target user was a tired traveler, perhaps experiencing a layover with time to burn. I wanted searching to be efficient and exploration to be fun.\nCheck out the <u><a href='https://projects.invisionapp.com/share/Q2UMXDGF' target='_blank'>InVision prototype.</u></a>\n[mia8.png]\n[mia2.png]\n[mia3.png]\n[mia4.png]\n[mia5.png]\n[mia6.png]\n[mia7.png]"
-	},
+//	{
+//    	"folder":"mia",
+//		"name":"Miami International Airport",
+//		"thumb":"mia8.png",
+//		"content":"Redesigned directory for the Miami Internation Airport. It was really important that the interface was legible, streamlined, and friendly. My target user was a tired traveler, perhaps experiencing a layover with time to burn. I wanted searching to be efficient and exploration to be fun.\nCheck out the <u><a href='https://projects.invisionapp.com/share/Q2UMXDGF' target='_blank'>InVision prototype.</u></a>\n[mia8.png]\n[mia2.png]\n[mia3.png]\n[mia4.png]\n[mia5.png]\n[mia6.png]\n[mia7.png]"
+//	},
 
 	
-
+//{
+//		"folder":"touchart",
+//		"name":"Touch Art",
+//		"thumb":"ta.jpg",
+//		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art,I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\n<a href='http://www.touch-art.tumblr.com' target='blank'>touch-art.tumblr.com</a>\n[ta.jpg]\n[intro.png]"    
+//},
+    
+//    \n[ta1.jpg]\n[ta2.jpg]\n[ta3.jpg]\n[ta4.jpg]\n[ta5.jpg]\n[ta6.jpg]\n[ta7.jpg]\n[ta8.jpg]\n[blog.png]\n[art.jpg]\n[art1.jpg]\n[art2.jpg]\n[art3.jpg]\n[art4.jpg]"
+//
+    
 	{
 		"folder":"places",
 		"name":"Oh, The Places You&rsquo;ll See!",
@@ -69,11 +78,11 @@ work=[
 	// 	"content":"An artist&rsquo;s book about how growing up works. Inspired by the text, &ldquo;Eleven&rdquo; by Sandra Cisneros.\nWhat they don&rsquo;t understand about birthdays and what they never tell you is that when you&rsquo;re eleven, you&rsquo;re also ten, and nine, and eight, and seven, and six, and five, and four, and three, and two, and one...\nBecause the way you grow old is kind of like an onion or like the rings inside a tree trunk or like my little wooden dolls that fit one inside the other, each year inside the next one.\n[19-1.jpg]\n[19-2.jpg]\n[19-3.jpg]\n[19-4.jpg]\n[19-5.jpg]\n[19-6.jpg]\n[19-7.jpg]\n[19-8.jpg]\n[19-9.jpg]\n[19-sketch.jpg]\n"
 	// },
 	
-	{	"folder":"google-backpack",
-		"name":"Google Backpack",
-		"thumb":"GPthumb.png",
-		"content":"Created during a UI-UX RISD Studio as a collaboration with Brown University student Yutong Liao. We proposed Google Backpack as an online space optimized for education that connects Google Drive, Google Calendar, and Gmail, with the added functionality of grading, assignment management, as well as online-offline and cross-app synchronization. The idea came in response to our own frustrations as college students using E-Portfolio websites to learn and file-share. We observed that many of our peers also craved a more streamlined education experience online. \n We chose Google because many universities already rely on Gmail and Drive services. By utilizing apps the majority of internet users are already comfortable with, we save users the effort of committing to an unfamiliar system. \n[GP.png]\n[GP2.png]\n[GP3.png]\n[GP4.png]\n[GP5.png]\n{Professor Side}\n[GP6.png]\n[GP7.png]\n[GP8.png]\n[spacer.png]\n{Student Side}\n[GP9.png]\n[GP11.png]\n[GP10.png]\n[GP12.png]\n"
-	},
+//	{	"folder":"google-backpack",
+//		"name":"Google Backpack",
+//		"thumb":"gb-thumb.png",
+//		"content":"Created during a UI-UX RISD Studio as a collaboration with Brown University student Yutong Liao. We proposed Google Backpack as an online space optimized for education that connects Google Drive, Google Calendar, and Gmail, with the added functionality of grading, assignment management, as well as online-offline and cross-app synchronization. The idea came in response to our own frustrations as college students using E-Portfolio websites to learn and file-share. We observed that many of our peers also craved a more streamlined education experience online. \n We chose Google because many universities already rely on Gmail and Drive services. By utilizing apps the majority of internet users are already comfortable with, we save users the effort of committing to an unfamiliar system. \n[gb.png]\n[gb2.png]\n[gb3.png]\n[gb4.png]\n[gb5.png]\n[gb6.png]\n[gb7.png]\n[gb8.png]\n[gb9.png]\n[gb10.png]\n[gb11.png]\n"
+//	},
 
 
 
@@ -94,15 +103,16 @@ work=[
 ]
 
 quotes=[
-	{"quote":"Kathy Wu is a critical thinker, keen strategist, and prolific designer.","from":"Christine Needham","title":"Co-founder","company":"Proverb"},
+	{"quote":"Kathy Wu is a critical thinker, keen strategist, as well as a prolific designer.","from":"Christine Needham","title":"Co-founder","company":"Proverb"},
 	{"quote":"She is a pleasure to work with. I am looking forward to seeing her growth!","from":"Christine Needham","title":"Co-founder","company":"Proverb"},
 	{"quote":"She is a very talented artist who listens well to understand the style ethos.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
 	{"quote":"She has the sensitivity to appreciate the cultural sensitivities of a different community.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
 	{"quote":"She worked quickly through multiple design iterations and achieved results that were superior to our original ideas.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
 	{"quote":"She is a pleasure to work with and I look forward to working with her again and again.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
-	{"quote":"Kathy is detailed-oriented, organized, and very thoughtful about her work. She's creative with great ideas&mdash; a pleasure to work with!","from":"Luyi Shao","title":"Founder","company":"RI Kung Fu Club"},
+	{"quote":"Detailed-oriented, organized, and thoughtful about her work. She's creative with great ideas&mdash; a pleasure to work with!","from":"Luyi Shao","title":"Founder","company":"RI Kung Fu Club"},
 	{"quote":"Fully motivated and hard working. Final products were creatively thoughtful and beautifully executed.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"},
-	{"quote":"Kathy is a serious, mature, and competent designer with a pleasant personality.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"}
+	{"quote":"Kathy is a serious, mature, and competent designer with a pleasant personality.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"},
+    {"quote":"Kathy is a talented visual and interaction designer and I look forward to seeing all of the innovative design work she'll create in the future!","from":"Kristina Beckley","title":"Senior UX Designer","company":"IBM"}
 ]
 
 
