@@ -468,7 +468,14 @@ position:absolute;
         background-image:url("../images/white-circle.png");
         background-repeat: no-repeat;
 */
-        background-image:radial-gradient(closest-side, #fcf4e2,transparent);
+        background-image:radial-gradient(closest-side, rgb(252, 244, 226),rgba(252, 244, 226,0));
+    }
+    
+    #iconscroller{
+        width:320px;
+        height:320px;
+        overflow: hidden;
+        display: block;
     }
     
     #content h3{
