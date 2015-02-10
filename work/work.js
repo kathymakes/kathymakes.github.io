@@ -28,17 +28,6 @@ work=[
 //		"content":"Redesigned directory for the Miami Internation Airport. It was really important that the interface was legible, streamlined, and friendly. My target user was a tired traveler, perhaps experiencing a layover with time to burn. I wanted searching to be efficient and exploration to be fun.\nCheck out the <u><a href='https://projects.invisionapp.com/share/Q2UMXDGF' target='_blank'>InVision prototype.</u></a>\n[mia8.png]\n[mia2.png]\n[mia3.png]\n[mia4.png]\n[mia5.png]\n[mia6.png]\n[mia7.png]"
 //	},
 
-	
-//{
-//		"folder":"touchart",
-//		"name":"Touch Art",
-//		"thumb":"ta.jpg",
-//		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art,I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\n<a href='http://www.touch-art.tumblr.com' target='blank'>touch-art.tumblr.com</a>\n[ta.jpg]\n[intro.png]"    
-//},
-    
-//    \n[ta1.jpg]\n[ta2.jpg]\n[ta3.jpg]\n[ta4.jpg]\n[ta5.jpg]\n[ta6.jpg]\n[ta7.jpg]\n[ta8.jpg]\n[blog.png]\n[art.jpg]\n[art1.jpg]\n[art2.jpg]\n[art3.jpg]\n[art4.jpg]"
-//
-    
 	{
 		"folder":"places",
 		"name":"Oh, The Places You&rsquo;ll See!",
@@ -51,18 +40,19 @@ work=[
 	// 	"thumb":"berlewi.png",
 	// 	"content":"An accordion-fold timeline on the carefully researched life & work of Polish Constructivist, Henryk Berlewi. The challenge here was channeling Berlewi&rsquo;s work from decades ago while designing in the spirit of 2015. \nI used Consolas for the body type and RISD&rsquo;s own ZXX typeface for the headers, designed by Sang Mun &rsquo;12.\n[berlewi-1.png]\n[berlewi-2.png]\n\n[berlewi-3.png]\n[berlewi-4.png]\n[berlewi-5.png]\n[berlewi-6.png]\n[berlewi-7.png]\n[berlewi-8.png]\n[berlewi-9.png]\n[berlewi-10.png]\n[berlewi-11.png]\n[berlewi-12.png]\n[berlewi-13.png]\n[berlewi-14.png]"},
 	
-	{
-		"folder":"frutiger",
-		"name":"Frutiger",
-		"thumb":"frutiger.png",
-		"content":"{Set of panels on the life and work of Swiss type designer Adrian Frutiger. 2013.}\n[Panel-1.jpg]\n[Panel-2.jpg]\n[Panel-3.jpg]"
-	},
+//	{
+//		"folder":"frutiger",
+//		"name":"Frutiger",
+//		"thumb":"frutiger.png",
+//		"content":"{Set of panels on the life and work of Swiss type designer Adrian Frutiger. 2013.}\n[Panel-1.jpg]\n[Panel-2.jpg]\n[Panel-3.jpg]"
+//	},
 	{
 		"folder":"curious",
 		"name":"The Curious Incident",
 		"thumb":"curious.png",
 		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published material and the author by exposing Christopher&rsquo;s strange, quirky voice. Using colored overprinting, I literally introduced a second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
 	},
+    
 	// {
 	// 	"folder":"lp",
 	// 	"name":"Landmark Poster",
@@ -86,32 +76,41 @@ work=[
 
 
 
-	/*{
+	{
     	"folder":"pnp",
 		"name":"Paper Nor Plastic",
-		"thumb":"pnp.png",
+		"thumb":"thumb.png",
 		"content":"{A poster triptych on the everyday impact our choices can make.}\n[plastic.jpg]\n[paper.jpg]\n[byo.jpg]\n"
-	},*/
-	/*{
-		"folder":"kathy-friends",
-		"name":"Kathy + Friends",
-		"thumb":"kathy-friends.png",
-		"content":"{A textile featuring some of the most important people in my life in 2012.}\n[repeat.jpg]\n[close-up.jpg]\n[original.jpg]\n"
-	}*/
+	},
+    
+    {
+    	"folder":"touchart",
+		"name":"TouchArt",
+		"thumb":"ta.png",
+		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art,I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute your favorite painting at <a href='http://www.touch-art.tumblr.com' target='blank' style='font-weight:bold'>touch-art.tumblr.com</a>\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[ta8.png]\n[ta-computer.png]\n"
+	},
+    
+    
+//	{
+//		"folder":"kathy-friends",
+//		"name":"Kathy + Friends",
+//		"thumb":"kathy-friends.png",
+//		"content":"{A textile featuring some of the most important people in my life in 2012.}\n[repeat.jpg]\n[close-up.jpg]\n[original.jpg]\n"
+//	}
 
 	
 ]
 
 quotes=[
-	{"quote":"Kathy Wu is a critical thinker, keen strategist, as well as a prolific designer.","from":"Christine Needham","title":"Co-founder","company":"Proverb"},
-	{"quote":"She is a pleasure to work with. I am looking forward to seeing her growth!","from":"Christine Needham","title":"Co-founder","company":"Proverb"},
-	{"quote":"She is a very talented artist who listens well to understand the style ethos.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
+	{"quote":"Kathy Wu is a critical thinker, keen strategist, as well as a prolific designer.","from":"Christine Needham","title":"Co-founder","company":"Proverb Ltd"},
+//	{"quote":"She is a pleasure to work with. I am looking forward to seeing her growth!","from":"Christine Needham","title":"Co-founder","company":"Proverb Ltd"},
+//	{"quote":"She is a very talented artist who listens well to understand the style ethos.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
 	{"quote":"She has the sensitivity to appreciate the cultural sensitivities of a different community.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
 	{"quote":"She worked quickly through multiple design iterations and achieved results that were superior to our original ideas.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
-	{"quote":"She is a pleasure to work with and I look forward to working with her again and again.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
+//	{"quote":"She is a pleasure to work with and I look forward to working with her again and again.","from":"Sunanda Sahay","title":"Director","company":"Essence of India"},
 	{"quote":"Detailed-oriented, organized, and thoughtful about her work. She's creative with great ideas&mdash; a pleasure to work with!","from":"Luyi Shao","title":"Founder","company":"RI Kung Fu Club"},
 	{"quote":"Fully motivated and hard working. Final products were creatively thoughtful and beautifully executed.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"},
-	{"quote":"Kathy is a serious, mature, and competent designer with a pleasant personality.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"},
+//	{"quote":"Kathy is a serious, mature, and competent designer with a pleasant personality.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"},
     {"quote":"Kathy is a talented visual and interaction designer and I look forward to seeing all of the innovative design work she'll create in the future!","from":"Kristina Beckley","title":"Senior UX Designer","company":"IBM"}
 ]
 

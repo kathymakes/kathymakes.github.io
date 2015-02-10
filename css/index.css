@@ -1,12 +1,12 @@
 @font-face {
-	src: url(../fonts/Brown-Bold.otf);
-	font-family: Brown;
+	src: url(../fonts/Circular-Medium.otf);
+	font-family: Circular;
 	font-weight: bold;
 }
 
 @font-face {
-	src: url(../fonts/Brown-Regular.otf);
-	font-family: Brown;
+	src: url(../fonts/Circular-Book.otf);
+	font-family: Circular;
 	font-weight: normal;
 }
 
@@ -27,10 +27,10 @@ html{
 }
 body {
 	position: absolute;
-	font-family: Karla, Helvetica, Arial, sans-serif;
-	letter-spacing: 0px;
-	line-height: 26px;
-	font-size: 16px;
+	font-family: Karla, Arial, sans-serif;
+	letter-spacing: 0.25px;
+	line-height: 25px;
+	font-size: 15px;
 	margin: 0;
 	padding: 0;
 	width:100%;
@@ -40,9 +40,9 @@ body {
 }
 
 h4{
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: normal;
-	line-height: 26px;
+	line-height: 25px;
 	font-weight: normal;
 /*	left: 0;
 	right: 0;*/
@@ -71,10 +71,13 @@ nav {
 	right: 0;
 	top: 0;
 	z-index: 10000;
-	font-size: 16px;
 	overflow:hidden;
 	height: 45px;
     background-color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding:5px;
 }
 .navbar{
 	position: fixed;
@@ -82,9 +85,12 @@ nav {
 	right: 0;
 	top: 0;
 	height: 45px;
-    background-color:rgba(255, 255, 255, 0.6);
-    box-shadow:0 0px 20px rgba(59, 53, 51, 0.4);
+    background-color:rgba(255, 255, 255, 0.8);
+/*    box-shadow:0 0px 20px rgba(59, 53, 51, 0.2);*/
+    border-bottom: 1px solid #eeeeee;
     z-index: 100;
+    padding:5px;
+
 }
 a{
 	text-decoration: none;
@@ -155,8 +161,9 @@ section{
 	font-size: 24pt;
 	line-height: 30pt;
 	color: #3c3533;
-	font-family: 'Karla', Futura, Arial, sans-serif;
-	text-shadow: 6px 6px 12px rgba(0,0,0, .05);
+	font-family: Circular, Karla, Arial, sans-serif;
+    letter-spacing: 1px;
+/*	text-shadow: 6px 6px 12px rgba(0,0,0, .05);*/
 	opacity:0.95;
 position:absolute;
     top:50%;
@@ -179,7 +186,7 @@ position:absolute;
 .responsive{
 	margin: 0 auto;
 	width:90%;
-	max-width: 800px;
+	max-width: 730px;
 }
 /*
 .squiggle{
@@ -209,6 +216,8 @@ position:absolute;
 	margin: 0 auto 20px auto;
 }
 #content h3{
+	font-family: Circular, Karla, Arial, sans-serif;
+    letter-spacing: .5px;
 	text-align: center;
 	font-size:inherit;
 	text-decoration: none;
@@ -263,6 +272,9 @@ position:absolute;
 	color: #3c3533;
 	line-height: 28pt;
     text-align: center;
+    font-family: Circular, Karla, Arial, sans-serif;
+    letter-spacing: .5px;
+
 }
 
 
@@ -301,6 +313,9 @@ position:absolute;
 #connect h2{
 	font-size: 20pt;
 	line-height: 28pt;
+    font-family: Circular, Karla, Arial, sans-serif;
+    letter-spacing: .5px;
+
 }
 
 #connect h4{
@@ -344,11 +359,11 @@ position:absolute;
 
 @media screen and (min-width: 600px){
     nav {
-        height: 64px;
+        height: 56px;
     }
 
     .navbar{
-        height: 64px;
+        height: 56px;
     }
 
 	nav{
@@ -375,8 +390,10 @@ position:absolute;
 		display:block;
 	}
 	#logo,nav .links, #kathy{
-		padding:20px!important;
-		font-size: 18px;
+		padding:16px!important;
+		font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
 	}
     #logo{
 		position:fixed;
@@ -388,9 +405,7 @@ position:absolute;
         color:#3c3533;
         font-size: 24pt;
         line-height: 30pt;
-        color: #3c3533;
-        font-family: 'Karla', Futura, Arial, sans-serif;
-        text-shadow: 6px 6px 12px rgba(0,0,0, .05);
+/*        text-shadow: 6px 6px 12px rgba(0,0,0, .05);*/
         opacity:0.95;
         position:absolute;
         top:50%;
@@ -459,6 +474,7 @@ position:absolute;
         display:initial;
         font-weight: bold;
         font-color:#3c3533;
+        
     }
     
     #icons {
@@ -483,14 +499,14 @@ position:absolute;
     }
     
     #quote {
-        width:540px;
+        width:500px;
 }
     
 }
 @media screen and (min-width: 900px){
 	h4{
-		font-size: 18px;
-		line-height: 28px;
+		font-size: 16px;
+		line-height: 26px;
 		letter-spacing: 0px;
 		font-weight: normal;
 		text-transform: inherit;
@@ -523,7 +539,7 @@ position:absolute;
 #kathy{
     float:left;
     padding: 10px;
-
+    font-weight: bold;
 }
 
 #icons {
@@ -552,9 +568,10 @@ position:absolute;
     left: 0;
     right: 0;
     text-align:center;
-    font-size: 18px;
-    letter-spacing: 0.25px;
     color:#3c3533;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #bg {
