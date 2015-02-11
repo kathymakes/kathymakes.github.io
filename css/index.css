@@ -39,6 +39,17 @@ body {
 	cursor:default;
 }
 
+.divider {
+    height: 20px;
+    background: white;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.outline {
+    border: 1px solid #eeeeee;
+
+}
+
 h4{
 	font-size: 15px;
 	letter-spacing: normal;
@@ -55,7 +66,7 @@ h4 a {
 	}
 .special {
 	font-family: 'Karla', Helvetica, Arial, sans-serif;
-	letter-spacing: -1px;
+/*	letter-spacing: -1px;*/
 }
 
 #logo{
@@ -217,7 +228,7 @@ position:absolute;
 }
 #content h3{
 	font-family: Circular, Karla, Arial, sans-serif;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
 	text-align: center;
 	font-size:inherit;
 	text-decoration: none;
@@ -359,11 +370,12 @@ position:absolute;
 
 @media screen and (min-width: 600px){
     nav {
-        height: 56px;
+        height: 54px;
+        
     }
 
     .navbar{
-        height: 56px;
+        height: 54px;
     }
 
 	nav{
@@ -390,7 +402,7 @@ position:absolute;
 		display:block;
 	}
 	#logo,nav .links, #kathy{
-		padding:16px!important;
+		padding:15px!important;
 		font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -403,7 +415,7 @@ position:absolute;
 	#name{
 
         color:#3c3533;
-        font-size: 24pt;
+        font-size: 30pt;
         line-height: 30pt;
 /*        text-shadow: 6px 6px 12px rgba(0,0,0, .05);*/
         opacity:0.95;
@@ -413,6 +425,7 @@ position:absolute;
         left:0;
         right:0;
         text-align: center;
+        letter-spacing: .75px;
         display:initial;
         
         
@@ -451,7 +464,7 @@ position:absolute;
 
 
 	#about h2{
-		font-size: 20pt;
+		font-size: 24pt;
 		line-height: 40pt;
 	}
     
@@ -504,10 +517,12 @@ position:absolute;
     
 }
 @media screen and (min-width: 900px){
-	h4{
+	.navbar{
+        background-color:rgba(255, 255, 255, 0.6);
+    }
+    h4{
 		font-size: 16px;
 		line-height: 26px;
-		letter-spacing: 0px;
 		font-weight: normal;
 		text-transform: inherit;
 	}
@@ -528,6 +543,7 @@ position:absolute;
 		font-size: 30pt;
 		line-height: 50pt;
         text-align: center;
+        
         
 	}
     
@@ -575,9 +591,11 @@ position:absolute;
 }
 
 #bg {
-    background-color:#fcf4e2;
+    background-color:rgb(255, 248, 235);
     height:100%;
     
     
 }
+
+
 
