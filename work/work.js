@@ -87,12 +87,12 @@ work=[
 
   
        
-//           {	"folder":"precious",
-//		"name":"Precious Things",
-//		"thumb":"thumb.png",
-//		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span> In the center of it all, I wrapped an ordinary gray rock rock was encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\nHere, each layer of the unwrapping process contributes to the ultimate height of anticipation. As the recipient’s time investment in the unpackaging increased, so would his or her desire for the object. Ultimately, the subversion of expectation makes us look twice at an object we'd normally overlook. In this way, aesthetics can increase our appreciation of quoditian objects.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
-//	},
-//      
+           {	"folder":"precious",
+		"name":"Precious Things",
+		"thumb":"thumb.png",
+		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span> In the center of it all, I wrapped an ordinary gray rock rock was encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\nHere, each layer of the unwrapping process contributes to the ultimate height of anticipation. As the recipient’s time investment in the unpackaging increased, so would his or her desire for the object. Ultimately, the subversion of expectation makes us look twice at an object we'd normally overlook. In this way, aesthetics can increase our appreciation of quoditian objects.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
+	},
+      
     
     // {
 	// 	"folder":"berlewi",
@@ -149,12 +149,12 @@ work=[
 //	}
 
 
-    
-    {	"folder":"digpo-imgs",
-		"name":"Digital Poetry Experiments",
-		"thumb":"basho3.png",
-		"content":"Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.\n[spacer-half.png] \n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MONTH OF MAY}</p>\n[may.png]\n[may-3.gif]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{RECOMBINATIVE POETRY}</p>\n[wiki.png]\n[wiki1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SYNESTHESIA}</p>\n[alpha.png]\n[book0.png]\n[book1.png]\n[book3.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{BASHO IN THE FOREST}</p>\n[basho.png]\n[basho1.png][basho2.png][basho3.png]"
-	},
+//    
+//    {	"folder":"digpo-imgs",
+//		"name":"Digital Poetry Experiments",
+//		"thumb":"basho3.png",
+//		"content":"Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.\n[spacer-half.png] \n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MONTH OF MAY}</p>\n[may.png]\n[may-3.gif]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{RECOMBINATIVE POETRY}</p>\n[wiki.png]\n[wiki1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SYNESTHESIA}</p>\n[alpha.png]\n[book0.png]\n[book1.png]\n[book3.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{BASHO IN THE FOREST}</p>\n[basho.png]\n[basho1.png][basho2.png][basho3.png]"
+//	},
     
 
     
