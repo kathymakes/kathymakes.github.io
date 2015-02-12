@@ -9,12 +9,7 @@ work=[
 		"content":"Rebrand of the James Turrell Museum in Bodega Colome, Argentina. The final mark and identity are a culmination of weeks’ worth of research about the museum environment, Turrell’s work, and design which successfully exemplified similar concepts as his. It was challenging to represent a well-known artist whose work dealt with abstract concepts of light and time. \nI strove for a visual direction which complemented his work without eclipsing its unique grandeur. The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. \n[turrell9.png]\n[turrell10.png]\n[spacer.png]\n <p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Applications}</style>\n{Stationary, website, seasonal brochures, poster, & postcards.}\n[stationary.jpg]\n[webstuff.jpg]\n[brochures.jpg]\n[poster.jpg]\n[turrell12.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Temporal tickets}</style>\nThe way a Turrell piece transforms when viewed during different times of the day inspired these dynamic tickets. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, the tickets appear as a continuous gradient. The colors, taken from the museum palette, are meant to echo the temporal radiance of the sky.\n[tickets.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Abstract Garden}</style>\n This outdoor museum engagement piece brings visitors together in an outdoor garden which supplements Turrell’s work. I imagined a tranquil space that visitors would use to reflect and relax. The pool connects to an unseen irrigation system which waters the grape vines crawling along the trellises. In this way, the piece feeds back into the terrain, paying homage to the relationship between abstracted nature and the colorful beauty of the arid landscape.\n[engagement.png]\n"
 	},
         
-{
-		"folder":"keep",
-		"name":"Keep",
-		"thumb":"thumb2.png",
-		"content":"Stove tops light up when hot, microwaves beep when ready, and kettles blink and whistle. These appliances alert us to important changes; as a result, we’re able to attend to them quickly.\nWhat about state changes in food? Many of us are too busy to constantly tally the state of our apples and bananas, and refridgerators which alert us to food states still aren’t commercially popular. \nWhen smart fridges or smart fridge plug-ins become widespread, KEEP will come in handy as a mobile app fridge monitor. I imagine KEEP as an application which supplements these future smart fridges and hypothetically collaborates with chain supermarkets. It helps consumers keep track of perishables and make better decisions based on food inventory. Using a push notification system, color-coding, and inventory organization, KEEP keeps users on their toes to ultimately educate them and reduce food waste.\nView the <a href='http://invis.io/PW1SW4ZG7' style = 'font-weight:bold' target='blank'>Invision Prototype.</a>\n[keep-splash.png]\n[keep-intro.png]\n[keep-intro2.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{USER CASE STORY}</style>\n I developed three basic user personas for KEEP: a <span style = 'font-weight:bold'>generation X-er with roommates</span>, a <span style = 'font-weight:bold'>busy professional parent</span>, and <span style = 'font-weight:bold'>an empty-nester</span> who adopts early to new technology. This user task flow follows the busy parent from a home scenario through a trip to the grocery store.\n<div class ='divider'></div>\n[keep.png]\n[keep2.png]\n[keep3.png]\n[keep4.png]\n[keep6.png]\n[keep7.png]\n[keep8.png]\n[keep9.png]\n<div class ='divider'></div>"
-	},
+
     
 //\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SKETCHBOOK}</style>\n[process.png]
         
@@ -37,23 +32,14 @@ work=[
 
 
 
- 
-      	 {
-    	"folder":"touchart",
-		"name":"Touch Art",
-		"thumb":"ta.png",
-		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
-	},
-    
-      {
-		"folder":"curious",
-		"name":"The Curious Incident",
+  
+           {	"folder":"precious",
+		"name":"Precious Things",
 		"thumb":"thumb.png",
-		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
+		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span> In the center of it all, I wrapped an ordinary gray rock rock was encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\nHere, each layer of the unwrapping process contributes to the ultimate height of anticipation. The more the recipient invests in the unpackaging process, the more value he or she projects onto the thing inside. Ultimately, the subversion of expectation makes us look twice at an object we'd normally overlook. In this way, aesthetics increases our appreciation of quoditian objects.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
 	},
-    
-    
-    
+      
+     
        	{
 		"folder":"chocolee",
 		"name":"Chocolee",
@@ -62,8 +48,32 @@ work=[
 	},
 	
     
+    
+      	 {
+    	"folder":"touchart",
+		"name":"Touch Art",
+		"thumb":"ta.png",
+		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
+	},
+    
 
+    
+  
 
+{
+		"folder":"keep",
+		"name":"Keep",
+		"thumb":"thumb2.png",
+		"content":"Stove tops light up when hot, microwaves beep when ready, and kettles blink and whistle. These appliances alert us to important changes; as a result, we’re able to attend to them quickly.\nWhat about state changes in food? Many of us are too busy to constantly tally the state of our apples and bananas, and refridgerators which alert us to food states still aren’t commercially popular. \nWhen smart fridges or smart fridge plug-ins become widespread, KEEP will come in handy as a mobile app fridge monitor. I imagine KEEP as an application which supplements these future smart fridges and hypothetically collaborates with chain supermarkets. It helps consumers keep track of perishables and make better decisions based on food inventory. Using a push notification system, color-coding, and inventory organization, KEEP keeps users on their toes to ultimately educate them and reduce food waste.\nView the <a href='http://invis.io/PW1SW4ZG7' style = 'font-weight:bold' target='blank'>Invision Prototype.</a>\n[keep-splash.png]\n[keep-intro.png]\n[keep-intro2.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{USER CASE STORY}</style>\n I developed three basic user personas for KEEP: a <span style = 'font-weight:bold'>generation X-er with roommates</span>, a <span style = 'font-weight:bold'>busy professional parent</span>, and <span style = 'font-weight:bold'>an empty-nester</span> who adopts early to new technology. This user task flow follows the busy parent from a home scenario through a trip to the grocery store.\n<div class ='divider'></div>\n[keep.png]\n[keep2.png]\n[keep3.png]\n[keep4.png]\n[keep6.png]\n[keep7.png]\n[keep8.png]\n[keep9.png]\n<div class ='divider'></div>"
+	},
+    
+          {
+		"folder":"curious",
+		"name":"The Curious Incident",
+		"thumb":"thumb.png",
+		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
+	},
+    
     
     {
 		"folder":"places",
@@ -86,14 +96,7 @@ work=[
 	},
 
   
-       
-           {	"folder":"precious",
-		"name":"Precious Things",
-		"thumb":"thumb.png",
-		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span> In the center of it all, I wrapped an ordinary gray rock rock was encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\nHere, each layer of the unwrapping process contributes to the ultimate height of anticipation. As the recipient’s time investment in the unpackaging increased, so would his or her desire for the object. Ultimately, the subversion of expectation makes us look twice at an object we'd normally overlook. In this way, aesthetics can increase our appreciation of quoditian objects.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
-	},
       
-    
     // {
 	// 	"folder":"berlewi",
 	// 	"name":"Berlewi",
