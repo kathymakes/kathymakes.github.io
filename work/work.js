@@ -35,14 +35,17 @@ work=[
 //		"content":"Redesigned directory for the Miami Internation Airport. It was really important that the interface was legible, streamlined, and friendly. My target user was a tired traveler, perhaps experiencing a layover with time to burn. I wanted searching to be efficient and exploration to be fun.\nCheck out the <u><a href='https://projects.invisionapp.com/share/Q2UMXDGF' target='_blank'>InVision prototype.</u></a>\n[mia8.png]\n[mia2.png]\n[mia3.png]\n[mia4.png]\n[mia5.png]\n[mia6.png]\n[mia7.png]"
 //	},
 
-	 {
+
+
+ 
+      	 {
     	"folder":"touchart",
 		"name":"Touch Art",
 		"thumb":"ta.png",
 		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
 	},
     
-    	{
+      {
 		"folder":"curious",
 		"name":"The Curious Incident",
 		"thumb":"thumb.png",
@@ -50,8 +53,8 @@ work=[
 	},
     
     
-
-	{
+    
+       	{
 		"folder":"chocolee",
 		"name":"Chocolee",
 		"thumb":"chocolee.png",
@@ -59,7 +62,7 @@ work=[
 	},
 	
     
-        
+
 
     
     {
@@ -69,13 +72,27 @@ work=[
 		"content":"A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-1.jpg]\n[places-2.gif]\n[places-3.jpg]\n[places-4.jpg]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n[places-8.jpg]\n[places-9.jpg]\n[places-10.gif]"
 	},
 	
-        {
+         
+
+
+          	
+ 
+    
+    {
 		"folder":"wildest-flowers",
 		"name":"Wildest Flowers",
 		"thumb":"wildest-flowers.png",
 		"content":"An exploration of duality and the color wheel for Aki Nurosi&rsquo;s Color Theory class. We were prompted to look at how the same color reacts differently on a black vs. a white background. I created these seed packets for flowering weeds like dandelions and clovers.\n[wildest-flowers-1.jpg]\n[wildest-flowers-2.jpg]\n[wildest-flowers-3.jpg]\n[wildest-flowers-4.jpg]\n[wildest-flowers-5.jpg]\n[wildest-flowers-6.jpg]\n[wildest-flowers-7.jpg]\n[wildest-flowers-8.jpg]\n[wildest-flowers-9.jpg]\n[wildest-flowers-10.jpg]"
 	},
 
+  
+       
+//           {	"folder":"precious",
+//		"name":"Precious Things",
+//		"thumb":"thumb.png",
+//		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span> In the center of it all, I wrapped an ordinary gray rock rock was encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\nHere, each layer of the unwrapping process contributes to the ultimate height of anticipation. As the recipient’s time investment in the unpackaging increased, so would his or her desire for the object. Ultimately, the subversion of expectation makes us look twice at an object we'd normally overlook. In this way, aesthetics can increase our appreciation of quoditian objects.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
+//	},
+//      
     
     // {
 	// 	"folder":"berlewi",
@@ -139,6 +156,7 @@ work=[
 		"content":"Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.\n[spacer-half.png] \n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MONTH OF MAY}</p>\n[may.png]\n[may-3.gif]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{RECOMBINATIVE POETRY}</p>\n[wiki.png]\n[wiki1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SYNESTHESIA}</p>\n[alpha.png]\n[book0.png]\n[book1.png]\n[book3.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{BASHO IN THE FOREST}</p>\n[basho.png]\n[basho1.png][basho2.png][basho3.png]"
 	},
     
+
     
 ]
 

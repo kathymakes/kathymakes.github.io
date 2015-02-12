@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/html'>
+<head>
+    <title>Long Polling</title>
+    <script src='//code.jquery.com/jquery-1.10.1.min.js'></script>
+    <script type="text/javascript">
+function toggleSound1() {
+  var audioElem = document.getElementById('audio1');
+  if (audioElem.paused)
+    audioElem.play();
+  else
+    audioElem.pause();
+}
+
+function toggleSound2() {
+  var audioElem = document.getElementById('audio2');
+  if (audioElem.paused)
+    audioElem.play();
+  else
+    audioElem.pause();
+}
+
+</script>
+
+<style> 
+    body {
+      padding-top: 100px;
+    }
+
+      #imageWrap { 
+    width: 100%; 
+    height: 420px; 
+    text-align: center;
+/*    background: url('heart1.gif');
+*/  
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+   
+    span {
+      font-family:Helvetica, Arial;
+      letter-spacing: 1px;
+      text-align: center;
+      cursor:pointer;
+    }
+
+    h1 {
+        font-family: Helvetica, Arial;
+        letter-spacing: 1px;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    img {
+      display: inline-block;
+      letter-spacing: 0px;
+    }
+
+</style>
+
+
+
+</head></b>
+<body>
+
+<h1> Heartrate </h1>
+
+  <div id='imageWrap'>
+  <img id='img' src = 'heart1.gif'>
+  <img id='img2' src='heart2.gif'>
+
+<section>
+ <span id="player" onclick="javascript:toggleSound1();" style="color:red">HIT ZEE DRUMS</span>
+<audio id="audio1">
+  <source src="drum-2.mp3" type="audio/mp3">
+</audio>
+  
+<br>
+<br>
+<span id="player" onclick="javascript:toggleSound2();" style="color:blue">HIT DAT SMOOTH JAZZ</span>
+  <audio id="audio2">
+  <source src="jazz-2.mp3" type="audio/mp3">
+</audio>
+</section>
+
+  
+  
+</body>

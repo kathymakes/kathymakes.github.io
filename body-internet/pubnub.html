@@ -25,8 +25,7 @@
     a {
       font-family:Helvetica, Arial;
       letter-spacing: 1px;
-
-
+      text-align: center;
     }
 
     h1 {
@@ -48,97 +47,35 @@
 
 </head></b>
 <body>
+
 <h1> Heartrate </h1>
 
+  <a href="#" onclick="sound.pause()">MUTE SOUND</a>
+  <a href="#" onclick="sound.play()">UNMUTE SOUND</a>
 
-<!-- Kathy Audio Test Zone
- -->
-<!--   <a href="#" onclick="playSound('jazz-2.mp3');">HIT THE JAZZ</a>
- -->  
-  <embed name="drum" src='drum-2.mp3' loop="true" hidden="true" autostart="true">
+  <div id='imageWrap'>
+  <img id='img' src = 'heart1.gif'>
+  <img id='img2' src='heart2.gif'>
 
-  <embed name="jazz" src='jazz-2.mp3' loop="false" hidden="true">
+<div><audio controls>
+  <source src="drum-2.mp3" type="audio/mpeg">
+  <embed height="50" width="100" src="drum-2.mp3">
+</audio></div>
 
-
-  <a href="#" onclick="mute()">MUTE SOUND</a>
-  <a href="#" onclick="unmute()">UNMUTE SOUND</a>
-
-
-
-<div id='imageWrap'>
-<img id='img' src = 'heart1.gif'>
-<img id='img2' src='heart2.gif'>
-
- </div><br>
-
-<audio id='jazz' src='jazz-2.mp3'/>
-<audio id='drum' src='drum-2.mp3'/>
+<span id="dummy"><a href="#" onclick="playSound('jazz-2.mp3');">HIT THE JAZZ</a></span>
 
 
-  <script type='text/javascript'>
-  
 
 
-    jazz = document.getElementById('jazz')
+
+</div>
+<script>
+
+
+</script>
+
+
     
-    drum = document.getElementById('drum')
-    
-    img = document.getElementById('img')
-    img2 = document.getElementById('img2')
-
-    function mute(){
-      jazz.muted = true;
-      console.log("Trying to mute?");
-    }
-
-    function unmute(){
-      jazz.muted = false;
-      console.log("Trying to unmute?");
-
-    }
-
-
-
-
-
-       // function poll(){
-       //  $.ajax({ url: '//agent.electricimp.com/vp0zluXFbU-v/poll',
-       //      async:true, cache:false,dataType: 'json', timeout: 180000,
-       //      success: function(data){
-
-       //          drum.pause();
-       //          drum.playbackRate = 0.5 + 0.5*Math.random()
-       //          jazz.pause();
-       //          jazz.playbackRate = 0.5 + 0.2*Math.random()
-       //          if ( data.state === 1) {
-       //              jazz.play();
-       //              img.src='heart1.gif';
-       //          } else if (data.state === 2 ) {
-       //              drum.play();
-       //              img.src='heart2.gif';
-       //          } else if (data.state === 3 ) {
-       //              img.src='//placehold.it/80x80';
-       //          } else if (data.state === 0 ) {
-       //              img.src='//placehold.it/110x110';
-       //          }
-       //          console.log(data.state);
-       //          //$('body').html(data.state)
-
-       //      },
-
-       //        error: function(_XHR,_textStatus,_errorThown){
-       //            if (_textStatus = 'timeout'){
-       //                console.log('timeout retry');
-       //                poll();
-       //            }
-       //            else{
-       //             debugger;
-       //             console.log('Error ' + _textStatus + ' errorT=' +_errorThown)     ;
-       //            }
-       //         }
-       //  });
-       // }
-       // setInterval(poll, 200)
   </script>
   
   
