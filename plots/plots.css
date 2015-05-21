@@ -20,6 +20,11 @@
     font-family: "Alpha";
     font-weight: normal;}
     
+    
+    body {
+    margin-top:45px;
+    }
+
     p {
     font-family: "Neuton";
     font-weight:500px;
