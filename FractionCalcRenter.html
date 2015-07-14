@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    	<style>
+   
+        body
+        {
+            
+            background-color:#eee;
+            
+        }
+            
+        table
+    	{
+    		border-collapse:collapse;
+            margin: 20px auto;
+            width: 540px;
+
+            
+            
+    	}
+    	table, th, td, thead
+    	{
+/*    		border: 1px solid #eee;*/
+            padding: 12px 25px;
+            text-align: left;
+            font-size: 12pt;
+            font-family: Roboto, Arial, sans-serif;
+            font-weight: normal;
+            letter-spacing: 0.75px;
+            background-color: #fff;
+
+
+
+        }
+        
+
+        input
+        {
+            background:white;
+            font-size: 12pt;
+            padding:10px;
+            font-family: Roboto, Arial, sans-serif;
+            font-weight: normal; 
+            letter-spacing: 0.75px;
+
+            box-shadow: none;
+        
+        }
+            
+        
+        
+        button
+        {
+            background: #404041;
+            font-size: 12pt;
+            font-family: Roboto, Arial, sans-serif;
+            font-weight: normal;
+            letter-spacing: 0.5px;
+            color:white;
+            width: 300px;
+            height: 60px;
+
+
+
+        }
+            
+        h1
+        {
+            font-size: 18pt;
+/*            font-family: Roboto, Arial, sans-serif;*/
+            font-weight: bold; 
+            letter-spacing: 1px;
+            text-align: center;
+
+        }
+            
+
+    	</style>
+        <script type="text/javascript">
+            // formatting from: http://www.mredkj.com/javascript/nfbasic.html
+            function addCommas(nStr)
+            {
+                nStr += '';
+                x = nStr.split('.');
+                x1 = x[0];
+                x2 = x.length > 1 ? '.' + x[1] : '';
+                var rgx = /(\d+)(\d{3})/;
+                while (rgx.test(x1)) {
+                    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+                }
+                return x1 + x2;
+            }
+
+            function stripCommas(num_in)
+            {
+                var num_string = num_in;
+                num_string = num_string.replace(/\,/g,'')
+                num_string = parseInt(num_string,10);
+                return num_string;
+            }
+            
+    		// get varariables 
+    		function calculate()
+    		{
+    			// get original variables
+	    		var h_price = stripCommas(document.getElementById("h_price").value);
+	    		var rent_norm = document.getElementById("rent_squo").value;
+	    		var rent_frac = document.getElementById("rent_frac").value;
+	    		var eq_ceded = document.getElementById("eq_ceded").value;
+	    		var h_appr = document.getElementById("h_appr").value;
+	    		var rent_inc = document.getElementById("rent_inc").value;
+	    		var disc_rate = document.getElementById("disc_rate").value;
+
+	    		// calculate helper variables, convert to %'s
+	    		var renter_eq_percent = 0.01 * eq_ceded;
+	    		var owner_eq_percent = 1 - renter_eq_percent;
+	    		var h_appr_factor = 1 + ( 0.01 * h_appr );
+
+	    		// RENTER's equity at EOY with Appreciation
+	    		var renter_eq_val = renter_eq_percent * h_price * h_appr_factor;
+	    		document.getElementById("renter_eq_val").innerHTML = addCommas(renter_eq_val);
+
+	    		// OWNER's equity at EOY with Appreciation
+	    		var owner_eq_val = Math.floor(h_price * h_appr_factor * owner_eq_percent);
+	    		document.getElementById("owner_eq_val").innerHTML = addCommas(owner_eq_val);
+
+	    		// Rent paid W/OUT FRACTION
+	    		var rent_squo_paid = rent_norm * 12;
+	    		document.getElementById("rent_squo_paid").innerHTML = addCommas(rent_squo_paid);
+
+	    		// Rent paid W/FRACTION 
+	    		var rent_frac_paid = rent_frac * 12;
+	    		document.getElementById("rent_frac_paid").innerHTML = addCommas(rent_frac_paid);
+
+	    		// RENTER TOTALS
+	    		var renter_frac_total = renter_eq_val - rent_frac_paid;
+	    		var renter_squo_total = 0 - rent_squo_paid;
+	    		var renter_diff = renter_frac_total - renter_squo_total;
+	    		document.getElementById("renter_frac_total").innerHTML = addCommas(renter_frac_total);
+	    		document.getElementById("renter_squo_total").innerHTML = addCommas(renter_squo_total);
+	    		document.getElementById("renter_diff").innerHTML = addCommas(renter_diff);
+
+
+	    		// OWNER TOTALS 
+	    		var owner_frac_total = owner_eq_val + rent_frac_paid;
+	    		var owner_squo_total = h_appr_factor * h_price + rent_squo_paid;
+	    		var owner_diff = owner_frac_total - owner_squo_total;
+	    		document.getElementById("owner_frac_total").innerHTML = owner_frac_total;
+	    		document.getElementById("owner_squo_total").innerHTML = owner_squo_total;
+	    		document.getElementById("owner_diff").innerHTML = owner_diff;
+
+	    	}
+
+
+
+    	</script>
+
+    </head>
+
+    <body>
+    	<table name="variables" id="variables">
+    		<thead>
+    			<th colspan=2><h1>Your variables</th></h1>
+    		</thead>
+   			<tr>
+    			<th>Estimated House Price Today</th>
+    			<td><input type="text" name="h_price" id="h_price"></td>
+    		</tr>
+    		<tr>
+    			<th>Rent/mo w/out Fraction</th>
+    			<td><input type="text" name="rent_squo" id="rent_squo"></td>
+    		</tr>
+    		<tr>
+    			<th>Rent/mo w/Fraction</th>
+    			<td><input type="text" name="rent_frac" id="rent_frac"></td>
+    		</tr>
+    		<tr>
+    			<th>Equity Gained/yr (%)</th>
+    			<td><input type="text" name="eq_ceded" id="eq_ceded"></td>
+    		</tr>
+    		<tr>	
+    			<th>Estimated House Appreciation/yr (%)</th>
+    			<td><input type="text" name="h_appr" id="h_appr"></td>
+    		</tr>
+    		<tr>
+    			<th>Rent Increase/yr</th>			
+    			<td><input type="text" name="rent_inc" id="rent_inc"></td>
+    		</tr>
+    		<tr>
+    			<th>Discount Rate (%)</th>
+    			<td><input type="text" name="disc_rate" id="disc_rate"></td>
+    		</tr>
+        
+        <tr><td></td></tr>
+    	
+        </table>
+    	<br/>
+    <center><button name="calculate" onclick="calculate()">Calculate</button></center>
+    	<br/>
+    	<br/>
+    	<table name="outputs" id="outputs">
+    		<thead>
+    			<th colspan=2><h1>Intermediate Results</h1></th>
+    		</thead>
+    		<tr>
+    			<td>Value of Renter's equity at EOY (w/appr)</td>
+    			<td id="renter_eq_val"></td>
+    		</tr>
+    		<tr>
+    			<td>Value of Owner's equity EOY (w/appr)</td>
+    			<td id="owner_eq_val"></td>
+    		</tr>
+    		<tr>
+    			<td>Rent Paid w/out Fraction</td>
+    			<td id="rent_squo_paid"></td>
+    		</tr>
+    		<tr>
+    			<td>Rent Paid w/Fraction</td>
+    			<td id="rent_frac_paid"></td>
+    		</tr>
+        
+            <tr><td></td></tr>
+
+    	</table>
+    	<br/>
+    	<table>
+    		<thead>
+                <th colspan=4><h1>Totals Results</h1></th>
+    		</thead>
+    		<tr>
+    			<td></td>
+    			<td>With Fraction</td>
+    			<td>Without Fraction</td>
+                <td>With Fraction, You Save</td>
+    		<tr>
+    			<td>RENTER:</td>
+    			<td id="renter_frac_total" title="Renter's Equity Value (EOY) - Fraction Rent Paid"></td>
+    			<td id="renter_squo_total" title="0 - Normal Rent Paid"></td>
+    			<td id="renter_diff" title="Value w/Fraction - Value w/Out Fraction"></td>
+    		</tr>
+    		<!--<tr>
+    			<td>OWNER:</td>
+    			<td id="owner_frac_total" title="Reduced Equity Value (EOY) + Fraction Rent Paid"></td>
+    			<td id="owner_squo_total" title="100% Equity Value (EOY) + Normal Rent Paid"></td>
+    			<td id="owner_diff" title="Value w/Fraction - Value w/Out Fraction"></td>
+    		</tr> -->
+    	<tr><td></td></tr>
+    
+    </table>
+
+    </body>
+
+</html>
