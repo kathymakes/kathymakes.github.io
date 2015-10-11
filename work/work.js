@@ -10,6 +10,13 @@ work=[
 	},
         
 
+//{
+//		"folder":"museum-scout",
+//		"name":"MuseumScout",
+//		"thumb":"thumb.png",
+//		"content":"Rebrand of the James Turrell Museum in Bodega Colome, Argentina. The final mark and identity are a culmination of weeks’ worth of research about the museum environment, Turrell’s work, and design which successfully exemplified similar concepts as his. It was challenging to represent a well-known artist whose work dealt with abstract concepts of light and time. \nI strove for a visual direction which complemented his work without eclipsing its unique grandeur. The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. \n[title.png]\n[user-flow-01.svg]\n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[end.gif]\n"
+//	},
+    
     
 //\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SKETCHBOOK}</style>\n[process.png]
         
