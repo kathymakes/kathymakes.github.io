@@ -8,14 +8,22 @@ work=[
 		"thumb":"thumb2.png",
 		"content":"Rebrand of the James Turrell Museum in Bodega Colome, Argentina. The final mark and identity are a culmination of weeks’ worth of research about the museum environment, Turrell’s work, and design which successfully exemplified similar concepts as his. It was challenging to represent a well-known artist whose work dealt with abstract concepts of light and time. \nI strove for a visual direction which complemented his work without eclipsing its unique grandeur. The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. \n[turrell9.png]\n[turrell10.png]\n[spacer.png]\n <p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Applications}</style>\n{Stationary, website, seasonal brochures, poster, & postcards.}\n[stationary.jpg]\n[webstuff.jpg]\n[brochures.jpg]\n[poster.jpg]\n[turrell12.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Temporal tickets}</style>\nThe way a Turrell piece transforms when viewed during different times of the day inspired these dynamic tickets. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, the tickets appear as a continuous gradient. The colors, taken from the museum palette, are meant to echo the temporal radiance of the sky.\n[tickets.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Abstract Garden}</style>\n This outdoor museum engagement piece brings visitors together in an outdoor garden which supplements Turrell’s work. I imagined a tranquil space that visitors would use to reflect and relax. The pool connects to an unseen irrigation system which waters the grape vines crawling along the trellises. In this way, the piece feeds back into the terrain, paying homage to the relationship between abstracted nature and the colorful beauty of the arid landscape.\n[engagement.png]\n"
 	},
-        
+    
+{
+		"folder":"keep",
+		"name":"Keep",
+		"thumb":"thumb2.png",
+		"content":"Stove tops light up when hot, microwaves beep when ready, and kettles blink and whistle. These appliances alert us to important changes; as a result, we’re able to attend to them quickly.\nWhat about state changes in food? Many of us are too busy to constantly tally the state of our apples and bananas, and refridgerators which alert us to food states still aren’t commercially popular. \nWhen smart fridges or smart fridge plug-ins become widespread, KEEP will come in handy as a mobile app fridge monitor. I imagine KEEP as an application which supplements these future smart fridges and hypothetically collaborates with chain supermarkets. It helps consumers keep track of perishables and make better decisions based on food inventory. Using a push notification system, color-coding, and inventory organization, KEEP keeps users on their toes to ultimately educate them and reduce food waste.\nView the <a href='http://invis.io/PW1SW4ZG7' style = 'font-weight:bold' target='blank'>Invision Prototype.</a>\n[keep-splash.png]\n[keep-intro.png]\n[keep-intro2.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{USER CASE STORY}</style>\n I developed three basic user personas for KEEP: a <span style = 'font-weight:bold'>generation X-er with roommates</span>, a <span style = 'font-weight:bold'>busy professional parent</span>, and <span style = 'font-weight:bold'>an empty-nester</span> who adopts early to new technology. This user task flow follows the busy parent from a home scenario through a trip to the grocery store.\n<div class ='divider'></div>\n[keep.png]\n[keep2.png]\n[keep3.png]\n[keep4.png]\n[keep6.png]\n[keep7.png]\n[keep8.png]\n[keep9.png]\n<div class ='divider'></div>"
+	},
+    
+    
 
-//{
-//		"folder":"museum-scout",
-//		"name":"MuseumScout",
-//		"thumb":"thumb.png",
-//		"content":"Rebrand of the James Turrell Museum in Bodega Colome, Argentina. The final mark and identity are a culmination of weeks’ worth of research about the museum environment, Turrell’s work, and design which successfully exemplified similar concepts as his. It was challenging to represent a well-known artist whose work dealt with abstract concepts of light and time. \nI strove for a visual direction which complemented his work without eclipsing its unique grandeur. The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. \n[title.png]\n[user-flow-01.svg]\n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[end.gif]\n"
-//	},
+{
+		"folder":"museum-scout",
+		"name":"MuseumScout",
+		"thumb":"title.png",
+		"content":"\n MuseumScout is a concept for an augmented reality app at the Boston Museum of Science. The Boston Museum of Science was one of my favorite places growing up. The Museum remains pretty traditional today, so I started to think how younger visitors could explore its content through some newer technology. \nInstead of letting smartphones become a distraction in learning environments, I thought about how they could become a personalized lens for a young museum-goer, allowing them to uncover an extra layer of fun facts at their own pace. MuseumScout hides extinct species on a virtual map of the museum, inviting kids to catch 'em all with smartphone cameras—while at the same learning about extinction and conservation in the process.\n[user-flow-01.svg]\n[user-flow-04.svg]\n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[dodo.gif]\n[end.gif]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Inspiration}</style>\n[user-flow-03.svg]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Process}</style>\n[animals.gif]\n[user-flow-02.png]\n"
+	},
     
     
 //\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SKETCHBOOK}</style>\n[process.png]
@@ -67,13 +75,7 @@ work=[
     
   
 
-{
-		"folder":"keep",
-		"name":"Keep",
-		"thumb":"thumb2.png",
-		"content":"Stove tops light up when hot, microwaves beep when ready, and kettles blink and whistle. These appliances alert us to important changes; as a result, we’re able to attend to them quickly.\nWhat about state changes in food? Many of us are too busy to constantly tally the state of our apples and bananas, and refridgerators which alert us to food states still aren’t commercially popular. \nWhen smart fridges or smart fridge plug-ins become widespread, KEEP will come in handy as a mobile app fridge monitor. I imagine KEEP as an application which supplements these future smart fridges and hypothetically collaborates with chain supermarkets. It helps consumers keep track of perishables and make better decisions based on food inventory. Using a push notification system, color-coding, and inventory organization, KEEP keeps users on their toes to ultimately educate them and reduce food waste.\nView the <a href='http://invis.io/PW1SW4ZG7' style = 'font-weight:bold' target='blank'>Invision Prototype.</a>\n[keep-splash.png]\n[keep-intro.png]\n[keep-intro2.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{USER CASE STORY}</style>\n I developed three basic user personas for KEEP: a <span style = 'font-weight:bold'>generation X-er with roommates</span>, a <span style = 'font-weight:bold'>busy professional parent</span>, and <span style = 'font-weight:bold'>an empty-nester</span> who adopts early to new technology. This user task flow follows the busy parent from a home scenario through a trip to the grocery store.\n<div class ='divider'></div>\n[keep.png]\n[keep2.png]\n[keep3.png]\n[keep4.png]\n[keep6.png]\n[keep7.png]\n[keep8.png]\n[keep9.png]\n<div class ='divider'></div>"
-	},
-    
+
           {
 		"folder":"curious",
 		"name":"The Curious Incident",
@@ -81,14 +83,14 @@ work=[
 		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
 	},
     
-    
-    {
-		"folder":"places",
-		"name":"Oh, The Places You&rsquo;ll See!",
-		"thumb":"places.png",
-		"content":"A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-1.jpg]\n[places-2.gif]\n[places-3.jpg]\n[places-4.jpg]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n[places-8.jpg]\n[places-9.jpg]\n[places-10.gif]"
-	},
-	
+//    
+//    {
+//		"folder":"places",
+//		"name":"Oh, The Places You&rsquo;ll See!",
+//		"thumb":"places.png",
+//		"content":"A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-1.jpg]\n[places-2.gif]\n[places-3.jpg]\n[places-4.jpg]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n[places-8.jpg]\n[places-9.jpg]\n[places-10.gif]"
+//	},
+//	
          
 
 
