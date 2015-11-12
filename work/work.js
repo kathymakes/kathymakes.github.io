@@ -16,28 +16,33 @@ work=[
 		"content":"In the US, we waste a lot of food. For individuals, it can be difficult to keep tabs on all the food we buy, and long-forgotten items just get tossed. How can technology help remedy the problem?\nLuckily, the future of smarter fridges isn't too far away. Object recognition has already enabled fridges <a href='http://www.nbcnews.com/tech/gift-guide/out-milk-lgs-new-smart-fridge-will-let-you-know-n99531' target='_blank' style='font-weight:bold;'>like LG's</a> to self-inventory. Soon, we'll need a convenient way to interface with that information.\nI created Keep as an mobile app in a RISD Dynamic Media class, combining my interests in new tech and clean, playful UI. I imagine that Keep will supplement future fridges and guide people to better decisions around saving and storing food.\nCheck out the <a href='https://invis.io/4Y4WC7OEH' target='_blank' style='font-weight:bold;'>Invision Prototype!</a>\n(For fun, read some thoughts I co-wrote on the <a href='http://www.obweb.space' style = 'font-weight:bold' target='blank'>future of object-recognition</a>.)\n[spacer-half.png]\n[keep-13.svg]\n[spacer-half.png]\n[keep-12.svg]\n[spacer-half.png]\n[keep-11.svg]\n[spacer-half.png]\n[keep-10.svg]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{USER CASE STORY}</style>\n I developed three basic user personas for Keep: a <span style = 'font-weight:bold'>generation X-er with roommates</span>, a <span style = 'font-weight:bold'>busy professional parent</span>, and <span style = 'font-weight:bold'>an empty-nester</span> who adopts early to new technology. This user task flow follows the busy parent from a home scenario through a trip to the grocery store.\n<div class ='divider'></div>\n[keep-01.svg]\n[keep-02.svg]\n[keep-03.svg]\n[keep-04.svg]\n[keep-05.svg]\n[keep-06.svg]\n[keep-07.svg]\n[keep-08.svg]\n[keep-09.svg]<div class ='divider'></div>"
 	},
     
-    
-
+    {
+		"folder":"motemote",
+		"name":"MoteMote",
+		"thumb":"thumb.png",
+		"content":"\nMy team and I created a multiplayer game that would be fun to join and leave on the fly. We were inspired by Super Sync Sports, a Chrome browser game which uses mobile phones as controllers for a shared web screening of the game. We also drew inspiration from Mario Party's bumper balls mini game for the gameplay.\nThe game is targetted at casual gamers who just want to join and leave and play around. You can rack up kills (or deaths) for bumping other players off the arena stage, using either an on-screen joystick or tilt-sensing for movement. You don't even have to be near or looking at a screen to join as a player! Can support (in theory) infinite players for infinite bumping fun.\nWon the <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall project at Hack@Brown 2015!</a>\n[motemote-3.gif]\n[motemote.gif]\n[motemote-2.gif]\n[motemote1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{HACKATHON DEMO}</style>\nDuring the demo, we invited everyone in the audience to go to the address and join the game. We had over 200 participants going crazy on-screen.\nMany of our test players said it was pretty addictive. We hope to make put it online someday!\n[demo.jpg]\n[demo2.jpg]"
+	},
 {
 		"folder":"museum-scout",
 		"name":"MuseumScout",
-		"thumb":"thumb.png",
+		"thumb":"thumb3.png",
 		"content":"\n MuseumScout is a concept for an augmented reality app at the Boston Museum of Science. The Boston Museum of Science was one of my favorite places growing up. The Museum remains pretty traditional today, so I started to think how younger visitors could explore its content through some newer technology. \nInstead of letting smartphones become a distraction in learning environments, we can make them a personalized lens for a young museum-goer, allowing kids to uncover a secret layer of fun facts at their own pace.\nWith MuseumScout, kids learn about extinction and conservation in a gotta-catch-'em-all game. Extinct species like the Dodo Bird and Passenger Pigeon are hidden throughout a virtual map of the museum. By panning over a marked area, they can see these critters come back to life through their cameras.  \n[user-flow-04.svg]\n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[dodo.gif]\n[end.gif]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Inspiration}</style>\n[user-flow-03.svg]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Process}</style>\n[animals.gif]\n[user-flow-02.png]\n"
 	},
     
+
+    
+    	{
+		"folder":"chocolee",
+		"name":"Chocolee",
+		"thumb":"chocolee.png",
+		"content":"Inspired by origami and Japanese wrapping cloths called furoshiki, &ldquo;Chocolee,&rdquo; chocolates feature patterns designed with both collaged and digitally drawn food elements. Each square wrapper can be easily repurposed for paper-folding and crafting.\nThis imaginary chocolate brand emphasizes not only beautiful wrapping but the fun in its re-use, with paper you might give a second life as gift wrap or even a paper crane. By paying attention to the art of wrapping, we bring moments of aesthetic pleasure and play into everyday life.\nFeatured on Packaging Design Served, Behance Student Show, and The Design Blog.\n[chocolee.png]\n[chocolee-flavors.gif]\n[chocolee-set-2.jpg]\n[chocolee-business.jpg]\n[chocolee-business-set.jpg]\n[chocolee-pepper-3.jpg]"
+	},
+
     
 //\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SKETCHBOOK}</style>\n[process.png]
         
+
     
-    {	"folder":"hyphen",
-		"name":"The Hyphen Space",
-		"thumb":"thumb.png",
-		"content":"A personal project. I shared my experience with bilinguality and growing up Chinese-American, focusing on this metaphorical 'hyphen space' between the two. I chose web as a medium because it lent itself well to instant translated and simultaneous language. I crafted illustrations and essays comparing Eastern and Western philosophies on Success, Friendship, Happiness, and Health. On hover, the English text in each sentence transforms into Chinese Characters.\n[screen2.png]\n[screen1.png]\n[screen3.png]\n[screen4.png]\n[spacer.png]\n{Demo}\n[demo2.gif]\n[spacer-half.png]\n"
-	},
-    
-
-
-
 //	{
 //    	"folder":"mia",
 //		"name":"Miami International Airport",
@@ -55,47 +60,41 @@ work=[
 	},
       
      
-       	{
-		"folder":"chocolee",
-		"name":"Chocolee",
-		"thumb":"chocolee.png",
-		"content":"Inspired by origami and Japanese wrapping cloths called furoshiki, &ldquo;Chocolee,&rdquo; chocolates feature patterns designed with both collaged and digitally drawn food elements. Each square wrapper can be easily repurposed for paper-folding and crafting.\nThis imaginary chocolate brand emphasizes not only beautiful wrapping but the fun in its re-use, with paper you might give a second life as gift wrap or even a paper crane. By paying attention to the art of wrapping, we bring moments of aesthetic pleasure and play into everyday life.\nFeatured on Packaging Design Served, Behance Student Show, and The Design Blog.\n[chocolee.png]\n[chocolee-flavors.gif]\n[chocolee-set-2.jpg]\n[chocolee-business.jpg]\n[chocolee-business-set.jpg]\n[chocolee-pepper-3.jpg]"
-	},
+   
 	
     
     
-      	 {
-    	"folder":"touchart",
-		"name":"Touch Art",
-		"thumb":"ta.png",
-		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
+//      	 {
+//    	"folder":"touchart",
+//		"name":"Touch Art",
+//		"thumb":"ta.png",
+//		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
+//	},
+//    
+
+    
+       
+    {	"folder":"hyphen",
+		"name":"The Hyphen Space",
+		"thumb":"thumb.png",
+		"content":"A personal project. I shared my experience with bilinguality and growing up Chinese-American, focusing on this metaphorical 'hyphen space' between the two. I chose web as a medium because it lent itself well to instant translated and simultaneous language. I crafted illustrations and essays comparing Eastern and Western philosophies on Success, Friendship, Happiness, and Health. On hover, the English text in each sentence transforms into Chinese Characters.\n[screen2.png]\n[screen1.png]\n[screen3.png]\n[screen4.png]\n[spacer.png]\n{Demo}\n[demo2.gif]\n[spacer-half.png]\n"
 	},
     
 
+
+ 
     
   
 
-
-          {
-		"folder":"curious",
-		"name":"The Curious Incident",
-		"thumb":"thumb.png",
-		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
-	},
-    
-//    
-//    {
-//		"folder":"places",
-//		"name":"Oh, The Places You&rsquo;ll See!",
-//		"thumb":"places.png",
-//		"content":"A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-1.jpg]\n[places-2.gif]\n[places-3.jpg]\n[places-4.jpg]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n[places-8.jpg]\n[places-9.jpg]\n[places-10.gif]"
+//
+//          {
+//		"folder":"curious",
+//		"name":"The Curious Incident",
+//		"thumb":"thumb.png",
+//		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
 //	},
-//	
-         
+    
 
-
-          	
- 
     
     {
 		"folder":"wildest-flowers",
@@ -105,6 +104,19 @@ work=[
 	},
 
   
+    
+    {
+		"folder":"places",
+		"name":"Oh, The Places You&rsquo;ll See!",
+		"thumb":"places.png",
+		"content":"A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-1.jpg]\n[places-2.gif]\n[places-3.jpg]\n[places-4.jpg]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n[places-8.jpg]\n[places-9.jpg]\n[places-10.gif]"
+	},
+	
+         
+
+
+          	
+ 
       
     // {
 	// 	"folder":"berlewi",
@@ -161,13 +173,13 @@ work=[
 //	}
 
 
-//    
+    
 //    {	"folder":"digpo-imgs",
 //		"name":"Digital Poetry Experiments",
 //		"thumb":"basho3.png",
 //		"content":"Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.\n[spacer-half.png] \n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MONTH OF MAY}</p>\n[may.png]\n[may-3.gif]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{RECOMBINATIVE POETRY}</p>\n[wiki.png]\n[wiki1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SYNESTHESIA}</p>\n[alpha.png]\n[book0.png]\n[book1.png]\n[book3.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{BASHO IN THE FOREST}</p>\n[basho.png]\n[basho1.png][basho2.png][basho3.png]"
 //	},
-    
+//    
 
     
 ]
