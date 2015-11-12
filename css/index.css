@@ -559,7 +559,7 @@ position:absolute;
 }
 
 #icons {
-    cursor:pointer;
+    cursor:default;
     width:320px;
     height:320px;
     padding:10px;
@@ -572,6 +572,9 @@ position:absolute;
 /*    background-image: url(../images/home-icons.png);*/
 }
 
+core-animated-pages {
+ cursor: default;
+}
 .icons {
     background-image: url("../images/home-icons.svg");
     width:300px;
@@ -596,6 +599,7 @@ position:absolute;
     
     
 }
+
 
 
 
