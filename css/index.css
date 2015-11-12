@@ -370,12 +370,12 @@ position:absolute;
 
 @media screen and (min-width: 600px){
     nav {
-        height: 54px;
+        height: 50px;
         
     }
 
     .navbar{
-        height: 54px;
+        height: 50px;
     }
 
 	nav{
@@ -402,7 +402,7 @@ position:absolute;
 		display:block;
 	}
 	#logo,nav .links, #kathy{
-		padding:15px!important;
+		padding:12px!important;
 		font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 1px;
