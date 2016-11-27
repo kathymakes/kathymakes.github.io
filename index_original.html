@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello!</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Design portfolio 2015.">
+		<meta name="author" content="Kathy Wu">
+		<meta name="keywords" content="graphic design,kathy wu,risd,book,form communication,making meaning,poster,packaging,chocolee,chocolate,curious incident,cisneros,frutiger,volkswagen,think small,berlewi,design,writing,proverb,sissyk">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/index_original.css">
+        <script src="bower_components/platform/platform.js"></script>
+        <link rel="import" href="bower_components/core-animated-pages/core-animated-pages.html">
+        <link rel="import" href="bower_components/core-icon/core-icon.html">
+        <link rel="import" href="bower_components/core-icons/core-icons.html">
+	</head>
+	<body>
+		<nav>
+			<a id="kathy" href="#">
+				Kathy Wu
+			</a>
+			<a class="links" href="#connect">Connect</a>
+			<a class="links" href="#about">About</a>
+			<a class="links" href="#work">Work</a>
+		</nav>
+        <div class="navbar"></div>
+		<div id="hewhewhew"></div>
+		<div id="splash">
+			<section class="center-container responsive">
+                <h1 id="name" class="special">Things I make:</h1>
+                <a href="#work">
+                    <div id="icons">
+                        
+<!--                        <div style="background-image: url(images/home-icons.gif);background-position:center;repeat:no-repeat;">-->
+        
+                    <core-animated-pages transitions="cross-fade" id="iconscroller">
+                      <div>
+                          <div cross-fade class="icons"></div>
+                      </div>
+                      <div>
+                          <div cross-fade class="icons" style="background-position:300px 0"></div>
+                      </div>
+                      <div>
+                          <div cross-fade class="icons" style="background-position:600px 0"></div>
+                      </div>
+                      <div>
+                          <div cross-fade class="icons" style="background-position:900px 0"></div>
+                      </div>
+                      <div>
+                          <div cross-fade class="icons" style="background-position:1200px 0"></div>
+                      </div>
+                      <div>
+                          <div cross-fade class="icons" style="background-position:1500px 0"></div>
+                      </div>
+                    </core-animated-pages>
+        
+                </div>
+                    </a>
+                <a class="go" href="#work">See Them All!<core-icon icon="arrow-drop-down"></core-icon></a>
+			</section>
+		</div>
+		<div id="lightbox" style="display:none">
+			<section id="content" class="responsive">
+			</section>
+		</div>
+		<section id="work" class="responsive">
+            <div id="work-stuff">
+            </div>
+            <a class="go" href="#about">Who's Kathy?<core-icon icon="arrow-drop-down"></core-icon></a>
+        </section>
+		<div id="bg"><section id="about" class="responsive center-container">
+			<div class="center">
+				<h2 class="special">
+				<div id="me"></div>Kathy Wu designs interactions, identities, &amp; playful things.<br>She loves teaching, being tech-nerdy, and finding <a href="http://www.niceonedad.com/" target="_blank">good puns</a>.<br>
+
+<!--She dances like it's the <a href="images/70s.gif" target="_blank">seventies</a> when no one's looking.-->
+				</h2>
+<!--
+				<h4>
+					<div class="sub"><img src="images/about-icons.png">Kathy makes books, websites, packaging, pattern designs, illustrations, &amp; a mean guacamole.</div>
+					<div class="sub"><img src="images/about-icons2.png">Her work has been published in print, as well as featured online on <a href="http://thedsgnblog.com/post/71159707810/kathy-wu" target="_blank">The Design Blog</a> &amp; <a href="http://www.packagingserved.com/" target="_blank">Packaging Design Served.</a></div>
+				</h4>
+			</div>
+-->
+            <a class="go" href="#connect">Get In Touch!<core-icon icon="arrow-drop-down"></core-icon></a>
+		</section>
+            </div>
+		<section id="connect" class="responsive center-container">
+			<div class="center">
+				<h2 class="special">
+					Word on the street:
+				</h2>
+				<h4 id="quote-container" style="opacity:0">
+					<q id="quote"></q>
+					<figcaption id="quote-source"></figcaption>
+
+				</h4>
+				<div class="squiggle" style="margin:85px 0 50px 0;"></div>
+				<h2 class="special">
+					<div style="margin-bottom:10px;">
+						<a href="http://kathythinks.tumblr.com/" target="_blank" class="social" id="tumblr"><div></div></a><a href="https://www.linkedin.com/in/kwu01" target="_blank" class="social" id="behance"><div></div></a><a href="https://www.behance.net/kathy-wu" target="_blank" class="social" id="pinterest"><div></div></a>
+					</div>
+					<div>
+						Say hello: <a class="links" href="mailto:kwu01@risd.edu">kwu01@risd.edu</a>
+					</div>
+					<div>
+						<a class="links" href="work/Kathy-Wu-Resume.pdf" target="_blank">View r&eacute;sum&eacute;</a>
+					</div>
+				</h2>
+			</div>
+		</section>
+		<section class="responsive" style="padding-bottom:20px; font-size:8pt; opacity:.4;letter-spacing:0px;">All designs &copy; Kathy Wu 2015. Site by Kathy &amp; <a href ="http://willy-vvu.github.io/" style="text-decoration:underline">Willy Wu.</a> </section>
+
+		<script type="text/javascript" src="work/work.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

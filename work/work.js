@@ -59,26 +59,23 @@ work=[
 		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span> In the center of it all, I wrapped an ordinary gray rock rock was encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\nHere, each layer of the unwrapping process contributes to the ultimate height of anticipation. The more the recipient invests in the unpackaging process, the more value he or she projects onto the thing inside. Ultimately, the subversion of expectation makes us look twice at an object we'd normally overlook. In this way, aesthetics increases our appreciation of quoditian objects.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
 	},
       
-     
+
+    
+     	 {
+   	"folder":"touchart",
+		"name":"Touch Art",
+		"thumb":"ta.png",
+		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
+	},
    
-	
-    
-    
-//      	 {
-//    	"folder":"touchart",
-//		"name":"Touch Art",
-//		"thumb":"ta.png",
-//		"content":"How has digital proliferation changed they way we access famous images? Works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers.\nIn this virtual gallery space, Touch Art, I invited peers and fellow art-lovers to bring themselves closer to their favorite paintings by digitally “touching,” works of art. Through a specific set of instructions, I managed to collect a slew of famous masterworks that had been intruded on by another’s hand. The original set of instructions was publicized on Facebook, but other versions were later distributed through email, Tumblr, and word of mouth.\nContribute a touched art <a href='http://touch-art.tumblr.com/instructions' target='blank' style='font-weight:bold'>here</a>, and view past submissions at<a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'> touch-art.tumblr.com.</a> \n[example.png]\n[ta.png]\n[ta1.png]\n[ta2.png]\n[ta3.png]\n[ta4.png]\n[ta5.png]\n[ta6.png]\n[ta7.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Website}</style>\n[ta8.png]\n"
-//	},
-//    
 
     
        
-    {	"folder":"hyphen",
-		"name":"The Hyphen Space",
-		"thumb":"thumb.png",
-		"content":"A personal project. I shared my experience with bilinguality and growing up Chinese-American, focusing on this metaphorical 'hyphen space' between the two. I chose web as a medium because it lent itself well to instant translated and simultaneous language. I crafted illustrations and essays comparing Eastern and Western philosophies on Success, Friendship, Happiness, and Health. On hover, the English text in each sentence transforms into Chinese Characters.\n[screen2.png]\n[screen1.png]\n[screen3.png]\n[screen4.png]\n[spacer.png]\n{Demo}\n[demo2.gif]\n[spacer-half.png]\n"
-	},
+ //    {	"folder":"hyphen",
+	// 	"name":"The Hyphen Space",
+	// 	"thumb":"thumb.png",
+	// 	"content":"A personal project. I shared my experience with bilinguality and growing up Chinese-American, focusing on this metaphorical 'hyphen space' between the two. I chose web as a medium because it lent itself well to instant translated and simultaneous language. I crafted illustrations and essays comparing Eastern and Western philosophies on Success, Friendship, Happiness, and Health. On hover, the English text in each sentence transforms into Chinese Characters.\n[screen2.png]\n[screen1.png]\n[screen3.png]\n[screen4.png]\n[spacer.png]\n{Demo}\n[demo2.gif]\n[spacer-half.png]\n"
+	// },
     
 
 
@@ -86,13 +83,13 @@ work=[
     
   
 
-//
-//          {
-//		"folder":"curious",
-//		"name":"The Curious Incident",
-//		"thumb":"thumb.png",
-//		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-1.jpg]\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
-//	},
+
+         {
+		"folder":"curious",
+		"name":"The Curious Incident",
+		"thumb":"thumb.png",
+		"content":"I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an autistic savant named Christopher. This project was a great opportunity to explore Christopher&rsquo;s systematic world through systems of typographic formatting and color. \nHere, I strove to create a dialogue between the published format and the author's voice by exposing Christopher&rsquo;s off-beat character. Using colored overprinting, I introduced a quirky, second layer of reading.\n[curious-2.jpg]\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-6.jpg]\n[curious-7.jpg]\n[curious-8.jpg]\n[curious-9.jpg]\n[curious-10.jpg]\n[curious-11.jpg]"
+	},
     
 
     
@@ -113,9 +110,7 @@ work=[
 	},
 	
          
-
-
-          	
+        	
  
       
     // {
@@ -147,6 +142,7 @@ work=[
 	// 	"thumb":"19.png",
 	// 	"content":"An artist&rsquo;s book about how growing up works. Inspired by the text, &ldquo;Eleven&rdquo; by Sandra Cisneros.\nWhat they don&rsquo;t understand about birthdays and what they never tell you is that when you&rsquo;re eleven, you&rsquo;re also ten, and nine, and eight, and seven, and six, and five, and four, and three, and two, and one...\nBecause the way you grow old is kind of like an onion or like the rings inside a tree trunk or like my little wooden dolls that fit one inside the other, each year inside the next one.\n[19-1.jpg]\n[19-2.jpg]\n[19-3.jpg]\n[19-4.jpg]\n[19-5.jpg]\n[19-6.jpg]\n[19-7.jpg]\n[19-8.jpg]\n[19-9.jpg]\n[19-sketch.jpg]\n"
 	// },
+
 	
 //	{	"folder":"google-backpack",
 //		"name":"Google Backpack",
@@ -174,12 +170,12 @@ work=[
 
 
     
-//    {	"folder":"digpo-imgs",
-//		"name":"Digital Poetry Experiments",
-//		"thumb":"basho3.png",
-//		"content":"Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.\n[spacer-half.png] \n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MONTH OF MAY}</p>\n[may.png]\n[may-3.gif]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{RECOMBINATIVE POETRY}</p>\n[wiki.png]\n[wiki1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SYNESTHESIA}</p>\n[alpha.png]\n[book0.png]\n[book1.png]\n[book3.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{BASHO IN THE FOREST}</p>\n[basho.png]\n[basho1.png][basho2.png][basho3.png]"
-//	},
-//    
+   {	"folder":"digpo-imgs",
+		"name":"Digital Poetry Experiments",
+		"thumb":"basho3.png",
+		"content":"Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.\n[spacer-half.png] \n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MONTH OF MAY}</p>\n[may.png]\n[may-3.gif]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{RECOMBINATIVE POETRY}</p>\n[wiki.png]\n[wiki1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{SYNESTHESIA}</p>\n[alpha.png]\n[book0.png]\n[book1.png]\n[book3.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{BASHO IN THE FOREST}</p>\n[basho.png]\n[basho1.png][basho2.png][basho3.png]"
+	},
+   
 
     
 ]
@@ -196,6 +192,4 @@ quotes=[
 //	{"quote":"Kathy is a serious, mature, and competent designer with a pleasant personality.","from":"Akefeh Nurosi","title":"Faculty","company":"RISD"},
     {"quote":"Kathy is a talented visual and interaction designer and I look forward to seeing all of the innovative design work she'll create in the future!","from":"Kristina Beckley","title":"Senior UX Designer","company":"IBM"}
 ]
-
-
 

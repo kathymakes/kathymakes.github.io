@@ -1,3 +1,21 @@
+function waveify (elem) {
+	var text = $(elem).text();
+	$(elem).text("");
+	for(var i in text) { 
+	  if(text[i] === " ") {
+	    $(elem).append( $("<span>").html("&nbsp;") ); 
+	  } else {  
+	    $(elem).append( $("<span>").text(text[i]) ); 
+	  }
+	}
+	$(elem).addClass("wavetext");
+}
+
+$("h1, h2, h3, h4").each(function(index, elem){
+	waveify(elem);
+})
+
+
 
 for (var i = 0; i < work.length; i++) {
 	var piece=work[i];
@@ -34,6 +52,9 @@ var activate = function(hurry,overrideHash){
 
 			};
 			$("#content").html("<h3>"+piece.name+"</h3><br>"+contentString);
+			$("#content").find("h3").each(function(index, elem){
+				waveify(elem);
+			})
 			$("#lightbox").show();
 			$.scrollTo("#lightbox",0);
 		}
