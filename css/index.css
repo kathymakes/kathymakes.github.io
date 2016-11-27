@@ -18,6 +18,9 @@
 }
 
 
+/*--------------------------------------------------------------*/
+/*THE FUN STARTS HERE*/
+
 html{
 	height:100%;
 }
@@ -27,7 +30,7 @@ body {
 	font-family: SourceSans, Arial, sans-serif;
 	color: #323232;
 	letter-spacing: 0.25px;
-	line-height: 25px;
+	line-height: 1.7em; /*or 25px*/
 	font-size: 15px;
 	margin: 0;
 	width:100%;
@@ -36,19 +39,39 @@ body {
 	cursor:default;
 }
 
+/*--------------------------------------------------------------*/
+/*DEFINE SECTIONS & CENTERING*/
 
-.divider {
-    height: 20px;
-    background: white;
+section{
+	position: relative;
+	overflow: hidden;
 }
 
 
-h4{
-line-height: 30px;
-	font-weight: normal;
-    margin-bottom:20px;
+.responsive{
+	margin: 0 auto;
+	width:90%;
+	max-width: 840px;
 }
 
+.center-align{
+	text-align: center;	
+}
+
+.center-container{
+	display:table;
+}
+.center{
+	display:table-cell;
+	vertical-align: middle;
+}
+
+
+
+
+
+/*--------------------------------------------------------------*/
+/*NAV*/
 #logo{
 	width: 20pt;
 	height: 20pt;
@@ -76,9 +99,32 @@ nav {
 	height: 48px;  
 	z-index: 100;
     padding:5px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid #e8e8e8;
+
 }
 
 
+
+#logo{
+		position:fixed;
+		left: 0;
+		top: 0;
+	}
+	
+#logo,nav .links, #kathy{
+		padding:12px!important;
+	}
+
+#kathy{
+    float:left;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------*/
+/*HYPERLINKS */
 a{
 	text-decoration: none;
 	color: inherit;
@@ -89,32 +135,76 @@ a:hover {
 	color:rgba(10,0,10, 0.5);
 }
 
-a span.hover-highlight{
-	border:3px solid transparent;
-	color: #000000;
-}
-
-/*a:hover span.hover-highlight{
-	background-color: #FFDFC6;
-	border:3px solid #FFDFC6;
-	color: #000000;
-}*/
-
 nav .links {
 	float: right;
 	padding: 10px;
 }
 
+
+/*--------------------------------------------------------------*/
+/*FONT STYLES*/
+
+h1 {
+	font-family: Concert;
+	font-size: 28pt;
+	line-height: 35pt;
+	letter-spacing: 0.5px;
+	color:black;
+	text-shadow:0px 0px 1px rgba(255,255,255, 1);
+	margin-bottom: inherit;
+}
+
+h2, h3{
+		font-size: 28pt;
+		line-height: 35pt;
+		font-family: Concert;
+		color:black;
+		text-align: center;
+		letter-spacing: 0.5px;
+
+	}
+
+h3 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+h4{
+	line-height: 30px;
+	font-weight: normal;
+    margin-bottom:20px;
+}
+
+.emoji {
+	font-size: 18px;
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+/*SECTION: SPLASH*/
+
+#name{
+    position:absolute;
+    top:50%;
+    margin-top:-80px;
+    left:0;
+    right:0;
+	}
+
+
+
 #splash {
 	width: 100%;
-	height: 68%;
+	height: 75%;
 	background-color:transparent;
 	z-index:1001;
 	position: relative;
 	overflow: hidden;
 	cursor: crosshair;
-/*	border-bottom:1px solid #E0E0E0;
-*/}
+}
 
 #splash section{
 	height:100%;
@@ -133,57 +223,12 @@ nav .links {
 }
 /*Just for the inline links. Argh!*/
 
-section{
-	position: relative;
-	overflow: hidden;
-
-}
-.center-container{
-	display:table;
-}
-.center{
-	display:table-cell;
-	vertical-align: middle;
-}
 
 
-h1 {
-	font-family: Concert;
-	font-size: 28pt;
-	line-height: 35pt;
-	color:black;
-	text-shadow:0px 0px 1px rgba(255,255,255, 1);
-}
-
-h2, h3{
-		font-size: 28pt;
-		line-height: 35pt;
-		font-family: Concert;
-		color:black;
-		text-align: center;
-		letter-spacing: 0.5px;
-
-	}
-
-h3 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-/*Don't know why there's a TON of space! */
 
 
-.responsive{
-	margin: 0 auto;
-	width:90%;
-	max-width: 840px;
-}
-
-
-/*I HAVE A CLASS JUST FOR THE CENTERED DESCRIPTIONS! HUH!?*/
-
-.center-align{
-	text-align: center;	
-}
+/*--------------------------------------------------------------*/
+/*SECTION: CONTENT + WORK*/
 
 #content{
 	padding: 60px 0 60px 0;
@@ -193,8 +238,7 @@ h3 {
 	height:auto;
 	width: 100%;
 	display: block;
-	margin
-	: 20px 0 20px 0;
+	margin: 16px 0 16px 0;
 }
 
 #content a {
@@ -218,14 +262,13 @@ h3 {
 #work {
 	padding: 80px 0 50px 0;
 	border-bottom:1px solid #e0e0e0;
-	display:none;
-}
+/*	display:none;
+*/}
 
 #work-stuff a{
 	position: relative;
 	width: 100%;
-/*	padding: 15px 0;
-*/	margin: 16px 0;
+	margin: 16px 0;
 	display: block;
 }
 
@@ -243,7 +286,7 @@ h3 {
 	opacity: 1;
 /*	-webkit-filter: blur(50px);
   	filter: blur(50px);*/
-  -webkit-filter: hue-rotate(360deg);
+  	-webkit-filter: hue-rotate(360deg);
   	filter: hue-rotate(360deg);
   	-webkit-transition: filter 12000ms;
   	transition: filter 12000ms;
@@ -278,6 +321,9 @@ h3 {
     }*/
 
 
+/*--------------------------------------------------------------*/
+/*SECTION: GET IN TOUCH*/
+
 #about{
 	height: 80%;
 	max-width: 620px;
@@ -292,13 +338,9 @@ h3 {
 	font-weight: bold;
 }
 
-.social {
-	text-align: center;
-}
 
 #me {
-/*        width:100%;
-*/      height:140px;
+		height:140px;
         background-image: url(../images/barcelona.png);
         background-position:center;
         background-size: contain;
@@ -307,35 +349,14 @@ h3 {
         margin-top: 60px;
 }
 
-#logo{
-		position:fixed;
-		left: 0;
-		top: 0;
-	}
-	
-#logo,nav .links, #kathy{
-		padding:12px!important;
-	}
 
-#kathy{
-    float:left;
-    padding: 10px;
-    font-weight: bold;
-}
-
-
-#name{
-        position:absolute;
-        top:50%;
-        margin-top:-80px;
-        left:0;
-        right:0;
-	}
-
+/*--------------------------------------------------------------*/
+/*FOOTER*/
 
 .credit {
 	padding:15px 0;
 	font-size:8pt;
+	line-height: 1.7em;
 	color:silver;
 
 	text-align: center;
@@ -353,34 +374,52 @@ h3 {
 
 
 
-
+/*--------------------------------------------------------------*/
 
 /*RESPONSIVE BIT -- bigger screen*/
+
+/*--------------------------------------------------------------*/
+
 @media screen and (min-width: 700px){
 
+/*FONT*/
 
-	nav{
-		overflow:inherit;
-		padding-right:15px;
-		display: normal;
+	h1{
+	font-family: Concert;
+	font-size: 50pt;
+    line-height: 64pt;
+    margin-bottom:5px;
+    letter-spacing: 0px;
+
 	}
 
+/*NAV*/
+	nav{
+	overflow:inherit;
+	padding-right:15px;
+	background-color: rgba(255, 255, 255, 0);
+	display: inherit;
+
+	}
+
+	.navbar {
+	background-color: rgba(255, 255, 255, 0);
+    border-bottom: transparent;
+	}
+
+/*SECTIONS*/
 	#name {
 		margin-top:-120px;
-
 	}
-	h1{
-		font-family: Concert;
-		font-size: 50pt;
-        line-height: 64pt;
-        margin-bottom:5px;
+
+	#splash {
+		height: 68%;
 	}
 
 	#content{
 		padding-top:80px;
 		max-width:630px;
 	}
-
 
 	#work {
 		display:inherit;
@@ -394,34 +433,24 @@ h3 {
 	#work-stuff a{
 		float: left;
 		width: 33.333%;
-
 	}
 
 	#work-stuff a *{
-			margin-right: 6%;
-
-
+		margin-right: 6%;
 	}
 
-/*	#work-stuff a:nth-child(3n+2) *{
-		margin-right:2.5%;
-		margin-left: 2.5%;
-	}
-	#work-stuff a:nth-child(3n) *{
-		margin-left:5%;
-		margin-right: 0;
-	}
-	#work-stuff a .image-tile{
-		height: 200px;
-	}
-*/
 
-/*	#about h2{
-		font-size: 28pt;
-		line-height: 40pt;
-	}*/
+
+
+/*MISC JANKY SHOW/HIDE*/
+
+	.mobileshow{
+		display:none;
+	}
+
+	.mobilehide{
+		display:inherit;
+	}
     
-}
-
     
 
