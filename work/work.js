@@ -7,7 +7,7 @@ work=[
 		"folder":"dp",
 		"name":"The Byte Catalog", 
 		"thumb":"1tb.png",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Installation, Books, Objects, Writing.\nMy degree project for RISD Graphic Design, 2015. What does the virtual, intangible feel like? How much information is there on the internet, and how does our body understand it? In the process, I learned a lot about how our bodies explore data, both sensory & abstract. <b>(More to come!)</b>\n[2.png]\n[video-2.gif]\n[1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MATERIALS}</style>\n{Exploring what virtual units feel like, materially. Sandstone, granite, ceramic, LetraSet.}\n[materialsgif.gif]\n[spacer.png]\n[4.png]\n[spacer.png]\n[3alt.png]\n[spacer.png]\n[crowdsourced.jpg]"
+		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Installation, Books, Objects, Writing.\nMy degree project for RISD Graphic Design, 2015. What does the virtual, intangible feel like? How much information is there on the internet, and how does our body understand it? In the process, I learned a lot about how our bodies explore data, both sensory & abstract. <b>(More to come!)</b>\n[2.png]\n[video-2.gif]\n[1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MATERIALS}</style>\n{Exploring what virtual units feel like, materially. Sandstone, granite, ceramic, LetraSet.}\n[materialsgif.gif]\n[spacer.png]\n[4.png]\n[spacer.png]\n[3alt.png]\n[spacer.png]\n[crowdsourced.png]"
 	},
 
  
