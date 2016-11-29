@@ -95,11 +95,11 @@ work=[
 
 
   
-           {	"folder":"precious",
-		"name":"Precious Things",
-		"thumb":"gold.png",
-		"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span>\nIn the center of it all, I wrapped an ordinary gray rock, encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
-	},
+ //           {	"folder":"precious",
+	// 	"name":"Precious Things",
+	// 	"thumb":"gold.png",
+	// 	"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span>\nIn the center of it all, I wrapped an ordinary gray rock, encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
+	// },
       
 
      	 {
