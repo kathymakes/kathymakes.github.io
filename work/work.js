@@ -9,8 +9,6 @@ work=[
 		"thumb":"1tb.png",
 		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Installation, Books, Objects, Writing.\nMy degree project for RISD Graphic Design, 2015. What does the virtual, intangible feel like? How much information is there on the internet, and how does our body understand it? In the process, I learned a lot about how our bodies explore data, both sensory & abstract. <b>(More to come!)</b>\n[2.png]\n[video-2.gif]\n[1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MATERIALS}</style>\n{Exploring what virtual units feel like, materially. Sandstone, granite, ceramic, LetraSet.}\n[materialsgif.gif]\n[spacer.png]\n[4.png]\n[spacer.png]\n[3alt.png]\n[spacer.png]\n[crowdsourced.jpg]"
 	},
-	
-	// \n[1tb.png]\n[2gb.png]\n[3mb.png]\n[4kb.png]
 
  
 {
@@ -60,11 +58,6 @@ work=[
 // 		"content":"\n MuseumScout is a concept for an augmented reality app at the Boston Museum of Science. The Boston Museum of Science was one of my favorite places growing up. The Museum remains pretty traditional today, so I started to think how younger visitors could explore its content through some newer technology. \nInstead of letting smartphones become a distraction in learning environments, we can make them a personalized lens for a young museum-goer, allowing kids to uncover a secret layer of fun facts at their own pace.\nWith MuseumScout, kids learn about extinction and conservation in a gotta-catch-'em-all game. Extinct species like the Dodo Bird and Passenger Pigeon are hidden throughout a virtual map of the museum. By panning over a marked area, they can see these critters come back to life through their cameras. \n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[end.gif]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Inspiration}</style>\n[inspo1.png]\n[inspo2.png]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Process}</style>\n[animals.gif]\n[user-flow-02.png]\n"
 // 	},
     
-
-
-    
-
-
 	
 
        {
@@ -88,9 +81,6 @@ work=[
 		"thumb":"chocolee-set-2.jpg",
 		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Packaging, Illustration, Patterns.</style>\nInspired by origami and Japanese wrapping cloths called furoshiki, &ldquo;Chocolee,&rdquo; chocolates feature patterns designed with both collaged and digitally drawn food elements. Each square wrapper can be easily repurposed for paper-folding and crafting.\nThis imaginary chocolate brand emphasizes not only beautiful wrapping but the fun in its re-use, with paper you might give a second life as gift wrap or even a paper crane. By paying attention to the art of wrapping, we bring moments of aesthetic pleasure and play into everyday life.\nFeatured on Packaging Design Served, Behance Student Show, and The Design Blog.\n[chocolee.png]\n[chocolee-set-2.jpg]\n[chocolee-flavors.gif]\n"
 	},
-
- 
-
 
 
 
@@ -117,26 +107,4 @@ work=[
 	},    
 
 
-   
-
-  
-
-   //    {
-	// 	"folder":"wildest-flowers",
-	// 	"name":"Wildest Flowers",
-	// 	"thumb":"wildest-flowers.png",
-	// 	"content":"An exploration of duality and the color wheel for Aki Nurosi&rsquo;s Color Theory class. We were prompted to look at how the same color reacts differently on a black vs. a white background. I created these seed packets for flowering weeds like dandelions and clovers. \n[wildest-flowers-1.jpg]\n[wildest-flowers-3.jpg]\n[wildest-flowers-4.jpg]\n[wildest-flowers-7.jpg]\n[wildest-flowers-8.jpg]\n[wildest-flowers-9.jpg]"
-	// },
-
-  
-    
- //    {
-	// 	"folder":"places",
-	// 	"name":"Oh, The Places You&rsquo;ll See!",
-	// 	"thumb":"places.png",
-	// 	"content":"A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-2.gif]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n[places-8.jpg]\n"
-	// },
-
-
-    
 ]
