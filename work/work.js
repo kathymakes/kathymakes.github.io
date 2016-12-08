@@ -46,7 +46,7 @@ work=[
 		"folder":"bumble",
 		"name":"Bumble",
 		"thumb":"thumb.png",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Interaction Design.</style>\nDesigned a mobile-born browser inspired by HyperCard and Smalltalk. Create stories with your thumbs, and navigate a web of fictions like a dungeon map. In collaboration with Kevin Cadena and Jamar Bromley. <a href='work/bumble/demo.m4v' target='_blank'>Watch how it works</a>. \nWhy is this as thing? <a href='http://www.buuuumble.tumblr.com' target='_blank'>Read about our thought process.</a>\nMore content coming soon.\n<video width='100' height='100'><source src='work/bumble/demo.m4v' type='video/m4v'></video>\n[create.png]\n[link.png]\n[sideways.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Interaction Design.</style>\nDesigned a mobile-born browser inspired by HyperCard and Smalltalk. Create stories with your thumbs, and navigate a web of fictions like a dungeon map. In collaboration with Kevin Cadena and Jamar Bromley. <a href='work/bumble/demo.m4v' target='_blank'>Watch how it works</a>. \nWhy is this as thing? <a href='http://www.buuuumble.tumblr.com' target='_blank'>Read about our thought process.</a>\nMore content coming soon.\n<video width='100' height='100'><source src='work/bumble/demo.m4v' type='video/m4v'></video>\n[create.png]\n[link.png]\n[sideways2.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
 	},
      	
 
