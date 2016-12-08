@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "San Francisco";
+  src: url("include/fonts/San Francisco/SanFranciscoText-Light.otf");
+  font-weight: 100; }
+@font-face {
+  font-family: "San Francisco";
+  src: url("include/fonts/San Francisco/SanFranciscoText-Medium.otf");
+  font-weight: medium; }
+@font-face {
+  font-family: "Edmondsans";
+  src: url("include/fonts/Edmondsans/Edmondsans-Regular.otf");
+  font-weight: 300; }
+@font-face {
+  font-family: "Edmondsans";
+  src: url("include/fonts/Edmondsans/Edmondsans-Medium.otf");
+  font-weight: 500; }
+@font-face {
+  font-family: "Edmondsans";
+  src: url("include/fonts/Edmondsans/Edmondsans-Bold.otf");
+  font-weight: 700; }
+body {
+  font-family: "San Francisco", sans-serif;
+  font-weight: 100;
+  height:100%;
+  letter-spacing: .25px;
+  margin: 0;
+  padding: 0;
+  }
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #fff; }
+  #sidebar #sidebarContent {
+    height: 100%;
+    margin-top: 4em;
+    margin-left: 4em; }
+    #sidebar #sidebarContent #logo {
+      position: absolute;
+      font-family: "Edmondsans", sans-serif;
+      font-weight: 700;
+      font-size: 22pt; }
+      #sidebar #sidebarContent #logo #logoLeft {
+        color: #000; }
+      #sidebar #sidebarContent #logo #logoRight {
+        color: #2afc2f; }
+    #sidebar #sidebarContent #headingsContainer {
+      display: table;
+      position: relative;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%; }
+      #sidebar #sidebarContent #headingsContainer #headings {
+        display: table-cell;
+        vertical-align: middle;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 0.05em;
+        font-size: 11pt; }
+        #sidebar #sidebarContent #headingsContainer #headings .headingsBlock {
+          margin: 1em 0; }
+          #sidebar #sidebarContent #headingsContainer #headings .headingsBlock li {
+            padding: 0.3em 0; }
+          #sidebar #sidebarContent #headingsContainer #headings .headingsBlock a {
+            text-decoration: none;
+            color: #000; }
+
+.currentSection {
+  content: "";
+  border-bottom: 3px solid #2afc2f; }
+
+#content {
+  position: absolute;
+  width: 70%;
+  left: 30%;
+  margin: 0;
+  padding: 0; }
+  #content .banner {
+    display: block;
+    width: 80%;
+    margin: 4em auto; }
+  #content .textBlock {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 8em; }
+    #content .textBlock h1 {
+    font-family: "Edmondsans", sans-serif;
+/*    font-family: "San Francisco", sans-serif; */
+    letter-spacing: normal;
+    font-weight:500;
+    font-size: 22pt;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 80px;
+    }
+
+    #content .textBlock h2 {
+      font-size: 14.5pt;
+      letter-spacing: 0.3px;
+      font-weight: bold;
+      padding-top: 40px; }
+    #content .textBlock p {
+      line-height: 1.5em;
+      font-size: 14.5pt; }
+    #content .textBlock a {
+      text-decoration: none;
+      border-bottom: 1px solid #000;
+      transition: all 0.2s ease;
+      color: #000; }
+    #content .textBlock a:hover {
+      color: #2afc2f;
+      border-bottom: 1px solid #2afc2f; }
+    #content .textBlock img {
+      width: 96%;
+      position: relative;
+      margin: 5% 0; }
+    /*#content .textBlock iframe {
+      position: relative;
+      display: block;
+      margin: 5% auto; }*/
+
+  #content section {
+    width: 100%; }
+  #content section.fullPage {
+    height: 100vh; }
+  #content #splash {
+/*    background-color: #2afc2f;*/
+  background: linear-gradient(#2afc2f, #2afc2f, white); /* Standard syntax */
+
+  }
+    #content #splash #splashFrame {
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      height: 65%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      #content #splash #splashFrame #splashLogo {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        font-family: "Edmondsans", sans-serif;
+        color: #fff;
+        font-size: 22vh;
+        font-weight: 700;
+        z-index: 2; }
+      #content #splash #splashFrame #phoneFrame {
+        display: block;
+        margin: 0 auto;
+        height: 100%; }
+  #content #what {
+    background-color: #fff;
+    margin-top:200px;}
+  #content #who {
+    height: 100vh; }
+    #content #who .textBlock {
+      padding-top: 30%;
+      padding-bottom: 0; }
+      #content #who .textBlock #whoList {
+        padding-top: 2em;
+        list-style-type: none; }
+        #content #who .textBlock #whoList li {
+          line-height: 1.5em;
+          font-size: 14.5pt; }
+
+@media only screen and (max-width:650px) {
+  body {
+  overflow-y: scroll !important;
+}
+
+  #sidebar {
+    display: none !important;
+  }
+
+  #content {
+    width: 100%;
+    left:0%;
+  }
+
+  #content .textBlock {
+    padding-left: 20px;
+    width: 80%;
+  }
+  iframe {
+    width:100%;
+  }
+
+  #content #splash #splashFrame #splashLogo {
+    font-size: 12vh;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+/* define mobile specific styles come here */
+body {
+  overflow-y: scroll !important;
+}
+  #sidebar {
+    display: none !important;
+  }
+
+  #content {
+    width: 100%;
+    left:0%;
+  }
+
+  #content .textBlock {
+    padding-left: 20px;
+    width: 80%;
+  }
+
+  #content .textBlock p {
+    line-height: 1.5em;
+    font-size: 22pt;
+}
+
+  #content .textBlock ul {
+    line-height: 1.5em;
+    font-size: 22pt;
+}
+
+  iframe {
+    width:100%;
+  }
+
+  #content #splash #splashFrame #splashLogo {
+    font-size: 12vh;
+  }
+}
