@@ -46,7 +46,7 @@ work=[
 		"folder":"bumble",
 		"name":"Bumble",
 		"thumb":"thumb.png",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Interaction Design.</style>\nDesigned a mobile-born browser inspired by HyperCard and Smalltalk. Create stories with your thumbs, and navigate a web of fictions like a dungeon map. In collaboration with Kevin Cadena and Jamar Bromley. <a href='work/bumble/demo.m4v' target='_blank'>Watch how it works</a>. \nWhy is this as thing? <a href='http://www.buuuumble.tumblr.com' target='_blank'>Read about our thought process.</a>\nMore content coming soon.\n<video width='100' height='100'><source src='work/bumble/demo.m4v' type='video/m4v'></video>\n[create.png]\n[link.png]\n[sideways2.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Media Design, Interaction Design.</style>\nBumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.\n[thumb.png]\nOur team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond. This project speculates how we might make media in 2016, on mobile devices. <a href='work/bumble/demo.m4v' target='_blank'>Watch how it works</a>.\n<br><br>\n<b>{What is the shape of mobile media?}</b>\nToday, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.\nOur early sketches explored hyperlinkable, inspectable cards. We envisioned a Squarespace for Thumbs, where people could create webcontent without ever touching a full-size computer.\n[2.png]\n<br>\nThe most difficult question was nailing down what media our tool would enable. Ephemeral, or invested? Individual, or collaborative?\n<br><br>\n<b>{Take 1: We made a feature-bloated canvas.}</b>\nMobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build expressive webcards on a social network.\n[4.png]\nThe program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>\n<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.\n<br><br>\n<b>{Take 2: We made it cheap, fast, and boring.}</b>\nWe challenged our initial assumption that people would want to craft tiny websites with care. We trashed all content primitives except video and scribbling.\n[6.jpg]\nOops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.\n<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.\n<br><br>\n<b>{Take 3: Storytelling redefines our vision.}</b>\nUp until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.\n[inspiration.png]\nWe were inspired by <b>LARP culture, Choose-Your-Own Adventure, and Borges' Garden of the Forking Paths.</b>\nSo, we ditched the linear stack in favor of multidirectional movement. A forking, labryinth browser of sorts. The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe.\n[link.png]\nUsers can see their website architecture from a birds-eye, dungeon-map view.\n[sideways.png]\nWe limited media types to video and text. Easy to make and edit without strenuous pinching and dragging.\n[create.png]\nIn our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.\n<br><br>\n{<a href='#work'>Back to All Projects</a>}"
 	},
      	
 
@@ -64,14 +64,7 @@ work=[
 		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Brand Identity, Print.</style>\nI rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.\nI first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.\nHere's some early research: obsessive moodboarding, drawing, and word studies.\n[process4.png]\n\n[process2.png]\nI explored pages of logomarks, starting on paper, and also playing with vectors, shadows, and cut vellum paper. \n[process1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{LOGO & APPLICATION}</style>\nThe final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. [turrell-01.svg]\n[turrell-02.svg]\n[stationary.jpg]\n[turrell12.png]\n[turrellbooks.png]\n[poster.jpg]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{THE MUSEUM EXPERIENCE}</style>\nThe way a Turrell piece transforms when viewed during different times of the day inspired these dynamic tickets. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, the tickets appear as a continuous gradient. \n[tickets-02.png]\nWhat stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.\n[engagement.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
 	},
 
-   
-// {
-// 		"folder":"museum-scout",
-// 		"name":"MuseumScout",
-// 		"thumb":"thumb.png",
-// 		"content":"\n MuseumScout is a concept for an augmented reality app at the Boston Museum of Science. The Boston Museum of Science was one of my favorite places growing up. The Museum remains pretty traditional today, so I started to think how younger visitors could explore its content through some newer technology. \nInstead of letting smartphones become a distraction in learning environments, we can make them a personalized lens for a young museum-goer, allowing kids to uncover a secret layer of fun facts at their own pace.\nWith MuseumScout, kids learn about extinction and conservation in a gotta-catch-'em-all game. Extinct species like the Dodo Bird and Passenger Pigeon are hidden throughout a virtual map of the museum. By panning over a marked area, they can see these critters come back to life through their cameras. \n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[end.gif]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Inspiration}</style>\n[inspo1.png]\n[inspo2.png]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Process}</style>\n[animals.gif]\n[user-flow-02.png]\n"
-// 	},
-    
+
 	
 
   
@@ -84,21 +77,6 @@ work=[
 	},
 
 
- //   {
-	// 	"folder":"obweb",
-	// 	"name":"Obweb Trendcast",
-	// 	"thumb":"obweb_thumb.png",
-	// 	"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Writing.</style>\nCo-written with David Lee and Kevin Cadena as part of Computer Utopias, a RISD studio. <a href='http://www.kevincadena.com/obweb/index.html' target='_blank'>Check it out here.</a>\n[1.png]\n[3.png]\n[4.png]\n[5.png]\n"
-	// },
-
-	
-
-  
- //           {	"folder":"precious",
-	// 	"name":"Precious Things",
-	// 	"thumb":"gold.png",
-	// 	"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span>\nIn the center of it all, I wrapped an ordinary gray rock, encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
-	// },
 
 
    {
@@ -127,6 +105,31 @@ work=[
 		"thumb":"thumb.png",
 		"content":"\n{Pictures from conversations, lectures, process in 2015. More to come.}\n[sketch1.jpg]\n[sketch2.jpg]\n[sketch3.jpg]\n[sketch4.jpg]\n[sketch5.jpg]\n[sketch6.jpg]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
 	},    
+
+// {
+// 		"folder":"museum-scout",
+// 		"name":"MuseumScout",
+// 		"thumb":"thumb.png",
+// 		"content":"\n MuseumScout is a concept for an augmented reality app at the Boston Museum of Science. The Boston Museum of Science was one of my favorite places growing up. The Museum remains pretty traditional today, so I started to think how younger visitors could explore its content through some newer technology. \nInstead of letting smartphones become a distraction in learning environments, we can make them a personalized lens for a young museum-goer, allowing kids to uncover a secret layer of fun facts at their own pace.\nWith MuseumScout, kids learn about extinction and conservation in a gotta-catch-'em-all game. Extinct species like the Dodo Bird and Passenger Pigeon are hidden throughout a virtual map of the museum. By panning over a marked area, they can see these critters come back to life through their cameras. \n[critters.gif]\n[pigeon.gif]\n[seacow.gif]\n[end.gif]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Inspiration}</style>\n[inspo1.png]\n[inspo2.png]\n [spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Process}</style>\n[animals.gif]\n[user-flow-02.png]\n"
+// 	},
+
+ //   {
+	// 	"folder":"obweb",
+	// 	"name":"Obweb Trendcast",
+	// 	"thumb":"obweb_thumb.png",
+	// 	"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Writing.</style>\nCo-written with David Lee and Kevin Cadena as part of Computer Utopias, a RISD studio. <a href='http://www.kevincadena.com/obweb/index.html' target='_blank'>Check it out here.</a>\n[1.png]\n[3.png]\n[4.png]\n[5.png]\n"
+	// },
+
+
+  
+ //           {	"folder":"precious",
+	// 	"name":"Precious Things",
+	// 	"thumb":"gold.png",
+	// 	"content":"Inspired by traditional Japanese aesthetics and Zen philosophy, I created a set of wrapping papers based on precious materials. The papers were layered in order of material value: <span style = 'font-weight:bold'>bronze, pearl, silver, jade, gold.</span>\nIn the center of it all, I wrapped an ordinary gray rock, encased in a handmade cherry-wood box, which was then wrapped lovingly in string and cloth. According to Zen egaltarianism, nothing has any inherent value, positive or negative. Therefore, a simple stone is no more or less worthy of contemplation than gems or precious metals.\n[gold.png]\n[jade.png]\n[silver.png]\n[pearl.png]\n[bronze.png]"
+	// },
+
+
+    
 
 
 ]
