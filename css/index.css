@@ -218,7 +218,7 @@ h4{
 }
 
 #splash p a {
-	border-bottom: 1px solid #a600ff;
+	border-bottom: 1px solid black;
 	font-weight: bold;
 }
 /*Just for the inline links. Argh!*/
