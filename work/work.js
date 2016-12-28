@@ -143,7 +143,30 @@ work=[
 		"folder":"turrell",
 		"name":"James Turrell Museum",
 		"thumb":"tickets.png",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Brand Identity, Print.</style>\nI rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.\nI first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.\nHere's some early research: obsessive moodboarding, drawing, and word studies.\n[process4.png]\n\n[process2.png]\nI explored pages of logomarks, starting on paper, and also playing with vectors, shadows, and cut vellum paper. \n[process1.png]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{LOGO & APPLICATION}</style>\nThe final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. [turrell-01.svg]\n[turrell-02.svg]\n[stationary.jpg]\n[turrell12.png]\n[turrellbooks.png]\n[poster.jpg]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{THE MUSEUM EXPERIENCE}</style>\nThe way a Turrell piece transforms when viewed during different times of the day inspired these dynamic tickets. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, the tickets appear as a continuous gradient. \n[tickets-02.png]\nWhat stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.\n[engagement.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":`<p style='font-size:12px;line-height:12px;'>Filed Under: Brand Identity, Print.</style>
+		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
+		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
+		Here's some early research: obsessive moodboarding, drawing, and word studies.
+		[process4.png]
+		
+		[process2.png]
+		I explored pages of logomarks, starting on paper, and also playing with vectors, shadows, and cut vellum paper. 
+		[process1.png]
+		[spacer.png]
+		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{LOGO & APPLICATION}</style>
+		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. [turrell-01.svg]
+		[turrell-02.svg]
+		[stationary.jpg]
+		[turrell12.png]
+		[turrellbooks.png]
+		[poster.jpg]
+		[spacer.png]
+		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{THE MUSEUM EXPERIENCE}</style>
+		The way a Turrell piece transforms when viewed during different times of the day inspired these dynamic tickets. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, the tickets appear as a continuous gradient. 
+		[tickets-02.png]
+		What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
+		[reflect_gif.gif]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
 
 
