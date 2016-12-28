@@ -218,7 +218,7 @@ h4{
 }
 
 #splash p a {
-	border-bottom: 1px solid purple;
+	border-bottom: 1px solid #a600ff;
 	font-weight: bold;
 }
 /*Just for the inline links. Argh!*/
@@ -242,7 +242,7 @@ h4{
 }
 
 #content a {
-	border-bottom: 1px solid purple;
+	border-bottom: 1px solid #a600ff;
 	font-weight: bold;
 }
 
@@ -277,6 +277,7 @@ h4{
 	background-size: cover;
 	background-position: center;
 	opacity: 0.8;
+	margin-top:40px;
 	-webkit-transition: opacity 300ms;
 	transition: opacity 300ms;
 }
@@ -304,6 +305,17 @@ h4{
 
 #work-stuff a:hover figcaption{
 	color:rgba(0,0,0,1);
+}
+
+#work-stuff .tags {
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-size:11px;
+	color:gray;
+	font-weight: normal;
+	line-height: 16px;
+
 }
 
 /*#work-stuff a:hover figcaption{
@@ -334,7 +346,7 @@ h4{
 }
 
 #about a {
-	border-bottom: 1px solid purple;
+	border-bottom: 1px solid #a600ff;
 	font-weight: bold;
 }
 
@@ -427,6 +439,7 @@ h4{
 
 	#work-stuff a .image-tile{
 	height: 220px;
+	margin-top: 10px;
 
 	}
 
@@ -437,6 +450,10 @@ h4{
 
 	#work-stuff a *{
 		margin-right: 6%;
+	}
+
+	#work-stuff .tags {
+		margin: 0 6% 0 0;
 	}
 
 

@@ -5,6 +5,7 @@ work=[
     {
 		"folder":"dp",
 		"name":"The Byte Catalog", 
+		"tags":"Installation, Sculpture, Writing",
 		"thumb":"1tb.png",
 		"content":`What does the virtual, intangible feel like? How much information is there on the internet, and how does our body understand it?
 		This project originated from a textual place. I was inspired by Kenneth Goldsmith's attempts to quantify internet text.
@@ -31,8 +32,9 @@ work=[
 	    {
 		"folder":"bodyinternet",
 		"name":"Body + Internet",
+		"tags":"Installation, Hardware, Sound, Interactive",
 		"thumb":"thumb.jpg",
-		"content":`<p style='font-size:12px;line-height:12px;'>Filed Under: Installation, Hardware, Sound, Interactive.</style>
+		"content":`
 		In Winter 2015, I took part in a fun, interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast paced, 5-week workshop mixed together all sorts of engineers, medical students, architects, sculptors, designers. We tackled the prompt:
 		<b>What does it mean to inhabit both physical world and virtual space?</b>
 		For this project, I worked with the fine talents of Shirlene Liew and Rana Ozdelisk. In 5 weeks, we explored everything from biometrics, paper-cut storytelling, and jello hearts—all as interfaces to connect two strangers.
@@ -62,6 +64,7 @@ work=[
 
    {	"folder":"digpo-imgs",
 		"name":"Digital Poetry Experiments",
+		"tags":"Web, Interactive, Poetics",
 		"thumb":"thumb.png",
 		"content":`Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.
 		[spacer-half.png] 
@@ -81,6 +84,7 @@ work=[
  {
    	"folder":"touchart",
 		"name":"Touch Art",
+		"tags":"Web, Fun",
 		"thumb":"thumb.png",
 		"content":"Touch Art is a crowdsourced collection of virtual paintings touched by real humans.\nDigital proliferation means that works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers. You can't really smear your fingers all over a Singer Sargent in person. But how about on Google Images? \n[example_zoom.png]\n<br>I created instructions for fellow art-lovers to digitally intrude on favorite paintings, using their own pixelated hand. I asked them to find a painting on Google Images and just intrude on it with their virtual hand. Some of them got pretty creative...\n[art1.png]\n[art3.png]\n[art4.png]\n[art.png]\n[spacer.png]\n<b>{THE COLLECTION}</b>\nYou can see all the artwork in a <a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'>virtual gallery space.</a> Everyone who partipated was also published in a gallery catalog:\n[ta.png]\n[ta4.png]\n[ta5.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
 	},
@@ -89,15 +93,31 @@ work=[
    {
 		"folder":"motemote",
 		"name":"MoteMote",
+		"tags":"Game Design, Vector Doodles, Software",
 		"thumb":"thumb3.png",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Game Design, Vector Doodles, Software.</style>\nA game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.\nIn MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015!</a>\n[motemote1.png]\nGameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.\n[demo.jpg]\nDuring the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going crazy on-screen. \n[demo2.JPG]\nTesting with judges and students. Our gamers said it was pretty addictive!\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{The Game}</p>\n{It's not online yet. In the meantime, here's some graphics.}[motemote-3.gif]\n[motemote.gif]\n[motemote-2.gif]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":`
+		A game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.
+		In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015!</a>
+		[motemote1.png]
+		Gameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.
+		[demo.jpg]
+		During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going crazy on-screen. 
+		[demo2.JPG]
+		Testing with judges and students. Our gamers said it was pretty addictive!
+		[spacer.png]
+		<b>{The Game}</b>
+		{It's not online yet. In the meantime, here's some graphics.}[motemote-3.gif]
+		[motemote.gif]
+		[motemote-2.gif]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
 
    {
 		"folder":"bumble",
 		"name":"Bumble",
+		"tags":"Media Design, Interactive, UI/UX",
 		"thumb":"thumb.png",
-		"content":`<p style='font-size:12px;line-height:12px;'>Filed Under: Media Design, Interaction Design.</style>
+		"content":`
 		Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
 		[thumb2.png]
 		<br><br>
@@ -142,8 +162,9 @@ work=[
 {
 		"folder":"turrell",
 		"name":"James Turrell Museum",
+		"tags":"Brand Identity, Print",
 		"thumb":"tickets.png",
-		"content":`<p style='font-size:12px;line-height:12px;'>Filed Under: Brand Identity, Print.</style>
+		"content":`
 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
 		Here's some early research: obsessive moodboarding, drawing, and word studies.
@@ -174,24 +195,59 @@ work=[
     {
 		"folder":"chocolee",
 		"name":"Chocolee",
+		"tags":"Packaging, Illustration, Patterns",
 		"thumb":"chocolee-set-2.jpg",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Packaging, Illustration, Patterns.</style>\nInspired by origami and Japanese wrapping cloths called furoshiki, &ldquo;Chocolee,&rdquo; chocolates feature patterns designed with both collaged and digitally drawn food elements. Each square wrapper can be easily repurposed for paper-folding and crafting.\nThis imaginary chocolate brand emphasizes not only beautiful wrapping but the fun in its re-use, with paper you might give a second life as gift wrap or even a paper crane. By paying attention to the art of wrapping, we bring moments of aesthetic pleasure and play into everyday life.\nFeatured on Packaging Design Served, Behance Student Show, and The Design Blog.\n[chocolee.png]\n[chocolee-set-2.jpg]\n[chocolee-flavors.gif]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":`
+		Inspired by origami and Japanese wrapping cloths called furoshiki, &ldquo;Chocolee,&rdquo; chocolates feature patterns designed with both collaged and digitally drawn food elements. Each square wrapper can be easily repurposed for paper-folding and crafting.
+		This imaginary chocolate brand emphasizes not only beautiful wrapping but the fun in its re-use, with paper you might give a second life as gift wrap or even a paper crane. By paying attention to the art of wrapping, we bring moments of aesthetic pleasure and play into everyday life.
+		Featured on Packaging Design Served, Behance Student Show, and The Design Blog.
+		[chocolee.png]
+		[chocolee-set-2.jpg]
+		[chocolee-flavors.gif]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
 
 
 {
 		"folder":"color-studio",
 		"name":"Color Studies",
+		"tags":"Print, Packaging",
 		"thumb":"places-7.jpg",
-		"content":"Select work from Aki Nurosi's Color Studio at RISD, 2013. These were 2-3 week studies applying observations from Josef Alber's Interaction of Color. Curious to learn more? Check out the <a href='https:\/\/drive.google.com/file/d/0BzXTWcuY86iYa0xxZDJlREdsZkE/view?usp=sharing' target='_blank'>process book.</a>\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{The WILDEST FLOWERS}</style>\nA color wheel exploration for Aki Nurosi&rsquo;s Color Theory class. We were prompted to look at how the same color reacts differently on a black vs. a white background. I created these seed packets for flowering weeds like dandelions and clovers. \n[wildest-flowers-1.jpg]\n[wildest-flowers-3.gif]\n[wildest-flowers-7.gif]\n[wildest-flowers-9.jpg]\n[spacer.png]\n<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Oh, The Places You'll See!}</style>\nA study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.\nMy family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.\nEach postcard has a fun little blurb for what to do during day or night.\n[places-2.gif]\n[places-5.jpg]\n[places-6.gif]\n[places-7.jpg]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":`Select work from Aki Nurosi's Color Studio at RISD, 2013. These were 2-3 week studies applying observations from Josef Alber's Interaction of Color. Curious to learn more? Check out the <a href='https:\/\/drive.google.com/file/d/0BzXTWcuY86iYa0xxZDJlREdsZkE/view?usp=sharing' target='_blank'>process book.</a>
+		[spacer.png]
+		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{The WILDEST FLOWERS}</style>
+		A color wheel exploration for Aki Nurosi&rsquo;s Color Theory class. We were prompted to look at how the same color reacts differently on a black vs. a white background. I created these seed packets for flowering weeds like dandelions and clovers. 
+		[wildest-flowers-1.jpg]
+		[wildest-flowers-3.gif]
+		[wildest-flowers-7.gif]
+		[wildest-flowers-9.jpg]
+		[spacer.png]
+		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Oh, The Places You'll See!}</style>
+		A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.
+		My family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.
+		Each postcard has a fun little blurb for what to do during day or night.
+		[places-2.gif]
+		[places-5.jpg]
+		[places-6.gif]
+		[places-7.jpg]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
 
 
    {
 		"folder":"curious",
 		"name":"The Curious Incident",
+		"tags":"Books, Illustration",
 		"thumb":"thumb.png",
-		"content":"<p style='font-size:12px;line-height:12px;'>Filed Under: Books, Illustration.</style>\nI typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an eccentric autistic savant named Christopher. Christopher tries to reason with the emotional parts of life using strict systems. That's always what I've liked most about the book, along with the character's obsessive attention to visuals.\nIn this redesign, I wanted to layer the undecorated, black-and-white original with Christopher's off-beat voice; his anxiety in crowded places, or the way his character rambles through footnotes.\n\n[curious-3.jpg]\n[curious-4.jpg]\n[curious-5.jpg]\n[curious-10.jpg]\n[curious-11.jpg]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":`I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an eccentric autistic savant named Christopher. Christopher tries to reason with the emotional parts of life using strict systems. That's always what I've liked most about the book, along with the character's obsessive attention to visuals.
+		In this redesign, I wanted to layer the undecorated, black-and-white original with Christopher's off-beat voice; his anxiety in crowded places, or the way his character rambles through footnotes.
+
+		[curious-3.jpg]
+		[curious-4.jpg]
+		[curious-5.jpg]
+		[curious-10.jpg]
+		[curious-11.jpg]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
 
       
@@ -199,6 +255,7 @@ work=[
 {
 		"folder":"shapinglanguage",
 		"name":"Difficult Writing",
+		"tags":"Poetics, Fun",
 		"thumb":"a-4x6.png",
 		"content":`
 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
@@ -222,8 +279,17 @@ work=[
 	{
 		"folder":"sketch",
 		"name":"Sketchbook",
+		"tags":"2015",
 		"thumb":"thumb.png",
-		"content":"\n{Pictures from conversations, lectures, process in 2015. More to come.}\n[sketch1.jpg]\n[sketch2.jpg]\n[sketch3.jpg]\n[sketch4.jpg]\n[sketch5.jpg]\n[sketch6.jpg]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+		"content":`
+		{Pictures from conversations, lectures, process in 2015. More to come.}
+		[sketch1.jpg]
+		[sketch2.jpg]
+		[sketch3.jpg]
+		[sketch4.jpg]
+		[sketch5.jpg]
+		[sketch6.jpg]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},    
 
 

@@ -17,16 +17,18 @@ $("h1, h2, h3, h4").each(function(index, elem){
 
 
 
-for (var i = 0; i < work.length; i++) {
-	var piece=work[i];
+work.forEach((piece)=>{
 	$("#work-stuff").append(
 		$("<a href=\"#"+piece.folder+"\"></a>").append(
 			"<div class=\"image-tile\" style=\"background-image:url(work/"+piece.folder+"/"+piece.thumb+");\"></div>"
 		).append(
-			$("<figcaption></figcaption>").html(piece.name)
+			$("<figcaption></figcaption>").text(piece.name)
+		).append(
+			$("<figcaption class=\"tags\"></figcaption>").text(piece.tags)
 		)
 	)
-}
+});
+	
 //Responds to a hash change. Scrolls to work, connect, or about, or puts the content of a given folder (given by hash) into the lightbox, and optionally fades if not in a hurry.
 var activate = function(hurry,overrideHash){
 	var hash=(overrideHash||window.location.hash).replace(/#/g,""), piece;
