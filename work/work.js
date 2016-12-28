@@ -260,12 +260,10 @@ work=[
 		"content":`
 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
 		<br>
-		<b>Cross-country Calligraphy.</b> It may take months to write to you. But I will try.
+		<b>Cross-country Calligraphy.</b> It may take months to write to you. 
 		[driving_gif.gif]
 		<br>
 		[miss-you.png]
-		<br>
-		[driving-d.png]
 		<br>
 		<br>
 		<b>Transcribing Obstructions.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
