@@ -9,9 +9,13 @@ work=[
 		"thumb":"1tb.png",
 		"content":`What does the virtual, intangible feel like? How much information is there on the internet, and how does our body understand it?
 		This project originated from a textual place. I was inspired by Kenneth Goldsmith's attempts to quantify internet text.
-		I began by <a href='work/dp/sort.png' target='_blank'>collecting every thing I read and wrote.</a> Over time, language became abstracted away. Language at internet scale transcended the semantic scope of sentences and even paragraphs, and then readability entirely. It became textures.
+		I began by <a href='work/dp/sort.png' target='_blank'>collecting every thing I read and wrote.</a> Over time, language became abstract. Language at internet scale transcended the semantic scope of sentences and even paragraphs, and then readability entirely.
 		This project evolved into a visercal experience of data, focused on information units. The resulting forms reflected physics and physical parsing, over reading.
-		[2.png]
+		<br>
+		[poster.png]
+		
+		<br><br>
+		
 		[video-2.gif]
 		[1.png]
 		[video-3.gif]
