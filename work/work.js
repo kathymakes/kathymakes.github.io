@@ -7,29 +7,57 @@ work=[
 		"name":"The Byte Catalog", 
 		"tags":"Installation, Sculpture, Writing",
 		"thumb":"1tb.png",
-		"content":`What does the virtual, intangible feel like? How much information is there on the internet, and how does our body understand it?
-		This project originated from a textual place. I was inspired by Kenneth Goldsmith's attempts to quantify internet text.
-		I began by <a href='work/dp/sort.png' target='_blank'>collecting every thing I read and wrote.</a> Over time, language became abstract. Language at internet scale transcended the semantic scope of sentences and even paragraphs, and then readability entirely.
-		This project evolved into a visercal experience of data, focused on information units. The resulting forms reflected physics and physical parsing, over reading.
+		"content":`
+		How much does the internet weigh? How much info do we consume?<br>Are their landfills of information on the internet?
+		The Byte Catalog is my degree project for RISD’s Graphic Design program. This project began as a investigation of the textual internet, inspired by Kenneth Goldsmith’s writings.  Over a semester, it evolved into a visceral experience of information.
+
+{<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
+
+		The final output was a collection of objects, accompanied by print installations and documents. The project also includes collected essays documenting my thoughts on language and information.
+
+		<br><br>
+		<b>{1. Volume, Weight}</b>
+
+		According to Kenneth Goldsmith, the American networked citizen consumed 100,000 words per day in 2008.   If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight. 
+		
+		In early explorations, I translated data into sculptural objects with mass to expand the abstract idea of "gigabyte" or "terabyte," into a sensory one.
+
+		[dp_1.png]
 		<br>
-		[poster.png]
-		
-		<br><br>
-		
-		[video-2.gif]
-		[1.png]
-		[video-3.gif]
-		[7.png]
-		[spacer.png]
-		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{MATERIALS}</style>
-		{Exploring what virtual units feel like, materially. Sandstone, granite, ceramic, LetraSet.}
-		[materialsgif.gif]
-		<br><br>
-		[4.png]
-		<br><br>
-		[3alt.png]
-		<br><br>
+		<br>
+		<b>{2. Conversion Tools}</b>
+		The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects. 
+		 I created interpretive “conversion tools”  in the form of frames and boxes.  Each of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
 		[crowdsourced.png]
+		
+		
+		<br>
+		<br>
+		<b>{3. Documents}</b>
+		Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       Read the <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
+' target='_blank'>process document</a>.
+		In the Byte Catalogue, I documented objects I crowd-sourced. I juxtaposed these with intangible virtual experiences.   For instance, a shirt that takes up 10 cubic inches might equate to the Lord of the Rings trilogy in bytes.
+		[dp_2.png]
+
+		<br>
+		<br>
+		<b>{4. Ownership of Virtual Things}</b>
+		Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
+		I allocated pixel acre-age on my site for people to own, with a corresponding deed modeled after traditional land deeds.
+		[7.png]
+
+		<br>
+		<br>
+		<b>{5. Virtual World}</b>
+		Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
+		The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
+		[1.png]
+		<br>
+		[4.png]
+		<br>
+		[3alt.png]
+		<br>
+		
 		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
 
@@ -58,9 +86,11 @@ work=[
 		<b>...as well as visual vignettes players could complete.</b> 
 		[7.png]
 		[spacer.png]
-		This project was an awesome opportunity for lightning-fast prototyping and discovery. In the final week, we created a <b>stripped-down experience of just touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table.
+		In our final prototype, we created a <b>stripped-down experience of just touch and sound.</b> Participants could still create a narrative together, this time through sound.
+		Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table.
 		[8.jpg]
 		[12.jpg]
+		What we originally intended to be a private experience became public. On the night of the show, the entire room could hear when someone was on the other side. It drew visitors in to share in this experience together.
 		<br><br>{<a href='#work'>Back to All Projects</a>}`
 
 	},
@@ -212,30 +242,30 @@ work=[
 	},
 
 
-{
-		"folder":"color-studio",
-		"name":"Color Studies",
-		"tags":"Print, Packaging",
-		"thumb":"places-7.jpg",
-		"content":`Select work from Aki Nurosi's Color Studio at RISD, 2013. These were 2-3 week studies applying observations from Josef Alber's Interaction of Color. Curious to learn more? Check out the <a href='https:\/\/drive.google.com/file/d/0BzXTWcuY86iYa0xxZDJlREdsZkE/view?usp=sharing' target='_blank'>process book.</a>
-		[spacer.png]
-		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{The WILDEST FLOWERS}</style>
-		A color wheel exploration for Aki Nurosi&rsquo;s Color Theory class. We were prompted to look at how the same color reacts differently on a black vs. a white background. I created these seed packets for flowering weeds like dandelions and clovers. 
-		[wildest-flowers-1.jpg]
-		[wildest-flowers-3.gif]
-		[wildest-flowers-7.gif]
-		[wildest-flowers-9.jpg]
-		[spacer.png]
-		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Oh, The Places You'll See!}</style>
-		A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.
-		My family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.
-		Each postcard has a fun little blurb for what to do during day or night.
-		[places-2.gif]
-		[places-5.jpg]
-		[places-6.gif]
-		[places-7.jpg]
-		<br><br>{<a href='#work'>Back to All Projects</a>}`
-	},
+// {
+// 		"folder":"color-studio",
+// 		"name":"Color Studies",
+// 		"tags":"Print, Packaging",
+// 		"thumb":"places-7.jpg",
+// 		"content":`Select work from Aki Nurosi's Color Studio at RISD, 2013. These were 2-3 week studies applying observations from Josef Alber's Interaction of Color. Curious to learn more? Check out the <a href='https:\/\/drive.google.com/file/d/0BzXTWcuY86iYa0xxZDJlREdsZkE/view?usp=sharing' target='_blank'>process book.</a>
+// 		[spacer.png]
+// 		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{The WILDEST FLOWERS}</style>
+// 		A color wheel exploration for Aki Nurosi&rsquo;s Color Theory class. We were prompted to look at how the same color reacts differently on a black vs. a white background. I created these seed packets for flowering weeds like dandelions and clovers. 
+// 		[wildest-flowers-1.jpg]
+// 		[wildest-flowers-3.gif]
+// 		[wildest-flowers-7.gif]
+// 		[wildest-flowers-9.jpg]
+// 		[spacer.png]
+// 		<p style='font-weight:bold;text-transform:uppercase;letter-spacing:.5px;'>{Oh, The Places You'll See!}</style>
+// 		A study of simultaneous contrast, the phenomenon where surrounding colors cause two different colors to look relatively more or less similar.
+// 		My family loves to travel, and this postcard set compiles many of the places I&rsquo;ve seen while looking at color relationships.
+// 		Each postcard has a fun little blurb for what to do during day or night.
+// 		[places-2.gif]
+// 		[places-5.jpg]
+// 		[places-6.gif]
+// 		[places-7.jpg]
+// 		<br><br>{<a href='#work'>Back to All Projects</a>}`
+// 	},
 
 
    {
@@ -272,7 +302,7 @@ work=[
 		<br>
 		<b>Transcribing Obstructions.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
 		<br>
-		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay muted></video>}
+		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
 		<br><br>
 		{<a href='#work'>Back to All Projects</a>}
 		`
