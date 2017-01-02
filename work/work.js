@@ -67,30 +67,42 @@ work=[
 		"tags":"Installation, Hardware, Sound, Interactive",
 		"thumb":"thumb.jpg",
 		"content":`
-		In Winter 2015, I took part in a fun, interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast paced, 5-week workshop mixed together all sorts of engineers, medical students, architects, sculptors, designers. We tackled the prompt:
-		<b>What does it mean to inhabit both physical world and virtual space?</b>
-		For this project, I worked with the fine talents of Shirlene Liew and Rana Ozdelisk. In 5 weeks, we explored everything from biometrics, paper-cut storytelling, and jello hearts—all as interfaces to connect two strangers.
-		 When starting off, we wondered, <b>How might we create serendipitous intimacy?</b> 
-		 [1.png]
+		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
+		<b>What does it mean to inhabit both physical and virtual space?</b>
+		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
+		[1.png]
 		[3.jpg]
-		...where we brainstormed ways to create vulnerable conversations—through handwriting, voice, and controlled darkness and projection. (We also used <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> to brave internet chat-roulette for the first time.)
+		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
+		
+		
+		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
 		[spacer.png]
-		We already rely so much on text interfaces in our relationships.<b> What are other ways we can communicate presence?</b> 
+
+		{<b>Prototype 1: Vital Signs</b>}
+	
+		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
+
 		[process1.png]
 		[process2.png]
-		We wanted to make people feel closer to people they couldn't see, touch or hear, by transmitting vital signs. 
 		[spacer.png]
-		<b>So, we created jelly heart molds you could talk into...</b>
+		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
 		[heart-gif.gif]
 		[spacer.png]
-		<b>...as well as visual vignettes players could complete.</b> 
+		
+		{<b>Prototype 2: Silent Theater</b>}
+
+		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
+		Here, we prototyped whimsical characters in a servo-powered puppet theater.
 		[7.png]
 		[spacer.png]
-		In our final prototype, we created a <b>stripped-down experience of just touch and sound.</b> Participants could still create a narrative together, this time through sound.
-		Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table.
+
+		{<b>Prototype 3: Remote Duet</b>}
+		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
+		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
 		[8.jpg]
+		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
 		[12.jpg]
-		What we originally intended to be a private experience became public. On the night of the show, the entire room could hear when someone was on the other side. It drew visitors in to share in this experience together.
+		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
 		<br><br>{<a href='#work'>Back to All Projects</a>}`
 
 	},
