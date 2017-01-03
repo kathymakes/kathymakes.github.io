@@ -43,8 +43,11 @@ work=[
 		<br>
 		<b>{4. Ownership of Virtual Things}</b>
 		Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
+		[7_alt.png]
+		<br>
 		I allocated pixel acre-age on my site for people to own, with a corresponding deed modeled after traditional land deeds.
-		[7.png]
+		[dp_3.png]
+
 
 		<br>
 		<br>
