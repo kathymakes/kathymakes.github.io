@@ -6,6 +6,12 @@
 }
 
 @font-face {
+	src: url(../fonts/Arbutus.ttf);
+	font-family: Concert;
+	font-weight: normal;
+}
+
+@font-face {
 	src: url(../fonts/Rubik-Regular.ttf);
 	font-family: SourceSans;
 	font-weight: normal;
@@ -113,7 +119,8 @@ nav {
 	}
 	
 #logo,nav .links, #kathy{
-		padding:12px!important;
+		padding-right:16px!important;
+		padding-left:16px!important;
 	}
 
 #kathy{
@@ -161,6 +168,7 @@ h2, h3{
 		color:black;
 		text-align: center;
 		letter-spacing: 0.5px;
+		padding-top: 45px;
 
 	}
 
@@ -248,7 +256,7 @@ h4{
 
 }
 #content h2{
-	font-family: Concert, SourceSans, Arial, sans-serif;
+	font-family: SourceSans, Arial, sans-serif;
 	font-weight: 700;
 	margin:0;
     padding-bottom:15px;
@@ -398,7 +406,7 @@ h4{
 
 	h1{
 	font-family: Concert;
-	font-size: 50pt;
+	font-size: 45pt;
     line-height: 64pt;
     margin-bottom:5px;
     letter-spacing: 0px;
@@ -425,7 +433,7 @@ h4{
 	}
 
 	#splash {
-		height: 68%;
+		height: 60%;
 	}
 
 	#content{
