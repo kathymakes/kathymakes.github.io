@@ -110,11 +110,11 @@ nav {
 
 
 
-#logo{
+/*#logo{
 		position:fixed;
 		left: 0;
 		top: 0;
-	}
+	}*/
 	
 #logo,nav .links, #kathy{
 		padding-right:16px!important;
@@ -233,13 +233,11 @@ h4{
 
 
 
-
-
 /*--------------------------------------------------------------*/
 /*SECTION: CONTENT + WORK*/
 
 #content{
-	padding: 45px 0;
+	padding: 40px 0;
 /*	border-bottom:1px solid #e0e0e0;
 */}
 #content img{
@@ -268,7 +266,7 @@ h4{
 }
 
 #work {
-	padding: 80px 0 50px 0;
+	padding: 60px 0 40px 0;
 	border-bottom:1px solid #e0e0e0;
 /*	display:none;
 */}
@@ -352,11 +350,8 @@ h4{
 /*	margin-bottom:20px;
 *//*	border-bottom: 0px;
 */	text-align: center;
-	margin-top: 120px;
-
-
-
 }
+
 
 #about a {
 	border-bottom: 1px solid #a600ff;
@@ -371,6 +366,8 @@ h4{
         background-size: contain;
         background-repeat:no-repeat;
         margin-bottom: 20px;
+        margin-top: 120px;
+
       
 }
 
@@ -423,7 +420,7 @@ h4{
 		margin-top: 0px;
 	}
 
-	
+
 /*NAV*/
 	nav{
 	overflow:inherit;
@@ -450,7 +447,7 @@ h4{
 	}
 
 	#content{
-		padding-top:80px;
+		padding-top:100px;
 		max-width:630px;
 	}
 
@@ -477,9 +474,6 @@ h4{
 		margin: 0 6% 0 0;
 	}
 
-	#about {
-	    margin-top:120px;
-	}
 
 
 
