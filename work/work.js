@@ -8,12 +8,13 @@ work=[
 		"tags":"Installation, Sculpture, Writing",
 		"thumb":"1tb.png",
 		"content":`
-		How much does the internet weigh? How much info do we consume?<br>Are their landfills of information on the internet?
-		The Byte Catalog is my degree project for RISD’s Graphic Design program. This project began as a investigation of the textual internet, inspired by Kenneth Goldsmith’s writings.  Over a semester, it evolved into a visceral experience of information.
+		How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
+
+		This project began as a investigation of the textual internet, inspired by Kenneth Goldsmith’s writings.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
 
 {<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
 
-		The final output was a collection of objects, accompanied by print installations and documents. The project also includes collected essays documenting my thoughts on language and information.
+
 
 		<br><br>
 		<b>{1. Volume, Weight}</b>
