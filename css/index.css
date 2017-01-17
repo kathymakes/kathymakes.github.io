@@ -240,8 +240,8 @@ h4{
 
 #content{
 	padding: 45px 0;
-	border-bottom:1px solid #e0e0e0;
-}
+/*	border-bottom:1px solid #e0e0e0;
+*/}
 #content img{
 	height:auto;
 	width: 100%;
@@ -348,7 +348,7 @@ h4{
 
 #about{
 	height: 25%;
-	max-width: 620px;
+	max-width: 520px;
 /*	margin-bottom:20px;
 *//*	border-bottom: 0px;
 */	text-align: center;
@@ -385,8 +385,8 @@ h4{
 	color:silver;
 
 	text-align: center;
-/*	border-top:1px solid #e0e0e0;
-*/	border-bottom:0px;
+	border-top:1px solid #e0e0e0;
+	border-bottom:0px;
 }
 
 .credit a{
@@ -422,6 +422,8 @@ h4{
 	h3 {
 		margin-top: 0px;
 	}
+
+	
 /*NAV*/
 	nav{
 	overflow:inherit;
