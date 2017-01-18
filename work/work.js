@@ -312,7 +312,7 @@ work=[
 		<br>
 		<b>Cross-country Calligraphy.</b> It may take months to write to you. 
 		[driving_gif.gif]
-		<br>
+
 		[miss-you.png]
 		<br>
 		<br>
