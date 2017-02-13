@@ -54,6 +54,8 @@ body {
 section{
 	position: relative;
 	overflow: hidden;
+	width: 100%;
+
 }
 
 
@@ -61,6 +63,7 @@ section{
 	margin: 0 auto;
 	width:90%;
 	max-width: 840px;
+
 }
 
 .center-align{
@@ -69,6 +72,7 @@ section{
 
 .center-container{
 	display:table;
+
 }
 .center{
 	display:table-cell;
@@ -194,7 +198,7 @@ h3 {
 */
 
 
-#splash {
+/*#splash {
 	width: 100%;
 	height: 75%;
 	background-color:transparent;
@@ -202,9 +206,9 @@ h3 {
 	position: relative;
 	overflow: hidden;
 	cursor: crosshair;
-}
+}*/
 
-#splash section{
+/*#splash section{
 	height:100%;
 	text-align: center;
 }
@@ -218,7 +222,8 @@ h3 {
 #splash p a {
 	border-bottom: 1px solid black;
 	font-weight: bold;
-}
+}*/
+
 /*Just for the inline links. Argh!*/
 
 
@@ -333,10 +338,8 @@ h3 {
 /*SECTION: GET IN TOUCH*/
 
 
-#about .center-container {
-	background: #a600ff;
-}
 #about{
+	width: 100%;
 	height: 40%;
 /*	max-width: 520px;
 *//*	margin-bottom:20px;
