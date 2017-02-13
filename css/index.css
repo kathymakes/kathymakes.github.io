@@ -1,10 +1,4 @@
-/*
-@font-face {
-	src: url(../fonts/Concert.ttf);
-	font-family: Concert;
-	font-weight: normal;
-}
-*/
+
 @font-face {
 	src: url(../fonts/GT-Cinetype-Bold.otf);
 	font-family: Concert;
@@ -50,6 +44,10 @@ body {
 	cursor:default;
 }
 
+::selection {
+	background: black;
+	color:white;
+}
 /*--------------------------------------------------------------*/
 /*DEFINE SECTIONS & CENTERING*/
 
@@ -123,11 +121,6 @@ nav {
 		padding-left:16px!important;
 	}
 
-#kathy{
-    float:left;
-    padding: 10px;
-    font-weight: bold;
-}
 
 
 /*--------------------------------------------------------------*/
@@ -144,9 +137,10 @@ a:hover {
 
 /**/
 nav a {
-	float: right;
-	padding: 10px;
+	float: left;
+	padding: 10px 25px 10px 15px;
 	font-size: 11pt;
+
 }
 
 /*--------------------------------------------------------------*/
@@ -180,10 +174,6 @@ h3 {
 
 }
 
-h4 {
-	font-family: Arial;
-}
-
 .emoji {
 	font-family: Arial;
 }
@@ -194,14 +184,14 @@ h4 {
 /*--------------------------------------------------------------*/
 /*SECTION: SPLASH*/
 
-#name{
+/*#name{
     position:absolute;
     top:50%;
     margin-top:-80px;
     left:0;
     right:0;
 	}
-
+*/
 
 
 #splash {
@@ -343,6 +333,9 @@ h4 {
 /*SECTION: GET IN TOUCH*/
 
 
+#about .center-container {
+	background: #a600ff;
+}
 #about{
 	height: 40%;
 /*	max-width: 520px;
@@ -426,7 +419,7 @@ h3 {
 	}
 
 	.navbar {
-	background-color: rgba(255, 255, 255, 0.95);
+	background-color: rgba(255, 255, 255, 0.97);
 /*    border-bottom: transparent;
 */	}
 
@@ -434,7 +427,7 @@ h3 {
 
 /*SECTIONS*/
 	#about{
-	    padding: 170px 0 50px 0;
+	    padding: 160px 0 50px 0;
 	}
 
 

@@ -9,10 +9,10 @@ work=[
 		"thumb":"1tb.png",
 		"content":`
 		How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
+[intro_bytes.png]
 
 		This project began as a investigation of the textual internet, inspired by Kenneth Goldsmith’s writings.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
 
-{<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
 
 
 
@@ -34,11 +34,13 @@ work=[
 		
 		<br>
 		<br>
-		<b>{3. Documents}</b>
-		Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       Read the <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
-' target='_blank'>process document</a>.
-		In the Byte Catalogue, I documented objects I crowd-sourced. I juxtaposed these with intangible virtual experiences.   For instance, a shirt that takes up 10 cubic inches might equate to the Lord of the Rings trilogy in bytes.
+		<b>{3. Writing}</b>
+		Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
+' target='_blank'>process document</a> and a video (below).
+		In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes. 
 		[dp_2.png]
+		{<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
+
 
 		<br>
 		<br>
@@ -61,6 +63,7 @@ work=[
 		<br>
 		[3alt.png]
 		<br>
+
 		
 		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
@@ -131,13 +134,11 @@ work=[
 		<br><br>{<a href='#work'>Back to All Projects</a>}`
 	},
  
- {
-   	"folder":"touchart",
-		"name":"Touch Art",
-		"tags":"Web, Fun",
-		"thumb":"thumb.png",
-		"content":"Touch Art is a crowdsourced collection of virtual paintings touched by real humans.\nDigital proliferation means that works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers. You can't really smear your fingers all over a Singer Sargent in person. But how about on Google Images? \n[example_zoom.png]\n<br>I created instructions for fellow art-lovers to digitally intrude on favorite paintings, using their own pixelated hand. I asked them to find a painting on Google Images and just intrude on it with their virtual hand. Some of them got pretty creative...\n[art1.png]\n[art3.png]\n[art4.png]\n[art.png]\n[spacer.png]\n<b>{THE COLLECTION}</b>\nYou can see all the artwork in a <a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'>virtual gallery space.</a> Everyone who partipated was also published in a gallery catalog:\n[ta.png]\n[ta4.png]\n[ta5.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
-	},
+
+
+
+
+
 
 
    {
@@ -207,6 +208,34 @@ work=[
 	},
     
     
+
+	{
+		"folder":"obweb",
+		"name":"ObWeb",
+		"tags":"Writing, Web, Speculation",
+		"thumb":"obthumb.png",
+		"content":`
+		In the year 2016, 2 billion people will have smartphone cameras in their pockets. These cameras are only growing more powerful in resolution and intelligence.
+
+		The internet connects information at network scale; computer vision connects us to a world of things. What does a world of both these paradigms look like?
+		
+		ObWeb is a 2015 trendcast speculating the potential of <b>computer intelligence + objects + humans with pocket cameras.</b> I co-wrote ObWeb with two other design students and contributed the illustrations.
+
+		<a href='kevincadena.com/obweb/index.html' target='_blank'>Read it here.</a>
+		<br>
+		[1.png]
+		[3.png]
+		[5.png]`
+		
+	},   
+
+{
+   	"folder":"touchart",
+		"name":"Touch Art",
+		"tags":"Web, Fun",
+		"thumb":"thumb.png",
+		"content":"Touch Art is a crowdsourced collection of virtual paintings touched by real humans.\nDigital proliferation means that works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers. You can't really smear your fingers all over a Singer Sargent in person. But how about on Google Images? \n[example_zoom.png]\n<br>I created instructions for fellow art-lovers to digitally intrude on favorite paintings, using their own pixelated hand. I asked them to find a painting on Google Images and just intrude on it with their virtual hand. Some of them got pretty creative...\n[art1.png]\n[art3.png]\n[art4.png]\n[art.png]\n[spacer.png]\n<b>{THE COLLECTION}</b>\nYou can see all the artwork in a <a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'>virtual gallery space.</a> Everyone who partipated was also published in a gallery catalog:\n[ta.png]\n[ta4.png]\n[ta5.png]\n<br><br>{<a href='#work'>Back to All Projects</a>}"
+	},
 
 
 {
@@ -284,23 +313,24 @@ work=[
 // 	},
 
 
-   {
-		"folder":"curious",
-		"name":"The Curious Incident",
-		"tags":"Books, Illustration",
-		"thumb":"thumb.png",
-		"content":`I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an eccentric autistic savant named Christopher. Christopher tries to reason with the emotional parts of life using strict systems. That's always what I've liked most about the book, along with the character's obsessive attention to visuals.
-		In this redesign, I wanted to layer the undecorated, black-and-white original with Christopher's off-beat voice; his anxiety in crowded places, or the way his character rambles through footnotes.
+ //   {
+	// 	"folder":"curious",
+	// 	"name":"The Curious Incident",
+	// 	"tags":"Books, Illustration",
+	// 	"thumb":"thumb.png",
+	// 	"content":`I typeset Mark Haddon&rsquo;s Curious Incident of the Dog in the Night-time, a story told from the point of view of an eccentric autistic savant named Christopher. Christopher tries to reason with the emotional parts of life using strict systems. That's always what I've liked most about the book, along with the character's obsessive attention to visuals.
+	// 	In this redesign, I wanted to layer the undecorated, black-and-white original with Christopher's off-beat voice; his anxiety in crowded places, or the way his character rambles through footnotes.
 
-		[curious-3.jpg]
-		[curious-4.jpg]
-		[curious-5.jpg]
-		[curious-10.jpg]
-		[curious-11.jpg]
-		<br><br>{<a href='#work'>Back to All Projects</a>}`
-	},
+	// 	[curious-3.jpg]
+	// 	[curious-4.jpg]
+	// 	[curious-5.jpg]
+	// 	[curious-10.jpg]
+	// 	[curious-11.jpg]
+	// 	<br><br>{<a href='#work'>Back to All Projects</a>}`
+	// },
 
-      
+ 
+
 
 {
 		"folder":"shapinglanguage",
@@ -324,6 +354,11 @@ work=[
 		`
 },
     
+    
+
+
+    
+
 	{
 		"folder":"sketch",
 		"name":"Sketchbook",
@@ -338,11 +373,7 @@ work=[
 		[sketch5.jpg]
 		[sketch6.jpg]
 		<br><br>{<a href='#work'>Back to All Projects</a>}`
-	},    
-
-
-
-    
+	},
 
 
 ]
