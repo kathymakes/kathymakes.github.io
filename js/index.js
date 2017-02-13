@@ -11,7 +11,7 @@ function waveify (elem) {
 	$(elem).addClass("wavetext");
 }
 
-$("h1, h2, h3, h4").each(function(index, elem){
+$("h1, h3, .emoji").each(function(index, elem){
 	waveify(elem);
 })
 

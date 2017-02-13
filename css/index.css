@@ -6,19 +6,25 @@
 }
 */
 @font-face {
-	src: url(../fonts/Arbutus.ttf);
+	src: url(../fonts/GT-Cinetype-Bold.otf);
 	font-family: Concert;
 	font-weight: normal;
 }
 
+/*@font-face {
+	src: url(../fonts/GT-Pressura-Mono-Light.otf);
+	font-family: Concert;
+	font-weight: normal;
+}*/
+
 @font-face {
-	src: url(../fonts/Rubik-Regular.ttf);
+	src: url(../fonts/Karla-Regular.ttf);
 	font-family: SourceSans;
 	font-weight: normal;
 }
 
 @font-face {
-	src: url(../fonts/Rubik-Bold.ttf);
+	src: url(../fonts/Karla-Bold.ttf);
 	font-family: SourceSans;
 	font-weight: bold;
 }
@@ -35,9 +41,8 @@ body {
 	position: absolute;
 	font-family: SourceSans, Arial, sans-serif;
 	color: #323232;
-	letter-spacing: 0.25px;
-	line-height: 1.7em; /*or 25px*/
-	font-size: 15px;
+	line-height: 1.6em; /*or 25px*/
+	font-size: 12pt;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -90,9 +95,6 @@ nav {
 	height: 44px;
     background-color: rgba(255, 255, 255, 0);
     padding:5px;
-/*    border-top: 3px solid black;
-*/
-/*    #A637FB*/
 }
 
 .navbar{
@@ -144,48 +146,46 @@ a:hover {
 nav a {
 	float: right;
 	padding: 10px;
+	font-size: 11pt;
 }
-
 
 /*--------------------------------------------------------------*/
 /*FONT STYLES*/
 
-h1 {
-	font-family: Concert;
-	font-size: 28pt;
-	line-height: 35pt;
-	letter-spacing: 0.5px;
-	color:black;
-	text-shadow:0px 0px 1px rgba(255,255,255, 1);
-	margin-bottom: inherit;
-}
 
-h2, h3{
-		font-size: 28pt;
-		line-height: 35pt;
-		font-family: Concert;
-		color:black;
-		text-align: center;
-		letter-spacing: 0.5px;
-		padding: 15px 0;
-		margin: 0;
+h1, h3{
+	font-size: 24pt;
+	line-height: 1.7em;
+	font-family: Concert;
+	color:black;
+	margin: 0;
 
 	}
+
+h2 {
+	font-size:18pt;
+	line-height: 1.7em;
+	font-family: Concert;
+	letter-spacing: -0.25px;
+
+	margin:0;
+	margin-top: 30px;
+
+}
 
 h3 {
 	margin-bottom: 0px;
 	margin-top: 45px;
+	text-align: center;
+
 }
 
-
-h4{
-	line-height: 30px;
-	font-weight: normal;
-    margin-bottom:20px;
+h4 {
+	font-family: Arial;
 }
 
 .emoji {
-	font-size: 18px;
+	font-family: Arial;
 }
 
 
@@ -304,7 +304,6 @@ h4{
 #work-stuff a figcaption{
 	text-align: center;
 	font-weight: bold;
-	letter-spacing: 0.5px;
 	margin-top: 8px;
 	color:rgba(0,0,0,.8);
  }
@@ -345,16 +344,17 @@ h4{
 
 
 #about{
-	height: 25%;
-	max-width: 520px;
-/*	margin-bottom:20px;
+	height: 40%;
+/*	max-width: 520px;
+*//*	margin-bottom:20px;
 *//*	border-bottom: 0px;
-*/	text-align: center;
+*/	text-align: left;
+    padding: 140px 0 20px 0;
 }
 
 
 #about a {
-	border-bottom: 1px solid #a600ff;
+	border-bottom: 2px solid #a600ff;
 	font-weight: bold;
 }
 
@@ -366,7 +366,6 @@ h4{
         background-size: contain;
         background-repeat:no-repeat;
         margin-bottom: 20px;
-        margin-top: 120px;
 
       
 }
@@ -406,18 +405,14 @@ h4{
 
 /*FONT*/
 
-	h1{
-	font-family: Concert;
-	font-size: 45pt;
-    line-height: 64pt;
-    margin-bottom:5px;
-    letter-spacing: 0px;
 
-	}
+h2 {
+	font-size: 22pt;
+}
 
 
-	h3 {
-		margin-top: 0px;
+h3 {
+	margin-top: 0px;
 	}
 
 
@@ -431,13 +426,18 @@ h4{
 	}
 
 	.navbar {
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.95);
 /*    border-bottom: transparent;
 */	}
 
 
 
 /*SECTIONS*/
+	#about{
+	    padding: 170px 0 50px 0;
+	}
+
+
 	#name {
 		margin-top:-120px;
 	}
