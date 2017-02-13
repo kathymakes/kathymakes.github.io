@@ -127,9 +127,13 @@ a:hover {
 /**/
 nav a {
 	float: left;
-	padding: 15px 25px 15px 6%;
+	padding: 15px 10px 15px 6%;
 	font-size: 11pt;
+}
 
+#up {
+	float:right;
+	padding-right:6%;
 }
 
 /*--------------------------------------------------------------*/
@@ -161,10 +165,6 @@ h3 {
 	margin-top: 45px;
 	text-align: center;
 }
-
-/*.emoji {
-	font-family: Arial;
-}*/
 
 
 /*--------------------------------------------------------------*/
@@ -322,7 +322,9 @@ h3 {
 
 
 
-
+.mobilehide{
+		display:none;
+	}
 
 
 
@@ -362,7 +364,12 @@ h3 {
 
 
 	nav a {
-		padding-left:20px;
+	padding: 15px 20px;
+
+	}
+
+	#up {
+	padding-right:20px;
 	}
 
 
@@ -407,10 +414,6 @@ h3 {
 
 
 /*MISC JANKY SHOW/HIDE*/
-
-	.mobileshow{
-		display:none;
-	}
 
 	.mobilehide{
 		display:inherit;
