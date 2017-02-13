@@ -242,7 +242,7 @@ work=[
 		"folder":"turrell",
 		"name":"James Turrell Museum",
 		"tags":"Brand Identity, Print",
-		"thumb":"tickets.png",
+		"thumb":"books_thumb.png",
 		"content":`
 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.

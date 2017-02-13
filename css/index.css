@@ -55,7 +55,6 @@ section{
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-
 }
 
 
@@ -96,7 +95,6 @@ nav {
 	overflow:hidden;
 	height: 44px;
     background-color: rgba(255, 255, 255, 0);
-    padding:5px;
 }
 
 .navbar{
@@ -111,19 +109,6 @@ nav {
     border-bottom: 1px solid #e8e8e8;
 
 }
-
-
-
-/*#logo{
-		position:fixed;
-		left: 0;
-		top: 0;
-	}*/
-	
-#logo,nav .links, #kathy{
-		padding-right:16px!important;
-		padding-left:16px!important;
-	}
 
 
 
@@ -142,7 +127,7 @@ a:hover {
 /**/
 nav a {
 	float: left;
-	padding: 10px 25px 10px 15px;
+	padding: 15px 25px 15px 6%;
 	font-size: 11pt;
 
 }
@@ -175,57 +160,11 @@ h3 {
 	margin-bottom: 0px;
 	margin-top: 45px;
 	text-align: center;
-
 }
 
-.emoji {
+/*.emoji {
 	font-family: Arial;
-}
-
-
-
-
-/*--------------------------------------------------------------*/
-/*SECTION: SPLASH*/
-
-/*#name{
-    position:absolute;
-    top:50%;
-    margin-top:-80px;
-    left:0;
-    right:0;
-	}
-*/
-
-
-/*#splash {
-	width: 100%;
-	height: 75%;
-	background-color:transparent;
-	z-index:1001;
-	position: relative;
-	overflow: hidden;
-	cursor: crosshair;
 }*/
-
-/*#splash section{
-	height:100%;
-	text-align: center;
-}
-
-#splash canvas{
-	position: absolute;
-    top: 0;
-    z-index: -100;
-}
-
-#splash p a {
-	border-bottom: 1px solid black;
-	font-weight: bold;
-}*/
-
-/*Just for the inline links. Argh!*/
-
 
 
 /*--------------------------------------------------------------*/
@@ -277,7 +216,7 @@ h3 {
 	height: 280px;
 	background-size: cover;
 	background-position: center;
-	opacity: 0.8;
+	opacity: 0.9;
 	margin-top:40px;
 	-webkit-transition: opacity 300ms;
 	transition: opacity 300ms;
@@ -290,8 +229,8 @@ h3 {
   	filter: blur(50px);*/
   	-webkit-filter: hue-rotate(360deg);
   	filter: hue-rotate(360deg);
-  	-webkit-transition: filter 12000ms;
-  	transition: filter 12000ms;
+  	-webkit-transition: filter 10000ms;
+  	transition: filter 10000ms;
 
 }
 
@@ -339,13 +278,11 @@ h3 {
 
 
 #about{
-	width: 100%;
+	width: 88%;
 	height: 40%;
-/*	max-width: 520px;
-*//*	margin-bottom:20px;
-*//*	border-bottom: 0px;
-*/	text-align: left;
+	text-align: left;
     padding: 140px 0 20px 0;
+    margin: 0 6% 0 6%;
 }
 
 
@@ -355,16 +292,14 @@ h3 {
 }
 
 
-#me {
+/*#me {
 		height:120px;
         background-image: url(../images/barcelona.png);
         background-position:center;
         background-size: contain;
         background-repeat:no-repeat;
         margin-bottom: 20px;
-
-      
-}
+}*/
 
 
 /*--------------------------------------------------------------*/
@@ -402,20 +337,19 @@ h3 {
 /*FONT*/
 
 
-h2 {
+	h2 {
 	font-size: 22pt;
-}
-
-
-h3 {
-	margin-top: 0px;
 	}
+
+
+	h3 {
+	margin-top: 0px;
+		}
 
 
 /*NAV*/
 	nav{
 	overflow:inherit;
-	padding-right:15px;
 	background-color: rgba(255, 255, 255, 0);
 	display: inherit;
 
@@ -427,10 +361,8 @@ h3 {
 */	}
 
 
-
-/*SECTIONS*/
-	#about{
-	    padding: 160px 0 50px 0;
+	nav a {
+		padding-left:20px;
 	}
 
 
@@ -452,9 +384,8 @@ h3 {
 	}
 
 	#work-stuff a .image-tile{
-	height: 220px;
-	margin-top: 10px;
-
+		height: 220px;
+		margin-top: 10px;
 	}
 
 	#work-stuff a{
@@ -486,4 +417,20 @@ h3 {
 	}
     
     
+
+/*--------------------------------------------------------------*/
+
+/*RESPONSIVE BIT -- bigger screen*/
+
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 860px){
+
+	#about{
+	    width:100%;
+	    padding: 160px 16px 50px 16px;
+	    margin: auto;
+	}
+
+}
 
