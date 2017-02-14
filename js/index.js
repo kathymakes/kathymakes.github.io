@@ -112,7 +112,7 @@ $(document).ready(function(){
 	if(getByFolder(window.location.hash.replace(/#/g,""))){
 		activate(true);
 	}
-	$("nav a").click(function(event){
+	$(".scroll, #up").click(function(event){
 		var hash=$(event.target).is("a")?$(event.target).attr("href"):$(event.target).parent().attr("href");
 		activate(false,hash);
 		event.preventDefault();
