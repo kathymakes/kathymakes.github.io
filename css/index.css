@@ -129,7 +129,8 @@ nav a {
 	float: left;
 	padding: 15px 10px 15px 6%;
 	font-size: 11pt;
-}
+/*	font-weight: bold;
+*/}
 
 #up {
 	float:right;

@@ -222,7 +222,7 @@ work=[
 		
 		ObWeb is a 2015 trendcast speculating the potential of <b>computer intelligence + objects + humans with pocket cameras.</b> I co-wrote ObWeb with two other design students and contributed the illustrations.
 
-		<a href='kevincadena.com/obweb/index.html' target='_blank'>Read it here.</a>
+		<a href='http://kevincadena.com/obweb/index.html' target='_blank'>Read it here.</a>
 		<br>
 		[1.png]
 		[3.png]
