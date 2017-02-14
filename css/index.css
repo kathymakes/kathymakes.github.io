@@ -62,7 +62,6 @@ section{
 	margin: 0 auto;
 	width:90%;
 	max-width: 840px;
-
 }
 
 .center-align{
@@ -77,8 +76,6 @@ section{
 	display:table-cell;
 	vertical-align: middle;
 }
-
-
 
 
 
@@ -125,6 +122,7 @@ a:hover {
 }
 
 .scroll {
+	/*janky empty class so that the other links work */
 }
 
 nav a {
@@ -148,8 +146,7 @@ h1, h3{
 	font-family: Concert;
 	color:black;
 	margin: 0;
-
-	}
+}
 
 h2 {
 	font-size:18pt;
@@ -163,17 +160,17 @@ h2 {
 }
 
 h3 {
-	margin-bottom: 0px;
-	margin-top: 44px;
-	text-align: center;
-}
+	margin-bottom: -16px;
+	margin-top: 60px;
+/*	text-align: center;
+*/}
 
 
 /*--------------------------------------------------------------*/
 /*SECTION: CONTENT + WORK*/
 
 #content{
-	padding: 40px 0;
+	padding: 44px 0;
 /*	border-bottom:1px solid #e0e0e0;
 */}
 #content img{
@@ -260,21 +257,6 @@ h3 {
 }
 
 
-/*#work-stuff a:hover figcaption{
-	text-align: center;
-	font-weight: bold;
-	position: absolute;
-    top: 50%;
-    margin-top: -12px;
-    left: 0;
-    right: 0;
-    color: rgba(255,255,255,1);
-    -webkit-transition: opacity 300ms;
-    transition: opacity 300ms;
-
-    }*/
-
-
 /*--------------------------------------------------------------*/
 /*SECTION: GET IN TOUCH*/
 
@@ -325,8 +307,8 @@ h3 {
 
 
 .mobilehide{
-		display:none;
-	}
+	display:none;
+}
 
 
 
@@ -344,11 +326,6 @@ h3 {
 	h2 {
 	font-size: 22pt;
 	}
-
-
-	h3 {
-	margin-top: 0px;
-		}
 
 
 /*NAV*/
@@ -384,7 +361,7 @@ h3 {
 	}
 
 	#content{
-		padding-top:100px;
+		padding-top:54px;
 		max-width:630px;
 	}
 
@@ -409,9 +386,6 @@ h3 {
 	#work-stuff .tags {
 		margin: 0 6% 0 0;
 	}
-
-
-
 
 
 

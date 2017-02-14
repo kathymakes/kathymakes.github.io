@@ -225,7 +225,8 @@ work=[
 		<br>
 		[1.png]
 		[3.png]
-		[5.png]`
+		[5.png]
+		<br><br>{<a href='#work'>Back to All Projects</a>}`
 		
 	},   
 
@@ -365,7 +366,7 @@ work=[
 		"tags":"2015",
 		"thumb":"thumb.png",
 		"content":`
-		{Pictures from conversations, lectures, process in 2015. More to come.}
+		Pictures from conversations, lectures, process in 2015. More to come.
 		[sketch1.jpg]
 		[sketch2.jpg]
 		[sketch3.jpg]
