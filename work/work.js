@@ -6,10 +6,10 @@ work=[
 		"folder":"dp",
 		"name":"The Byte Catalog", 
 		"tags":"Installation, Sculpture, Writing",
-		"thumb":"1tb.png",
+		"thumb":"dp_thumb.png",
 		"content":`
 		How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
-[intro_bytes.png]
+[intro_bytes_reduced.png]
 
 		This project began as a investigation of the textual internet, inspired by Kenneth Goldsmith’s writings.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
 
