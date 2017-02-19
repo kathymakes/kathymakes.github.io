@@ -192,7 +192,7 @@ work=[
 		Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
 		<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
 		<br><br>
-		<b>VERSION 3 — Storytelling redefines our vision.</b>
+		<b>VERSION 3: Storytelling redefines our vision.</b>
 		Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
 	
 		In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
@@ -220,7 +220,7 @@ work=[
 
 		The internet connects information at network scale; computer vision connects us to a world of things. What does a world of both these paradigms look like?
 		
-		ObWeb is a 2015 trendcast speculating the potential of <b>computer intelligence + objects + humans with pocket cameras.</b> I co-wrote ObWeb with two other design students and contributed the illustrations.
+		ObWeb is a 2015 trendcast speculating the potential of <b>computer intelligence + objects + humans with pocket cameras.</b> I wrote ObWeb with two other design students. I created the visuals and illustrations.
 
 		<a href='http://kevincadena.com/obweb/index.html' target='_blank'>Read it here.</a>
 		<br>

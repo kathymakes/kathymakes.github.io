@@ -13,13 +13,13 @@
 
 @font-face {
 	src: url(../fonts/Karla-Regular.ttf);
-	font-family: SourceSans;
+	font-family: Karla;
 	font-weight: normal;
 }
 
 @font-face {
 	src: url(../fonts/Karla-Bold.ttf);
-	font-family: SourceSans;
+	font-family: Karla;
 	font-weight: bold;
 }
 
@@ -33,7 +33,7 @@ html{
 
 body {
 	position: absolute;
-	font-family: SourceSans, Arial, sans-serif;
+	font-family: Karla, Arial, sans-serif;
 	color: #323232;
 	line-height: 1.6em; /*or 25px*/
 	font-size: 12pt;
@@ -188,7 +188,7 @@ h3 {
 
 
 #content h2{
-	font-family: SourceSans, Arial, sans-serif;
+	font-family: Karla, Arial, sans-serif;
 	font-weight: 700;
 	margin:0;
     padding-bottom:15px;
