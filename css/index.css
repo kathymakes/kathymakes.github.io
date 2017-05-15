@@ -23,6 +23,13 @@
 	font-weight: bold;
 }
 
+@font-face {
+	src: url(../fonts/Germania.ttf);
+	font-family: Germania;
+	font-weight: normal;
+}
+
+
 
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
