@@ -5,12 +5,6 @@
 	font-weight: normal;
 }
 
-/*@font-face {
-	src: url(../fonts/GT-Pressura-Mono-Light.otf);
-	font-family: Concert;
-	font-weight: normal;
-}*/
-
 @font-face {
 	src: url(../fonts/Karla-Regular.ttf);
 	font-family: Karla;
@@ -49,6 +43,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	cursor:default;
+
 }
 
 ::selection {
@@ -62,6 +57,7 @@ section{
 	position: relative;
 	overflow: hidden;
 	width: 100%;
+    
 }
 
 
@@ -69,6 +65,7 @@ section{
 	margin: 0 auto;
 	width:90%;
 	max-width: 840px;
+    
 }
 
 .center-align{
@@ -189,7 +186,8 @@ h3 {
 }
 
 #content a {
-	border-bottom: 1px solid #a600ff;
+/*	border-bottom: 1px solid #a600ff;*/
+    border-bottom: 2px solid black;
 	font-weight: bold;
 }
 
@@ -208,7 +206,7 @@ h3 {
 
 #work {
 	padding: 60px 0 40px 0;
-	border-bottom:1px solid #e0e0e0;
+/*	border-bottom:1px solid #e0e0e0;*/
 /*	display:none;
 */}
 
@@ -279,7 +277,7 @@ h3 {
 
 
 #about a {
-	border-bottom: 2px solid #a600ff;
+	border-bottom: 3px solid #000000;
 	font-weight: bold;
 }
 
@@ -304,7 +302,7 @@ h3 {
 	color:silver;
 
 	text-align: center;
-	border-top:1px solid #e0e0e0;
+/*	border-top:1px solid #e0e0e0;*/
 	border-bottom:0px;
 }
 
