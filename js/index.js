@@ -83,30 +83,6 @@ var getByFolder = function(folderName){
 	}
 	return null;
 }
-var currentQuote=0;
-var nextQuote = function(){
-	var quote=quotes[currentQuote];
-	$("#quote").html("<b>"+quote.quote+"</b>");
-	$("#quote-source").html("<br>"+quote.from+"<br>"+quote.title+(quote.company?", "+quote.company:""))
-	currentQuote++;
-	if(currentQuote>=quotes.length){
-		currentQuote=0;
-	}
-	$("#quote-container").fadeTo(1000,1).delay(5000).fadeTo(1000,0,function(){nextQuote()})
-}
-
-// var currentSplash=0;
-// var nextSplash = function(){
-// 	$("#splash").attr("style","background-image:url('splash/"+splashes[currentSplash]+"')");
-// 	currentSplash++;
-
-// 	if(currentSplash>=splashes.length){
-// 		currentSplash=0;
-// 	}
-
-// 	setTimeout(nextSplash,5000);
-
-// }
 
 $(document).ready(function(){
 	if(getByFolder(window.location.hash.replace(/#/g,""))){
@@ -117,9 +93,7 @@ $(document).ready(function(){
 		activate(false,hash);
 		event.preventDefault();
 	})
-	quotes.sort(function(a,b){return Math.random()-0.5})
-	nextQuote();
-	// nextSplash();
+
 })
 $(window).on("hashchange",function(){
 	activate();
@@ -129,43 +103,11 @@ $(window).scroll(function(){
 	tempAmount=$(window).scrollTop();
 })
 
-//var raf=window.webkitRequestAnimationFrame||window.requestAnimationFrame;
-//var update = function(){
-//	var amount = tempAmount/$(window).innerHeight();
-//	if(prevAmount!=tempAmount){
-//		$("#name").css("opacity", 0.95*clamp(1-2*amount, 0, 1));
-//		$("#splash").css("background-position", "center "+clamp(50-amount*40, 0, 100)+"%");		
-//	}
-//	prevAmount=tempAmount;
-//	if(raf){
-//		raf(arguments.callee);
-//	}
-//	else{
-//		setTimeout(arguments.callee,1000/60);
-//	}
-//}
-//update();
-//
-//function clamp(number, min, max){
-//	if(number < min){
-//		return min;
-//	}
-//
-//	if(number > max){
-//		return max;
-//	}
-//
-//	else{
-//		return number;
-//	}
-//
-//};
-
 var slippy = $("core-animated-pages")[0];
 
 setInterval(function(){
-    slippy.selected+=1;
+    slippy.selected += 1;
     if (slippy.selected>5){
-    slippy.selected=0;
+        slippy.selected=0;
     }
 },2000);
