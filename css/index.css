@@ -80,7 +80,7 @@ div {
   width: 85%;
   height: 100%;
   margin: auto;
-  padding: 150px 30px;
+  padding: 140px 30px;
   text-align: left;
   position: fixed;
   top: 0;
@@ -101,13 +101,13 @@ button {
 @media screen and (min-width: 700px){
 div {
   width: 75%;
-  padding: 150px 120px;
+  padding: 140px 120px;
 }
 
 
 h2 {
-  font-size: 26px;
-  max-width: 520px;
+  font-size: 24px;
+  max-width: 500px;
 }
 
 
