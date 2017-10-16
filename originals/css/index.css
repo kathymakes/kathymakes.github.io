@@ -1,0 +1,423 @@
+
+@font-face {
+	src: url(../fonts/GT-Cinetype-Bold.otf);
+	font-family: Concert;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Karla-Regular.ttf);
+	font-family: Karla;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Karla-Bold.ttf);
+	font-family: Karla;
+	font-weight: bold;
+}
+
+@font-face {
+	src: url(../fonts/Germania.ttf);
+	font-family: Germania;
+	font-weight: normal;
+}
+
+
+
+/*--------------------------------------------------------------*/
+/*THE FUN STARTS HERE*/
+
+html{
+	height:100%;
+}
+
+body {
+	position: absolute;
+	font-family: Karla, Arial, sans-serif;
+	color: #323232;
+	line-height: 1.6em; /*or 25px*/
+	font-size: 12pt;
+	margin: 0;
+	width:100%;
+	height: 100%;
+	min-height: 100%;
+	cursor:default;
+    
+
+}
+
+::selection {
+	background: black;
+	color:white;
+}
+/*--------------------------------------------------------------*/
+/*DEFINE SECTIONS & CENTERING*/
+
+section{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+    
+}
+
+
+.responsive{
+	margin: 0 auto;
+	width:90%;
+	max-width: 840px;
+    
+}
+
+.center-align{
+	text-align: center;	
+}
+
+.center-container{
+	display:table;
+
+}
+.center{
+	display:table-cell;
+	vertical-align: middle;
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+/*NAV*/
+
+
+nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10000;
+	overflow:hidden;
+	height: 44px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 44px;  
+	z-index: 100;
+    padding:5px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid #e8e8e8;
+
+}
+
+
+
+/*--------------------------------------------------------------*/
+/*HYPERLINKS */
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: help;
+}
+
+a:hover {
+	color:rgba(10,0,10, 0.5);
+}
+
+.scroll {
+	/*janky empty class so that the other links work */
+}
+
+nav a {
+	float: left;
+	padding: 15px 10px 15px 6%;
+	font-size: 11pt;
+/*	font-weight: bold;
+*/}
+
+#up {
+	float:right;
+	padding-right:6%;
+}
+
+/*--------------------------------------------------------------*/
+/*FONT STYLES*/
+
+
+h1, h3{
+	font-size: 24pt;
+	line-height: 1.7em;
+	font-family: Concert;
+	color:black;
+	margin: 0;
+}
+
+h2 {
+	font-size:18pt;
+	line-height: 1.7em;
+	font-family: Concert;
+	letter-spacing: -0.25px;
+
+	margin:0;
+	margin-top: 30px;
+
+}
+
+h3 {
+	margin-bottom: -16px;
+	margin-top: 60px;
+/*	text-align: center;
+*/}
+
+
+/*--------------------------------------------------------------*/
+/*SECTION: CONTENT + WORK*/
+
+#content{
+	padding: 44px 0;
+/*	border-bottom:1px solid #e0e0e0;
+*/}
+#content img{
+	height:auto;
+	width: 100%;
+	display: block;
+	margin: 16px 0 16px 0;
+}
+
+#content a {
+/*	border-bottom: 1px solid #a600ff;*/
+    border-bottom: 2px solid black;
+	font-weight: bold;
+}
+
+
+#content h2{
+	font-family: Karla, Arial, sans-serif;
+	font-weight: 700;
+	margin:0;
+    padding-bottom:15px;
+	text-transform: capitalize;
+}
+
+#content div{
+	margin-bottom: 20px;
+}
+
+#work {
+	padding: 60px 0 40px 0;
+/*	border-bottom:1px solid #e0e0e0;*/
+/*	display:none;
+*/}
+
+#work-stuff a{
+	position: relative;
+	width: 100%;
+	margin: 16px 0;
+	display: block;
+}
+
+#work-stuff a .image-tile{
+	height: 280px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	margin-top:40px;
+	-webkit-transition: opacity 300ms;
+	transition: opacity 300ms;
+}
+
+
+#work-stuff a:hover .image-tile{
+	opacity: 1;
+/*	-webkit-filter: blur(50px);
+  	filter: blur(50px);*/
+  	-webkit-filter: hue-rotate(360deg);
+  	filter: hue-rotate(360deg);
+  	-webkit-transition: filter 10000ms;
+  	transition: filter 10000ms;
+
+}
+
+
+#work-stuff a figcaption{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 8px;
+	color:rgba(0,0,0,.8);
+ }
+
+#work-stuff a:hover figcaption{
+	color:rgba(0,0,0,1);
+}
+
+#work-stuff .tags {
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-size:11px;
+	color:gray;
+	font-weight: normal;
+	line-height: 16px;
+
+}
+
+
+/*--------------------------------------------------------------*/
+/*SECTION: GET IN TOUCH*/
+
+
+#about{
+	width: 88%;
+	height: 40%;
+	text-align: left;
+    padding: 140px 0 20px 0;
+    margin: 0 6% 0 6%;
+}
+
+
+#about a {
+	border-bottom: 3px solid #000000;
+	font-weight: bold;
+}
+
+
+/*#me {
+		height:120px;
+        background-image: url(../images/barcelona.png);
+        background-position:center;
+        background-size: contain;
+        background-repeat:no-repeat;
+        margin-bottom: 20px;
+}*/
+
+
+/*--------------------------------------------------------------*/
+/*FOOTER*/
+
+.credit {
+	padding:15px 0;
+	font-size:8pt;
+	line-height: 1.7em;
+	color:silver;
+
+	text-align: center;
+/*	border-top:1px solid #e0e0e0;*/
+	border-bottom:0px;
+}
+
+.credit a{
+	text-decoration: underline;
+}
+
+
+
+.mobilehide{
+	display:none;
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+/*RESPONSIVE BIT -- bigger screen*/
+
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 700px){
+
+/*FONT*/
+
+
+	h2 {
+	font-size: 22pt;
+	}
+
+
+/*NAV*/
+	nav{
+	overflow:inherit;
+	background-color: rgba(255, 255, 255, 0);
+	display: inherit;
+
+	}
+
+	.navbar {
+	background-color: rgba(255, 255, 255, 0.97);
+/*    border-bottom: transparent;
+*/	}
+
+
+	nav a {
+	padding: 15px 20px;
+
+	}
+
+	#up {
+	padding-right:20px;
+	}
+
+
+	#name {
+		margin-top:-120px;
+	}
+
+	#splash {
+		height: 60%;
+	}
+
+	#content{
+		padding-top:54px;
+		max-width:630px;
+	}
+
+	#work {
+		display:inherit;
+	}
+
+	#work-stuff a .image-tile{
+		height: 220px;
+		margin-top: 10px;
+	}
+
+	#work-stuff a{
+		float: left;
+		width: 33.333%;
+	}
+
+	#work-stuff a *{
+		margin-right: 6%;
+	}
+
+	#work-stuff .tags {
+		margin: 0 6% 0 0;
+	}
+
+
+
+/*MISC JANKY SHOW/HIDE*/
+
+	.mobilehide{
+		display:inherit;
+	}
+    
+    
+
+/*--------------------------------------------------------------*/
+
+/*RESPONSIVE BIT -- even bigger screen*/
+
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 860px){
+
+	#about{
+	    width:100%;
+	    padding: 160px 16px 50px 16px;
+	    margin: auto;
+	}
+
+}
+

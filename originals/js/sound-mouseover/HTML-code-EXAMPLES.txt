@@ -1,0 +1,24 @@
+
+
+
+HTML HOVER SOUND CODE FOR A LINK, AN IMAGE, AND A DIV
+
+
+<a href="about.htm" onmouseover="playclip();">Mouseover Sound Link</a><br>
+
+<a href="about.htm" onmouseover="playclip();"><img src="picts/sound-image.jpg" width="125" height="125" border="0" alt="image"></a><br>
+
+<div onmouseover="playclip();" style="border: #C0C0C0 1px solid; background-color: #F0F0F0; width: 250px;">Mouseover Sound Div Area</div>
+
+
+
+PASTE THIS CODE NEAR THE BOTTOM OF YOUR HTML PAGE
+
+
+
+<audio>
+<source src="click.mp3"></source>
+<source src="click.ogg"></source>
+</audio>
+
+<div id="sounddiv"><bgsound id="sound"></div>
