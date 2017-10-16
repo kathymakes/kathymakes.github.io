@@ -63,7 +63,7 @@ p {
 h1 {
   font-size: 22px;
   font-weight: bold;
-  line-height:1.5;
+  line-height:0.1;
 /*   text-transform:uppercase; */
 }
 
@@ -104,7 +104,11 @@ div {
   padding: 150px 120px;
 }
 
-
+/*
+h1 {
+  font-size: 24px;
+}
+*/
 h2 {
   font-size: 24px;
   max-width: 500px;
