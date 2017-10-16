@@ -56,21 +56,20 @@ h2 a {
 
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   line-height:2;
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   line-height:1.5;
 /*   text-transform:uppercase; */
 }
 
 h2 {
-  font-size: 30px;
-  max-width: 900px;
-  padding-top:30px;
+  font-size: 22px;
+  padding-top:20px;
 }
 
 br {
@@ -81,7 +80,7 @@ div {
   width: 85%;
   height: 100%;
   margin: auto;
-  padding: 140px 40px;
+  padding: 140px 30px;
   text-align: left;
   position: fixed;
   top: 0;
@@ -90,25 +89,25 @@ div {
 
 button {
   font-family: 'Chivo', sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   background: rgb(255, 232, 66);
-  padding: 8px 14px;
+  padding: 8px 12px;
   letter-spacing: 0.25px;
   border: 1px solid #000;
   border-radius: 3px;
   float: left;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 700px){
 div {
   width: 75%;
-  padding: 160px 200px;
+  padding: 140px 30px;
 }
 
 
 h2 {
-  font-size: 34px;
-  max-width: 680px;
+  font-size: 26px;
+  max-width: 520px;
 }
 
 

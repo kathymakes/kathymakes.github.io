@@ -6,8 +6,8 @@ let img;
 let thing;
 let button;
 let positions = [];
-let buttonX = 40;
-let buttonY = 40;
+let buttonX = 30;
+let buttonY = 30;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
