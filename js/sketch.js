@@ -64,7 +64,7 @@ function mousePressed() {
 class Thing {
 
   constructor() {
-    this.d = 300;
+    this.d = width * 0.22;
 
     this.x = random(this.d / 2, width - this.d / 2);
     this.y = random(this.d / 2, height - this.d / 2);
