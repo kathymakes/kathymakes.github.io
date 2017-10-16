@@ -5,12 +5,14 @@ let x, y;
 let img;
 let thing;
 let button;
+let bg, blog, portfolio,email, nav;
 let positions = [];
-let buttonX = 30;
-let buttonY = 30;
+//let buttonX = 30;
+//let buttonY = 30;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  nav = createDiv(['']).class('nav');  
 
   imageMode(CENTER);
   thing = new Thing();
@@ -20,10 +22,23 @@ function setup() {
 }
 
 function buttons() {
-  bg = createButton(['<a class = "plain">clear bg</a>']);
-  bg.position(buttonX, buttonY);
+//  bg = createButton(['<a class = "plain">clear bg</a>']);
+////  bg.position(buttonX, buttonY);
+//  bg.mousePressed(resetBg);
+    
+  bg = createButton(['<a class = "plain">?</a>'])
   bg.mousePressed(resetBg);
 
+  blog = createButton(['<a class = "plain" href= "http://kaaaaathy.wordpress.com" target="_blank">blog</a>'])
+
+  portfolio = createButton(['<a class = "plain" href = "http://kaaathy.com/Kathy-Wu-Portfolio-2017.pdf" target="_blank">portfolio</a>']);
+
+  email = createButton(['<a class= "plain" href="mailto:kwmakes@gmail.com">e-mail</a>']);
+
+  bg.parent(nav);
+  blog.parent(nav);
+  portfolio.parent(nav);
+  email.parent(nav);
 }
 
 function resetBg() {
