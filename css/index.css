@@ -89,6 +89,7 @@ div {
   position: fixed;
   top: 0;
   left: 0;
+    z-index: 1000;
 }
 
 button {
@@ -110,6 +111,7 @@ button {
   top:40px;
   left:30px; 
 max-height:40px;
+    z-index: 1001;
 }
 
 
