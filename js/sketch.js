@@ -75,7 +75,8 @@ function mouseFun() {
 function mousePressed() {
   sheep = createImg('http://kaaathy.com/sheep.png');
   sheep.position(mouseX,mouseY);
-  sheep.size('40','40');
+  sheep.size('30','30');
+  sheep.style('z-index','0');
 }
 
 class Thing {
