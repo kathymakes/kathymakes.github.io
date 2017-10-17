@@ -1,4 +1,3 @@
-
 @font-face {
 	src: url(../fonts/GT-Cinetype-Bold.otf);
 	font-family: Cinetype;
@@ -90,7 +89,6 @@ div {
   position: fixed;
   top: 0;
   left: 0;
-    z-index: 1000;
 }
 
 button {
@@ -112,7 +110,6 @@ button {
   top:40px;
   left:30px; 
 max-height:40px;
-    z-index: 1001;
 }
 
 
