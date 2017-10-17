@@ -30,6 +30,10 @@ html, body {
 
 }
 
+button:hover, a:hover{
+	cursor: help;
+
+}
 ::selection {
   background: rgb(255, 232, 66);
 
@@ -105,7 +109,8 @@ button {
   position:fixed;
   padding: 0px 0px !important;
   top:40px;
-  left:30px;   
+  left:30px; 
+max-height:40px;
 }
 
 @media screen and (min-width: 500px){
@@ -115,9 +120,6 @@ div {
 }
 
 .nav {
-  position:fixed;
-  padding: 0px 0px !important;
-  top:40px;
   left:50px;   
 }
     
