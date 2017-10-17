@@ -4,6 +4,7 @@ let p;
 let x, y;
 let img;
 let thing;
+let sheep;
 let button;
 let bg, blog, portfolio,email, nav;
 let positions = [];
@@ -18,7 +19,7 @@ function setup() {
   thing = new Thing();
   background(255, 255, 255, 0);
   buttons();
-  img = loadImage("sheep.png"); // Load the image
+//  sheep = createImg('sheep.png');
 }
 
 function buttons() {
@@ -66,14 +67,15 @@ function mouseFun() {
     let x = positions[i].x;
     let y = positions[i].y;
     noStroke();
-    image(img, mouseX, mouseY, 40, 40);
   }
 
 }
 
 
 function mousePressed() {
-  image(img, mouseX, mouseY, 40, 40);
+  sheep = createImg('http://kaaathy.com/sheep.png');
+  sheep.position(mouseX,mouseY);
+  sheep.size('40','40');
 }
 
 class Thing {
