@@ -1,6 +1,9 @@
+
 @font-face {
-	src: url(../fonts/GT-Cinetype-Bold.otf);
-	font-family: Cinetype;
+/*	src: url(../fonts/GT-Cinetype-Bold.otf);*/
+    src: url(../fonts/Arbutus.ttf);
+
+	font-family: Concert;
 	font-weight: normal;
 }
 
@@ -16,119 +19,292 @@
 	font-weight: bold;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Chivo');
 
 
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Cinetype', sans-serif;
-  background: rgb(255, 232, 66);
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+/*--------------------------------------------------------------*/
+/*THE FUN STARTS HERE*/
+
+html{
+	height:100%;
+    background-color: #fcfcfc;
 
 }
 
-button:hover, a:hover{
-	cursor: help;
-
+body {
+	position: absolute;
+	font-family: Karla, Arial, sans-serif;
+	color: #323232;
+	line-height: 1.6em; /*or 25px*/
+	font-size: 11.5pt;
+/*    letter-spacing: 0.6px;*/
+	margin: 0;
+	width:100%;
+	height: 100%;
+	min-height: 100%;
+	cursor:default;
 }
+
 ::selection {
-  background: rgb(255, 232, 66);
-
+	background: black;
+	color:white;
 }
+/*--------------------------------------------------------------*/
+/*DEFINE SECTIONS & CENTERING*/
 
-.plain {
-  text-decoration:none;
-  border-bottom: none !important;
-}
-
-
-a {
-  text-decoration: none;
-  color: black;
-  padding-bottom: 3px;
-  border-bottom: 2px solid white;
-}
-
-h2 a {
-    padding-bottom: 0px;
-    border-bottom: 2px solid white;
-  
+section{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
 }
 
 
-p {
-  font-size: 14px;
-  line-height:1;
+.responsive{
+	margin: 0 auto;
+	width:90%;
+	max-width: 840px;
+    
 }
 
-/*
-h1 {
-  font-size: 14px;
-  font-weight: bold;
-  line-height:0.1;
+#about{
+  margin-top:100px;
 }
-*/
+
+
+
+
+/*--------------------------------------------------------------*/
+/*NAV*/
+
+
+nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+    padding-top:30px;
+    padding-left: 20px;
+    
+    line-height: 1.3em;
+    
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+
+
+/*--------------------------------------------------------------*/
+/*HYPERLINKS */
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: help;
+   color:#a937ff;
+
+}
+
+a:hover {
+       color:#ad42fd;
+
+}
+
+
+/*--------------------------------------------------------------*/
+/*FONT STYLES*/
+
+
+
+h3{
+	font-size: 22pt;
+	font-family: Concert;    
+    letter-spacing: 0.25px;    
+    font-weight: 300;
+    
+    margin-bottom: 0px;
+	margin-top: 80px;
+}
+
 
 h2 {
-  font-size: 22px;
-/*  padding-top:20px;*/
+	font-size:16pt;
+    line-height: 1.7em;
+	font-family: Concert,sans-serif;
+    letter-spacing: 0.25px;
+
+    font-weight: 300;
+    max-width: 600px;
 }
 
-br {
+.aboutlinks {
+    border-bottom: 1px dotted #a937ff;
+    font-weight: 700;
 }
 
-div {
-  background: transparent;
-  width: 85%;
-  height: 100%;
-  margin: auto;
-  padding: 180px 30px;
-  text-align: left;
-  position: fixed;
-  top: 0;
-  left: 0;
-    z-index: 1000;
+
+/*--------------------------------------------------------------*/
+/*SECTION: CONTENT + WORK*/
+
+
+
+
+#content{
+	padding: 44px 0;
 }
 
-button {
-  font-family: 'Chivo', sans-serif;
-  font-size: 12px;
-  background: rgb(255, 232, 66);
-  letter-spacing: 0.25px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  padding: 8px 12px;
-  float:left;
-  margin-right: 10px;
+#content div {
+    margin-top: 20px;
+}
+
+
+#content img{
+	height:auto;
+	width: 100%;
+	display: block;
+	margin: 16px 0 16px 0;
+}
+
+#content a {
+    border-bottom: 1px dotted #a937ff;
+/*	font-weight: bold;*/
+}
+
+
+#work {
+	padding: 60px 0 40px 0;
+}
+
+#work-stuff a{
+	position: relative;
+	width: 100%;
+	margin: 16px 0;
+	display: block;
+}
+
+#work-stuff a .image-tile{
+	height: 280px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	margin-top:40px;
+	-webkit-transition: opacity 300ms;
+	transition: opacity 300ms;
+}
+
+
+#work-stuff a:hover .image-tile{
+	opacity: 1;
+  	-webkit-filter: hue-rotate(360deg);
+  	filter: hue-rotate(360deg);
+  	-webkit-transition: filter 10000ms;
+  	transition: filter 10000ms;
 
 }
 
-.nav {
-  position:fixed;
-  padding: 0px 0px !important;
-  top:40px;
-  left:30px; 
-max-height:40px;
-    z-index: 1001;
+
+#work-stuff a figcaption{
+	font-weight: bold;
+	margin-top: 8px;
+	color:rgba(0,0,0,.8);
+ }
+
+#work-stuff a:hover figcaption{
+	color:rgba(0,0,0,1);
 }
 
+#work-stuff .tags {
+	padding:0;
+	margin:0;
+	font-size:9pt;
+	color:gray;
+	font-weight: normal;
+	line-height: 16px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+/*FOOTER*/
+
+.credit {
+	padding:15px 0;
+	font-size:8pt;
+	line-height: 1.7em;
+	color:gray;
+	text-align: left;
+	border-bottom:0px;
+}
+
+
+.mobilehide{
+	display:none;
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+/*RESPONSIVE BIT -- bigger screen*/
+
+/*--------------------------------------------------------------*/
 
 @media screen and (min-width: 500px){
-div {
-  width: 75%;
-  padding: 180px 50px;
-}
-
-.nav {
-  left:50px;   
-}
-    
-h2 {
-  font-size: 24px;
-  max-width: 500px;
-}
 
 
-}
+
+/*NAV*/
+	nav{
+	overflow:inherit;
+	background-color: rgba(255, 255, 255, 0);
+	display: inherit;
+    padding-left:40px;
+
+
+	}
+    .responsive{
+     margin-left:40px;
+
+    }
+
+	#content{
+		padding-top:54px;
+		max-width:630px;
+	}
+
+	#work {
+		display:inherit;
+	}
+
+	#work-stuff a .image-tile{
+		height: 220px;
+		margin-top: 10px;
+	}
+
+	#work-stuff a{
+		float: left;
+		width: 50%;
+	}
+
+	#work-stuff a *{
+		margin-right: 6%;
+	}
+
+	#work-stuff .tags {
+		margin: 0 6% 0 0;
+	}
+
+
+
+/*--------------------------------------------------------------*/
+
+/*RESPONSIVE BIT -- even bigger screen*/
+
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 860px){
+
+#work-stuff a{
+		float: left;
+		width: 33.333%;
+	}

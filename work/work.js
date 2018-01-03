@@ -65,7 +65,7 @@ work=[
 		<br>
 
 		
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
 
 	    {
@@ -110,7 +110,7 @@ work=[
 		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
 		[12.jpg]
 		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 
 	},
 
@@ -131,7 +131,7 @@ work=[
 		<br><br>
 		<b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
 		[pottery.gif]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
  
 
@@ -161,7 +161,7 @@ work=[
 		[motemote-3.gif]
 		[motemote.gif]
 		[motemote-2.gif]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
 
    {
@@ -204,8 +204,7 @@ work=[
 		{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
 		
 		In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
-		<br><br>
-		{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
     
     
@@ -227,7 +226,7 @@ work=[
 		[1.png]
 		[3.png]
 		[5.png]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		<br><br>`
 		
 	},   
 
@@ -251,7 +250,7 @@ work=[
 		[ta.png]
 		[ta4.png]
 		[ta5.png]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		<br><br>`
 	},
 
 
@@ -282,7 +281,7 @@ work=[
 		[tickets-02.png]
 		What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
 		[reflect_gif.gif]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
 
 
@@ -299,7 +298,7 @@ work=[
 		[chocolee.png]
 		[chocolee-set-2.jpg]
 		[chocolee-flavors.gif]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
 
 
@@ -366,7 +365,7 @@ work=[
 		<br>
 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
 		<br><br>
-		{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}
+		
 		`
 },
     
@@ -388,7 +387,7 @@ work=[
 		[sketch4.jpg]
 		[sketch5.jpg]
 		[sketch6.jpg]
-		<br><br>{<a href='#work'>SEE MORE PROJECTS</a>&emsp;&#128064;}`
+		`
 	},
 
 
