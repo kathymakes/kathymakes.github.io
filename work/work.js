@@ -116,7 +116,7 @@ work=[
 
 
    {	"folder":"digpo-imgs",
-		"name":"Digital Poetry Experiments",
+		"name":"Digital Poems",
 		"tags":"Web, Interactive, Poetics",
 		"thumb":"thumb.png",
 		"content":`Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.
