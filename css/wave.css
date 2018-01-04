@@ -3,8 +3,7 @@
 
 .wavetext>* {
   display: inline-block;
-  font-family : Concert, sans-serif;
-/**/ 
+ 
   animation-duration: 1s;
   animation-name: wave;
   animation-iteration-count: infinite;

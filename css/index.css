@@ -1,9 +1,7 @@
 
 @font-face {
-/*	src: url(../fonts/GT-Cinetype-Bold.otf);*/
     src: url(../fonts/Arbutus.ttf);
-
-	font-family: Concert;
+	font-family: Arbutus;
 	font-weight: normal;
 }
 
@@ -35,7 +33,7 @@ body {
 	font-family: Karla, Arial, sans-serif;
 	color: #323232;
 	line-height: 1.7em;
-	font-size: 11.5pt;
+	font-size: 13pt;
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -88,8 +86,8 @@ nav {
 	position: absolute;
 	z-index: 10;
     padding-left:20px;
-
-    margin-top:30px;
+    padding-top:30px;
+    
     background-color:#fcfcfc;
     width:100%;
     height:auto;
@@ -97,7 +95,7 @@ nav {
 }
 
 nav a {
-    height:auto;
+    font-size:11.5pt;
     letter-spacing: 0.75px;
     font-weight: bold;   
 /*    color:#323232;*/
@@ -111,6 +109,7 @@ nav a {
 
 /*--------------------------------------------------------------*/
 /*HYPERLINKS */
+
 a{
 	text-decoration: none;
 	color: inherit;
@@ -124,13 +123,25 @@ a:hover {
 
 
 /*--------------------------------------------------------------*/
-/*FONT STYLES*/
+/*HEADER STYLES*/
+
+h2 {
+	font-size:16pt;
+    line-height: 1.7em;
+	font-family: Arbutus, Georgia, serif;
+    letter-spacing: 0.25px;
+    
+    font-weight: 300;
+    
+    max-width: 600px;
+    margin-top:0px;
+}
 
 
 
 h3{
 	font-size: 22pt;
-	font-family: Concert, Georgia, serif;    
+	font-family: Arbutus, Georgia, serif;    
     letter-spacing: 0.25px;    
     font-weight: 300;
     
@@ -139,24 +150,11 @@ h3{
 }
 
 
-h2 {
-	font-size:16pt;
-    line-height: 1.7em;
-	font-family: Concert, Georgia, serif;
-    letter-spacing: 0.25px;
-    font-weight: 300;
-    max-width: 600px;
-    
-    margin-top:0px;
-
-}
 
 
 
 /*--------------------------------------------------------------*/
-/*SECTION: CONTENT + WORK*/
-
-
+/*SECTION: CONTENT LIGHTBOX*/
 
 
 #content{
@@ -180,6 +178,9 @@ h2 {
 #content a {
     border-bottom: 1px dotted #a937ff;
 }
+
+/*--------------------------------------------------------------*/
+/*SECTION: WORK THUMBNAILS*/
 
 
 #work {
@@ -210,7 +211,6 @@ h2 {
   	filter: hue-rotate(360deg);
   	-webkit-transition: filter 10000ms;
   	transition: filter 10000ms;
-
 }
 
 
@@ -227,10 +227,12 @@ h2 {
 #work-stuff .tags {
 	padding:0;
 	margin:0;
+    
 	font-size:9pt;
 	color:gray;
+    
 	font-weight: normal;
-	line-height: 16px;
+	line-height: 1.2em;
 
 }
 
@@ -242,18 +244,9 @@ h2 {
 
 .credit {
 	padding:15px 0;
-	font-size:8pt;
-	line-height: 1.7em;
+	font-size:9pt;
 	color:gray;
-	text-align: left;
-	border-bottom:0px;
 }
-
-
-.mobilehide{
-	display:none;
-}
-
 
 
 /*--------------------------------------------------------------*/
@@ -264,37 +257,39 @@ h2 {
 
 @media screen and (min-width: 500px){
 
+body {
+    font-size: 12pt;
+  }
 
-
-/*NAV*/
-	nav{
+nav{
     padding-left:40px;
 	}
     
-    .responsive{
-     margin-left:40px;
-
+.responsive{
+    margin-left:40px;
     }
 
-	#content{
-		max-width:630px;
+/* CONTENT + WORK RE-SIZING*/
+    
+#content{
+	max-width:630px;
 	}
-
-	#work-stuff a .image-tile{
+    
+#work-stuff a{
+		float: left;
+		width: 50%;
+	}
+    
+#work-stuff a *{
+		margin-right: 6%;
+	}
+    
+#work-stuff a .image-tile{
 		height: 220px;
 		margin-top: 10px;
 	}
 
-	#work-stuff a{
-		float: left;
-		width: 50%;
-	}
-
-	#work-stuff a *{
-		margin-right: 6%;
-	}
-
-	#work-stuff .tags {
+#work-stuff .tags {
 		margin: 0 6% 0 0;
 	}
 
@@ -309,6 +304,5 @@ h2 {
 @media screen and (min-width: 860px){
 
 #work-stuff a{
-		float: left;
 		width: 33.333%;
 	}
