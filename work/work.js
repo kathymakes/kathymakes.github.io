@@ -6,7 +6,7 @@ work=[
 		"folder":"dp",
 		"name":"The Byte Catalog", 
 		"tags":"Installation, Sculpture, Writing",
-		"thumb":"dp_thumb.png",
+		"thumb":"dp_thumb.jpg",
 		"content":`
 		How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
 [intro_bytes_reduced.png]
@@ -258,7 +258,7 @@ work=[
 		"folder":"turrell",
 		"name":"James Turrell Museum",
 		"tags":"Brand Identity, Print",
-		"thumb":"books_thumb.png",
+		"thumb":"books_thumb.jpg",
 		"content":`
 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.

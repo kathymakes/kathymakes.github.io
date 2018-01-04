@@ -34,9 +34,8 @@ body {
 	position: absolute;
 	font-family: Karla, Arial, sans-serif;
 	color: #323232;
-	line-height: 1.7em; /*or 25px*/
+	line-height: 1.7em;
 	font-size: 11.5pt;
-/*    letter-spacing: 0.6px;*/
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -48,6 +47,7 @@ body {
 	background: black;
 	color:white;
 }
+
 /*--------------------------------------------------------------*/
 /*DEFINE SECTIONS & CENTERING*/
 
@@ -65,10 +65,18 @@ section{
     
 }
 
+/*--------------------------------------------------------------*/
+/*ABOUT*/
+
 #about{
-  margin-top:100px;
+  padding-top:120px;
+  padding-bottom: 20px;
 }
 
+.aboutlinks {
+    border-bottom: 1px dotted #a937ff;
+    font-weight: 700;
+}
 
 
 
@@ -77,20 +85,28 @@ section{
 
 
 nav {
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
+	position: absolute;
 	z-index: 10;
-    padding-top:30px;
-    padding-left: 20px;
+    padding-left:20px;
+
+    margin-top:30px;
+    background-color:#fcfcfc;
+    width:100%;
+    height:auto;
     
-    line-height: 1.3em;
-    
-    letter-spacing: 0.5px;
-    font-weight: bold;
 }
 
+nav a {
+    height:auto;
+    letter-spacing: 0.75px;
+    font-weight: bold;   
+/*    color:#323232;*/
+    text-transform: uppercase;
+    
+    margin-top:-20px;
+    margin-left:-20px;
+    padding:20px;
+}
 
 
 /*--------------------------------------------------------------*/
@@ -98,14 +114,12 @@ nav {
 a{
 	text-decoration: none;
 	color: inherit;
-	cursor: help;
    color:#a937ff;
 
 }
 
 a:hover {
-       color:#ad42fd;
-
+       color:#c87dff;
 }
 
 
@@ -116,29 +130,27 @@ a:hover {
 
 h3{
 	font-size: 22pt;
-	font-family: Concert;    
+	font-family: Concert, Georgia, serif;    
     letter-spacing: 0.25px;    
     font-weight: 300;
     
     margin-bottom: 0px;
-	margin-top: 80px;
+	margin-top: 90px;
 }
 
 
 h2 {
 	font-size:16pt;
     line-height: 1.7em;
-	font-family: Concert,sans-serif;
+	font-family: Concert, Georgia, serif;
     letter-spacing: 0.25px;
-
     font-weight: 300;
     max-width: 600px;
+    
+    margin-top:0px;
+
 }
 
-.aboutlinks {
-    border-bottom: 1px dotted #a937ff;
-    font-weight: 700;
-}
 
 
 /*--------------------------------------------------------------*/
@@ -148,7 +160,9 @@ h2 {
 
 
 #content{
-	padding: 44px 0;
+	padding: 40px 0;
+    border-bottom: 1px dotted #323232;
+
 }
 
 #content div {
@@ -165,12 +179,11 @@ h2 {
 
 #content a {
     border-bottom: 1px dotted #a937ff;
-/*	font-weight: bold;*/
 }
 
 
 #work {
-	padding: 60px 0 40px 0;
+	padding: 40px 0;
 }
 
 #work-stuff a{
@@ -255,25 +268,16 @@ h2 {
 
 /*NAV*/
 	nav{
-	overflow:inherit;
-	background-color: rgba(255, 255, 255, 0);
-	display: inherit;
     padding-left:40px;
-
-
 	}
+    
     .responsive{
      margin-left:40px;
 
     }
 
 	#content{
-		padding-top:54px;
 		max-width:630px;
-	}
-
-	#work {
-		display:inherit;
 	}
 
 	#work-stuff a .image-tile{
