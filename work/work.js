@@ -3,6 +3,37 @@ work=[
 
 
     {
+		"folder":"camdoodler",
+		"name":"Cam Doodler",
+		"tags":"Web, Drawing, p5.js",
+		"thumb":"thumb.jpg",
+		"content":`
+		Doodle your world via webcam! Fool your foes! Impress your friends! 👀
+
+        Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/B1sZUM4Rb'>Demo it here.</a>  (Note that you'll have to turn your webcam on.) 
+
+		[screen1.png]
+        I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
+
+Here's the brush in action:
+        {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
+        <br>
+        <b>DRAWINGS</b>
+After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
+        [cam-doodler.gif]
+        I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
+    People also gave me thoughts on how to improve:
+    [feedback.png]
+<br>
+        Here are some of my favorite drawings:
+        [8.jpg]
+        [11.jpg]
+        [16.jpg]
+        [4.jpg]
+		<br><br>
+        <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler'>Read the blog post.</a>`
+		
+	},   {
 		"folder":"dp",
 		"name":"The Byte Catalog", 
 		"tags":"Installation, Sculpture, Writing",
@@ -229,29 +260,31 @@ work=[
 		<br><br>`
 		
 	},   
+    
+    
 
-{
-   	"folder":"touchart",
-		"name":"Touch Art",
-		"tags":"Web, Fun",
-		"thumb":"thumb.png",
-		"content":`
-		Touch Art is a crowdsourced collection of virtual paintings touched by real humans.
-		Digital proliferation means that works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers. You can't really smear your fingers all over a Singer Sargent in person. But how about on Google Images? 
-		[example_zoom.png]
-		<br>I created instructions for fellow art-lovers to digitally intrude on favorite paintings, using their own pixelated hand. I asked them to find a painting on Google Images and just intrude on it with their virtual hand. Some of them got pretty creative...
-		[art1.png]
-		[art3.png]
-		[art4.png]
-		[art.png]
-		<br><br>
-		<b>THE COLLECTION</b>
-		You can see all the artwork in a <a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'>virtual gallery space.</a> Everyone who partipated was also published in a gallery catalog:
-		[ta.png]
-		[ta4.png]
-		[ta5.png]
-		<br><br>`
-	},
+//{
+//   	"folder":"touchart",
+//		"name":"Touch Art",
+//		"tags":"Web, Fun",
+//		"thumb":"thumb.png",
+//		"content":`
+//		Touch Art is a crowdsourced collection of virtual paintings touched by real humans.
+//		Digital proliferation means that works of art that once existed as location-specific, single editions are now available to save and manipulate on personal computers. You can't really smear your fingers all over a Singer Sargent in person. But how about on Google Images? 
+//		[example_zoom.png]
+//		<br>I created instructions for fellow art-lovers to digitally intrude on favorite paintings, using their own pixelated hand. I asked them to find a painting on Google Images and just intrude on it with their virtual hand. Some of them got pretty creative...
+//		[art1.png]
+//		[art3.png]
+//		[art4.png]
+//		[art.png]
+//		<br><br>
+//		<b>THE COLLECTION</b>
+//		You can see all the artwork in a <a href='http://touch-art.tumblr.com/' target='blank' style='font-weight:bold'>virtual gallery space.</a> Everyone who partipated was also published in a gallery catalog:
+//		[ta.png]
+//		[ta4.png]
+//		[ta5.png]
+//		<br><br>`
+//	},
 
 
 {
