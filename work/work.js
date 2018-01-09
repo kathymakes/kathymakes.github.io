@@ -2,6 +2,49 @@ work=[
  	
 
 
+  {
+		"folder":"lego",
+		"name":"Lego Soundmaker",
+		"tags":"Fabrication, Physcial Computing, p5.js",
+		"thumb":"1_thumb.jpg",
+		"content":`
+		Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
+        [1.jpg]
+        [2.jpg]
+        <br><b>Build your own tracks...</b>
+        [stopmotion.gif]
+        <br>
+        <b>Record your voice, your dog, or other found sounds.</b>
+        [record_alt.gif]
+        <br>
+        <b>How does it work?</b>
+        It's pretty simple! An arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase the surface area.
+        [3_super_cropped.jpg]
+The original design featured a webcam positioned below, and a separate recording interface. I moved away from these after technical and user testing.
+        [schematic1.png]
+
+        <br>
+        <b>Process</b>
+        Building out the insides:
+        [process1_crop.jpg]
+        Testing the camera in p5.js:
+        [p5process.png]
+        Fabricating the box:
+        [boxprocess_big.gif]
+<br>
+<b>The ITP Winter Show!</b>
+This was selected to be shown at ITP's annual public showcase. A lot of people came and played with my finished project for the first time. I learned so much just watching them. Some visitors used it in unexpected ways... 
+[wintershow.jpg]
+<b>Some things I heard:</b>
+"This is so much fun. I could just keep going."
+"It sounds like a bunch of babies!"
+"This sounds so funny!"
+"Wait, can you explain again? I don't get it."
+<br>
+<a href='https://pondermake.tumblr.com/post/169135210574/lego-sound-sequencer' target='_blank'>Read more thoughts on my blog.</a>
+        `
+	}, 
+    
     {
 		"folder":"camdoodler",
 		"name":"Cam Doodler",
@@ -146,27 +189,6 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 	},
 
 
-   {	"folder":"digpo-imgs",
-		"name":"Digital Poems",
-		"tags":"Web, Interactive, Poetics",
-		"thumb":"thumb.png",
-		"content":`Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.
-		<br>
-		<b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-		[may.png]
-		[may-3.gif]
-		<br><br>
-		<b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
-		[basho.png]
-		[basho1.png]
-		<br><br>
-		<b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
-		[pottery.gif]
-		`
-	},
- 
-
-
 
 
 
@@ -238,7 +260,6 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		`
 	},
     
-    
 
 	{
 		"folder":"obweb",
@@ -261,6 +282,26 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		
 	},   
     
+   
+   {	"folder":"digpo-imgs",
+		"name":"Digital Poems",
+		"tags":"Web, Interactive, Poetics",
+		"thumb":"thumb.png",
+		"content":`Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.
+		<br>
+		<b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+		[may.png]
+		[may-3.gif]
+		<br><br>
+		<b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
+		[basho.png]
+		[basho1.png]
+		<br><br>
+		<b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
+		[pottery.gif]
+		`
+	},
+ 
     
 
 //{
@@ -379,30 +420,30 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 
  
 
-
-{
-		"folder":"shapinglanguage",
-		"name":"Difficult Writing",
-		"tags":"Poetics, Fun",
-		"thumb":"a-4x6.png",
-		"content":`
-		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
-		<br>
-		<b>Cross-country Calligraphy.</b> It may take months to write to you. 
-		[driving_gif.gif]
-
-		[miss-you.png]
-		<br>
-		<br>
-		<b>Transcribing Obstructions.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
-		<br>
-		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
-		<br><br>
-		
-		`
-},
-    
-    
+//
+//{
+//		"folder":"shapinglanguage",
+//		"name":"Difficult Writing",
+//		"tags":"Poetics, Fun",
+//		"thumb":"a-4x6.png",
+//		"content":`
+//		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
+//		<br>
+//		<b>Cross-country Calligraphy.</b> It may take months to write to you. 
+//		[driving_gif.gif]
+//
+//		[miss-you.png]
+//		<br>
+//		<br>
+//		<b>Transcribing Obstructions.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+//		<br>
+//		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
+//		<br><br>
+//		
+//		`
+//},
+//    
+//    
 
 
     
