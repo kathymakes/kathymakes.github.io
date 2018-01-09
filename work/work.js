@@ -15,20 +15,20 @@ work=[
         [stopmotion.gif]
         <br>
         <b>Record your voice, your dog, or other found sounds.</b>
-        [record_alt.gif]
+        [record.gif]
         <br>
         <b>How does it work?</b>
-        It's pretty simple! An arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase the surface area.
+        Inside, there's an Arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase surface area.
         [3_super_cropped.jpg]
-The original design featured a webcam positioned below, and a separate recording interface. I moved away from these after technical and user testing.
+The magic under the hood relies on an overhead webcam and <b>computer vision</b>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
         [schematic1.png]
+I wrote the computer vision program myself using p5.js. <a href="https://alpha.editor.p5js.org/kathymakes/sketches/H19jBHXbG" target="_blank">Take a look at the code.</a>
+[p5process.png]
 
         <br>
         <b>Process</b>
         Building out the insides:
-        [process1_crop.jpg]
-        Testing the camera in p5.js:
-        [p5process.png]
+        [process1.jpg]
         Fabricating the box:
         [boxprocess_big.gif]
 <br>
@@ -38,8 +38,8 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 <b>Some things I heard:</b>
 "This is so much fun. I could just keep going."
 "It sounds like a bunch of babies!"
-"This sounds so funny!"
-"Wait, can you explain again? I don't get it."
+"What do I hear? It's like a load of animals."
+"Hah, this sounds so funny!"
 <br>
 <a href='https://pondermake.tumblr.com/post/169135210574/lego-sound-sequencer' target='_blank'>Read more thoughts on my blog.</a>
         `
@@ -342,18 +342,22 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		I explored pages of logomarks, starting on paper, and also playing with vectors, shadows, and cut vellum paper. 
 		[process1.png]
 		<br><br>
-		<b>LOGO & APPLICATION</b>
-		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. [turrell-01.svg]
+		<b>LOGO CONCEPT</b>
+		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape. 
 		[turrell-02.svg]
-		[stationary.jpg]
+[stationary_crop.jpg]
 		[turrell12.png]
-		[turrellbooks.png]
 		[poster.jpg]
-		<br><br>
-		<b>THE MUSEUM EXPERIENCE</b>
-		The way a Turrell piece transforms when viewed during different times of the day inspired these dynamic tickets. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, the tickets appear as a continuous gradient. 
-		[tickets-02.png]
-		What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
+		<br>
+		<b>PRINT MATERIALS</b>
+		The way a Turrell piece transforms when viewed during different times of the day inspired these materials. The museum, open from 10:00AM to 6:00PM daily, issues a different colored ticket to visitors each hour. Viewed as a long strip, these tickets appear as a continuous gradient. 
+		[ticket.jpg]
+The event brochures together reference changing time throughout the year.
+        [books_all.jpg]
+        [book2.jpg]
+<br>
+				<b>THE MUSEUM SPACE</b>
+What stood out to me about the museum's location was how beautiful the surrounding wineries were. This outdoor installation would bring visitors together in a tranquil museum garden. The pool connects to an unseen irrigation system which waters the nearby vines. In this way, the piece feeds back into the terrain, the way a Turrell piece works together with nature.
 		[reflect_gif.gif]
 		`
 	},
