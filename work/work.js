@@ -31,6 +31,7 @@ I wrote the computer vision program myself using p5.js. <a href="https://alpha.e
         [process1.jpg]
         Fabricating the box:
         [boxprocess_big.gif]
+
 <br>
 <b>The ITP Winter Show!</b>
 This was selected to be shown at ITP's annual public showcase. A lot of people came and played with my finished project for the first time. I learned so much just watching them. Some visitors used it in unexpected ways... 
@@ -259,29 +260,29 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
 		`
 	},
-    
-
-	{
-		"folder":"obweb",
-		"name":"ObWeb",
-		"tags":"Writing, Web, Speculation",
-		"thumb":"obthumb.png",
-		"content":`
-		In the year 2016, 2 billion people will have smartphone cameras in their pockets. These cameras are only growing more powerful in resolution and intelligence.
-
-		The internet connects information at network scale; computer vision connects us to a world of things. What does a world of both these paradigms look like?
-		
-		ObWeb is a 2015 trendcast speculating the potential of <b>computer intelligence + objects + humans with pocket cameras.</b> I wrote ObWeb with two other design students. I created the visuals and illustrations.
-
-		<a href='http://kevincadena.com/obweb/index.html' target='_blank'>Read it here.</a>
-		<br>
-		[1.png]
-		[3.png]
-		[5.png]
-		<br><br>`
-		
-	},   
-    
+//    
+//
+//	{
+//		"folder":"obweb",
+//		"name":"ObWeb",
+//		"tags":"Writing, Web, Speculation",
+//		"thumb":"obthumb.png",
+//		"content":`
+//		In the year 2016, 2 billion people will have smartphone cameras in their pockets. These cameras are only growing more powerful in resolution and intelligence.
+//
+//		The internet connects information at network scale; computer vision connects us to a world of things. What does a world of both these paradigms look like?
+//		
+//		ObWeb is a 2015 trendcast speculating the potential of <b>computer intelligence + objects + humans with pocket cameras.</b> I wrote ObWeb with two other design students. I created the visuals and illustrations.
+//
+//		<a href='http://kevincadena.com/obweb/index.html' target='_blank'>Read it here.</a>
+//		<br>
+//		[1.png]
+//		[3.png]
+//		[5.png]
+//		<br><br>`
+//		
+//	},   
+//    
    
    {	"folder":"digpo-imgs",
 		"name":"Digital Poems",
@@ -455,16 +456,25 @@ What stood out to me about the museum's location was how beautiful the surroundi
 	{
 		"folder":"sketch",
 		"name":"Sketchbook",
-		"tags":"2015",
-		"thumb":"thumb.png",
+		"tags":"Doodles, notes, ponderings",
+		"thumb":"thumb_2.jpg",
 		"content":`
-		Pictures from conversations, lectures, process in 2015. More to come.
-		[sketch1.jpg]
-		[sketch2.jpg]
+		Pictures from conversations, lectures, process, from 2015-2017. More to come.
+		[1.jpg]
+        [2.jpg]
+        [3.jpg]
+        
+        From 2016.
+        [a.jpg]
+        [b.jpg]
+        [c.jpg]
+
+        From 2015.
+        [sketch2.jpg]
 		[sketch3.jpg]
-		[sketch4.jpg]
 		[sketch5.jpg]
-		[sketch6.jpg]
+        
+        
 		`
 	},
 
