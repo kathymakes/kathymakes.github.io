@@ -451,7 +451,29 @@ What stood out to me about the museum's location was how beautiful the surroundi
 //    
 
 
-    
+     
+
+	{
+		"folder":"illustration",
+		"name":"Misc. Illustrations",
+		"tags":"Assorted vector graphics",
+		"thumb":"thumb.png",
+		"content":`
+
+<b>The Hyphen Space, 2014.</b> For personal editorial about growing up bilingual.
+[2.png]
+[3a.png]
+[3b.png]
+<b>Personal Site, 2014.</b> Illustrations explaining my skills and strengths.
+[4.png]
+<b>RISD Redesign Thanksgiving, 2013.</b> Select illustrations for a community service event poster.
+[1.png]
+<b>Paper Nor Plastic, 2013.</b> Part of a fictional campaign to bring your own bag.
+[5.png]
+<b>WOOF! 2015.</b> Illustrations for a fictional dog-matching web service.
+[woof.png]        
+		`
+	},  
 
 	{
 		"folder":"sketch",
