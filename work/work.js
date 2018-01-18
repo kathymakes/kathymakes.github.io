@@ -143,54 +143,10 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		`
 	},
 
-	    {
-		"folder":"bodyinternet",
-		"name":"Body + Internet",
-		"tags":"Installation, Hardware, Sound, Interactive",
-		"thumb":"thumb.jpg",
-		"content":`
-		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
-		<b>What does it mean to inhabit both physical and virtual space?</b>
-		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
-		[1.png]
-		[3.jpg]
-		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
-		
-		
-		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
-		<br><br>
-
-		<b>PROTOTYPE 1: VITAL SIGNS</b>
-	
-		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
-
-		[process1.png]
-		[process2.png]
-		<br>
-		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
-		[heart-gif.gif]
-		<br><br>
-		
-		<b>PROTOTYPE 2: SILENT THEATER</b>
-
-		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
-		Here, we prototyped whimsical characters in a servo-powered puppet theater.
-		[7.png]
-		<br><br>
-
-		<b>PROTOTYPE 3: REMOTE DUET</b>
-		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
-		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
-		[8.jpg]
-		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
-		[12.jpg]
-		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
-		`
-
-	},
 
 
-
+   
+  
 
 
 
@@ -260,6 +216,29 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
 		`
 	},
+     {	"folder":"digpo-imgs",
+		"name":"Digital Poems",
+		"tags":"Web, Interactive, Poetics",
+		"thumb":"gun_opposite.png",
+		"content":`Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Digital poetic experiments in HTML & p5.js.
+		<br>
+        <b>OPPOSITE OF A GUN:</b>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
+[gun_opposite.png]
+[gun_opposite.gif]
+<br><br>
+		<b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+		[may.png]
+		[may-3.gif]
+		<br><br>
+		<b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
+		[pottery.gif]
+<br><br>
+		<b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
+		[basho.png]
+		[basho1.png]
+		
+		`
+	},
 //    
 //
 //	{
@@ -283,25 +262,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 //		
 //	},   
 //    
-   
-   {	"folder":"digpo-imgs",
-		"name":"Digital Poems",
-		"tags":"Web, Interactive, Poetics",
-		"thumb":"thumb.png",
-		"content":`Printed text marries an immutable form, but a pixelated grapheme on the screen can follow a dynamic and multi-modal existence. How can different sensory channels in the fluid web reading-space create new dimensions of readership? Text already transports readers online; maybe it can also become emotive, responsive, even synesthetic. Digital poetic experiments and sketches.
-		<br>
-		<b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-		[may.png]
-		[may-3.gif]
-		<br><br>
-		<b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
-		[basho.png]
-		[basho1.png]
-		<br><br>
-		<b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
-		[pottery.gif]
-		`
-	},
+
  
     
 
@@ -329,7 +290,52 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 //	},
 
 
-{
+	    {
+		"folder":"bodyinternet",
+		"name":"Body + Internet",
+		"tags":"Installation, Hardware, Sound, Interactive",
+		"thumb":"thumb.jpg",
+		"content":`
+		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
+		<b>What does it mean to inhabit both physical and virtual space?</b>
+		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
+		[1.png]
+		[3.jpg]
+		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
+		
+		
+		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
+		<br><br>
+
+		<b>PROTOTYPE 1: VITAL SIGNS</b>
+	
+		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
+
+		[process1.png]
+		[process2.png]
+		<br>
+		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
+		[heart-gif.gif]
+		<br><br>
+		
+		<b>PROTOTYPE 2: SILENT THEATER</b>
+
+		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
+		Here, we prototyped whimsical characters in a servo-powered puppet theater.
+		[7.png]
+		<br><br>
+
+		<b>PROTOTYPE 3: REMOTE DUET</b>
+		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
+		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
+		[8.jpg]
+		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
+		[12.jpg]
+		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
+		`
+
+	},
+    {
 		"folder":"turrell",
 		"name":"James Turrell Museum",
 		"tags":"Brand Identity, Print",
