@@ -145,8 +145,6 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 
 
 
-   
-  
 
 
 
@@ -216,6 +214,55 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
 		`
 	},
+    
+    
+	    {
+		"folder":"bodyinternet",
+		"name":"Body + Internet",
+		"tags":"Installation, Hardware, Sound, Interactive",
+		"thumb":"thumb.jpg",
+		"content":`
+		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
+		<b>What does it mean to inhabit both physical and virtual space?</b>
+		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
+		[1.png]
+		[3.jpg]
+		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
+		
+		
+		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
+		<br><br>
+
+		<b>PROTOTYPE 1: VITAL SIGNS</b>
+	
+		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
+
+		[process1.png]
+		[process2.png]
+		<br>
+		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
+		[heart-gif.gif]
+		<br><br>
+		
+		<b>PROTOTYPE 2: SILENT THEATER</b>
+
+		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
+		Here, we prototyped whimsical characters in a servo-powered puppet theater.
+		[7.png]
+		<br><br>
+
+		<b>PROTOTYPE 3: REMOTE DUET</b>
+		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
+		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
+		[8.jpg]
+		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
+		[12.jpg]
+		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
+		`
+
+	},
+     
+    
      {	"folder":"digpo-imgs",
 		"name":"Digital Poems",
 		"tags":"Web, Interactive, Poetics",
@@ -239,6 +286,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		
 		`
 	},
+       
 //    
 //
 //	{
@@ -290,51 +338,6 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 //	},
 
 
-	    {
-		"folder":"bodyinternet",
-		"name":"Body + Internet",
-		"tags":"Installation, Hardware, Sound, Interactive",
-		"thumb":"thumb.jpg",
-		"content":`
-		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
-		<b>What does it mean to inhabit both physical and virtual space?</b>
-		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
-		[1.png]
-		[3.jpg]
-		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
-		
-		
-		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
-		<br><br>
-
-		<b>PROTOTYPE 1: VITAL SIGNS</b>
-	
-		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
-
-		[process1.png]
-		[process2.png]
-		<br>
-		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
-		[heart-gif.gif]
-		<br><br>
-		
-		<b>PROTOTYPE 2: SILENT THEATER</b>
-
-		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
-		Here, we prototyped whimsical characters in a servo-powered puppet theater.
-		[7.png]
-		<br><br>
-
-		<b>PROTOTYPE 3: REMOTE DUET</b>
-		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
-		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
-		[8.jpg]
-		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
-		[12.jpg]
-		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
-		`
-
-	},
     {
 		"folder":"turrell",
 		"name":"James Turrell Museum",
@@ -345,8 +348,6 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
 		Here's some early research: obsessive moodboarding, drawing, and word studies.
 		[process4.png]
-		[process2.png]
-		I explored pages of logomarks, starting on paper, and also playing with vectors, shadows, and cut vellum paper. 
 		[process1.png]
 		<br><br>
 		<b>LOGO CONCEPT</b>
@@ -369,7 +370,37 @@ What stood out to me about the museum's location was how beautiful the surroundi
 		`
 	},
 
+ {	"folder":"ics-design",
+		"name":"IBM ICS Design",
+		"tags":"Software interface design",
+		"thumb":"thumb.jpg",
+		"content":`In 2017, I was tasked to help redesign our department's visual design language. At the time, I worked for IBM Collaboration Solutions, which designs team communications and work platforms for big businesses. I worked closely with our lead designer, as well as other visual designers. This is an ongoing project, more to come.
+[1.jpeg]
+[8_spicy.jpeg]
+[mobile.jpeg]
+<br>
+<b>Inspiration & Research</b>
+We wanted our new products to feel efficient, trusting, and connecting. In my inspiration, I referenced soft lined drawings and maps of cities.
+[3.jpeg]
+Four other visual designers and I created each or own interpretation, and we tested them with IBM employees. 
+[diffdesigns.gif]
+I interviewed 15 people from our team, including other designers, software developers, and product managers.
+[5.jpeg]
 
+<br>
+
+<b>The Visual Language</b>
+For our final system, the products are using the typeface IBM Plex. Visual accessibility was an important consideration as we chose our colors.
+[6_alt.jpeg]
+[7.jpeg]
+[before_after.gif]
+
+
+
+`
+		
+		
+	},
 
     {
 		"folder":"chocolee",
@@ -463,7 +494,7 @@ What stood out to me about the museum's location was how beautiful the surroundi
 		"folder":"illustration",
 		"name":"Misc. Illustrations",
 		"tags":"Assorted vector graphics",
-		"thumb":"thumb.png",
+		"thumb":"2.png",
 		"content":`
 
 <b>The Hyphen Space, 2014.</b> For personal editorial about growing up bilingual.
