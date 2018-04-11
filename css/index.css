@@ -24,7 +24,8 @@
 
 html{
 	height:100%;
-    background-color: #fcfcfc;
+  /* background-color: #fcfcfc; */
+  background: linear-gradient(90deg,white,white,white,#f4eff7);
 
 }
 
@@ -60,7 +61,7 @@ section{
 	margin: 0 auto;
 	width:90%;
 	max-width: 840px;
-    
+
 }
 
 /*--------------------------------------------------------------*/
@@ -87,20 +88,19 @@ nav {
 	z-index: 10;
     padding-left:20px;
     padding-top:30px;
-    
-    background-color:#fcfcfc;
+    background-color: transparent;
     width:100%;
     height:auto;
-    
+
 }
 
 nav a {
     font-size:11.5pt;
     letter-spacing: 0.75px;
-    font-weight: bold;   
+    font-weight: bold;
 /*    color:#323232;*/
     text-transform: uppercase;
-    
+
     margin-top:-20px;
     margin-left:-20px;
     padding:20px;
@@ -130,9 +130,9 @@ h2 {
     line-height: 1.7em;
 	font-family: Arbutus, Georgia, serif;
     letter-spacing: 0.25px;
-    
+
     font-weight: 300;
-    
+
     max-width: 600px;
     margin-top:0px;
 }
@@ -141,10 +141,10 @@ h2 {
 
 h3{
 	font-size: 22pt;
-	font-family: Arbutus, Georgia, serif;    
-    letter-spacing: 0.25px;    
+	font-family: Arbutus, Georgia, serif;
+    letter-spacing: 0.25px;
     font-weight: 300;
-    
+
     margin-bottom: 0px;
 	margin-top: 90px;
 }
@@ -227,10 +227,10 @@ h3{
 #work-stuff .tags {
 	padding:0;
 	margin:0;
-    
+
 	font-size:9pt;
 	color:gray;
-    
+
 	font-weight: normal;
 	line-height: 1.2em;
 
@@ -264,26 +264,26 @@ body {
 nav{
     padding-left:40px;
 	}
-    
+
 .responsive{
     margin-left:40px;
     }
 
 /* CONTENT + WORK RE-SIZING*/
-    
+
 #content{
 	max-width:630px;
 	}
-    
+
 #work-stuff a{
 		float: left;
 		width: 50%;
 	}
-    
+
 #work-stuff a *{
 		margin-right: 6%;
 	}
-    
+
 #work-stuff a .image-tile{
 		height: 220px;
 		margin-top: 10px;
