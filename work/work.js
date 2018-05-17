@@ -216,51 +216,51 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 	},
     
     
-	    {
-		"folder":"bodyinternet",
-		"name":"Body + Internet",
-		"tags":"Installation, Hardware, Sound, Interactive",
-		"thumb":"thumb.jpg",
-		"content":`
-		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
-		<b>What does it mean to inhabit both physical and virtual space?</b>
-		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
-		[1.png]
-		[3.jpg]
-		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
-		
-		
-		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
-		<br><br>
-
-		<b>PROTOTYPE 1: VITAL SIGNS</b>
-	
-		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
-
-		[process1.png]
-		[process2.png]
-		<br>
-		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
-		[heart-gif.gif]
-		<br><br>
-		
-		<b>PROTOTYPE 2: SILENT THEATER</b>
-
-		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
-		Here, we prototyped whimsical characters in a servo-powered puppet theater.
-		[7.png]
-		<br><br>
-
-		<b>PROTOTYPE 3: REMOTE DUET</b>
-		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
-		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
-		[8.jpg]
-		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
-		[12.jpg]
-		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
-		`
-
-	},
+//	    {
+//		"folder":"bodyinternet",
+//		"name":"Body + Internet",
+//		"tags":"Installation, Hardware, Sound, Interactive",
+//		"thumb":"thumb.jpg",
+//		"content":`
+//		In Winter 2015, I took part in an interdisciplinary workshop hosted between RISD, Brown, and MIT STEAM. This fast-paced, 5-week workshop mixed together engineers, medical students, architects, sculptors, designers. We tackled the prompt:
+//		<b>What does it mean to inhabit both physical and virtual space?</b>
+//		I worked with a mechanical engineer and a biologist. We were initially interested in conversations: <b>How might we create intimate moments of telepresence?</b>
+//		[1.png]
+//		[3.jpg]
+//		To start, we prototyped a call-booth idea which prompted participants to write to each other. (We explored conversational experiences things like <a href='http:\/\/www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html' target='_blank'>36 Questions to Fall In Love</a> and internet chat-roulette.)
+//		
+//		
+//		Still, we already rely so much on text interfaces in our relationships. We challenged ourselves to think more about the body: <b> What are other, sensory ways we can communicate presence?</b> 
+//		<br><br>
+//
+//		<b>PROTOTYPE 1: VITAL SIGNS</b>
+//	
+//		We wanted to make people feel to strangers they couldn't see or touch. We imagined a phone calls that used callers' pulse.
+//
+//		[process1.png]
+//		[process2.png]
+//		<br>
+//		We tested this idea with <b>LEDs, silicone hearts, and a microphone set.</b> People got a kick out of it, although it lacked a sense of purpose. What was the caller's motivation for seeking out another person?
+//		[heart-gif.gif]
+//		<br><br>
+//		
+//		<b>PROTOTYPE 2: SILENT THEATER</b>
+//
+//		In later explorations, we opted for subtler interactions. We wanted visitors to feel a bit of objective, so we made a simple story for them to co-complete.
+//		Here, we prototyped whimsical characters in a servo-powered puppet theater.
+//		[7.png]
+//		<br><br>
+//
+//		<b>PROTOTYPE 3: REMOTE DUET</b>
+//		We still wanted to explore simple narratives, though pulse-driven hardware proved to be technically tricky.
+//		Here, we created a <b>stripped-down experience of touch and sound.</b> Gallery visitors in Providence, RI sat across from an invisible partner in Cambridge, MA, and could complete part of a duet by placing their hand on the table. 
+//		[8.jpg]
+//		Providence supplied the melody, and Cambridge supplied the percussion. While we started off interested in sustained, private experiences, our last idea was mostly public and ambient. On the night of the show, the whole room perked up when someone was on the other side. 
+//		[12.jpg]
+//		For me, this project was an awesome learning experience for quick prototyping. Limited tools and time meant our work had to evolve quickly. I learned to be less precious with ideas, and to pick up new skills on the fly.
+//		`
+//
+//	},
      
     
      {	"folder":"digpo-imgs",
