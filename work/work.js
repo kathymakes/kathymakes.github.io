@@ -86,7 +86,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
 [intro_bytes_reduced.png]
 
-		This project began as a investigation of the textual internet, inspired by Kenneth Goldsmith’s writings.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
+		This project began as a investigation of the textual internet.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
 
 
 
@@ -94,7 +94,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 		<br><br>
 		<b>1. VOLUME, WEIGHT</b>
 
-		According to Kenneth Goldsmith, the American networked citizen consumed 100,000 words per day in 2008.   If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight. 
+		If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight. 
 		
 		In early explorations, I translated data into sculptural objects with mass to expand the abstract idea of "gigabyte" or "terabyte," into a sensory one.
 
