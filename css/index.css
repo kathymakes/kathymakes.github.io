@@ -207,8 +207,8 @@ h3{
 
 #work-stuff a:hover .image-tile{
 	opacity: 1;
-  	-webkit-filter: hue-rotate(360deg);
-  	filter: hue-rotate(360deg);
+  	/* -webkit-filter: hue-rotate(360deg);
+  	filter: hue-rotate(360deg); */
   	-webkit-transition: filter 10000ms;
   	transition: filter 10000ms;
 }
