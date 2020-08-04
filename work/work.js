@@ -3,7 +3,7 @@ work=[
   {
   		"folder":"poetry",
   		"name":"Many Migrations",
-  		"tags":"Embroidery, Poetry",
+  		"tags":"Embroidery, poetry",
   		"thumb":"manymigrations.png",
   		"content":`
   		Ongoing work, 2020.
@@ -28,9 +28,9 @@ work=[
   		"tags":"Brush pen, etc",
   		"thumb":"migrationthumb.png",
   		"content":`
-      Assorted digital and analog illustration work, on various themes.
+      More images to come soon, probably. 
       <br>
-      <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. Buy a print.
+      <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
   		[migrationprint.png]
   		<br>
       <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
@@ -46,7 +46,7 @@ work=[
   		"thumb":"thumb-bw.png",
   		"content":`
 
-      Inspired by Buddhist monk Thich Naht Hanh, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
+      Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
       Inversely, art-making can become meditative, it can center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy's leaves.
 
       To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
@@ -82,11 +82,10 @@ work=[
 {
 		"folder":"lankpranks",
 		"name":"Rain in Spain",
-		"tags":"Poetry, Python, CMU Rhyming",
+		"tags":"Poetry, python",
 		"thumb":"babycastles1.jpg",
 		"content":`
-		<b>Rain in Spain</b>
-		I wrote a poem about word sounds using CMU's rhyming dictionary.
+		I wrote a poem about word sounds using <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict" target = "_blank">CMU's pronouncing dictionary</a>.
 		There’s such a material quality to spoken word—which are just meaty vibrations, with different ways of stopping air.
     My 1-month bare bones knowledge of linguistics tells me that air stopped with my lips, versus with teeth, versus tongue, are the most low-level differentiators between sounds that are innately “aggressive,” or innately “soft.”
 
@@ -103,7 +102,7 @@ work=[
 		[1-zapgap.png]
 		[2-zapgap.png]
 		<br>
-		Here's the end of my performance at Babycastles NYC.
+		Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
 
 		[babycastles3.jpg]
 		[babycastles2.jpg]
@@ -116,24 +115,23 @@ work=[
 {
 		"folder":"difficultwriting",
 		"name":"Difficult Writing",
-		"tags":"Poetics, Digital Media",
+		"tags":"Poetics, digital media",
 		"thumb":"a-4x6.png",
 		"content":`
 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
 		<br>
-		<b>Cross-country Calligraphy.</b> It may take months to write to you.
+		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
 		[driving_gif.gif]
 
 		[miss-you.png]
 		<br>
 		<br>
-		<b>Transcribing Obstructions.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+		<b>TRANSCRIBING OBSTRUCTIONS.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
 		<br>
 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
 		<br><br>
 
-		<b>Keyboard Calisthenics</b>
-		A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
+		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
 		Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
 
 		[kindastrange1.gif]
@@ -145,7 +143,7 @@ work=[
 
      {	"folder":"digpo-imgs",
 		"name":"Web Poetics",
-		"tags":"Interactive, HTML Media",
+		"tags":"Interactive, HTML",
 		"thumb":"potterythumb.png",
 		"content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
     Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
@@ -189,19 +187,17 @@ work=[
 	{
 		"folder":"searchdivides",
 		"name":"Search Divides Us",
-		"tags":"Exhibit Design, Front-End Dev, UI/UX",
+		"tags":"Exhibit design, front-end dev, UI/UX",
 		"thumb":"cover.jpg",
 		"content":`
-		Search Divides Us is a game about bias in search engines, using housing search as an example.
-		Our team demoed this at ITP Spring Show, as well as New York Maker Faire in 2019.
-		In collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy.
-		I contributed conceptual work, front end dev, and graphics.
+		Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
+		Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
 		[video-1.gif]
 		[plaque-2.png]
 		[video-2.gif]
 
 		<br><b>Process</b>
-		Our team was inspired by the research of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
+		Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
 
 		Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
 
@@ -213,7 +209,7 @@ work=[
 		<br>
 		[idea3.jpg]
 
-		<br><b>Graphics</b>
+		<br><b>GRAPHICS</b>
 		[bluemap.png]
 		[1-white.png]
 		[3-black.png]
@@ -226,7 +222,7 @@ work=[
 	{
 		"folder":"lego",
 		"name":"Lego Soundmaker",
-		"tags":"Fabrication, Physcial Computing, p5.js",
+		"tags":"Fabrication, physical computing, p5.js",
 		"thumb":"1_thumb.jpg",
 		"content":`
 		Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
@@ -269,17 +265,17 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
   {
    "folder":"motemote",
    "name":"MoteMote",
-   "tags":"Game Design, Vector Doodles, Software",
+   "tags":"Game design, vector illustration, software",
    "thumb":"thumb3.png",
    "content":`
    A game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.
-   In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015!</a>
+   In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015</a>.
    [motemote1.png]
    Gameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.
    [demo.jpg]
-   During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going crazy on-screen.
+   During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going on-screen.
    [demo2.JPG]
-   Testing with judges and students. Our gamers said it was pretty addictive!
+   Testing with judges and students.
    <br><br>
    <b>THE GAME</b>
    It's not online yet. In the meantime, here's some graphics.
@@ -292,7 +288,7 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
     {
 		"folder":"camdoodler",
 		"name":"Cam Doodler",
-		"tags":"Web, Drawing, p5.js",
+		"tags":"Web, drawing, p5.js",
 		"thumb":"thumb.jpg",
 		"content":`
 		Doodle your world via webcam! Fool your foes! Impress your friends! 👀
@@ -432,7 +428,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
 {
   "folder":"dp",
   "name":"The Byte Catalog",
-  "tags":"Installation, Sculpture, Writing",
+  "tags":"Installation, sculpture, writing",
   "thumb":"dp_thumb_weird.png",
   "content":`
   How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?

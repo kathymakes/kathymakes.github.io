@@ -70,6 +70,7 @@ section{
 #about{
   padding-top:120px;
   padding-bottom: 20px;
+
 }
 
 .aboutlinks {
@@ -136,8 +137,6 @@ h2 {
     max-width: 600px;
     margin-top:0px;
 }
-
-
 
 h3{
 	font-size: 22pt;
@@ -263,7 +262,10 @@ body {
 
 nav{
     padding-left:40px;
+    line-height: 1.2em;
+    color: #a937ff;
 	}
+
 
 .responsive{
     margin-left:40px;
