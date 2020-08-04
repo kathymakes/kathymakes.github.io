@@ -69,7 +69,7 @@ section{
 
 #about{
   padding-top:120px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 
 }
 
@@ -157,13 +157,22 @@ h3{
 
 
 #content{
-	padding: 40px 0;
-    border-bottom: 1px dotted #323232;
+	padding: 40px 0 5px 0;
+  /*just enough padding so the wavy text doesn't get cut */
+}
+
+#contentdivider {
+  width:100%;
+  background: transparent;
+  padding-top: 20px; /*this is additive with the div content below, which you can't delete
+  because it defines the <br> height */
+  border-bottom: 1px dotted #323232;
 
 }
 
+
 #content div {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 
@@ -183,7 +192,7 @@ h3{
 
 
 #work {
-	padding: 40px 0;
+	padding: 0px 0px 40px 0px;
 }
 
 #work-stuff a{

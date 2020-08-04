@@ -5,11 +5,11 @@
 function waveify (elem) {
 	var text = $(elem).text();
 	$(elem).text("");
-	for(var i in text) { 
+	for(var i in text) {
 	  if(text[i] === " ") {
-	    $(elem).append( $("<span>").html("&nbsp;") ); 
-	  } else {  
-	    $(elem).append( $("<span>").text(text[i]) ); 
+	    $(elem).append( $("<span>").html("&nbsp;") );
+	  } else {
+	    $(elem).append( $("<span>").text(text[i]) );
 	  }
 	}
 	$(elem).addClass("wavetext");
@@ -53,7 +53,7 @@ var getByFolder = function(folderName){
 //======================//
 // when you click on a project
 //======================//
-	
+
 //Responds to a hash change. Scrolls to work, connect, or about, or puts the content of a given folder (given by hash) into the lightbox, and optionally fades if not in a hurry.
 
 var activate = function(hurry,overrideHash){
@@ -88,34 +88,35 @@ var activate = function(hurry,overrideHash){
                 }
 //======================//
 // wave-ify the text
+// this is also the part where kathy hacked together a border and "All projects" divider text
 //======================//
 			};
-			$("#content").html("<h3>"+piece.name+"</h3><br>"+contentString);
+			$("#content").html("<h3>"+piece.name+"</h3><br>"+contentString+"<div id='contentdivider'></div>"+"<h3>All projects ↝</h3>");
 			$("#content").find("h3").each(function(index, elem){
 				waveify(elem);
 			})
-            
+
 //======================//
 // show the lightbox
-//======================//            
-            
+//======================//
+
 		$("#lightbox").show();
         $("#about").hide();
-        
+
 //			var wherewewannago = $("#lightbox").offset().top
 //			$('html, body').animate({scrollTop:wherewewannago },(hurry?0:400),function(){
 //				window.location.hash=hash;
 //			});
-        
+
 
                 window.location.hash=hash;
                 $('body').scrollTop(0).fadeIn(100);
 
 			});
-        
+
 //		}
-        
-    
+
+
 	}
 
 }

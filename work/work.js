@@ -1,10 +1,10 @@
 work=[
 
   {
-  		"folder":"poetry",
+  		"folder":"manymigrations",
   		"name":"Many Migrations",
   		"tags":"Embroidery, poetry",
-  		"thumb":"manymigrations.png",
+  		"thumb":"manymigrations_reduced.png",
   		"content":`
   		Ongoing work, 2020.
       I often reflect on my position as a class-privileged Chinese American art-maker, caught between romanticized narratives of Chinatowns and—by contrast—my own lived experience within tech work, economic mobility, and SAT-obsessed high schools.
@@ -17,9 +17,6 @@ work=[
       <br>
       <b> POEM, ON CHINATOWNS: </b> Published in MIT Asian American Initiative Zine: <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed">Rooted, Sense of Belonging</a> in July 2020. Showcased in VISIONS Unbounded Art Storytellers Exhibit & Roundtable, August 2020.
       [chinatown 1.png]
-  		<br>
-
-  		<br>
   		`
   },
   {
@@ -28,7 +25,7 @@ work=[
   		"tags":"Brush pen, etc",
   		"thumb":"migrationthumb.png",
   		"content":`
-      More images to come soon, probably. 
+      More images to come soon, probably.
       <br>
       <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
   		[migrationprint.png]
@@ -429,7 +426,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
   "folder":"dp",
   "name":"The Byte Catalog",
   "tags":"Installation, sculpture, writing",
-  "thumb":"dp_thumb_weird.png",
+  "thumb":"dp_thumb_weird_reduced.png",
   "content":`
   How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
 [intro_bytes_reduced.png]
