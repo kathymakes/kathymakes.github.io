@@ -25,14 +25,11 @@ work=[
   		"tags":"Brush pen, etc",
   		"thumb":"migrationthumb.png",
   		"content":`
-      More images to come soon, probably.
-      <br>
       <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
   		[migrationprint.png]
   		<br>
       <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
       [pipapunk.png]
-
   		`
   },
 
@@ -76,7 +73,8 @@ work=[
   		`
   	},
 
-{
+
+    {
 		"folder":"lankpranks",
 		"name":"Rain in Spain",
 		"tags":"Poetry, python",
@@ -137,7 +135,42 @@ work=[
 		[keyboard3.png]
 		`
 },
+{
+    "folder":"googleparty",
+    "name":"Google Doc Parties",
+    "tags":"Events, collaborative poetry",
+    "thumb":"thumb-alt.png",
+    "content":`
+    Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
+    <br>
+    <b>RENGA PARTY DURING COVID-19, #1</b>
+    Let's write a renga-shaped poem together.
+    Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
+    [partyrules.png]
 
+    There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
+    We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
+    [party2.png]
+    [party5.png]
+    [party6.png]
+
+    <br>
+    <b>RENGA PARTY DURING COVID-19, #2</b>
+    This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
+    [party7.png]
+    [party10.png]
+    [party15.png]
+    [party12.png]
+
+    <br>
+    <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
+    I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
+    [party17.png]
+    [party18.png]
+    [party20.png]
+
+    `
+},
      {	"folder":"digpo-imgs",
 		"name":"Web Poetics",
 		"tags":"Interactive, HTML",
@@ -180,40 +213,72 @@ work=[
 //
 // 		`
 // 	},
+{
+  "folder":"searchdivides",
+  "name":"Search Divides Us",
+  "tags":"Exhibit design, front-end dev, UI/UX",
+  "thumb":"cover.jpg",
+  "content":`
+  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
+  Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
+  [video-1.gif]
+  [plaque-2.png]
+  [video-2.gif]
 
-	{
-		"folder":"searchdivides",
-		"name":"Search Divides Us",
-		"tags":"Exhibit design, front-end dev, UI/UX",
-		"thumb":"cover.jpg",
-		"content":`
-		Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
-		Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-		[video-1.gif]
-		[plaque-2.png]
-		[video-2.gif]
+  <br><b>Process</b>
+  Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
 
-		<br><b>Process</b>
-		Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
+  Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
 
-		Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
+  [idea1.png]
 
-		[idea1.png]
+  We were fond of this metaphor; at the same time, it felt abstract and removed.
 
-		We were fond of this metaphor; at the same time, it felt abstract and removed.
+  [idea2.jpg]
+  <br>
+  [idea3.jpg]
 
-		[idea2.jpg]
-		<br>
-		[idea3.jpg]
+  <br><b>GRAPHICS</b>
+  [bluemap.png]
+  [1-white.png]
+  [3-black.png]
+  [4-black-result.png]
 
-		<br><b>GRAPHICS</b>
-		[bluemap.png]
-		[1-white.png]
-		[3-black.png]
-		[4-black-result.png]
+  `
+},
 
-		`
-	},
+{
+"folder":"camdoodler",
+"name":"Cam Doodler",
+"tags":"Web, drawing, p5.js",
+"thumb":"thumb.jpg",
+"content":`
+Doodle your world via webcam! Fool your foes! Impress your friends! 👀
+
+    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/B1sZUM4Rb'>Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+
+[screen1.png]
+    I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
+
+Here's the brush in action:
+    {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
+    <br>
+    <b>DRAWINGS</b>
+After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
+    [cam-doodler.gif]
+    I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
+People also gave me thoughts on how to improve:
+[feedback.png]
+<br>
+    Here are some of my favorite drawings:
+    [8.jpg]
+    [11.jpg]
+    [16.jpg]
+    [4.jpg]
+<br><br>
+    <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler'>Read the blog post.</a>`
+
+},
 
 
 	{
@@ -282,38 +347,7 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
    `
   },
 
-    {
-		"folder":"camdoodler",
-		"name":"Cam Doodler",
-		"tags":"Web, drawing, p5.js",
-		"thumb":"thumb.jpg",
-		"content":`
-		Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 
-        Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/B1sZUM4Rb'>Demo it here.</a>  (Note that you'll have to turn your webcam on.)
-
-		[screen1.png]
-        I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
-
-Here's the brush in action:
-        {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
-        <br>
-        <b>DRAWINGS</b>
-After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
-        [cam-doodler.gif]
-        I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
-    People also gave me thoughts on how to improve:
-    [feedback.png]
-<br>
-        Here are some of my favorite drawings:
-        [8.jpg]
-        [11.jpg]
-        [16.jpg]
-        [4.jpg]
-		<br><br>
-        <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler'>Read the blog post.</a>`
-
-	},
  //   {
 	// 	"folder":"bumble",
 	// 	"name":"Bumble",
