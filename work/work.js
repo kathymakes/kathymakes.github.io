@@ -15,7 +15,7 @@ work=[
       The imagery is based on photos of a Chinatown garment worker, my mother as a tech worker, and traditional Chinese embroidery patterns.
       [manymigrations.png]
       <br>
-      <b> POEM, ON CHINATOWNS: </b> Published in MIT Asian American Initiative Zine: <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed">Rooted, Sense of Belonging</a> in July 2020. Showcased in VISIONS Unbounded Art Storytellers Exhibit & Roundtable, August 2020.
+      <b> POEM, ON CHINATOWNS: </b> Published in MIT Asian American Initiative Zine: <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">Rooted, Sense of Belonging</a> in July 2020. Showcased in VISIONS Unbounded Art Storytellers Exhibit & Roundtable, August 2020.
       [chinatown 1.png]
   		`
   },
@@ -255,7 +255,7 @@ work=[
 "content":`
 Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 
-    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/B1sZUM4Rb'>Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/B1sZUM4Rb' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
 
 [screen1.png]
     I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
@@ -276,7 +276,7 @@ People also gave me thoughts on how to improve:
     [16.jpg]
     [4.jpg]
 <br><br>
-    <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler'>Read the blog post.</a>`
+    <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
 
 },
 
