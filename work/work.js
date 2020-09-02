@@ -246,7 +246,7 @@ work=[
 "content":`
 Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 
-    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/B1sZUM4Rb' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/5BVBUSW2w' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
 
 [screen1.png]
     I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
