@@ -3,20 +3,44 @@ work=[
   {
   		"folder":"manymigrations",
   		"name":"Many Migrations",
-  		"tags":"Embroidery, poetry",
-  		"thumb":"manymigrations_reduced.png",
+  		"tags":"Textiles, poetry",
+  		"thumb":"thumb.png",
   		"content":`
-  		Ongoing work, 2020.
-      I often reflect on my position as a class-privileged Chinese American art-maker, caught between romanticized narratives of Chinatowns and—by contrast—my own lived experience within tech work, economic mobility, and SAT-obsessed high schools.
-      Whose working immigrant bodies do we value through our language?
-      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.       <br>
+  		A cross-seas collaboration with my friend Ying Cai.
+
+      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
+
+      In the center, a child who is born in America.
+
+      [me1.jpg]
+
+      The hand-dyed garment is made by Ying. She's so beautifully synthesized the chinese dudou silhouette with the western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+      In her words, yellow is a strong but gentle color.
+
+      [sideview3.jpg]
+      [backview.jpg]
+
       <br>
-      <b> GARMENT (WORK IN PROGRESS):</b> This du-dai-inspired cotton shirt was handmade by a friend. I'm slowly hand-embroidering it.
-      The imagery is based on photos of a Chinatown garment worker, my mother as a tech worker, and traditional Chinese embroidery patterns.
-      [manymigrations.png]
+      <b> GARMENT DETAIL </b>
+      [layflat.jpg]
+      [closeup1.png]
+      [closeup2.png]
+
       <br>
-      <b> POEM, ON CHINATOWNS: </b> Published in MIT Asian American Initiative Zine: <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">Rooted, Sense of Belonging</a> in July 2020. Showcased in VISIONS Unbounded Art Storytellers Exhibit & Roundtable, August 2020.
+      <b> PROCESS </b>
+      [process1.png]
+      [process3.png]
+
+      <br>
+      <b> INSPIRATION </b>
+      The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
+
+      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
       [chinatown 1.png]
+      Whose working immigrant bodies do we value through our language?
+      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
+
   		`
   },
   {
@@ -41,10 +65,12 @@ work=[
   		"content":`
 
       Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
-      Inversely, art-making can become meditative, it can center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy's leaves.
+
+      And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
 
       To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
 
+      <br>
       <b>ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </b>
 
       In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
@@ -135,42 +161,7 @@ work=[
 		[keyboard3.png]
 		`
 },
-{
-    "folder":"googleparty",
-    "name":"Google Doc Parties",
-    "tags":"Events, collaborative poetry",
-    "thumb":"thumb-alt.png",
-    "content":`
-    Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
-    <br>
-    <b>RENGA PARTY DURING COVID-19, #1</b>
-    Let's write a renga-shaped poem together.
-    Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
-    [partyrules.png]
 
-    There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
-    We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
-    [party2.png]
-    [party5.png]
-    [party6.png]
-
-    <br>
-    <b>RENGA PARTY DURING COVID-19, #2</b>
-    This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
-    [party7.png]
-    [party10.png]
-    [party15.png]
-    [party12.png]
-
-    <br>
-    <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
-    I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
-    [party17.png]
-    [party18.png]
-    [party20.png]
-
-    `
-},
      {	"folder":"digpo-imgs",
 		"name":"Web Poetics",
 		"tags":"Interactive, HTML",
@@ -343,10 +334,48 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
    It's not online yet. In the meantime, here's some graphics.
    [motemote-3.gif]
    [motemote.gif]
+
+   In retrospect, I would have liked to make it less inherently violent or competitive in nature. It's easy to abstract that away with cute motes.
    [motemote-2.gif]
    `
   },
 
+  {
+      "folder":"googleparty",
+      "name":"Google Doc Parties",
+      "tags":"Events, collaborative poetry",
+      "thumb":"thumb-alt.png",
+      "content":`
+      Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
+      <br>
+      <b>RENGA PARTY DURING COVID-19, #1</b>
+      Let's write a renga-shaped poem together.
+      Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
+      [partyrules.png]
+
+      There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
+      We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
+      [party2.png]
+      [party5.png]
+      [party6.png]
+
+      <br>
+      <b>RENGA PARTY DURING COVID-19, #2</b>
+      This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
+      [party7.png]
+      [party10.png]
+      [party15.png]
+      [party12.png]
+
+      <br>
+      <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
+      I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
+      [party17.png]
+      [party18.png]
+      [party20.png]
+
+      `
+  },
 
  //   {
 	// 	"folder":"bumble",
@@ -522,32 +551,32 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
   `
 },
 
-
-
-	{
-		"folder":"sketch",
-		"name":"Sketchbook",
-		"tags":"Doodles, notes, ponderings",
-		"thumb":"thumb_2.jpg",
-		"content":`
-		Pictures from conversations, lectures, process, from 2015-2017. More to come.
-		[1.jpg]
-        [2.jpg]
-        [3.jpg]
-
-        From 2016.
-        [a.jpg]
-        [b.jpg]
-        [c.jpg]
-
-        From 2015.
-        [sketch2.jpg]
-		[sketch3.jpg]
-		[sketch5.jpg]
-
-
-		`
-	},
+  //
+  //
+	// {
+	// 	"folder":"sketch",
+	// 	"name":"Sketchbook",
+	// 	"tags":"Doodles, notes, ponderings",
+	// 	"thumb":"thumb_2.jpg",
+	// 	"content":`
+	// 	Pictures from conversations, lectures, process, from 2015-2017. More to come.
+	// 	[1.jpg]
+  //       [2.jpg]
+  //       [3.jpg]
+  //
+  //       From 2016.
+  //       [a.jpg]
+  //       [b.jpg]
+  //       [c.jpg]
+  //
+  //       From 2015.
+  //       [sketch2.jpg]
+	// 	[sketch3.jpg]
+	// 	[sketch5.jpg]
+  //
+  //
+	// 	`
+	// },
 
 
 ]
