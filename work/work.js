@@ -4,7 +4,7 @@ work=[
   		"folder":"manymigrations",
   		"name":"Many Migrations",
   		"tags":"Textiles, poetry",
-  		"thumb":"thumb.png",
+  		"thumb":"thumb.jpg",
   		"content":`
   		A cross-seas collaboration with my friend Ying Cai.
 
@@ -14,7 +14,7 @@ work=[
 
       [me1.jpg]
 
-      The hand-dyed garment is made by Ying. She's so beautifully synthesized the chinese dudou silhouette with the western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
       In her words, yellow is a strong but gentle color.
 
       [sideview3.jpg]
@@ -23,13 +23,13 @@ work=[
       <br>
       <b> GARMENT DETAIL </b>
       [layflat.jpg]
-      [closeup1.png]
-      [closeup2.png]
+      [closeup1.jpg]
+      [closeup2.jpg]
 
       <br>
       <b> PROCESS </b>
-      [process1.png]
-      [process3.png]
+      [process1.jpg]
+      [process3.jpg]
 
       <br>
       <b> INSPIRATION </b>
@@ -37,7 +37,7 @@ work=[
 
       Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
       Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-      [chinatown 1.png]
+      [chinatown 1.jpg]
       Whose working immigrant bodies do we value through our language?
       Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
 
@@ -47,13 +47,13 @@ work=[
   		"folder":"polit-img",
   		"name":"Illustrations",
   		"tags":"Brush pen, etc",
-  		"thumb":"migrationthumb.png",
+  		"thumb":"thumb.jpg",
   		"content":`
       <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
-  		[migrationprint.png]
+  		[migrationprint.jpg]
   		<br>
       <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
-      [pipapunk.png]
+      [pipapunk.jpg]
   		`
   },
 
@@ -61,7 +61,7 @@ work=[
   		"folder":"teaching",
   		"name":"Drawing Workshop",
   		"tags":"Informal teaching",
-  		"thumb":"thumb-bw.png",
+  		"thumb":"thumb.jpg",
   		"content":`
 
       Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
@@ -76,7 +76,7 @@ work=[
       In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
 
       [1.jpg]
-      [drawing2.png]
+      [drawing2.jpg]
 
       <br>
       <b> VARIATIONS ON A LINE: </b> Drawing with different hands, closing your eyes, breathing through a line.
@@ -90,7 +90,7 @@ work=[
 
       <br>
       <b>BUILDING A GUEST HOUSE: </b> Creating a sculpture to hold feeling.
-  		[action5.png]
+  		[action5.jpg]
       [drawing5.jpg]
   		[end5.jpg]
 
@@ -104,7 +104,7 @@ work=[
 		"folder":"lankpranks",
 		"name":"Rain in Spain",
 		"tags":"Poetry, python",
-		"thumb":"babycastles1.jpg",
+		"thumb":"thumb.jpg",
 		"content":`
 		I wrote a poem about word sounds using <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict" target = "_blank">CMU's pronouncing dictionary</a>.
 		There’s such a material quality to spoken word—which are just meaty vibrations, with different ways of stopping air.
@@ -112,16 +112,16 @@ work=[
 
 		[babycastles1.jpg]
 		For me, the exciting computational aspect was glomming together intense similarities in record time— creating this hyper-active form of English that almost evolved into something more abstractly shaped, like music.
-		[0-realpython.png]
+		[0-realpython.jpg]
 		“Rain in spain,” was the only string that has some intentional cultural reference. Originally from “My Fair Lady,” it acts as a kind of shibboleth for lower-class dialects; there’s a whole song about her conforming her vowel dipthongs.
 
-		[5-rain.png]
-		[6-rain.png]
+		[5-rain.jpg]
+		[6-rain.jpg]
     Before a performance, each of six rhyming poems got regenerated with unique words:
-		[3-itsits.png]
-		[4-itsits.png]
-		[1-zapgap.png]
-		[2-zapgap.png]
+		[3-itsits.jpg]
+		[4-itsits.jpg]
+		[1-zapgap.jpg]
+		[2-zapgap.jpg]
 		<br>
 		Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
 
@@ -137,14 +137,14 @@ work=[
 		"folder":"difficultwriting",
 		"name":"Difficult Writing",
 		"tags":"Poetics, digital media",
-		"thumb":"a-4x6.png",
+		"thumb":"thumb.jpg",
 		"content":`
 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
 		<br>
 		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
 		[driving_gif.gif]
 
-		[miss-you.png]
+		[miss-you.jpg]
 		<br>
 		<br>
 		<b>TRANSCRIBING OBSTRUCTIONS.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
@@ -156,16 +156,16 @@ work=[
 		Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
 
 		[kindastrange1.gif]
-		[keyboard1.png]
-		[keyboard2.png]
-		[keyboard3.png]
+		[keyboard1.jpg]
+		[keyboard2.jpg]
+		[keyboard3.jpg]
 		`
 },
 
      {	"folder":"digpo-imgs",
 		"name":"Web Poetics",
 		"tags":"Interactive, HTML",
-		"thumb":"potterythumb.png",
+		"thumb":"thumb.jpg",
 		"content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
     Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
 		<br>
@@ -174,18 +174,18 @@ work=[
     [urn.gif]
     <br><br>
         <b>OPPOSITE OF A GUN:</b>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
-[gun_opposite.png]
+[gun_opposite.jpg]
 [gun_opposite.gif]
 <br><br>
 
 		<b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-		[may.png]
+		[may.jpg]
 		[may-3.gif]
 		<br><br>
 
 		<b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
-		[basho.png]
-		[basho1.png]
+		[basho.jpg]
+		[basho1.jpg]
 
 		`
 	},
@@ -196,7 +196,7 @@ work=[
 // 		"folder":"oppositesgame",
 // 		"name":"Opposites Workshop",
 // 		"tags":"Informal teaching",
-// 		"thumb":"opposites.png",
+// 		"thumb":"opposites.jpg",
 // 		"content":`
 // 		<br><b>Art as Contemplative Care</b>
 //
@@ -213,7 +213,7 @@ work=[
   Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
   Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
   [video-1.gif]
-  [plaque-2.png]
+  [plaque-2.jpg]
   [video-2.gif]
 
   <br><b>Process</b>
@@ -221,7 +221,7 @@ work=[
 
   Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
 
-  [idea1.png]
+  [idea1.jpg]
 
   We were fond of this metaphor; at the same time, it felt abstract and removed.
 
@@ -230,10 +230,10 @@ work=[
   [idea3.jpg]
 
   <br><b>GRAPHICS</b>
-  [bluemap.png]
-  [1-white.png]
-  [3-black.png]
-  [4-black-result.png]
+  [bluemap.jpg]
+  [1-white.jpg]
+  [3-black.jpg]
+  [4-black-result.jpg]
 
   `
 },
@@ -248,7 +248,7 @@ Doodle your world via webcam! Fool your foes! Impress your friends! 👀
 
     Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/5BVBUSW2w' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
 
-[screen1.png]
+[screen1.jpg]
     I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
 
 Here's the brush in action:
@@ -259,7 +259,7 @@ After building it, I sent the tool out to friends and acquaintances for user tes
     [cam-doodler.gif]
     I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
 People also gave me thoughts on how to improve:
-[feedback.png]
+[feedback.jpg]
 <br>
     Here are some of my favorite drawings:
     [8.jpg]
@@ -276,7 +276,7 @@ People also gave me thoughts on how to improve:
 		"folder":"lego",
 		"name":"Lego Soundmaker",
 		"tags":"Fabrication, physical computing, p5.js",
-		"thumb":"1_thumb.jpg",
+		"thumb":"thumb.jpg",
 		"content":`
 		Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
         [1.jpg]
@@ -291,9 +291,9 @@ People also gave me thoughts on how to improve:
         Inside, there's an Arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase surface area.
         [3_super_cropped.jpg]
 The magic under the hood relies on an overhead webcam and <b>computer vision</b>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
-        [schematic1.png]
+        [schematic1.jpg]
 I wrote the computer vision program myself using p5.js. <a href="https://alpha.editor.p5js.org/kathymakes/sketches/H19jBHXbG" target="_blank">Take a look at the code.</a>
-[p5process.png]
+[p5process.jpg]
 
         <br>
         <b>Process</b>
@@ -319,11 +319,11 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
    "folder":"motemote",
    "name":"MoteMote",
    "tags":"Game design, vector illustration, software",
-   "thumb":"thumb3.png",
+   "thumb":"thumb3.jpg",
    "content":`
    A game I created with my team in under 24 hours at Hack@Brown 2015. I brought design chops to a team of two developers. We wanted to make group gaming more fun & inclusive, by using a controller most people already have in their pockets.
    In MoteMote, you use your smartphone as a remote and play as a teensy Mote character. Anyone can join at any point in the game. The project won <a href='http://hackatbrown2015.devpost.com/' target='blank' style='font-weight:bold'>Best Overall at Hack@Brown 2015</a>.
-   [motemote1.png]
+   [motemote1.jpg]
    Gameplay is like Mario Party Bumper Balls, except with shark danger and (in theory) infinite players.
    [demo.jpg]
    During the hackathon demo, we invited everyone in the audience to join the game. At one point, we had over 200 participants going on-screen.
@@ -344,35 +344,35 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
       "folder":"googleparty",
       "name":"Google Doc Parties",
       "tags":"Events, collaborative poetry",
-      "thumb":"thumb-alt.png",
+      "thumb":"thumb-alt.jpg",
       "content":`
       Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
       <br>
       <b>RENGA PARTY DURING COVID-19, #1</b>
       Let's write a renga-shaped poem together.
       Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
-      [partyrules.png]
+      [partyrules.jpg]
 
       There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
       We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
-      [party2.png]
-      [party5.png]
-      [party6.png]
+      [party2.jpg]
+      [party5.jpg]
+      [party6.jpg]
 
       <br>
       <b>RENGA PARTY DURING COVID-19, #2</b>
       This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
-      [party7.png]
-      [party10.png]
-      [party15.png]
-      [party12.png]
+      [party7.jpg]
+      [party10.jpg]
+      [party15.jpg]
+      [party12.jpg]
 
       <br>
       <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
       I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
-      [party17.png]
-      [party18.png]
-      [party20.png]
+      [party17.jpg]
+      [party18.jpg]
+      [party20.jpg]
 
       `
   },
@@ -381,21 +381,21 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 	// 	"folder":"bumble",
 	// 	"name":"Bumble",
 	// 	"tags":"Media Design, Interactive, UI/UX",
-	// 	"thumb":"thumb.png",
+	// 	"thumb":"thumb.jpg",
 	// 	"content":`
 	// 	Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
-	// 	[thumb2.png]
+	// 	[thumb2.jpg]
 	// 	<br><br>
 	// 	<b>What is the shape of mobile media?</b>
 	// 	Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
 	// 	Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
-	// 	[2.png]
+	// 	[2.jpg]
 	// 	Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
 	// 	The most difficult question was nailing down <b>what media our tool would enable.</b> Ephemeral, or invested? Individual, or collaborative?
 	// 	<br><br>
 	// 	<b>VERSION 1</b>
 	// 	Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <b>expressive webcards on a social network.</b>
-	// 	[4.png]
+	// 	[4.jpg]
 	// 	The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>
 	// 	<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
 	// 	<br><br>
@@ -410,7 +410,7 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 
 	// 	In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
 	// 	The UI was inspired by <b>Choose-Your-Own Adventure,</b> and Borges' <b>Garden of the Forking Paths.</b>
-	// 	[7.png]
+	// 	[7.jpg]
 	// 	The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
 
 	// 	<br>
@@ -430,14 +430,14 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 // 		I rebranded the James Turrell Museum in Bodega Colome, Argentina in 6 weeks for RISD's Brand Identity studio.
 // 		I first wanted to know more about Turrell's work. What stood out to me was how he distills nature into this pure, temporal experience. His work focuses and frames natural processes—like the sunset— so the viewer enters this almost meditative state, where they are hyper-aware of passing time.
 // 		Here's some early research: obsessive moodboarding, drawing, and word studies.
-// 		[process4.png]
-// 		[process1.png]
+// 		[process4.jpg]
+// 		[process1.jpg]
 // 		<br><br>
 // 		<b>LOGO CONCEPT</b>
 // 		The final mark references a slow, recession of light, space, and atmosphere, while winking at the “T” of Turrell. The palette is a saturated take on the gradation of daylight, and the colors of the Turrell’s native Arizona landscape.
 // 		[turrell-02.svg]
 // [stationary_crop.jpg]
-// 		[turrell12.png]
+// 		[turrell12.jpg]
 // 		[poster.jpg]
 // 		<br>
 // 		<b>PRINT MATERIALS</b>
@@ -489,10 +489,10 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
   "folder":"dp",
   "name":"The Byte Catalog",
   "tags":"Installation, sculpture, writing",
-  "thumb":"dp_thumb_weird_reduced.png",
+  "thumb":"thumb.jpg",
   "content":`
   How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
-[intro_bytes_reduced.png]
+[intro_bytes_reduced.jpg]
 
   This project began as a investigation of the textual internet.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
 
@@ -506,13 +506,13 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 
   In early explorations, I translated data into sculptural objects with mass to expand the abstract idea of "gigabyte" or "terabyte," into a sensory one.
 
-  [dp_1.png]
+  [dp_1.jpg]
   <br>
   <br>
   <b>2. CONVERSION TOOLS</b>
   The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
  I created interpretive “conversion tools” n the form of frames and boxes. Ech of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
-  [crowdsourced.png]
+  [crowdsourced.jpg]
 
 
   <br>
@@ -521,7 +521,7 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
   Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
 ' target='_blank'>process document</a> and a video (below).
   In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
-  [dp_2.png]
+  [dp_2.jpg]
   {<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
 
 
@@ -529,10 +529,10 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
   <br>
   <b>4. OWNERSHIP OF VIRTUAL THINGS</b>
   Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
-  [7_alt.png]
+  [7_alt.jpg]
   <br>
   I allocated pixel acre-age on my site for people to own, with a corresponding deed modeled after traditional land deeds.
-  [dp_3.png]
+  [dp_3.jpg]
 
 
   <br>
@@ -540,11 +540,11 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
   <b>5. VIRTUAL WORLD</b>
   Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
   The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
-  [1.png]
+  [1.jpg]
   <br>
-  [4.png]
+  [4.jpg]
   <br>
-  [3alt.png]
+  [3alt.jpg]
   <br>
 
 
