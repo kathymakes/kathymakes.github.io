@@ -266,7 +266,7 @@ h3{
 
 /*--------------------------------------------------------------*/
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 540px){
 
 body {
     font-size: 12pt;
@@ -286,7 +286,7 @@ nav{
 /* CONTENT + WORK RE-SIZING*/
 
 #content{
-	max-width:630px;
+	max-width:620px;
 	}
 
 #work-stuff a{
