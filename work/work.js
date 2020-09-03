@@ -10,7 +10,7 @@ work=[
 
       The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
 
-      In the center, a child who is born in America. 
+      In the center, a child who is born in America.
 
       [me1.jpg]
 

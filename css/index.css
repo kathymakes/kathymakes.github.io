@@ -24,8 +24,10 @@
 
 html{
 	height:100%;
+	width:100%;
   /* background-color: #fcfcfc; */
-  background: linear-gradient(90deg,white,white,white,#f4eff7);
+  	overflow-x: hidden;
+  	background: linear-gradient(90deg,white,white,white,#f4eff7);
 
 }
 
