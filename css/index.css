@@ -23,16 +23,13 @@
 /*THE FUN STARTS HERE*/
 
 html{
-	height:100%;
-	width:100%;
-  /* background-color: #fcfcfc; */
-  	overflow-x: hidden; /* might not need this here, vs. the body class. It's all a mess lol */
-  	background: linear-gradient(90deg,white,white,white,#f4eff7);
-
+  height:100%;
+  background: linear-gradient(90deg,white,white,white,#f4eff7);
+  overflow-x: hidden;
 }
 
 body {
-	position: absolute;
+	position: relative;
 	font-family: Karla, Arial, sans-serif;
 	color: #323232;
 	line-height: 1.7em;
@@ -42,7 +39,6 @@ body {
 	height: 100%;
 	min-height: 100%;
 	cursor:default;
-  	overflow-x: hidden;
 }
 
 ::selection {
@@ -90,7 +86,7 @@ section{
 nav {
 	position: absolute;
 	z-index: 10;
-    padding-left:20px;
+	margin:0;
     padding-top:30px;
     background-color: transparent;
     width:100%;
@@ -102,11 +98,8 @@ nav a {
     font-size:11.5pt;
     letter-spacing: 0.75px;
     font-weight: bold;
-/*    color:#323232;*/
     text-transform: uppercase;
-
     margin-top:-20px;
-    margin-left:-20px;
     padding:20px;
 }
 
@@ -268,16 +261,18 @@ h3{
 
 @media screen and (min-width: 540px){
 
+
 body {
     font-size: 12pt;
   }
 
-nav{
-    padding-left:40px;
-    line-height: 1.2em;
-    color: #a937ff;
-	}
 
+nav a{
+	padding-left:40px;
+	line-height: 1.2em;
+    color: #a937ff;
+
+}
 
 .responsive{
     margin-left:40px;
@@ -315,7 +310,7 @@ nav{
 
 /*--------------------------------------------------------------*/
 
-@media screen and (min-width: 860px){
+@media screen and (min-width: 800px){
 
 #work-stuff a{
 		width: 33.333%;
