@@ -43,19 +43,19 @@ work=[
 
   		`
   },
-  {
-  		"folder":"polit-img",
-  		"name":"Illustrations",
-  		"tags":"Brush pen, etc",
-  		"thumb":"thumb.jpg",
-  		"content":`
-      <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
-  		[migrationprint.jpg]
-  		<br>
-      <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
-      [pipapunk.jpg]
-  		`
-  },
+  // {
+  // 		"folder":"polit-img",
+  // 		"name":"Illustrations",
+  // 		"tags":"Brush pen, etc",
+  // 		"thumb":"thumb.jpg",
+  // 		"content":`
+  //     <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
+  // 		[migrationprint.jpg]
+  // 		<br>
+  //     <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
+  //     [pipapunk.jpg]
+  // 		`
+  // },
 
   {
   		"folder":"teaching",
@@ -198,12 +198,14 @@ work=[
 // 		"tags":"Informal teaching",
 // 		"thumb":"opposites.jpg",
 // 		"content":`
-// 		<br><b>Art as Contemplative Care</b>
+// 		<br><b>Opposites</b>
 //
 //
 //
 // 		`
 // 	},
+
+
 {
   "folder":"searchdivides",
   "name":"Search Divides Us",
@@ -238,6 +240,61 @@ work=[
   `
 },
 
+{  "folder":"jelly",
+  "name":"Pulmō Plastics",
+  "tags":"Speculative objects, biodesign",
+  "thumb":"overview.jpg",
+  "content":`
+  
+  Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
+  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018. 
+
+  [overview_crop.jpg]
+
+  As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
+  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem. 
+  
+  [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
+
+  When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
+    [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
+
+    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <b>petroleum-based plastic waste</b>? 
+
+  [jelly3.jpeg]
+  Jellyfish protein is almost exclusively <b>the structural protein collagen.</b> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
+  We propose the use of <b>jellyfish gelatin</b> (which can be obtained by heating jellyfish collagen), <b>vegetable glycerin,</b> and <b>chitosan</b> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
+
+  [jelly9.jpeg]
+
+  <br>
+  <br>
+  <b>OUR PROCESS</b>
+  We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
+  
+  [jelly5.jpeg]
+
+  Crunchy like a disposable beverage bottle...
+  [jelly6.jpeg]
+  ...or supple yet strong like a ‘plastic’ bag.
+  [jelly7.jpeg]
+
+  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals. 
+  [jelly18.jpeg]
+
+
+
+  <br>
+  <br>
+  <b>FINAL THOUGHTS</b>
+  Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
+  [pulmo_samples.jpg]
+  We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
+  Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
+
+
+  `
+},
 {
 "folder":"camdoodler",
 "name":"Cam Doodler",
@@ -271,14 +328,77 @@ People also gave me thoughts on how to improve:
 
 },
 
+{
+  "folder":"dp",
+  "name":"The Byte Catalog",
+  "tags":"Installation, sculpture, writing",
+  "thumb":"thumb.jpg",
+  "content":`
+  How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
+[intro_bytes_reduced.jpg]
 
-	{
-		"folder":"lego",
-		"name":"Lego Soundmaker",
-		"tags":"Fabrication, physical computing, p5.js",
-		"thumb":"thumb.jpg",
-		"content":`
-		Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
+  This project began as a investigation of the textual internet.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
+
+
+
+
+  <br><br>
+  <b>1. VOLUME, WEIGHT</b>
+
+  If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight.
+
+  In early explorations, I translated data into sculptural objects with mass to expand the abstract idea of "gigabyte" or "terabyte," into a sensory one.
+
+  [dp_1.jpg]
+  <br>
+  <br>
+  <b>2. CONVERSION TOOLS</b>
+  The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
+ I created interpretive “conversion tools” n the form of frames and boxes. Ech of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
+  [crowdsourced.jpg]
+
+
+  <br>
+  <br>
+  <b>3. WRITING</b>
+  Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
+' target='_blank'>process document</a> and a video (below).
+  In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
+  [dp_2.jpg]
+  {<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
+
+
+  <br>
+  <br>
+  <b>4. OWNERSHIP OF VIRTUAL THINGS</b>
+  Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
+  [7_alt.jpg]
+  <br>
+  I allocated pixel acre-age on my site for people to own, with a corresponding deed modeled after traditional land deeds.
+  [dp_3.jpg]
+
+
+  <br>
+  <br>
+  <b>5. VIRTUAL WORLD</b>
+  Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
+  The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
+  [1.jpg]
+  <br>
+  [4.jpg]
+  <br>
+  [3alt.jpg]
+  <br>
+
+
+  `
+},{
+    "folder":"lego",
+    "name":"Lego Soundmaker",
+    "tags":"Fabrication, physical computing, p5.js",
+    "thumb":"thumb.jpg",
+    "content":`
+    Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
         [1.jpg]
         [2.jpg]
         <br><b>Build your own tracks...</b>
@@ -314,7 +434,93 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 <br>
 <a href='https://pondermake.tumblr.com/post/169135210574/lego-sound-sequencer' target='_blank'>Read more thoughts on my blog.</a>
         `
-	},
+  },
+
+{  "folder":"scratch",
+  "name":"Scratch: Join Scratch",
+  "tags":"UI / UX",
+  "thumb":"thumb.png",
+  "content":`
+
+  <b>WHAT'S SCRATCH? </b>  
+  <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
+  For many children, Scratch is their first experience in computational media and virtual community. 
+
+<br>
+  <b>WHY THIS WORK? </b>  
+
+  Our previous join experience was text-heavy, less paced, and more utilitarian.
+  [join 6.png]
+
+  Scratch usage has been growing worldwide over the last few years. Often kids will be creating a new account as part of their classroom experience, or sometimes they will discover Scratch on their own. 
+  It felt crucial that we improve this first touch point – to emphasize a welcoming community, as well as the joy of building your first creative identity online.
+
+<br>
+  <b>NEW EXPERIENCE</b>
+  I remember my first foray with internet communities over a decade ago, and how emotional that could be.
+  We also recognize that we have a responsibility to onboard young people into internet community literacy — how to represent yourself online, while protecting your privacy.
+ 
+  [join 1.png]
+  [age 1.png]
+  [country 2.png]
+  [gender 3.png]
+  [end 1.png]
+
+
+
+  `
+
+},
+
+{  "folder":"scratch-sprites",
+  "name":"Scratch: People Sprites",
+  "tags":"Illustration",
+  "thumb":"sprite1-alt.png",
+  "content":`
+  
+    <b>WHAT'S SCRATCH? </b>  
+  <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
+   For many children, Scratch is their first experience in computational media and virtual community. 
+
+ <br>
+   <b>WHY THIS WORK?</b>  
+  Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
+  
+  Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example:
+  [poor-abby-2.gif]
+
+   This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork. 
+  It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
+
+<br>
+  <b>NEW ARTWORK </b>
+  As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at (url).
+  Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
+
+    [sprite2.png]
+
+  I drew this set of new vector characters. Now that they are in the Scratch Library, anyone can use them for their creative projects.
+
+  [sprite1-alt.png]
+
+  These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
+  [sprite5.png]
+
+  Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
+
+  Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.  
+
+  [sprite4.png]
+
+
+  `
+
+},
+
+
+
+
+	
   {
    "folder":"motemote",
    "name":"MoteMote",
@@ -480,76 +686,12 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 
 
 
-// `
+// // `
 
 
 // 	},
 
-{
-  "folder":"dp",
-  "name":"The Byte Catalog",
-  "tags":"Installation, sculpture, writing",
-  "thumb":"thumb.jpg",
-  "content":`
-  How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
-[intro_bytes_reduced.jpg]
 
-  This project began as a investigation of the textual internet.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
-
-
-
-
-  <br><br>
-  <b>1. VOLUME, WEIGHT</b>
-
-  If our informational input could be measured in pounds, imagine how it would feel to literally consume or hold that much weight.
-
-  In early explorations, I translated data into sculptural objects with mass to expand the abstract idea of "gigabyte" or "terabyte," into a sensory one.
-
-  [dp_1.jpg]
-  <br>
-  <br>
-  <b>2. CONVERSION TOOLS</b>
-  The human body understands the material world and has unique intuitions that help us navigate it. I was interested in how people would use intuition to convert their understanding of virtual units into physical objects.
- I created interpretive “conversion tools” n the form of frames and boxes. Ech of these symbolized a space for an assigned virtual unit where people’s responses/objects would live.
-  [crowdsourced.jpg]
-
-
-  <br>
-  <br>
-  <b>3. WRITING</b>
-  Writing was an important part of my process and discovery. I generated about 1MB worth of text and images throughout this project.       I populated that data into a <a href='https://drive.google.com/file/d/0BzXTWcuY86iYcHFTREVrbVhrRzA/view?usp=sharing
-' target='_blank'>process document</a> and a video (below).
-  In the Byte Catalogue, I documented objects I crowd-sourced. I compared these against virtual experiences—for example, the Lord of the Rings trilogy in bytes.
-  [dp_2.jpg]
-  {<video src ='work/dp/video_2.m4v' controls autoplay='on' muted width='98%' height='300' style='border:1px solid #e0e0e0'></video>}
-
-
-  <br>
-  <br>
-  <b>4. OWNERSHIP OF VIRTUAL THINGS</b>
-  Inspired by the Million Dollar website,  I was amused at the skeuomorph of buying “space” on the Internet.
-  [7_alt.jpg]
-  <br>
-  I allocated pixel acre-age on my site for people to own, with a corresponding deed modeled after traditional land deeds.
-  [dp_3.jpg]
-
-
-  <br>
-  <br>
-  <b>5. VIRTUAL WORLD</b>
-  Eventually I collected enough to fill up a room with artifacts. I found textual objects and materials of different weights and densities and quantified them in bytes.
-  The piece also featured sculptural metaphors like downloading across glass jars, as well as plastic physical hard-drives.
-  [1.jpg]
-  <br>
-  [4.jpg]
-  <br>
-  [3alt.jpg]
-  <br>
-
-
-  `
-},
 
   //
   //
