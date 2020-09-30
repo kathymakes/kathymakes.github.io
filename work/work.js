@@ -1,174 +1,13 @@
 work=[
 
-  {
-  		"folder":"manymigrations",
-  		"name":"Many Migrations",
-  		"tags":"Textiles, poetry",
-  		"thumb":"thumb.jpg",
-  		"content":`
-  		A cross-seas collaboration with my friend Ying Cai.
-
-      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
-
-      In the center, a child who is born in America.
-
-      [me1.jpg]
-
-      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-      In her words, yellow is a strong but gentle color.
-
-      [sideview3.jpg]
-      [backview.jpg]
-
-      <br>
-      <b> GARMENT DETAIL </b>
-      [layflat.jpg]
-      [closeup1.jpg]
-      [closeup2.jpg]
-
-      <br>
-      <b> PROCESS </b>
-      [process1.jpg]
-      [process3.jpg]
-
-      <br>
-      <b> INSPIRATION </b>
-      The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
-
-      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-      [chinatown 1.jpg]
-      Whose working immigrant bodies do we value through our language?
-      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-
-  		`
-  },
-  // {
-  // 		"folder":"polit-img",
-  // 		"name":"Illustrations",
-  // 		"tags":"Brush pen, etc",
-  // 		"thumb":"thumb.jpg",
-  // 		"content":`
-  //     <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
-  // 		[migrationprint.jpg]
-  // 		<br>
-  //     <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
-  //     [pipapunk.jpg]
-  // 		`
-  // },
-
-  {
-  		"folder":"teaching",
-  		"name":"Drawing Workshop",
-  		"tags":"Informal teaching",
-  		"thumb":"thumb.jpg",
-  		"content":`
-
-      Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
-
-      And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
-
-      To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
-
-      <br>
-      <b>ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </b>
-
-      In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
-
-      [1.jpg]
-      [drawing2.jpg]
-
-      <br>
-      <b> VARIATIONS ON A LINE: </b> Drawing with different hands, closing your eyes, breathing through a line.
-  		[action3.jpg]
-  		[drawing3.jpg]
-
-  		[action4.jpg]
-  		[drawing4.jpg]
-
-  		[line_hard_break_2.jpg]
-
-      <br>
-      <b>BUILDING A GUEST HOUSE: </b> Creating a sculpture to hold feeling.
-  		[action5.jpg]
-      [drawing5.jpg]
-  		[end5.jpg]
-
-  		[drawing6.jpg]
-  		[end0.jpg]
-  		`
-  	},
-
-
-    {
-		"folder":"lankpranks",
-		"name":"Rain in Spain",
-		"tags":"Poetry, python",
-		"thumb":"thumb.jpg",
-		"content":`
-		I wrote a poem about word sounds using <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict" target = "_blank">CMU's pronouncing dictionary</a>.
-		There’s such a material quality to spoken word—which are just meaty vibrations, with different ways of stopping air.
-    My 1-month bare bones knowledge of linguistics tells me that air stopped with my lips, versus with teeth, versus tongue, are the most low-level differentiators between sounds that are innately “aggressive,” or innately “soft.”
-
-		[babycastles1.jpg]
-		For me, the exciting computational aspect was glomming together intense similarities in record time— creating this hyper-active form of English that almost evolved into something more abstractly shaped, like music.
-		[0-realpython.jpg]
-		“Rain in spain,” was the only string that has some intentional cultural reference. Originally from “My Fair Lady,” it acts as a kind of shibboleth for lower-class dialects; there’s a whole song about her conforming her vowel dipthongs.
-
-		[5-rain.jpg]
-		[6-rain.jpg]
-    Before a performance, each of six rhyming poems got regenerated with unique words:
-		[3-itsits.jpg]
-		[4-itsits.jpg]
-		[1-zapgap.jpg]
-		[2-zapgap.jpg]
-		<br>
-		Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
-
-		[babycastles3.jpg]
-		[babycastles2.jpg]
-
-    Thank you to Allison Parrish for code help, as well as to Ayal’s project which uses pronouncing + spacy. I referenced code for my “rhyme()” function from there.
-		<br>
-		`
-},
-
-{
-		"folder":"difficultwriting",
-		"name":"Difficult Writing",
-		"tags":"Poetics, digital media",
-		"thumb":"thumb.jpg",
-		"content":`
-		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
-		<br>
-		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
-		[driving_gif.gif]
-
-		[miss-you.jpg]
-		<br>
-		<br>
-		<b>TRANSCRIBING OBSTRUCTIONS.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
-		<br>
-		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
-		<br><br>
-
-		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
-		Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
-
-		[kindastrange1.gif]
-		[keyboard1.jpg]
-		[keyboard2.jpg]
-		[keyboard3.jpg]
-		`
-},
-
-     {	"folder":"digpo-imgs",
-		"name":"Web Poetics",
-		"tags":"Interactive, HTML",
-		"thumb":"thumb.jpg",
-		"content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
+  
+     {  "folder":"digpo-imgs",
+    "name":"Web Poetics",
+    "tags":"Interactive, HTML",
+    "thumb":"thumb.jpg",
+    "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
     Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
-		<br>
+    <br>
     <b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
     [pottery.gif]
     [urn.gif]
@@ -178,32 +17,32 @@ work=[
 [gun_opposite.gif]
 <br><br>
 
-		<b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-		[may.jpg]
-		[may-3.gif]
-		<br><br>
+    <b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+    [may.jpg]
+    [may-3.gif]
+    <br><br>
 
-		<b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
-		[basho.jpg]
-		[basho1.jpg]
+    <b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
+    [basho.jpg]
+    [basho1.jpg]
 
-		`
-	},
+    `
+  },
 
 
 
 // {
-// 		"folder":"oppositesgame",
-// 		"name":"Opposites Workshop",
-// 		"tags":"Informal teaching",
-// 		"thumb":"opposites.jpg",
-// 		"content":`
-// 		<br><b>Opposites</b>
+//    "folder":"oppositesgame",
+//    "name":"Opposites Workshop",
+//    "tags":"Informal teaching",
+//    "thumb":"opposites.jpg",
+//    "content":`
+//    <br><b>Opposites</b>
 //
 //
 //
-// 		`
-// 	},
+//    `
+//  },
 
 
 {
@@ -340,8 +179,6 @@ People also gave me thoughts on how to improve:
   This project began as a investigation of the textual internet.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
 
 
-
-
   <br><br>
   <b>1. VOLUME, WEIGHT</b>
 
@@ -392,7 +229,175 @@ People also gave me thoughts on how to improve:
 
 
   `
-},{
+  },
+
+  {
+    "folder":"lankpranks",
+    "name":"Rain in Spain",
+    "tags":"Poetry, python",
+    "thumb":"thumb.jpg",
+    "content":`
+    I wrote a poem about word sounds using <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict" target = "_blank">CMU's pronouncing dictionary</a>.
+    There’s such a material quality to spoken word—which are just meaty vibrations, with different ways of stopping air.
+    My 1-month bare bones knowledge of linguistics tells me that air stopped with my lips, versus with teeth, versus tongue, are the most low-level differentiators between sounds that are innately “aggressive,” or innately “soft.”
+
+    [babycastles1.jpg]
+    For me, the exciting computational aspect was glomming together intense similarities in record time— creating this hyper-active form of English that almost evolved into something more abstractly shaped, like music.
+    [0-realpython.jpg]
+    “Rain in spain,” was the only string that has some intentional cultural reference. Originally from “My Fair Lady,” it acts as a kind of shibboleth for lower-class dialects; there’s a whole song about her conforming her vowel dipthongs.
+
+    [5-rain.jpg]
+    [6-rain.jpg]
+    Before a performance, each of six rhyming poems got regenerated with unique words:
+    [3-itsits.jpg]
+    [4-itsits.jpg]
+    [1-zapgap.jpg]
+    [2-zapgap.jpg]
+    <br>
+    Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
+
+    [babycastles3.jpg]
+    [babycastles2.jpg]
+
+    Thank you to Allison Parrish for code help, as well as to Ayal’s project which uses pronouncing + spacy. I referenced code for my “rhyme()” function from there.
+    <br>
+    `
+},
+
+{
+  		"folder":"manymigrations",
+  		"name":"Many Migrations",
+  		"tags":"Textiles, poetry",
+  		"thumb":"thumb.jpg",
+  		"content":`
+  		A cross-seas collaboration with my friend Ying Cai.
+
+      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
+
+      In the center, a child who is born in America.
+
+      [me1.jpg]
+
+      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+      In her words, yellow is a strong but gentle color.
+
+      [sideview3.jpg]
+      [backview.jpg]
+
+      <br>
+      <b> GARMENT DETAIL </b>
+      [layflat.jpg]
+      [closeup1.jpg]
+      [closeup2.jpg]
+
+      <br>
+      <b> PROCESS </b>
+      [process1.jpg]
+      [process3.jpg]
+
+      <br>
+      <b> INSPIRATION </b>
+      The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
+
+      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
+      [chinatown 1.jpg]
+      Whose working immigrant bodies do we value through our language?
+      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
+
+  		`
+  },
+  // {
+  // 		"folder":"polit-img",
+  // 		"name":"Illustrations",
+  // 		"tags":"Brush pen, etc",
+  // 		"thumb":"thumb.jpg",
+  // 		"content":`
+  //     <b>MIGRATION IS BEAUTIFUL:</b> A print for a fundraiser for RAICES and Movimiento Cosecha. (Link to buy a print coming soon.)
+  // 		[migrationprint.jpg]
+  // 		<br>
+  //     <b>NOT YOUR BAO-BEI:</b> A celestial, pi-pa strumming Chinese god/goddess but with Riot Girl energy.
+  //     [pipapunk.jpg]
+  // 		`
+  // },
+
+
+
+  {
+  		"folder":"teaching",
+  		"name":"Drawing Workshop",
+  		"tags":"Informal teaching",
+  		"thumb":"thumb.jpg",
+  		"content":`
+
+      Inspired by Buddhist monk <a href="https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh" target="_blank">Thích Nhất Hạnh</a>, I was curious about ways in which mindful activities with the body – like walking – can be a kind of art in of itself.
+
+      And vice versa: "art-making activities" can become meditations. Your art-making might center body and time in mechanical, transient ways. Think Richard Long's walks, or Goldsworthy-style <a href="https://www.instagram.com/p/B5BixoGlVbwBOuRbQPQz76Gmg1e4b9uOwN5NW40/" target="_blank">leaves</a>.
+
+      To me, moving through space in this way has always been an ancient, unnamed, beautiful art (especially outside the canon of white contemporary artists.)
+
+      <br>
+      <b>ART AS CONTEMPLATIVE CARE / CONTEMPLATIVE CARE AS ART </b>
+
+      In this 2-hour workshop, I offer space where people could consider the body while drawing. This way, drawing is more like breathing than it is image-making.
+
+      [1.jpg]
+      [drawing2.jpg]
+
+      <br>
+      <b> VARIATIONS ON A LINE: </b> Drawing with different hands, closing your eyes, breathing through a line.
+  		[action3.jpg]
+  		[drawing3.jpg]
+
+  		[action4.jpg]
+  		[drawing4.jpg]
+
+  		[line_hard_break_2.jpg]
+
+      <br>
+      <b>BUILDING A GUEST HOUSE: </b> Creating a sculpture to hold feeling.
+  		[action5.jpg]
+      [drawing5.jpg]
+  		[end5.jpg]
+
+  		[drawing6.jpg]
+  		[end0.jpg]
+  		`
+  	},
+
+
+    
+
+{
+		"folder":"difficultwriting",
+		"name":"Difficult Writing",
+		"tags":"Poetics, digital media",
+		"thumb":"thumb.jpg",
+		"content":`
+		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
+		<br>
+		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
+		[driving_gif.gif]
+
+		[miss-you.jpg]
+		<br>
+		<br>
+		<b>TRANSCRIBING OBSTRUCTIONS.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+		<br>
+		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
+		<br><br>
+
+		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
+		Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
+
+		[kindastrange1.gif]
+		[keyboard1.jpg]
+		[keyboard2.jpg]
+		[keyboard3.jpg]
+		`
+},
+
+{
     "folder":"lego",
     "name":"Lego Soundmaker",
     "tags":"Fabrication, physical computing, p5.js",
@@ -436,41 +441,41 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
         `
   },
 
-{  "folder":"scratch",
-  "name":"Scratch: Join Scratch",
-  "tags":"UI / UX",
-  "thumb":"thumb.png",
-  "content":`
+// {  "folder":"scratch",
+//   "name":"Scratch: Join Scratch",
+//   "tags":"UI / UX",
+//   "thumb":"thumb.png",
+//   "content":`
 
-  <b>WHAT'S SCRATCH? </b>  
-  <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-  For many children, Scratch is their first experience in computational media and virtual community. 
+//   <b>WHAT'S SCRATCH? </b>  
+//   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
+//   For many children, Scratch is their first experience in computational media and virtual community. 
 
-<br>
-  <b>WHY THIS WORK? </b>  
+// <br>
+//   <b>WHY THIS WORK? </b>  
 
-  Our previous join experience was text-heavy, less paced, and more utilitarian.
-  [join 6.png]
+//   Our previous join experience was text-heavy, less paced, and more utilitarian.
+//   [join 6.png]
 
-  Scratch usage has been growing worldwide over the last few years. Often kids will be creating a new account as part of their classroom experience, or sometimes they will discover Scratch on their own. 
-  It felt crucial that we improve this first touch point – to emphasize a welcoming community, as well as the joy of building your first creative identity online.
+//   Scratch usage has been growing worldwide over the last few years. Often kids will be creating a new account as part of their classroom experience, or sometimes they will discover Scratch on their own. 
+//   It felt crucial that we improve this first touch point – to emphasize a welcoming community, as well as the joy of building your first creative identity online.
 
-<br>
-  <b>NEW EXPERIENCE</b>
-  I remember my first foray with internet communities over a decade ago, and how emotional that could be.
-  We also recognize that we have a responsibility to onboard young people into internet community literacy — how to represent yourself online, while protecting your privacy.
+// <br>
+//   <b>NEW EXPERIENCE</b>
+//   I remember my first foray with internet communities over a decade ago, and how emotional that could be.
+//   We also recognize that we have a responsibility to onboard young people into internet community literacy — how to represent yourself online, while protecting your privacy.
  
-  [join 1.png]
-  [age 1.png]
-  [country 2.png]
-  [gender 3.png]
-  [end 1.png]
+//   [join 1.png]
+//   [age 1.png]
+//   [country 2.png]
+//   [gender 3.png]
+//   [end 1.png]
 
 
 
-  `
+//   `
 
-},
+// },
 
 {  "folder":"scratch-sprites",
   "name":"Scratch: People Sprites",
