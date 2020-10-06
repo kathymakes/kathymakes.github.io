@@ -13,7 +13,7 @@ work=[
     [4.jpg]
     [7.jpg]
     [12.jpg]
-    Images from DuckDuckGo. Font is Piazolla, by Google Fonts.
+    Images from DuckDuckGo. Font is <a href="https://fonts.google.com/specimen/Piazzolla?category=Serif" target="_blank">Piazolla</a> by Google Fonts.
 
     `
   },
