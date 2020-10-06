@@ -1,83 +1,65 @@
 work=[
 
-  
-     {  "folder":"digpo-imgs",
-    "name":"Web Poetics",
+    
+     {  "folder":"copy-paste-img",
+    "name":"Copy & Paste & Paste & Paste",
     "tags":"Interactive, HTML",
     "thumb":"thumb.jpg",
-    "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
-    Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
-    <br>
-    <b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
-    [pottery.gif]
-    [urn.gif]
-    <br><br>
-        <b>OPPOSITE OF A GUN:</b>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
-[gun_opposite.jpg]
-[gun_opposite.gif]
-<br><br>
-
-    <b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
-    [may.jpg]
-    [may-3.gif]
-    <br><br>
-
-    <b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
-    [basho.jpg]
-    [basho1.jpg]
+    "content":`An interactive web poem I wrote and coded about Chinese bodies in a context of mass production.
+    Images from DuckDuckGo. Best viewed on a Desktop computer. <a href="copyandpaste/index.html" target="_blank">Try it here.</a>
+    [1.jpg]
+    [2.jpg]
+    [3.jpg]
+    [layering.gif]
+    [5.jpg]
+    [10.jpg]
 
     `
   },
 
+  {
+      "folder":"manymigrations",
+      "name":"Many Migrations",
+      "tags":"Textiles, poetry",
+      "thumb":"thumb.jpg",
+      "content":`
+      A cross-seas collaboration with my friend Ying Cai.
 
+      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
 
-// {
-//    "folder":"oppositesgame",
-//    "name":"Opposites Workshop",
-//    "tags":"Informal teaching",
-//    "thumb":"opposites.jpg",
-//    "content":`
-//    <br><b>Opposites</b>
-//
-//
-//
-//    `
-//  },
+      In the center, a child who is born in America.
 
+      [me1.jpg]
 
-{
-  "folder":"searchdivides",
-  "name":"Search Divides Us",
-  "tags":"Exhibit design, front-end dev, UI/UX",
-  "thumb":"cover.jpg",
-  "content":`
-  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
-  Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-  [video-1.gif]
-  [plaque-2.jpg]
-  [video-2.gif]
+      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
+      In her words, yellow is a strong but gentle color.
 
-  <br><b>Process</b>
-  Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
+      [sideview3.jpg]
+      [backview.jpg]
 
-  Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
+      <br>
+      <b> GARMENT DETAIL </b>
+      [layflat.jpg]
+      [closeup1.jpg]
+      [closeup2.jpg]
 
-  [idea1.jpg]
+      <br>
+      <b> PROCESS </b>
+      [process1.jpg]
+      [process3.jpg]
 
-  We were fond of this metaphor; at the same time, it felt abstract and removed.
+      <br>
+      <b> INSPIRATION </b>
+      The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
 
-  [idea2.jpg]
-  <br>
-  [idea3.jpg]
+      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
+      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
+      [chinatown 1.jpg]
+      Whose working immigrant bodies do we value through our language?
+      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
 
-  <br><b>GRAPHICS</b>
-  [bluemap.jpg]
-  [1-white.jpg]
-  [3-black.jpg]
-  [4-black-result.jpg]
-
-  `
-},
+      `
+  },
 
 {  "folder":"jelly",
   "name":"Pulmō Plastics",
@@ -134,6 +116,24 @@ work=[
 
   `
 },
+
+
+// {
+//    "folder":"oppositesgame",
+//    "name":"Opposites Workshop",
+//    "tags":"Informal teaching",
+//    "thumb":"opposites.jpg",
+//    "content":`
+//    <br><b>Opposites</b>
+//
+//
+//
+//    `
+//  },
+
+
+
+
 {
 "folder":"camdoodler",
 "name":"Cam Doodler",
@@ -264,49 +264,69 @@ People also gave me thoughts on how to improve:
     `
 },
 
-{
-  		"folder":"manymigrations",
-  		"name":"Many Migrations",
-  		"tags":"Textiles, poetry",
-  		"thumb":"thumb.jpg",
-  		"content":`
-  		A cross-seas collaboration with my friend Ying Cai.
 
-      The embroidery (by me) tells two migration stories divided across economic class and held by culture. A garment worker in NYC Chinatown on the left; my mother designing semiconductors on the right. Both of them, immigrant bodies within a context of mass production.
+     {  "folder":"digpo-imgs",
+    "name":"Web Poetics",
+    "tags":"Interactive, HTML",
+    "thumb":"thumb.jpg",
+    "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
+    Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
+    <br>
+    <b>GRECIAN URNS:</b>&ensp; Online-only artifacts made from letters. Please <a href='ffabschrift/pottery.html' target='_blank'>do not touch.</a>
+    [pottery.gif]
+    [urn.gif]
+    <br><br>
+        <b>OPPOSITE OF A GUN:</b>&ensp;A game that completes within seconds, or as long as you let it. Inspired by <a href='http://theamericanjournalofpoetry.com/v2-constantine.html' target='_blank'>this poem.</a>&ensp;You can <a href='http://alpha.editor.p5js.org/full/rybGZQX2Z' target='_blank'>try it here.</a>
+[gun_opposite.jpg]
+[gun_opposite.gif]
+<br><br>
 
-      In the center, a child who is born in America.
+    <b>MONTH OF MAY:</b>&ensp;Recombinative love poems. <a href='digpo/may.html' target='_blank'>Make your own.</a>
+    [may.jpg]
+    [may-3.gif]
+    <br><br>
 
-      [me1.jpg]
+    <b>BASHO IN THE FOREST:</b>&ensp; Haikus to stumble upon in the woods. <a href='digpo/garden/basho.html' target='_blank'>Take a gander?</a>
+    [basho.jpg]
+    [basho1.jpg]
 
-      The hand-dyed garment is made by Ying. She's so beautifully synthesized the Chinese Du-dou silhouette with the Western apron. The shape holds stories of domesticity, Confucian patriarchy, female labor.
-      In her words, yellow is a strong but gentle color.
-
-      [sideview3.jpg]
-      [backview.jpg]
-
-      <br>
-      <b> GARMENT DETAIL </b>
-      [layflat.jpg]
-      [closeup1.jpg]
-      [closeup2.jpg]
-
-      <br>
-      <b> PROCESS </b>
-      [process1.jpg]
-      [process3.jpg]
-
-      <br>
-      <b> INSPIRATION </b>
-      The embroidery for this textile work was inspired by a poem I wrote: <b>Chinatown (Many Migrations)</b>.
-
-      Published in <a href="https://issuu.com/mitaai/docs/zinefinal_4_no_bleed_for_online_export-compressed" target="_blank">MIT Asian American Initiative Zine: Rooted</a>.
-      Also featured in <a href="https://www.unboundvisualarts.org/new-narratives-reclaiming-asian-identity-through-story-storyteller-series/" target ="_blank">VISIONS Unbounded Art Storytellers Exhibit & Panel Roundtable</a>.
-      [chinatown 1.jpg]
-      Whose working immigrant bodies do we value through our language?
-      Sometimes I find myself a tourist within my extended family's own cultural or class experience. In the broader Chinese diaspora, I feel sensitive to moments when way race unifies across class, and create moments of the familiar.
-
-  		`
+    `
   },
+
+{
+  "folder":"searchdivides",
+  "name":"Search Divides Us",
+  "tags":"Exhibit design, front-end dev, UI/UX",
+  "thumb":"cover.jpg",
+  "content":`
+  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
+  Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
+  [video-1.gif]
+  [plaque-2.jpg]
+  [video-2.gif]
+
+  <br><b>Process</b>
+  Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
+
+  Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
+
+  [idea1.jpg]
+
+  We were fond of this metaphor; at the same time, it felt abstract and removed.
+
+  [idea2.jpg]
+  <br>
+  [idea3.jpg]
+
+  <br><b>GRAPHICS</b>
+  [bluemap.jpg]
+  [1-white.jpg]
+  [3-black.jpg]
+  [4-black-result.jpg]
+
+  `
+},
+
   // {
   // 		"folder":"polit-img",
   // 		"name":"Illustrations",

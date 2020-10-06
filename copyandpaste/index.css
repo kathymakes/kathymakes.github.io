@@ -1,0 +1,107 @@
+
+	@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+	@font-face {
+	src: url(Avara-Bold.ttf);
+	font-family: Avara;
+	font-weight: bold;
+	}
+
+
+
+	body{
+		background: black;
+		text-align: center;
+		font-family:'Piazzolla',monospace;
+		font-size: 20px;
+		color:white;
+
+
+	}
+
+	.poem{
+		background:black;
+		text-align: left;
+		margin:auto;
+		width:400px;
+		padding:20px;
+		margin-bottom:20px;
+		margin-top:20px;
+		border: 1px solid white;
+		box-shadow: 5px 5px 20px rgba(255,255,255,1);
+
+
+	}
+
+	section{
+		padding:40px 0;
+	}
+	#sectiontitle{
+		background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsilviakolbowski.files.wordpress.com%2F2014%2F10%2Fapple-factory.jpg&f=1&nofb=1');
+		height:100px;
+	}
+	#section1{
+
+	}
+	#section2{
+		background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.fullmoon.info%2Fen%2Fblog%2Fwp-content%2Fuploads%2F2012%2F09%2Fli-bai_198x258.jpg&f=1&nofb=1');
+	}
+
+	#section3{
+		background-image: url('https://media.idownloadblog.com/wp-content/uploads/2011/08/iphone-5-production.jpg');
+	}
+
+	#section4{
+		background-image: url('');
+	}
+
+	#section5{
+		background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FBayan_Nasri%2Fpublication%2F271558713%2Ffigure%2Ffig6%2FAS%3A295110781751298%401447371301066%2FLayout-of-the-chip-produced-in-the-IBM-130-nm-technology.png&f=1&nofb=1');
+	}
+
+	#section6{
+		background-image: url('');
+	}
+
+	#section7{
+		background-image: url('https://i.dailymail.co.uk/i/pix/2016/02/17/16/314873B800000578-3451270-Test_Thousands_of_young_artists_sat_an_entrance_exam_for_the_Chi-a-47_1455725132657.jpg');
+	}
+
+	#section8{
+	background-image: url('');
+	}
+
+	#section9{
+		background-image: url('iphone-invert.jpg');
+	}
+
+	#section10{
+		background:gray;
+		background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews.cgtn.com%2Fnews%2F3d3d414f7763444e32457a6333566d54%2F2114345839f448a8b4eee31e4909ebcd.gif&f=1&nofb=1');
+	}
+
+
+	textarea{
+		float:top;
+		background: white;
+		color:black;
+		text-align: auto;
+        width:auto;
+        height:auto;
+	}
+
+	#front{
+		width:100%;
+		height:900px;
+	}
+    #title{
+/*        width:200px;
+        height:100%;*/
+        text-align: center;
+/*        font-size: 14px;*/
+    }
+
+    a{
+        color:gold;
+
+    }
