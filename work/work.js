@@ -5,14 +5,15 @@ work=[
     "name":"Copy & Paste & Paste & Paste",
     "tags":"Interactive, HTML",
     "thumb":"thumb.jpg",
-    "content":`An interactive web poem I wrote and coded about Chinese bodies in a context of mass production.
-    Images from DuckDuckGo. Best viewed on a Desktop computer. <a href="copyandpaste/index.html" target="_blank">Try it here.</a>
+    "content":`An <a href="copyandpaste/index.html" target="_blank">interactive web poem</a> I wrote and coded about Chinese bodies in a context of mass production.
+    Works on mobile. For a more spatial viewing experince, try on a desktop computer.
+    [layering.gif]
     [1.jpg]
     [2.jpg]
-    [3.jpg]
-    [layering.gif]
-    [5.jpg]
-    [10.jpg]
+    [4.jpg]
+    [7.jpg]
+    [12.jpg]
+    Images from DuckDuckGo. Font is Piazolla, by Google Fonts.
 
     `
   },
