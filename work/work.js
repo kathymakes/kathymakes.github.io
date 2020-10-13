@@ -403,15 +403,20 @@ People also gave me thoughts on how to improve:
 		[miss-you.jpg]
 		<br>
 		<br>
-		<b>TRANSCRIBING OBSTRUCTIONS.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+    <b>TRANSCRIBING OBSTRUCTIONS I.</b> Typing with socks on my hands.
+    [socks.png]
+    <br><br>
+		<b>TRANSCRIBING OBSTRUCTIONS II.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
 		<br>
 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
-		<br><br>
+		<br>
+    <br>
 
 		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
-		Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
-
 		[kindastrange1.gif]
+    <br>
+    Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
+    <br>
 		[keyboard1.jpg]
 		[keyboard2.jpg]
 		[keyboard3.jpg]
