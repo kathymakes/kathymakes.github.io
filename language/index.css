@@ -12,7 +12,6 @@ section {
 	background-image:url(ui/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-    text-align: center;
 }
 
 #inner{
@@ -24,9 +23,18 @@ section {
 	padding-top:200px;
 	width:400px;
 	justify-content: space-between;
-	align-content: center;
 }
 
+#lower {
+
+	width:400px;
+	display: flex;
+	margin: auto;
+	padding-top: 40px;
+	justify-content: center;
+
+
+}
 
 .button{
 	width:110px;
@@ -90,6 +98,11 @@ section {
 }
 #pound{
 	background-image:url(ui/pound.png);
+
+}
+
+#hangup{
+		background-image:url(ui/hangup.png);
 
 }
 
