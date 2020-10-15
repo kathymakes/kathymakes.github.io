@@ -249,11 +249,14 @@ People also gave me thoughts on how to improve:
 
     [5-rain.jpg]
     [6-rain.jpg]
+<audio src="work/lankpranks/rain.mp3" controls />
     Before a performance, each of six rhyming poems got regenerated with unique words:
     [3-itsits.jpg]
     [4-itsits.jpg]
+<audio src="work/lankpranks/itsits.mp3" controls />
     [1-zapgap.jpg]
     [2-zapgap.jpg]
+<audio src="work/lankpranks/zapgap.mp3" controls />
     <br>
     Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
 

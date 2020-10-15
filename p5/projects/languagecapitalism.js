@@ -29,24 +29,9 @@ let everything;
  	img3 = loadImage('pics/siri.gif');
   	img4 = loadImage('pics/cvs3.gif');
   	img5 = loadImage('pics/alexa.jpeg');
-  	// img6 = loadImage('pics/loom.gif');
-
-
-
-//  data=[
-
-// "thank you for all you do.",
-// "thank you for allowing.", 
-// "thank you for all your work.", 
-// "thank you for all the effort.", 
-// "thank you for all you do meaning.", 
-// "thank you for all you've done lyrics.", 
-// "thank you for all of your assistance."]
-//  }
-
 }
  function setup() {
- 	createCanvas(800, 600);
+ 	createCanvas(640,1136);
  	background(0);
  	imgArray = [img2,img3,img4,img5];
   	imgDisplay = random(imgArray);
@@ -54,7 +39,7 @@ let everything;
  	textSize(40);
  	textAlign(CENTER);
 
- 	mainpart.play();
+ 	// mainpart.play();
 
  }
 
