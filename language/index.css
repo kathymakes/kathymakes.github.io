@@ -43,6 +43,16 @@ section {
 	background-size: contain;
 
 }
+
+.button:active{
+	opacity: 0.5;
+}
+
+.button:hover{
+	opacity: 0.5;
+}
+
+
 #b1{
 
 	background-image:url(ui/1.png);
