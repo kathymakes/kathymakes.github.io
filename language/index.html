@@ -31,10 +31,10 @@
     <div class="button" id="b6" onclick="toggleSound('a6')"></div>
     <div class="button" id="b7" onclick="toggleSound('a7')"></div>
     <div class="button" id="b8" onclick="toggleSound('a8')">
-    </div><div class="button" id="b9" onclick="turnOffSound()"></div>
+    </div><div class="button" id="b9"></div>
 
     <div class="button" id="star" onclick="toggleSound('a1')"></div>
-    <div class="button" id="b0" onclick="turnOffSound()"></div>
+    <div class="button" id="b0"></div>
     <div class="button" id="pound" onclick="toggleSound('a1')"></div>
 
   </div>
@@ -53,13 +53,17 @@ function turnOffSound(){
 
 function toggleSound(sound){
       var sound = document.getElementById(sound);
+      var music = document.getElementById('a7');
 
+      turnOffSound();
       if (sound.paused){
         sound.play();
+        music.play();
 
       }
   else{
         sound.pause();
+        music.pause();
 
   }
 
