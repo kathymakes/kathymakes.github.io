@@ -37,8 +37,9 @@ section {
 }
 
 .button{
-	width:110px;
-	height:110px;
+	width:105px;
+	height:105px;
+	margin:5px 10px;
 	background-repeat: no-repeat;
 	background-size: contain;
 

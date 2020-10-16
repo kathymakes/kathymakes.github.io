@@ -234,7 +234,7 @@ People also gave me thoughts on how to improve:
 
   {
     "folder":"lankpranks",
-    "name":"Rain in Spain",
+    "name":"Rain in Drain in Ukraine",
     "tags":"Poetry, python",
     "thumb":"thumb.jpg",
     "content":`
@@ -248,15 +248,18 @@ People also gave me thoughts on how to improve:
     “Rain in spain,” was the only string that has some intentional cultural reference. Originally from “My Fair Lady,” it acts as a kind of shibboleth for lower-class dialects; there’s a whole song about her conforming her vowel dipthongs.
 
     [5-rain.jpg]
-    [6-rain.jpg]
+    [rain.gif]
 <audio src="work/lankpranks/rain.mp3" controls />
     Before a performance, each of six rhyming poems got regenerated with unique words:
     [3-itsits.jpg]
-    [4-itsits.jpg]
+    [itsits.gif]
 <audio src="work/lankpranks/itsits.mp3" controls />
     [1-zapgap.jpg]
-    [2-zapgap.jpg]
+    [zapgap.gif]
 <audio src="work/lankpranks/zapgap.mp3" controls />
+    [bloom.jpeg]
+    [bloom.gif]
+<audio src="work/lankpranks/bloom.mp3" controls />
     <br>
     Here's the end of my performance at <a href="https://www.babycastles.com/" target ="_blank">Babycastles</a>, NYC.
 
