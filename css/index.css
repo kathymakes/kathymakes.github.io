@@ -200,6 +200,7 @@ h3{
 	width: 100%;
 	margin: 16px 0;
 	display: block;
+	height:320px;
 }
 
 #work-stuff a .image-tile{
@@ -291,6 +292,8 @@ nav a{
 #work-stuff a{
 		float: left;
 		width: 50%;
+		height:280px;
+
 	}
 
 #work-stuff a *{
@@ -318,4 +321,7 @@ nav a{
 
 #work-stuff a{
 		width: 33.333%;
+}
 	}
+
+
