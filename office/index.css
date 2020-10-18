@@ -1,0 +1,120 @@
+html{
+}
+body{
+	background-color: black;
+	margin:0!important;
+
+
+}
+section {
+	width:500px;
+	height: 900px;
+	background-image:url(ui/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#inner{
+	background-color: transparent;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-top:200px;
+	width:400px;
+	justify-content: space-between;
+}
+
+#lower {
+
+	width:400px;
+	display: flex;
+	margin: auto;
+	padding-top: 40px;
+	justify-content: center;
+
+
+}
+
+.button{
+	width:105px;
+	height:105px;
+	margin:5px 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+.button:active{
+	opacity: 0.5;
+}
+
+.button:hover{
+	opacity: 0.5;
+}
+
+
+#b1{
+
+	background-image:url(ui/1.png);
+}
+
+#b2{
+	background-image:url(ui/2.png);
+
+
+}
+
+#b3{
+	background-image:url(ui/3.png);
+
+
+}
+#b4{
+	background-image:url(ui/4.png);
+
+}
+#b5{
+	background-image:url(ui/5.png);
+
+}
+#b6{
+	background-image:url(ui/6.png);
+
+}
+
+#b7{
+	background-image:url(ui/7.png);
+
+}
+
+#b8{
+	background-image:url(ui/8.png);
+
+}
+
+#b9{
+	background-image:url(ui/9.png);
+
+}
+
+#b0{
+	background-image:url(ui/0.png);
+
+}
+
+#star{
+	background-image:url(ui/star.png);
+
+}
+#pound{
+	background-image:url(ui/pound.png);
+
+}
+
+#hangup{
+		background-image:url(ui/hangup.png);
+
+}
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <meta name="viewport" content="width=1, initial-scale=1.0">
+  <title>Office of Language Under Capitalism</title>
+  </head>
+
+
+<body>
+  <audio id="a1"><source src="a1.m4a" type="audio/mp4"></audio>
+  <audio id="a2"><source src="a2.m4a" type="audio/mp4"></audio>
+  <audio id="a3"><source src="a3.m4a" type="audio/mp4"></audio>
+  <audio id="a4"><source src="a4.m4a" type="audio/mp4"></audio>
+  <audio id="a5"><source src="a5.m4a" type="audio/mp4"></audio>
+  <audio id="a6"><source src="a6.m4a" type="audio/mp4"></audio>
+  <audio id="a7"><source src="elevator.mp3" type="audio/mp3"></audio>
+  <audio id="a8"><source src="a8.m4a" type="audio/mp4"></audio>
+
+  <section>
+  <div id="inner">
+    <div class="button" id="b1" onclick="toggleSound('a1')"></div>
+    <div class="button" id="b2" onclick="toggleSound('a2')"></div>
+    <div class="button" id="b3" onclick="toggleSound('a3')"></div>
+    <div class="button" id="b4" onclick="toggleSound('a4')"></div>
+    <div class="button" id="b5" onclick="toggleSound('a5')"></div>
+    <div class="button" id="b6" onclick="toggleSound('a6')"></div>
+    <div class="button" id="b7" onclick="toggleSound('a7')"></div>
+    <div class="button" id="b8" onclick="toggleSound('a8')">
+    </div><div class="button" id="b9"></div>
+
+    <div class="button" id="star" onclick="toggleSound('a1')"></div>
+    <div class="button" id="b0"></div>
+    <div class="button" id="pound" onclick="toggleSound('a1')"></div>
+
+  </div>
+  <div id ="lower">
+    <div class="button" id="hangup" onclick="turnOffSound()"></div>
+  </div>
+</section>
+
+<script type="text/javascript">
+// var intro = document.getElementById("intro");
+    // intro.play();
+function turnOffSound(){
+        var allSounds = document.getElementsByTagName('audio');
+          for(i=0; i<allSounds.length; i++) allSounds[i].pause();
+}
+
+function toggleSound(sound){
+      var sound = document.getElementById(sound);
+      var music = document.getElementById('a7');
+
+      turnOffSound();
+      if (sound.paused){
+        sound.play();
+        music.play();
+
+      }
+  else{
+        sound.pause();
+        music.pause();
+
+  }
+
+}
+  
+
+</script>
+
+  
+</body>
+
+</html>

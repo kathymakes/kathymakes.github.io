@@ -6,7 +6,7 @@ work=[
     "thumb":"thumb.jpg",
     "content":`I'm interested in what happens to language under specific sociopolitical constraints.
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
-    This interactive web poem plays out through a brief fictional, bureaucratic phone call. <a href="language/index.html" target="_blank">Try it on your mobile device</a> for the intended experience. Also works on Desktop.
+    This interactive web poem plays out through a brief fictional, bureaucratic phone call. <a href="office/index.html" target="_blank">Try it on your mobile device</a> for the intended experience. Also works on Desktop.
     [phonedemo-title.gif]
 
     Dialing any one of several digits (including secret, non-menu digits) will play a computer-synthesized, female voice recording.
@@ -39,6 +39,8 @@ work=[
     [4.jpg]
     [7.jpg]
     [12.jpg]
+    Here's the experience on a mobile device:
+    [phonegif.gif]
     Images from DuckDuckGo. Font is <a href="https://fonts.google.com/specimen/Piazzolla?category=Serif" target="_blank">Piazolla</a> by Google Fonts.
 
     `
