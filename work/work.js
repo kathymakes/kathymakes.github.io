@@ -6,7 +6,7 @@ work=[
     "thumb":"thumb.jpg",
     "content":`I'm interested in what happens to language under specific sociopolitical constraints.
     Language under capitalism compresses itself—it minifies into lean, neat boxes fit for work and production. It does not rebel, it does not deviate; it eclipses possibility of what could be in our relationships.
-    <iframe src="https://player.vimeo.com/video/469486919" width="640" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/469486919" width="100%" height="396" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     This interactive, audio-based web poem plays out through a fictional bureaucratic phone call. <a href="office/index.html" target="_blank">Try it on your mobile device</a> for the intended experience.
     [phonedemo-title.gif]
     Dialing any one of several digits (including secret, non-menu digits) will play a computer-synthesized, female voice recording.

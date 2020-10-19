@@ -128,11 +128,11 @@ a:hover {
 
 h2 {
 	font-size:16pt;
-    line-height: 1.7em;
 	font-family: Arbutus, Georgia, serif;
     letter-spacing: 0.25px;
-
-    font-weight: 300;
+	font-weight: 300;
+    
+    line-height: 1.75em;
 
     max-width: 600px;
     margin-top:0px;
@@ -143,7 +143,9 @@ h3{
 	font-family: Arbutus, Georgia, serif;
     letter-spacing: 0.25px;
     font-weight: 300;
-
+  
+    line-height: 1.5em;
+  
     margin-bottom: 0px;
 	margin-top: 90px;
 }
@@ -226,6 +228,7 @@ h3{
 #work-stuff a figcaption{
 	font-weight: bold;
 	margin-top: 8px;
+	line-height: 1.5rem;
 	color:rgba(0,0,0,.8);
  }
 
@@ -241,8 +244,6 @@ h3{
 	color:gray;
 
 	font-weight: normal;
-	line-height: 1.2em;
-
 }
 
 

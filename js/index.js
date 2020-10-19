@@ -2,22 +2,22 @@
 //wavify functions
 //==================//
 
-function waveify (elem) {
-	var text = $(elem).text();
-	$(elem).text("");
-	for(var i in text) {
-	  if(text[i] === " ") {
-	    $(elem).append( $("<span>").html("&nbsp;") );
-	  } else {
-	    $(elem).append( $("<span>").text(text[i]) );
-	  }
-	}
-	$(elem).addClass("wavetext");
-}
+// function waveify (elem) {
+// 	var text = $(elem).text();
+// 	$(elem).text("");
+// 	for(var i in text) {
+// 	  if(text[i] === " ") {
+// 	    $(elem).append( $("<span>").html("&nbsp;") );
+// 	  } else {
+// 	    $(elem).append( $("<span>").text(text[i]) );
+// 	  }
+// 	}
+// 	$(elem).addClass("wavetext");
+// }
 
-$("h3").each(function(index, elem){
-	waveify(elem);
-})
+// $("h3").each(function(index, elem){
+// 	waveify(elem);
+// })
 
 
 //========================//
@@ -92,9 +92,9 @@ var activate = function(hurry,overrideHash){
 //======================//
 			};
 			$("#content").html("<h3>"+piece.name+"</h3><br>"+contentString+"<div id='contentdivider'></div>"+"<h3>All projects ↝</h3>");
-			$("#content").find("h3").each(function(index, elem){
-				waveify(elem);
-			})
+			// $("#content").find("h3").each(function(index, elem){
+			// 	waveify(elem);
+			// })
 
 //======================//
 // show the lightbox
