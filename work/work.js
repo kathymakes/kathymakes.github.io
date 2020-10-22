@@ -205,8 +205,8 @@ People also gave me thoughts on how to improve:
   How much does the internet weigh? How much data do we consume?<br>Are their landfills of information on the internet?
 [intro_bytes_reduced.jpg]
 
-  This project began as a investigation of the textual internet.  Over a semester, it evolved into a visceral experience of virtual data, including installation, video, and writing.
-
+  The Byte Catalog expresses the degree to which text in digital space is now so immense in scale, that our bodies fail to comprehend it. Language originally comes from the human body, and holds meaning within social, relational contexts. What happens at scale—when language transcends meaning, when data transcends body? 
+  This work began as a inquiry into the textual internet; over a semester, it evolved into a visceral experience of virtuality, including sculpture, video, and writing.
 
   <br><br>
   <b>1. VOLUME, WEIGHT</b>
