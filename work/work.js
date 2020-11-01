@@ -334,13 +334,27 @@ People also gave me thoughts on how to improve:
   "tags":"Exhibit design, front-end dev, UI/UX",
   "thumb":"cover.jpg",
   "content":`
-  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
   Designed & built in collaboration with Anthony Bui, Asha Veeraswamy, and Keerthana Pareedy. I contributed conceptual work, front end dev, and graphics.
-  [video-1.gif]
+<br><b>THE STORY</b>
+  Search Divides Us is an interactive exhibit about bias in search engines, through the example of a housing search. Our team demoed this at ITP Spring Show, as well as <a href="https://makerfaire.com/maker/entry/67996/" target="_blank">New York Maker Faire</a> in 2019.
   [plaque-2.jpg]
-  [video-2.gif]
+<br>
+  <b>HARDWARE INTERFACE</b>
+  The final interface followed a slot machine metaphor. The interface consisted of a set of dials: CLASS, RACE, EDUCATION. In the center, a green space-bar-shaped button would allow you to search.
+  [video-1.gif]
 
-  <br><b>Process</b>
+<br><b>WEBSITE</b>
+  I created a fictional island (modeled roughly after Manhattan, NY) and built fictional housing provider website. 
+  [searchdivides_mini.gif]
+  The result was projected onto a dark wall. We wanted the experience of entering in your demographic and receiving your result to be as public as possible, so that visitors would  think about these issues in dialogue with us and each other.
+ 
+  [demo.jpg]
+<br><b>RANDOM SEARCH</b>
+  We encouraged visitors to explore how other search profiles tended towards different results. Using a "slot machine" metaphor, visitors could choose a new identity at random.
+  [video-2-mini.gif]
+
+
+  <br><b>PROCESS</b>
   Our team was inspired by the <a href="https://www.nyu.edu/about/news-publications/news/2016/august/nyu-study-looks-at-how-racial-inequality-is-produced-online.html" target = "_blank">research</a> of Dr. Charles McIlwain of NYU, which explores how the internet is as segregated as a city.
 
   Here’s our early design for a plinko machine, where the flippers represent categorization and algorithm bias.
@@ -550,16 +564,28 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
  <br>
    <b>WHY THIS WORK?</b>  
   Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
+  Through the Scratch online community, young people share creations about themselves and their communities. 
+  [community2.gif]
+  I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences. 
   
-  Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example:
-  [poor-abby-2.gif]
+<br>
+  <b>OUR EXISTING ARTWORK</b>
+  Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
+  [abby.gif]
 
+  We identified two main challenges:
+  <b>1. RECOLORING.</b>
+   Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
+  [hannah.gif]
+  <b>2. RESHAPING.</b>
+   Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
+  [difficulty2.gif]
    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork. 
   It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
 
 <br>
   <b>NEW ARTWORK </b>
-  As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at (url).
+  As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
   Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
 
     [sprite2.png]
@@ -570,12 +596,17 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 
   These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
   [sprite5.png]
-
+  [sprite3.gif]
+ 
   Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
 
   Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.  
 
   [sprite4.png]
+  [sprite4.gif]
+
+  Here's some examples of the new sprites in use in the community:
+  [example_both.jpg]
 
 
   `
@@ -607,7 +638,7 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
    [motemote.gif]
 
    In retrospect, I would have liked to make it less inherently violent or competitive in nature. It's easy to abstract that away with cute motes.
-   [motemote-2.gif]
+   [motemote-2-nice.gif]
    `
   },
 
