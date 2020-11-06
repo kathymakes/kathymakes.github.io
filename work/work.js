@@ -90,61 +90,7 @@ work=[
       `
   },
 
-{  "folder":"jelly",
-  "name":"Pulmō Plastics",
-  "tags":"Speculative objects, biodesign",
-  "thumb":"overview.jpg",
-  "content":`
-  
-  Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
-  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018. 
 
-  [overview_crop.jpg]
-
-  As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
-  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem. 
-  
-  [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
-
-  When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
-    [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
-
-    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <b>petroleum-based plastic waste</b>? 
-
-  [jelly3.jpeg]
-  Jellyfish protein is almost exclusively <b>the structural protein collagen.</b> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
-  We propose the use of <b>jellyfish gelatin</b> (which can be obtained by heating jellyfish collagen), <b>vegetable glycerin,</b> and <b>chitosan</b> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
-
-  [jelly9.jpeg]
-
-  <br>
-  <br>
-  <b>OUR PROCESS</b>
-  We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
-  
-  [jelly5.jpeg]
-
-  Crunchy like a disposable beverage bottle...
-  [jelly6.jpeg]
-  ...or supple yet strong like a ‘plastic’ bag.
-  [jelly7.jpeg]
-
-  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals. 
-  [jelly18.jpeg]
-
-
-
-  <br>
-  <br>
-  <b>FINAL THOUGHTS</b>
-  Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
-  [pulmo_samples.jpg]
-  We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
-  Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
-
-
-  `
-},
 
 
 // {
@@ -161,40 +107,83 @@ work=[
 //  },
 
 
+{
+      "folder":"opposites",
+      "name":"Opposites Workshop",
+      "tags":"Informal teaching",
+      "thumb":"thumb.png",
+      "content":`
+      What’s the opposite of darkness? Is it brightness? How about the opposite of a wall, or a cage?
+      Our collective imagination is constrained by our vocabulary, both linguistic and visual— can we use new art forms and new language to build the inverse of violence?
+      
+      [prompt.jpg]
 
+      I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.  
+
+      This workshop concept inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
+
+      <br><br>
+      <b>PT 1: THE OPPOSITE OF A GUN</b>
+      I first piloted this workshop at Tisch School of Arts. I introduced the poem by Brendan Constantine, and took people through an exercise:
+      “What is the opposite of the phrase, My Life Had Stood a Loaded Gun?”
+       [workshop3.jpg]
+        I left this Henning Rogge photo on-screen— a bomb-scar from WWII, in the forest, now teeming with life. Is this the opposite of war?
+        I provided foraged materials. to “build an object that is the opposite of a gun.”
+       [workshop1.jpg]
+       Here is what people made: a vase for holding life; a grenade filled with woodland seeds instead of warfare; a listening device to help you hear the forest.
+      [workshop2.jpg]
+
+      <br><br>
+      <b>PT 2: REWRITING HEADLINES</b>
+      In the second iteration of this workshop, I placed a stronger emphasis on writing. I asked participants to look up news headlines which contained the following words:
+      [workshop4.jpg]
+
+      This version of the workshop was focused on multi-media interpretations. Here's one interpretation, using front-end browser tools as a vehicle for expression and pretend:
+      <b>“Crew Hang Giant American Flag Over George Washington Bridge”</b> becomes <b>“Individual Lifts Tiny Worldwide Cloud Under Donald Trump Wall”</b>
+      [opposites.gif]
+      ...which later became an interactive digital project:
+      [oppositesgamescratch.gif]
+      <br>
+      <b>MORE EXAMPLES </b>
+      “These Gun Enthusiasts at the Virginia Rally Carried More Firepower than US Troops” becomes “These seed supporters at the stateless sleepover dispersed more waterpower than many Pangaea flowers”
+      [opposites1.jpg]
+“Gun Makers Adjust Focus to Women Buyers” becomes “Watering Can Fixers Keep Distraction Away From Baby Philanthropists”
+      [opposites2.jpg]
+      “Ignore the Fake Climate Debate” becomes “Focus on the True Inner Consensus”
+      [opposites3.jpg]`
+    },
 
 {
-"folder":"camdoodler",
-"name":"Cam Doodler",
-"tags":"Web, drawing, p5.js",
-"thumb":"thumb.jpg",
-"content":`
-Doodle your world via webcam! Fool your foes! Impress your friends! 👀
+      "folder":"oakflat",
+      "name":"Oak Flat Campaign",
+      "tags":"Writing, Film, Digital Collage, Storytelling",
+      "thumb":"thumb.jpg",
+      "content":`
+      A piece of film-based transmedia storytelling I created together with Nancy Valladares and Alia Rizvi.
+      This work was created as part of a social media campaign to protest the construction of a copper mine in Oak Flat, Arizona—or what is the unceded indigenous land of the San Carlos Apache people. The prompt was to create original content and present it in a short film.
+      [oakflat2.gif] 
 
-    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/5BVBUSW2w' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+    These extractive processes threaten all life because they threaten water. Our film features a poem I wrote from the point of view of the river basin. I contributed to the concept, and created about half of the video graphics using digital collage techniques.
 
-[screen1.jpg]
-    I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
-
-Here's the brush in action:
-    {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
     <br>
-    <b>DRAWINGS</b>
-After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
-    [cam-doodler.gif]
-    I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
-People also gave me thoughts on how to improve:
-[feedback.jpg]
-<br>
-    Here are some of my favorite drawings:
-    [8.jpg]
-    [11.jpg]
-    [16.jpg]
-    [4.jpg]
-<br><br>
-    <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
+    <b>  Text & Voice </b>
+      I was responsible for integrating text throughout the piece. Inspired by artists like Young Hae-Chang Heavy Industries, I wanted to create impactful typographic experiences that could be loud without the accompaniment of sound.
+      [oakflat3.gif]
 
-},
+      <br>
+      <b>River, Personified</b></br>
+I wrote the poem from the point of view of the Arizona Tonto Basin River— a body of water which would effectively be poisoned by the construction of the copper mine.
+Some pieces of the writing were generalized to be more poetic about water in general. 
+      [oakflat.gif] 
+I wanted to be mindful of existing practices of nature personification without overstepping, especially because our team was comprised of non-local, non-indigenous artists. 
+
+      <br>
+      <b> Stills </b>
+      [stills.jpg]
+    `
+  },
+
+
 
 {
   "folder":"dp",
@@ -300,6 +289,95 @@ People also gave me thoughts on how to improve:
 },
 
 
+
+{
+"folder":"camdoodler",
+"name":"Cam Doodler",
+"tags":"Web, drawing, p5.js",
+"thumb":"thumb.jpg",
+"content":`
+Doodle your world via webcam! Fool your foes! Impress your friends! 👀
+
+    Cam Doodler is a browser-based drawing tool built in p5.js. <a href='https://alpha.editor.p5js.org/full/5BVBUSW2w' target="_blank">Demo it here.</a>  (Note that you'll have to turn your webcam on.)
+
+[screen1.jpg]
+    I love the idea of canvases that are real-world compatible. To me, this means that anyone can use them without any extra materials or parts– that they interface easily with our found environment.
+
+Here's the brush in action:
+    {<video src='work/camdoodler/demo.mov' controls autoplay='on' width='100%' height='auto'></video>}
+    <br>
+    <b>DRAWINGS</b>
+After building it, I sent the tool out to friends and acquaintances for user testing. People made some amazing things!
+    [cam-doodler.gif]
+    I got a lot of great feedback, including, "This is so much fun," and "I could spend hours doing this." I intended it for desktop use but a few people even made designs on mobile, which was a nice surprise.
+People also gave me thoughts on how to improve:
+[feedback.jpg]
+<br>
+    Here are some of my favorite drawings:
+    [8.jpg]
+    [11.jpg]
+    [16.jpg]
+    [4.jpg]
+<br><br>
+    <a href='https://pondermake.tumblr.com/post/169135208964/cam-doodler' target="_blank">Read the blog post.</a>`
+
+},
+
+{  "folder":"jelly",
+  "name":"Pulmō Plastics",
+  "tags":"Speculative objects, biodesign",
+  "thumb":"overview.jpg",
+  "content":`
+  
+  Collaboration with biologist Marian Shaw as part of NYU ITP's Biodesign studio.<br>I contributed to the research, concept, storytelling, and writing.
+  Selected as a finalist for the <a href="https://biodesignchallenge.org/" target="_blank">Biodesign Challenge</a>, and presented at MoMA in 2018. 
+
+  [overview_crop.jpg]
+
+  As part of the man-made climate crisis, oceans are warmer and more acidic. Jellyfish, known as pulmōnēs in Latin, are <a href="https://www.youtube.com/watch?time_continue=21&v=uh4eImPI-OY&feature=emb_logo&ab_channel=HarvardUniversity" target="_blank">overpopulating</a> parts of global oceans.
+  Proliferating in blooms, they <a href="www.thejakartapost.com/news/2020/05/01/workers-fishermen-scramble-to-fend-off-jellyfish-bloom-in-waters-off-east-java-power-plant.html" target="_blank">pose a threat</a> to human infrastructures, but more importantly, to biodiversity in the marine ecosystem. 
+  
+  [jelly-context.jpg]<span style="font-size:11px">Image copyright: Monty Graham, Dauphin Island Sea Lab // Getty Images</span>
+
+  When plastic enters the oceans, marine wildlife often confuse it for their jellyfish prey and subsequently die from plastic consumption.
+    [jelly21.jpg]<span style="font-size:11px">Image credit: Troy Mayne, World Wildlife Foundation.</span>
+
+    What if we could close the loop between our jellyfish ‘problem’ and another marine threat— <b>petroleum-based plastic waste</b>? 
+
+  [jelly3.jpeg]
+  Jellyfish protein is almost exclusively <b>the structural protein collagen.</b> Given this 500-million year old creature consists of collagen of an earlier template in the evolutionary cycle, it has the potential to be a more universal biomaterial for various applications.
+  We propose the use of <b>jellyfish gelatin</b> (which can be obtained by heating jellyfish collagen), <b>vegetable glycerin,</b> and <b>chitosan</b> to create food-safe, <a href="https://fabtextiles.org/the-secrets-of-bioplastic/" target="_blank">biodegradable plastics</a> which enter safely back into the ecosystem
+
+  [jelly9.jpeg]
+
+  <br>
+  <br>
+  <b>OUR PROCESS</b>
+  We tested different ratios of glycerin to gelatin and plastic shape and size, creating samples with varying material properties that could lend themselves to different objects.
+  
+  [jelly5.jpeg]
+
+  Crunchy like a disposable beverage bottle...
+  [jelly6.jpeg]
+  ...or supple yet strong like a ‘plastic’ bag.
+  [jelly7.jpeg]
+
+  In our final samples, we dyed plastics with beet juice and incorporated pigments produced by bacteria engineered to express colorful proteins derived from marine animals. 
+  [jelly18.jpeg]
+
+
+
+  <br>
+  <br>
+  <b>FINAL THOUGHTS</b>
+  Despite the current abundance of jellyfish, do we have the right to steal them — even dead ones — from nature for our material desires?
+  [pulmo_samples.jpg]
+  We recognize that creating new biomaterials is not a substitute for urgent <a href="https://en.wikipedia.org/wiki/Green_New_Deal" target="_blank">policy</a> towards real environmental justice. Nor do we want to encourage future cycles of exploitation of abundance in order to deplete it.
+  Our hope with this work is to illustrate effects of unsustainable supply chains on the ocean today — and to ask the audience to imagine how materials we use in the future can be more interoperable with our biological planet.
+
+
+  `
+},
      {  "folder":"digpo-imgs",
     "name":"Web Poetics",
     "tags":"Interactive, HTML",
@@ -394,7 +472,7 @@ People also gave me thoughts on how to improve:
 
   {
   		"folder":"teaching",
-  		"name":"Drawing Workshop",
+  		"name":"Art as Contemplative Care",
   		"tags":"Informal teaching",
   		"thumb":"thumb.jpg",
   		"content":`
@@ -434,7 +512,7 @@ People also gave me thoughts on how to improve:
   		`
   	},
 
-
+ 
     
 
 {
@@ -471,49 +549,51 @@ People also gave me thoughts on how to improve:
 		`
 },
 
-{
-    "folder":"lego",
-    "name":"Lego Soundmaker",
-    "tags":"Fabrication, physical computing, p5.js",
-    "thumb":"thumb.jpg",
-    "content":`
-    Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
-        [1.jpg]
-        [2.jpg]
-        <br><b>Build your own tracks...</b>
-        [stopmotion.gif]
-        <br>
-        <b>Record your voice, your dog, or other found sounds.</b>
-        [record.gif]
-        <br>
-        <b>How does it work?</b>
-        Inside, there's an Arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase surface area.
-        [3_super_cropped.jpg]
-The magic under the hood relies on an overhead webcam and <b>computer vision</b>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
-        [schematic1.jpg]
-I wrote the computer vision program myself using p5.js. <a href="https://alpha.editor.p5js.org/kathymakes/sketches/H19jBHXbG" target="_blank">Take a look at the code.</a>
-[p5process.jpg]
 
-        <br>
-        <b>Process</b>
-        Building out the insides:
-        [process1.jpg]
-        Fabricating the box:
-        [boxprocess_big.gif]
 
-<br>
-<b>The ITP Winter Show!</b>
-This was selected to be shown at ITP's annual public showcase. A lot of people came and played with my finished project for the first time. I learned so much just watching them. Some visitors used it in unexpected ways...
-[wintershow.jpg]
-<b>Some things I heard:</b>
-"This is so much fun. I could just keep going."
-"It sounds like a bunch of babies!"
-"What do I hear? It's like a load of animals."
-"Hah, this sounds so funny!"
-<br>
-<a href='https://pondermake.tumblr.com/post/169135210574/lego-sound-sequencer' target='_blank'>Read more thoughts on my blog.</a>
-        `
-  },
+// {
+//     "folder":"lego",
+//     "name":"Lego Soundmaker",
+//     "tags":"Fabrication, physical computing, p5.js",
+//     "thumb":"thumb.jpg",
+//     "content":`
+//     Lego Soundmaker lets you make music with LEGOs and your environment. 🎵
+//         [1.jpg]
+//         [2.jpg]
+//         <br><b>Build your own tracks...</b>
+//         [stopmotion.gif]
+//         <br>
+//         <b>Record your voice, your dog, or other found sounds.</b>
+//         [record.gif]
+//         <br>
+//         <b>How does it work?</b>
+//         Inside, there's an Arduino and a line of LEDs, plus one RGB color changing LEDs, and 4 switches that I've glued pennies onto to increase surface area.
+//         [3_super_cropped.jpg]
+// The magic under the hood relies on an overhead webcam and <b>computer vision</b>. Here's my initial design, which originally featured a webcam below (which didn't work so well with lighting).
+//         [schematic1.jpg]
+// I wrote the computer vision program myself using p5.js. <a href="https://alpha.editor.p5js.org/kathymakes/sketches/H19jBHXbG" target="_blank">Take a look at the code.</a>
+// [p5process.jpg]
+
+//         <br>
+//         <b>Process</b>
+//         Building out the insides:
+//         [process1.jpg]
+//         Fabricating the box:
+//         [boxprocess_big.gif]
+
+// <br>
+// <b>The ITP Winter Show!</b>
+// This was selected to be shown at ITP's annual public showcase. A lot of people came and played with my finished project for the first time. I learned so much just watching them. Some visitors used it in unexpected ways...
+// [wintershow.jpg]
+// <b>Some things I heard:</b>
+// "This is so much fun. I could just keep going."
+// "It sounds like a bunch of babies!"
+// "What do I hear? It's like a load of animals."
+// "Hah, this sounds so funny!"
+// <br>
+// <a href='https://pondermake.tumblr.com/post/169135210574/lego-sound-sequencer' target='_blank'>Read more thoughts on my blog.</a>
+//         `
+//   },
 
 // {  "folder":"scratch",
 //   "name":"Scratch: Join Scratch",
@@ -551,67 +631,67 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
 
 // },
 
-{  "folder":"scratch-sprites",
-  "name":"Scratch: People Sprites",
-  "tags":"Illustration",
-  "thumb":"sprite1-alt.png",
-  "content":`
+// {  "folder":"scratch-sprites",
+//   "name":"Scratch: People Sprites",
+//   "tags":"Illustration",
+//   "thumb":"sprite1-alt.png",
+//   "content":`
   
-    <b>WHAT'S SCRATCH? </b>  
-  <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
-   For many children, Scratch is their first experience in computational media and virtual community. 
+//     <b>WHAT'S SCRATCH? </b>  
+//   <a href="scratch.mit.edu" target="_blank">Scratch</a> is an open-source programming language, creative tool, and online community used by millions of young people and educators around the world today.
+//    For many children, Scratch is their first experience in computational media and virtual community. 
 
- <br>
-   <b>WHY THIS WORK?</b>  
-  Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
-  Through the Scratch online community, young people share creations about themselves and their communities. 
-  [community2.gif]
-  I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences. 
+//  <br>
+//    <b>WHY THIS WORK?</b>  
+//   Kids use the paint editor in Scratch to create stories, animations, games, and more. For many of them, Scratch is their first and only image editing software.
+//   Through the Scratch online community, young people share creations about themselves and their communities. 
+//   [community2.gif]
+//   I wanted to lead this project because feel strongly about media representation generally; as a designer of creative tools, I'm especially passionate about our responsibilities to youth and their personal, expressive experiences. 
   
-<br>
-  <b>OUR EXISTING ARTWORK</b>
-  Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
-  [abby.gif]
+// <br>
+//   <b>OUR EXISTING ARTWORK</b>
+//   Our team responded to how the existing characters in our asset library were sometimes difficult to reshape, or recolor. Here's an example project by a young person in the community, who has created their own work-arounds:
+//   [abby.gif]
 
-  We identified two main challenges:
-  <b>1. RECOLORING.</b>
-   Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
-  [hannah.gif]
-  <b>2. RESHAPING.</b>
-   Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
-  [difficulty2.gif]
-   This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork. 
-  It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
+//   We identified two main challenges:
+//   <b>1. RECOLORING.</b>
+//    Many of our existing assets, especially the bitmap characters, were difficult to recolor. For example, the hair contains multiple tones on this sprite.
+//   [hannah.gif]
+//   <b>2. RESHAPING.</b>
+//    Even for our vector assets, reposing characters were challenging because they were not designed with editability. For example, the outline and fill are constructed separately on this ballerina.
+//   [difficulty2.gif]
+//    This artwork was launched as part of a 3-month project I led and managed, with a focus on helping kids represent themselves in artwork. 
+//   It was important to us that beginners — new to Scratch, new to image editing, or both — could quickly see themselves in the tool and community.
 
-<br>
-  <b>NEW ARTWORK </b>
-  As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
-  Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
+// <br>
+//   <b>NEW ARTWORK </b>
+//   As part of this project, we launched four new character sets for the Scratch Asset Library. You can see them all at <a href="https://scratch.mit.edu/projects/editor" target ="_blank">scratch.mit.edu</a> in the sprite library.
+//   Our team wanted to provide enough specificity through different options, as well as use simple shapes that could be easily altered and generalized.
 
-    [sprite2.png]
+//     [sprite2.png]
 
-  I drew this set of new vector characters. Now that they are in the Scratch Library, anyone can use them for their creative projects.
+//   I drew this set of new vector characters. Now that they are in the Scratch Library, anyone can use them for their creative projects.
 
-  [sprite1-alt.png]
+//   [sprite1-alt.png]
 
-  These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
-  [sprite5.png]
-  [sprite3.gif]
+//   These character sets were built and grouped so they can be easily recolored or puppeted. Limb shapes are separated to move at the joint.
+//   [sprite5.png]
+//   [sprite3.gif]
  
-  Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
+//   Complex shapes like hair are left as groups of simple shapes — a strategy inspired by artists in the Scratch community.
 
-  Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.  
+//   Not only is it easier to modify, but also this offers an affordance on how vector illustrations are made.  
 
-  [sprite4.png]
-  [sprite4.gif]
+//   [sprite4.png]
+//   [sprite4.gif]
 
-  Here's some examples of the new sprites in use in the community:
-  [example_both.jpg]
+//   Here's some examples of the new sprites in use in the community:
+//   [example_both.jpg]
 
 
-  `
+//   `
 
-},
+// },
 
 
 
@@ -642,85 +722,85 @@ This was selected to be shown at ITP's annual public showcase. A lot of people c
    `
   },
 
-  {
-      "folder":"googleparty",
-      "name":"Google Doc Parties",
-      "tags":"Events, collaborative poetry",
-      "thumb":"thumb-alt.jpg",
-      "content":`
-      Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
-      <br>
-      <b>RENGA PARTY DURING COVID-19, #1</b>
-      Let's write a renga-shaped poem together.
-      Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
-      [partyrules.jpg]
+  // {
+  //     "folder":"googleparty",
+  //     "name":"Google Doc Parties",
+  //     "tags":"Events, collaborative poetry",
+  //     "thumb":"thumb-alt.jpg",
+  //     "content":`
+  //     Using tools which originated as canvases for capitalist productivist labor as community hallways and art-making spaces during Coronavirus.
+  //     <br>
+  //     <b>RENGA PARTY DURING COVID-19, #1</b>
+  //     Let's write a renga-shaped poem together.
+  //     Renga is a <a href="https://en.wikipedia.org/wiki/Collaborative_poetry" target="_blank">classical Japanese format</a> for writing an infinite, interlocking, collaborative poem.
+  //     [partyrules.jpg]
 
-      There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
-      We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
-      [party2.jpg]
-      [party5.jpg]
-      [party6.jpg]
+  //     There is no room for Zoom here. Let us revel in each other's quiet cursory form. Introduce yourselves to your fellow ether-mates or say nothing—be an Anonymous Frog—channel that mysterious amphibian who moonlights as a lyricist
+  //     We produced 73 pages of interlocking verse and ambulating conversation, and then did a reading. About 13 people showed up.
+  //     [party2.jpg]
+  //     [party5.jpg]
+  //     [party6.jpg]
 
-      <br>
-      <b>RENGA PARTY DURING COVID-19, #2</b>
-      This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
-      [party7.jpg]
-      [party10.jpg]
-      [party15.jpg]
-      [party12.jpg]
+  //     <br>
+  //     <b>RENGA PARTY DURING COVID-19, #2</b>
+  //     This turned into a 97-page meme fest and I'm not sure why, except that I invited my brother.
+  //     [party7.jpg]
+  //     [party10.jpg]
+  //     [party15.jpg]
+  //     [party12.jpg]
 
-      <br>
-      <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
-      I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
-      [party17.jpg]
-      [party18.jpg]
-      [party20.jpg]
+  //     <br>
+  //     <b>BDAY DRAWING PARTY IN SHEETS, #1</b>
+  //     I did this one in 2015, alongside a 100-page Google Doc birthday party I threw for myself.
+  //     [party17.jpg]
+  //     [party18.jpg]
+  //     [party20.jpg]
 
-      `
-  },
+  //     `
+  // },
 
- //   {
-	// 	"folder":"bumble",
-	// 	"name":"Bumble",
-	// 	"tags":"Media Design, Interactive, UI/UX",
-	// 	"thumb":"thumb.jpg",
-	// 	"content":`
-	// 	Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
-	// 	[thumb2.jpg]
-	// 	<br><br>
-	// 	<b>What is the shape of mobile media?</b>
-	// 	Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
-	// 	Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
-	// 	[2.jpg]
-	// 	Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
-	// 	The most difficult question was nailing down <b>what media our tool would enable.</b> Ephemeral, or invested? Individual, or collaborative?
-	// 	<br><br>
-	// 	<b>VERSION 1</b>
-	// 	Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <b>expressive webcards on a social network.</b>
-	// 	[4.jpg]
-	// 	The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>
-	// 	<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
-	// 	<br><br>
-	// 	<b>VERSION 2</b>
-	// 	We challenged our initial assumption that people would want to craft handheld websites with care. We trashed all content primitives except video and scribbling.
-	// 	[6.jpg]
-	// 	Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
-	// 	<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
-	// 	<br><br>
-	// 	<b>VERSION 3: Storytelling redefines our vision.</b>
-	// 	Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
+   {
+		"folder":"bumble",
+		"name":"Bumble",
+		"tags":"Media Design, Interactive, UI/UX",
+		"thumb":"thumb.jpg",
+		"content":`
+		Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
+		[thumb2.jpg]
+		<br><br>
+		<b>What is the shape of mobile media?</b>
+		Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
+		Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
+		[2.jpg]
+		Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
+		The most difficult question was nailing down <b>what media our tool would enable.</b> Ephemeral, or invested? Individual, or collaborative?
+		<br><br>
+		<b>VERSION 1</b>
+		Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <b>expressive webcards on a social network.</b>
+		[4.jpg]
+		The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>
+		<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
+		<br><br>
+		<b>VERSION 2</b>
+		We challenged our initial assumption that people would want to craft handheld websites with care. We trashed all content primitives except video and scribbling.
+		[6.jpg]
+		Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
+		<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
+		<br><br>
+		<b>VERSION 3: Storytelling redefines our vision.</b>
+		Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
 
-	// 	In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
-	// 	The UI was inspired by <b>Choose-Your-Own Adventure,</b> and Borges' <b>Garden of the Forking Paths.</b>
-	// 	[7.jpg]
-	// 	The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
+		In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
+		The UI was inspired by <b>Choose-Your-Own Adventure,</b> and Borges' <b>Garden of the Forking Paths.</b>
+		[7.jpg]
+		The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
 
-	// 	<br>
-	// 	{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
+		<br>
+		{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
 
-	// 	In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
-	// 	`
-	// },
+		In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
+		`
+	},
 
 
 //     {
