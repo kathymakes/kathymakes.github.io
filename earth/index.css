@@ -1,0 +1,99 @@
+
+@media screen and (min-width: 0px){
+
+
+body {
+  background-color: black;
+/*  background-image: url("earth.jpg");
+*/  
+  background-image: linear-gradient(black, black, black, black, navy, white);
+  background-size: cover;
+  font-family: 'Roboto Mono';
+  margin: 0px!important;
+  color:white;
+  min-height: 800px;
+  line-height: 1.75;
+
+  }
+
+section{
+  width:100%;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+section #buttoncontainer{
+  position: fixed;
+  bottom:0px;
+
+}
+
+
+#fiction, #headline {
+  line-height: 1.75;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+#fiction{
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 5px white, 0 0 20px gray;
+
+  }
+#headline, h2 {
+  color: #fff;
+  font-size: 24px;
+  text-shadow: 0 0 5px white, 0 0 20px gray;
+
+  /*pink color */
+
+  /*  color: #ffd7e7; 
+      text-shadow: 0 0 5px magenta, 0 0 20px magenta;
+  */  
+} 
+
+button {
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  color:white;
+  
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px gray;
+  width:300px;
+  padding: 30px;
+
+  margin-top:20px;
+  
+  }
+
+button:active{
+
+}
+
+@media screen and (min-width: 600px){
+
+#fiction, #headline {
+  line-height: 1.75;
+  padding: 10px 50px;
+
+}
+
+
+
+section{
+  width:75%;
+}
+
+@media screen and (min-width: 800px){
+
+  section {
+    max-width: 650px;
+  }
+
+
+  

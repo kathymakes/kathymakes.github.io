@@ -1,4 +1,112 @@
 <!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+<style type="text/css">
+
+
+  body {
+    background-color: black;
+    font-family: 'Domine';
+    }
+
+  section{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align: center;
+
+
+  }
+
+  h2 {
+    font-size: 60px;
+    padding:80px 200px 0px 200px;
+
+  }
+
+  p {
+    line-height: 80px;
+    font-size: 40px;
+    margin:0px 50px;
+    height: 600px;
+
+  }
+
+#fiction, #headline {
+  color: #fff;
+  text-align: center;
+text-shadow: 0 0 5px #fff, 0 0 20px #fff;
+}
+
+
+
+  button {
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    width:300px;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid white;
+    font-family: 'Domine';
+    position: fixed;
+  }
+</style>
+<!----All content--->
+<!-- <iframe style = "opacity:50%" width="100%" height="900px" src="https://www.youtube.com/embed/DDU-rZs-Ic4?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ -->
+<section>
+<h2 id = "headline"></h2>
+<p id="fiction"></p>
+</section>
+<button id="button">A Different Future</button>
+
+<!---Javascript --->
+<script type = "module">
+
+import stuff from './objects.js';
+import packaging from './packaging.js';
+import materials from './materials.js';
+
+let obstructed = ["moon","water","ocean","ground","clouds","sun","stars","ozone layer","fish"];
+
+let job = ["mother","father","hedgehog","businessman","monarch","peasant","laborer","child","community","organizer","tree"];
+
+let verb = ["love","feed","care for","trade","grow","cultivate","enjoy"];
+
+let adj = ["human","Antarctic","American","transcendentalist","rare","polka-dotted","alien","manufactured"];
+
+console.log(stuff)
+// console.log(morestuff)
+
+function randomFuture(){
+
+    document.getElementById("headline").innerHTML =
+    "Possible Futures of Planet Earth in the Year " + [Math.floor((Math.random() * 1000) + 2000)];
+
+    document.getElementById("fiction").innerHTML =
+    "Earth is now called " + stuff[Math.floor((Math.random() * stuff.length))].toUpperCase() + " and it is overrun with " + stuff[Math.floor((Math.random() * stuff.length))] + "s. There is too much " + packaging[Math.floor((Math.random() * packaging.length))] + ", you can no longer see the " + obstructed[1] + ". <br> These days, most people are a " + job[Math.floor((Math.random() * job.length))] + ". Some " + verb[Math.floor((Math.random() * verb.length))] + " " + adj[Math.floor((Math.random() * adj.length))] + " " + stuff[Math.floor((Math.random() * stuff.length))] + "s for a living. Houses are made of " + materials[Math.floor((Math.random() * materials.length))] + ".";
+}
+
+randomFuture();
+
+document.getElementById("button").onclick = randomFuture;
+
+
+</script>
+
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="">
 
 <head>
@@ -24,4 +132,4 @@
   </main>
 </body>
 
-</html>
+</html> -->
