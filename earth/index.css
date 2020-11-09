@@ -1,99 +1,134 @@
 
+@font-face {
+  font-family: Compagnon Roman;
+  src: url(../fonts/Compagnon-Roman.otf);
+}
+
+
+@font-face {
+  font-family: Compagnon Italic;
+  src: url(../fonts/Compagnon-LightItalic.otf);
+}
+
+
+@font-face {
+  font-family: Compagnon Light;
+  src: url(../fonts/Compagnon-Light.otf);
+}
+
+
+@font-face {
+  font-family: Compagnon Bold;
+  src: url(../fonts/Compagnon-Bold.otf);
+}
+
+html, body{min-height:100%;}
+body{height:100vh;}
+
+
 @media screen and (min-width: 0px){
 
 
 body {
-  background-color: black;
-/*  background-image: url("earth.jpg");
-*/  
-  background-image: linear-gradient(black, black, black, black, navy, white);
+  background-color: #fbfcf5;
+
+  background-image: linear-gradient(#fbfcf5, #fbfcf5, #deffe4);
   background-size: cover;
-  font-family: 'Roboto Mono';
+
   margin: 0px!important;
   color:white;
-  min-height: 800px;
   line-height: 1.75;
+
+  color: #455347;
 
   }
 
 section{
   width:100%;
   margin: auto;
-  padding-top: 30px;
-  text-align: center;
 }
 
-section #buttoncontainer{
+#fictionmaker{
+  width:100%;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+#buttoncontainer{
   position: fixed;
-  bottom:0px;
+  bottom: 0px;
+  padding-bottom: 30px;
+  text-align: center;
 
 }
 
 
 #fiction, #headline {
   line-height: 1.75;
-  padding: 10px 30px;
-  text-align: center;
+  padding: 0px 40px 20px 50px;
+  text-align: left;
 }
 
 #fiction{
-  color: #fff;
   font-size: 18px;
-  text-shadow: 0 0 5px white, 0 0 20px gray;
+  font-family: Courier, monospace;
 
   }
-#headline, h2 {
-  color: #fff;
+
+h2 {
   font-size: 24px;
-  text-shadow: 0 0 5px white, 0 0 20px gray;
-
-  /*pink color */
-
-  /*  color: #ffd7e7; 
-      text-shadow: 0 0 5px magenta, 0 0 20px magenta;
-  */  
 } 
 
-button {
-  font-size: 18px;
-  font-family: 'Roboto Mono';
-  font-weight: bold;
-  color:white;
-  
-  background-color: black;
-  border-radius: 10px;
-  border: 1px solid white;
-  box-shadow: 0 0 10px gray;
-  width:300px;
-  padding: 30px;
+#headline {
+ text-decoration: underline;
+ font-family: 'Compagnon Italic';
+}
 
-  margin-top:20px;
+button {
+  font-size: 20px;
+  font-family: 'Compagnon Italic';
+  font-weight: bold;
+  color:#455347;
+  
+  background-color: #deffe4;
+  border: 1px dotted #455347;
+/*  box-shadow: 0px 0px 16px #455347;
+*/  
+  padding: 30px;
+  width:75%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px #455347;
   
   }
 
-button:active{
 
-}
 
 @media screen and (min-width: 600px){
 
-#fiction, #headline {
-  line-height: 1.75;
-  padding: 10px 50px;
-
-}
-
+  #fiction, #headline {
+    line-height: 1.75;
+    padding: 20px 50px 20px 60px;
+  }
 
 
-section{
-  width:75%;
-}
+  #fictionmaker{
+     max-width: 600px;
+
+  }
+
+  #buttoncontainer{
+    padding-bottom: 80px;
+  }
+
+  button{
+    width:500px;
+  }
 
 @media screen and (min-width: 800px){
 
-  section {
-    max-width: 650px;
-  }
+
+
 
 
   
