@@ -27,6 +27,7 @@ work=[
     `
   },
 
+
      {  "folder":"copy-paste-img",
     "name":"Copy & Paste & Paste & Paste",
     "tags":"Interactive, HTML",
@@ -91,7 +92,23 @@ work=[
   },
 
 
-
+       {  "folder":"earth",
+    "name":"Earth is Now Called Puddle",
+    "tags":"Interactive, HTML",
+    "thumb":"thumb.jpg",
+    "content":`Earth is now called PUDDLE, and is overrun with breads. We have entirely too much low-density polyethylene, it covers all water and land you can see.
+    This web poem contains seemingly infinite fictions about a planet with an obsession for abundance gone awry.
+    Find <a href="https://kaaathy.com/earth/index.html" target="_blank">a different future</a> here.
+    [earth.jpg]
+    Earth is now called WHITE OUT, and is overrun with deodorants.
+    Earth is now called PLUSH FROG, and is overrun with stockings.
+    (And so on.)
+    [earth-mouse.gif]
+    Built with <a href="https://github.com/dariusk/corpora/tree/master/data" target="_blank">Corpora data</a>, HTML + javaScript, and a mellow sense of dystopianism. Thank you to the contributors of objects.json, occupations.json, packagingmaterials.json, adjs.json. Set in <a href="https://www.velvetyne.fr/fonts/compagnon/" target="_blank">Compagnon</a> from Velvetyne Foundry.
+    [objects.png]
+    
+    `
+  },
 
 // {
 //    "folder":"oppositesgame",
@@ -381,7 +398,7 @@ People also gave me thoughts on how to improve:
      {  "folder":"digpo-imgs",
     "name":"Web Poetics",
     "tags":"Interactive, HTML",
-    "thumb":"thumb.jpg",
+    "thumb":"maythumb.jpg",
     "content":`Printed text marries an immutable form, but graphemes on screen can shapeshift through a dynamic, stretchy existence.
     Click your way through language, make textural mischief, build new poems every time. Digital experiments in HTML & p5.js.
     <br>
@@ -759,48 +776,48 @@ People also gave me thoughts on how to improve:
   //     `
   // },
 
-   {
-		"folder":"bumble",
-		"name":"Bumble",
-		"tags":"Media Design, Interactive, UI/UX",
-		"thumb":"thumb.jpg",
-		"content":`
-		Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
-		[thumb2.jpg]
-		<br><br>
-		<b>What is the shape of mobile media?</b>
-		Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
-		Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
-		[2.jpg]
-		Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
-		The most difficult question was nailing down <b>what media our tool would enable.</b> Ephemeral, or invested? Individual, or collaborative?
-		<br><br>
-		<b>VERSION 1</b>
-		Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <b>expressive webcards on a social network.</b>
-		[4.jpg]
-		The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>
-		<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
-		<br><br>
-		<b>VERSION 2</b>
-		We challenged our initial assumption that people would want to craft handheld websites with care. We trashed all content primitives except video and scribbling.
-		[6.jpg]
-		Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
-		<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
-		<br><br>
-		<b>VERSION 3: Storytelling redefines our vision.</b>
-		Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
+ //   {
+	// 	"folder":"bumble",
+	// 	"name":"Bumble",
+	// 	"tags":"Media Design, Interactive, UI/UX",
+	// 	"thumb":"thumb.jpg",
+	// 	"content":`
+	// 	Bumble is a <b>collaborative fiction-building tool.</b> Users can create stories with their thumbs, and navigate a web of stories like a dungeon map. I collaborated with Kevin Cadena and Jamar Bromley in the studio course, Computer Utopias.
+	// 	[thumb2.jpg]
+	// 	<br><br>
+	// 	<b>What is the shape of mobile media?</b>
+	// 	Today, even with responsive design, much of mobile media retrofits desktop sites to a small screen. Scrollable content is not comfortable or “native” to this device.
+	// 	Our team was inspired by Hypercard and SmallTalk, which informed the shape of media-making on personal computers in the 1960s and beyond.
+	// 	[2.jpg]
+	// 	Our early sketches explored hyperlinkable, inspectable cards, where people could create webcontent without touching a full-size computer.
+	// 	The most difficult question was nailing down <b>what media our tool would enable.</b> Ephemeral, or invested? Individual, or collaborative?
+	// 	<br><br>
+	// 	<b>VERSION 1</b>
+	// 	Mobile devices encourage creative manipulation of images and videos. We were drawn to playful media, and inspired by Snapchat and Kidpix. In this iteration of Bumble, users could build <b>expressive webcards on a social network.</b>
+	// 	[4.jpg]
+	// 	The program was feature-loaded: color, text, audio, shape, stickers, and hyperlinks! But what are they making, and would they care?</b>
+	// 	<b>What we learned:</b> The timeframe for mobile content creation, in this case, was less invested than on desktop. We needed to serve this platform's attention span.
+	// 	<br><br>
+	// 	<b>VERSION 2</b>
+	// 	We challenged our initial assumption that people would want to craft handheld websites with care. We trashed all content primitives except video and scribbling.
+	// 	[6.jpg]
+	// 	Oops… so we made Snapchat’s less cool cousin. We lost our initial mission, which was to redefine what it meant to make and move in a mobile web browser.
+	// 	<b>What we learned:</b> It's better to make something that 100 people love than something for the masses to ignore. Make a monopoly, not more competition.
+	// 	<br><br>
+	// 	<b>VERSION 3: Storytelling redefines our vision.</b>
+	// 	Up until this point, we struggled to articulate who would use this, and why the phone matters. Full-blown websites were too heavy-duty for mobile, and Snapchat had already been done.
 
-		In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
-		The UI was inspired by <b>Choose-Your-Own Adventure,</b> and Borges' <b>Garden of the Forking Paths.</b>
-		[7.jpg]
-		The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
+	// 	In our final iteration, we created a storytelling platform fueled by <b>LARP culture</b>.
+	// 	The UI was inspired by <b>Choose-Your-Own Adventure,</b> and Borges' <b>Garden of the Forking Paths.</b>
+	// 	[7.jpg]
+	// 	The Bumble web is a four-directional architecture that respects the shape of your phone, and the singleness of a swipe. Users can see their website architecture from a birds-eye, dungeon-map view.
 
-		<br>
-		{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
+	// 	<br>
+	// 	{<video src='work/bumble/demo.m4v' controls autoplay='on'></video>.}
 
-		In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
-		`
-	},
+	// 	In our first version, Bumble serves a niche audience of <b>role-playing enthusiasts.</b> In the future, Bumble can grow to accommodate new content. Instructional threads could draw in new networks of crafty people demonstrating skills and recipes. Or, similar to Reddit, people from all over the world can respond to a single thread prompt, with infinite branches.
+	// 	`
+	// },
 
 
 //     {
