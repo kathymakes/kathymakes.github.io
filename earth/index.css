@@ -107,8 +107,7 @@ button {
 @media screen and (min-width: 600px){
 
   #fiction, #headline {
-    line-height: 1.75;
-    padding: 0px 50px 20px 60px;
+    padding: 0px 50px 10px 60px;
   }
 
 
