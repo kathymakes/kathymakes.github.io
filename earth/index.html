@@ -26,6 +26,7 @@
 
 </section>
 
+
 <section id = "buttoncontainer">
 <button id="button">a different future</button>
 </section>
@@ -54,7 +55,7 @@ function randomFuture(){
     "Possible Futures of Planet Earth in the Year " + [Math.floor((Math.random() * 1000) + 2000)];
 
     document.getElementById("fiction").innerHTML =
-    "Earth is now called " + stuff[Math.floor((Math.random() * stuff.length))].toUpperCase() + " and it is overrun with " + stuff[Math.floor((Math.random() * stuff.length))] + "s. There is too much " + packaging[Math.floor((Math.random() * packaging.length))] + ", you can no longer see the " + obstructed[1] + ". <br><br> These days, most people are a " + job[Math.floor((Math.random() * job.length))] + ". Some " + verb[Math.floor((Math.random() * verb.length))] + " " + adj[Math.floor((Math.random() * adj.length))] + " " + stuff[Math.floor((Math.random() * stuff.length))] + "s for a living. Houses are made of " + materials[Math.floor((Math.random() * materials.length))] + ".";
+    "Earth is now called " + stuff[Math.floor((Math.random() * stuff.length))].toUpperCase() + " and it is overrun with " + stuff[Math.floor((Math.random() * stuff.length))] + "s. There is too much " + packaging[Math.floor((Math.random() * packaging.length))] + ", you can no longer see the " + obstructed[Math.floor((Math.random() * obstructed.length))] + ". <br><br> These days, most people are a " + job[Math.floor((Math.random() * job.length))] + ". Some " + verb[Math.floor((Math.random() * verb.length))] + " " + adj[Math.floor((Math.random() * adj.length))] + " " + stuff[Math.floor((Math.random() * stuff.length))] + "s for a living. Houses are made of " + materials[Math.floor((Math.random() * materials.length))] + ".";
 }
 
 randomFuture();

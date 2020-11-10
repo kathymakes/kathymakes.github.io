@@ -31,15 +31,14 @@ body{height:100vh;}
 
 body {
   background-color: #fbfcf5;
-
   background-image: linear-gradient(#fbfcf5, #fbfcf5, #deffe4);
   background-size: cover;
 
   margin: 0px!important;
-  color:white;
   line-height: 1.75;
-
   color: #455347;
+
+  background-attachment: fixed;
 
   }
 
@@ -52,13 +51,14 @@ section{
   width:100%;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 140px;
 
 }
 
 #buttoncontainer{
   position: fixed;
   bottom: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   text-align: center;
 
 }
@@ -96,7 +96,7 @@ button {
 /*  box-shadow: 0px 0px 16px #455347;
 */  
   padding: 30px;
-  width:75%;
+  width:80%;
   border-radius: 10px;
   box-shadow: 4px 4px 0px #455347;
   
@@ -108,7 +108,7 @@ button {
 
   #fiction, #headline {
     line-height: 1.75;
-    padding: 20px 50px 20px 60px;
+    padding: 0px 50px 20px 60px;
   }
 
 
@@ -118,7 +118,7 @@ button {
   }
 
   #buttoncontainer{
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 
   button{
