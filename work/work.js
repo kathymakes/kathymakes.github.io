@@ -137,7 +137,7 @@ work=[
 
       I designed and led this workshop series around creating speculative artwork based on "inverted" headlines. By playing with words and their opposites, we can begin rewrite current news headlines into alternative realities and speculative futures.  
 
-      This workshop concept inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
+      This workshop concept was inspired by <a href="http://theamericanjournalofpoetry.com/v2-constantine.html" target="_blank">this poem</a> by Brendan Constantine.
 
       <br><br>
       <b>PT 1: THE OPPOSITE OF A GUN</b>
@@ -532,39 +532,39 @@ People also gave me thoughts on how to improve:
  
     
 
-{
-		"folder":"difficultwriting",
-		"name":"Difficult Writing",
-		"tags":"Poetics, digital media",
-		"thumb":"thumb.jpg",
-		"content":`
-		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
-		<br>
-		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
-		[driving_gif.gif]
+// {
+// 		"folder":"difficultwriting",
+// 		"name":"Difficult Writing",
+// 		"tags":"Poetics, digital media",
+// 		"thumb":"thumb.jpg",
+// 		"content":`
+// 		The gesture of writing includes scratch, ping, swipe, tap. What are some new tools for writing that push or strain the body? These are experiments in bizarre and obstructed lingual gestures. (More to come.)
+// 		<br>
+// 		<b>CROSS-COUNTRY CALLIGRAPHY.</b> It may take months to write to you.
+// 		[driving_gif.gif]
 
-		[miss-you.jpg]
-		<br>
-		<br>
-    <b>TRANSCRIBING OBSTRUCTIONS I.</b> Typing with socks on my hands.
-    [socks.png]
-    <br><br>
-		<b>TRANSCRIBING OBSTRUCTIONS II.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
-		<br>
-		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
-		<br>
-    <br>
+// 		[miss-you.jpg]
+// 		<br>
+// 		<br>
+//     <b>TRANSCRIBING OBSTRUCTIONS I.</b> Typing with socks on my hands.
+//     [socks.png]
+//     <br><br>
+// 		<b>TRANSCRIBING OBSTRUCTIONS II.</b> Reading tongue twisters while covering different parts of my mouth with a spoon. I used an online text-to-speech tool.
+// 		<br>
+// 		{<video width=100% src='work/shapinglanguage/speech-to-text.mp4' controls autoplay='on' muted></video>}
+// 		<br>
+//     <br>
 
-		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
-		[kindastrange1.gif]
-    <br>
-    Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
-    <br>
-		[keyboard1.jpg]
-		[keyboard2.jpg]
-		[keyboard3.jpg]
-		`
-},
+// 		<b>KEYBOARD CALISTHENICS</b> A speculative guidebook and sarcastic keyboard workout video, inspired by Jane Fonda energy from the 80's and those horrible typing games from my childhood.
+// 		[kindastrange1.gif]
+//     <br>
+//     Explorations in repetition, exercise, and creating writing from an interface-first perspective – since our expression is ultimately constrained by body and tools.
+//     <br>
+// 		[keyboard1.jpg]
+// 		[keyboard2.jpg]
+// 		[keyboard3.jpg]
+// 		`
+// },
 
 
 
@@ -730,11 +730,10 @@ People also gave me thoughts on how to improve:
    Testing with judges and students.
    <br><br>
    <b>THE GAME</b>
-   It's not online yet. In the meantime, here's some graphics.
    [motemote-3.gif]
+   The interface is pretty minimal. You select a character and color for your Mote, and write in your name to start:
    [motemote.gif]
-
-   In retrospect, I would have liked to make it less inherently violent or competitive in nature. It's easy to abstract that away with cute motes.
+   The rest of gameplay is done through a touch-screen joystick. Alternatively, you can use your phone's spatial sensors to control your character by tilting instead.
    [motemote-2-nice.gif]
    `
   },
