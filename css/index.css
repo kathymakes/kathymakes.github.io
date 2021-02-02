@@ -5,7 +5,7 @@
 	font-weight: normal;
 }
 
-@font-face {
+/*@font-face {
 	src: url(../fonts/Karla-Regular.ttf);
 	font-family: Karla;
 	font-weight: normal;
@@ -16,8 +16,9 @@
 	font-family: Karla;
 	font-weight: bold;
 }
+*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
@@ -30,9 +31,11 @@ html{
 
 body {
 	position: relative;
-	font-family: Karla, Arial, sans-serif;
+	font-family: 'DM Sans', Arial, sans-serif;
 	color: #323232;
 	line-height: 1.7em;
+	letter-spacing: 0.5px;
+
 	font-size: 13pt;
 	margin: 0;
 	width:100%;
@@ -75,8 +78,9 @@ section{
 }
 
 .aboutlinks {
-    border-bottom: 1px dotted #a937ff;
+    border-bottom: 2px solid #a937ff;
     font-weight: 700;
+
 }
 
 
@@ -89,20 +93,27 @@ nav {
 	position: absolute;
 	z-index: 10;
 	margin:0;
-    padding-top:30px;
+    padding-top:40px;
     background-color: transparent;
     width:100%;
     height:auto;
 
+
 }
 
 nav a {
-    font-size:11.5pt;
+	font-size: 16pt;
     letter-spacing: 0.75px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'DM Mono', monospace;
     margin-top:-20px;
     padding:24px;
+}
+
+#highlight {
+	background-color: #a937ff;
+	color:white;
+	padding: 4px 8px;
 }
 
 
@@ -128,22 +139,18 @@ a:hover {
 
 h2 {
 	font-size:16pt;
-	font-family: Arbutus, Georgia, serif;
-    letter-spacing: 0.25px;
-	font-weight: 300;
-    
-    line-height: 1.75em;
+	font-family: 'DM Mono', monospace;
+	font-weight: 500;
+    line-height: 1.5em;
 
     max-width: 600px;
     margin-top:0px;
 }
 
 h3{
-	font-size: 22pt;
-	font-family: Arbutus, Georgia, serif;
-    letter-spacing: 0.25px;
-    font-weight: 300;
-  
+	font-size: 16pt;
+	font-family: 'DM Mono', monospace;
+    font-weight: 500;
     line-height: 1.5em;
   
     margin-bottom: 0px;
@@ -186,7 +193,9 @@ h3{
 }
 
 #content a {
-    border-bottom: 1px dotted #a937ff;
+/*    border-bottom: 1px solid #a937ff;
+*/  border-bottom: 2px solid #a937ff;
+    font-weight: 700;
 }
 
 /*--------------------------------------------------------------*/
@@ -230,6 +239,7 @@ h3{
 	margin-top: 8px;
 	line-height: 1.5rem;
 	color:rgba(0,0,0,.8);
+
  }
 
 #work-stuff a:hover figcaption{
