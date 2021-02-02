@@ -1,25 +1,4 @@
 
-@font-face {
-    src: url(../fonts/Arbutus.ttf);
-	font-family: Arbutus;
-	font-weight: normal;
-}
-
-/*@font-face {
-	src: url(../fonts/Karla-Regular.ttf);
-	font-family: Karla;
-	font-weight: normal;
-}
-
-@font-face {
-	src: url(../fonts/Karla-Bold.ttf);
-	font-family: Karla;
-	font-weight: bold;
-}
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
 
@@ -31,12 +10,14 @@ html{
 
 body {
 	position: relative;
-	font-family: 'DM Sans', Arial, sans-serif;
+
+	font-family: 'Karla', Arial, sans-serif;
 	color: #323232;
 	line-height: 1.7em;
-	letter-spacing: 0.25px;
-
+	letter-spacing: -0.25px;
 	font-size: 13pt;
+	font-weight: 500;
+
 	margin: 0;
 	width:100%;
 	height: 100%;
@@ -78,7 +59,7 @@ section{
 }
 
 .aboutlinks {
-    border-bottom: 2px solid #a937ff;
+    border-bottom: 1px dotted #a937ff;
     font-weight: 700;
 
 }
@@ -103,8 +84,6 @@ nav {
 
 nav a {
 	font-size: 16pt;
-    letter-spacing: 0.75px;
-    font-weight: 500;
     font-family: 'DM Mono', monospace;
     margin-top:-20px;
     padding:20px;
@@ -187,9 +166,7 @@ h3{
 }
 
 #content a {
-/*    border-bottom: 1px solid #a937ff;
-*/  border-bottom: 2px solid #a937ff;
-    font-weight: 700;
+    border-bottom: 1px dotted #a937ff;
 }
 
 /*--------------------------------------------------------------*/
@@ -229,9 +206,9 @@ h3{
 
 
 #work-stuff a figcaption{
-	font-weight: bold;
+	font-weight: 700;
 	margin-top: 8px;
-	line-height: 1.5rem;
+	line-height: 1.4rem;
 	color:rgba(0,0,0,.8);
 
  }
@@ -243,11 +220,8 @@ h3{
 #work-stuff .tags {
 	padding:0;
 	margin:0;
-
-	font-size:9pt;
 	color:gray;
-
-	font-weight: normal;
+	font-weight: 500;
 }
 
 
@@ -312,8 +286,9 @@ nav a{
 
 #work-stuff .tags {
 		margin: 0 6% 0 0;
-	}
+		font-size:9pt;
 
+	}
 
 
 /*--------------------------------------------------------------*/
