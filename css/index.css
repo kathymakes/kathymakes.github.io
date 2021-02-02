@@ -208,6 +208,7 @@ h3{
 #work-stuff a figcaption{
 	font-weight: 700;
 	margin-top: 8px;
+	line-height: 1.4rem;
 	color:rgba(0,0,0,.8);
 
  }
@@ -289,9 +290,6 @@ nav a{
 
 	}
 
-#work-stuff a figcaption{
-	line-height: 1.4rem;
- }
 
 /*--------------------------------------------------------------*/
 
