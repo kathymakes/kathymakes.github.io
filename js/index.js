@@ -91,7 +91,7 @@ var activate = function(hurry,overrideHash){
 // this is also the part where kathy hacked together a border and "All projects" divider text
 //======================//
 			};
-			$("#content").html("<h3>"+piece.name+"</h3>"+contentString+"<div id='contentdivider'></div>"+"<h3>All projects ↝</h3>");
+			$("#content").html("<h3>"+piece.name+"</h3>"+contentString+"<div id='contentdivider'></div>"+"<h3>All projects →</h3>");
 			// $("#content").find("h3").each(function(index, elem){
 			// 	waveify(elem);
 			// })

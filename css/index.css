@@ -1,3 +1,13 @@
+@font-face {
+	src: url(../fonts/Karla-Regular.ttf);
+	font-family: Karla;
+	font-weight: normal;
+}
+@font-face {
+	src: url(../fonts/Karla-Bold.ttf);
+	font-family: Karla;
+	font-weight: bold;
+}
 
 /*--------------------------------------------------------------*/
 /*THE FUN STARTS HERE*/
@@ -13,18 +23,16 @@ body {
 
 	font-family: 'Karla', Arial, sans-serif;
 	color: #323232;
-	line-height: 1.7em;
-	letter-spacing: -0.25px;
+	line-height: 1.6em;
 	font-size: 13pt;
-	font-weight: 500;
 
 	margin: 0;
 	width:100%;
 	height: 100%;
 	min-height: 100%;
 	cursor:default;	
-/*	cursor: crosshair;
-*/
+	cursor: crosshair;
+
 }
 
 ::selection {
@@ -60,7 +68,7 @@ section{
 
 .aboutlinks {
     border-bottom: 1px dotted #a937ff;
-    font-weight: 700;
+    font-weight: bold;
 
 }
 
@@ -86,7 +94,7 @@ nav a {
 	font-size: 16pt;
     font-family: 'DM Mono', monospace;
     margin-top:-20px;
-    padding:20px;
+    padding:24px;
 }
 
 
@@ -114,8 +122,8 @@ a:hover {
 h2 {
 	font-size:16pt;
 	font-family: 'DM Mono', monospace;
-	font-weight: 500;
-    line-height: 1.7em;
+	font-weight: normal;
+    line-height: 1.6em;
 	letter-spacing: 0px;
     max-width: 700px;
     margin-top:0px;
@@ -124,7 +132,7 @@ h2 {
 h3{
 	font-size: 16pt;
 	font-family: 'DM Mono', monospace;
-    font-weight: 500;
+	font-weight: normal;
   	letter-spacing: 0px;
     margin-bottom: 0px;
 	margin-top: 90px;
@@ -206,22 +214,25 @@ h3{
 
 
 #work-stuff a figcaption{
-	font-weight: 700;
+	font-weight: bold;
 	margin-top: 8px;
 	line-height: 1.4rem;
 	color:rgba(0,0,0,.8);
+
 
  }
 
 #work-stuff a:hover figcaption{
 	color:rgba(0,0,0,1);
+
 }
 
 #work-stuff .tags {
 	padding:0;
 	margin:0;
 	color:gray;
-	font-weight: 500;
+	font-weight: normal;
+
 }
 
 
@@ -253,7 +264,6 @@ body {
 
 nav a{
 	padding-left:40px;
-	line-height: 1.2em;
     color: #a937ff;
 
 }
