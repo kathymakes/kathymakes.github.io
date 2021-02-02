@@ -31,8 +31,6 @@ body {
 	height: 100%;
 	min-height: 100%;
 	cursor:default;	
-	cursor: crosshair;
-
 }
 
 ::selection {
